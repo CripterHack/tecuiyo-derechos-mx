@@ -32,6 +32,12 @@ const Biblioteca = () => {
           titulo: "Condiciones de trabajo por escrito",
           contenido: "Las condiciones de trabajo deben hacerse constar por escrito cuando no existan contratos colectivos aplicables...",
           temas: ["contrato", "por escrito", "condiciones"]
+        },
+        {
+          numero: "Art. 25",
+          titulo: "Contenido del contrato de trabajo",
+          contenido: "El escrito en que consten las condiciones de trabajo deberá contener los datos del trabajador y patrón, tipo de relación laboral, servicios a prestar, lugar de trabajo, duración de jornada, forma y monto del salario...",
+          temas: ["contrato", "contenido", "elementos", "datos personales"]
         }
       ]
     },
@@ -294,7 +300,7 @@ const Biblioteca = () => {
                             </div>
                             
                             <div className="flex gap-2">
-                              <Link to={`/biblioteca/${articulo.numero.toLowerCase().replace(/[^a-z0-9]/g, '')}`}>
+                              <Link to={`/biblioteca/art${articulo.numero.replace(/[^0-9]/g, '')}`}>
                                 <Button variant="outline" size="sm">
                                   <BookOpen className="mr-2 h-3 w-3" />
                                   Leer completo
