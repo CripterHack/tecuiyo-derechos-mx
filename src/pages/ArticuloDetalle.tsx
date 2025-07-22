@@ -82,6 +82,46 @@ const ArticuloDetalle = () => {
       relacionados: ["Art. 46", "Art. 48", "Art. 50"],
       vigencia: "Vigente",
       fechaReforma: "2012-11-30"
+    },
+    {
+      id: "art48",
+      numero: "48",
+      titulo: "Derechos del trabajador despedido injustificadamente",
+      categoria: "Despido",
+      contenido: `
+        <h3>Artículo 48</h3>
+        <p>El trabajador podrá solicitar ante la Junta de Conciliación y Arbitraje, a su elección, que se le reinstale en el trabajo que desempeñaba, o que se le indemnice con el importe de tres meses de salario.</p>
+        
+        <p>Si en el juicio correspondiente no comprueba el patrón la causa de la rescisión, el trabajador tendrá derecho, además, cualquiera que hubiese sido la acción intentada, a que se le paguen los salarios vencidos desde la fecha del despido hasta la fecha en que se cumplimente el laudo.</p>
+        
+        <p>Cuando el salario sea variable, se tomará como base el promedio de las percepciones obtenidas en los treinta días efectivamente trabajados antes del despido.</p>
+      `,
+      explicacion: `
+        <h3>Explicación práctica</h3>
+        <p>Este es uno de los artículos más importantes para los trabajadores despedidos injustificadamente. Establece dos opciones fundamentales: reinstalación o indemnización.</p>
+        
+        <h3>Opciones del trabajador</h3>
+        <ul>
+          <li><strong>Reinstalación:</strong> Volver al mismo puesto de trabajo</li>
+          <li><strong>Indemnización:</strong> Recibir 3 meses de salario como compensación</li>
+        </ul>
+        
+        <h3>Derechos adicionales</h3>
+        <ul>
+          <li><strong>Salarios vencidos:</strong> Desde el despido hasta el laudo</li>
+          <li><strong>Carga de la prueba:</strong> El patrón debe demostrar la causa</li>
+          <li><strong>Cálculo variable:</strong> Promedio de 30 días si el salario varía</li>
+        </ul>
+        
+        <h3>Proceso recomendado</h3>
+        <p>1. Presentar demanda ante la Junta de Conciliación y Arbitraje</p>
+        <p>2. Elegir entre reinstalación o indemnización</p>
+        <p>3. Solicitar salarios vencidos</p>
+        <p>4. Aportar pruebas de la relación laboral</p>
+      `,
+      relacionados: ["Art. 47", "Art. 50", "Art. 870"],
+      vigencia: "Vigente",
+      fechaReforma: "2019-05-01"
     }
   ];
 

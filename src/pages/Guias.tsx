@@ -50,7 +50,7 @@ const Guias = () => {
     {
       id: 3,
       titulo: "Trámites para obtener tu finiquito completo",
-      descripción: "Asegúrate de recibir todas las prestaciones al terminar tu trabajo",
+      descripcion: "Asegúrate de recibir todas las prestaciones al terminar tu trabajo",
       duracion: "12 min",
       pasos: 7,
       dificultad: "Intermedio",
@@ -140,10 +140,10 @@ const Guias = () => {
 
   const getDificultadColor = (dificultad: string) => {
     switch (dificultad) {
-      case "Básico": return "bg-green-100 text-green-800";
-      case "Intermedio": return "bg-yellow-100 text-yellow-800";
-      case "Avanzado": return "bg-red-100 text-red-800";
-      default: return "bg-gray-100 text-gray-800";
+      case "Básico": return "bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-300";
+      case "Intermedio": return "bg-yellow-100 text-yellow-700 dark:bg-yellow-900/30 dark:text-yellow-300";
+      case "Avanzado": return "bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-300";
+      default: return "bg-gray-100 text-gray-700 dark:bg-gray-900/30 dark:text-gray-300";
     }
   };
 
@@ -228,7 +228,7 @@ const Guias = () => {
                           {guia.dificultad}
                         </Badge>
                         {guia.completado && (
-                          <Badge className="bg-green-100 text-green-800">
+                          <Badge className="bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-300">
                             <CheckCircle className="mr-1 h-3 w-3" />
                             Completada
                           </Badge>

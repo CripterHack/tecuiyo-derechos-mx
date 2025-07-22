@@ -221,11 +221,15 @@ const Index = () => {
                 que se le reinstale en el trabajo que desempeñaba, o que se le indemnice..."
               </p>
               <div className="flex gap-2">
-                <Button variant="outline" size="sm">
-                  Leer artículo completo
-                </Button>
-                <Button variant="ghost" size="sm" className="link-underline">
-                  Ver en DOF oficial
+                <Link to="/biblioteca/art48">
+                  <Button variant="outline" size="sm">
+                    Leer artículo completo
+                  </Button>
+                </Link>
+                <Button variant="ghost" size="sm" asChild>
+                  <a href="https://www.dof.gob.mx/" target="_blank" rel="noopener noreferrer" className="link-underline">
+                    Ver en DOF oficial
+                  </a>
                 </Button>
               </div>
             </CardContent>
@@ -246,8 +250,8 @@ const Index = () => {
             <div>
               <h4 className="font-semibold mb-4">Herramientas</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="/calculadora" className="link-underline hover:text-accent">Calculadora de liquidación</a></li>
-                <li><a href="/formularios" className="link-underline hover:text-accent">Formularios legales</a></li>
+                <li><Link to="/calculadora" className="link-underline hover:text-accent">Calculadora de liquidación</Link></li>
+                <li><Link to="/formularios" className="link-underline hover:text-accent">Formularios legales</Link></li>
                 <li><Link to="/buscador" className="link-underline hover:text-accent">Buscador legal</Link></li>
                 <li><Link to="/directorio" className="link-underline hover:text-accent">Directorio de autoridades</Link></li>
               </ul>
