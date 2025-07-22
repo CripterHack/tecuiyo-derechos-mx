@@ -1,4 +1,4 @@
-import { Scale, BookOpen, Calculator, MessageCircle, Search, Users } from "lucide-react";
+import { Scale, BookOpen, Calculator, Search, Users, FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -94,23 +94,23 @@ const Index = () => {
               </CardContent>
             </Card>
 
-            {/* Chat Nahual */}
+            {/* Formularios y documentos */}
             <Card className="legal-card group hover:border-secondary/50">
               <CardHeader>
                 <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-secondary/20 transition-colors">
-                  <MessageCircle className="h-6 w-6 text-secondary" />
+                  <FileText className="h-6 w-6 text-secondary" />
                 </div>
-                <CardTitle>Chat Nahual IA</CardTitle>
+                <CardTitle>Formularios y documentos</CardTitle>
                 <CardDescription>
-                  Asistente inteligente que responde tus dudas laborales basado en la LFT
+                  Plantillas de cartas laborales y formatos para trámites ante autoridades
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground mb-4">
-                  Pregunta en lenguaje natural y obtén respuestas precisas con citas de la ley
+                  Descarga formatos de renuncia, demanda laboral, solicitudes y más documentos
                 </p>
                 <Button variant="outline" className="w-full">
-                  Chatear con Nahual
+                  Ver formularios
                 </Button>
               </CardContent>
             </Card>
@@ -229,8 +229,8 @@ const Index = () => {
             <div>
               <h4 className="font-semibold mb-4">Herramientas</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="link-underline hover:text-accent">Calculadora de liquidación</a></li>
-                <li><a href="#" className="link-underline hover:text-accent">Chat Nahual IA</a></li>
+                <li><a href="/calculadora" className="link-underline hover:text-accent">Calculadora de liquidación</a></li>
+                <li><a href="/formularios" className="link-underline hover:text-accent">Formularios legales</a></li>
                 <li><a href="#" className="link-underline hover:text-accent">Buscador legal</a></li>
                 <li><a href="#" className="link-underline hover:text-accent">Directorio de autoridades</a></li>
               </ul>
