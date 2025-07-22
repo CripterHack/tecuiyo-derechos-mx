@@ -294,13 +294,17 @@ const Biblioteca = () => {
                             </div>
                             
                             <div className="flex gap-2">
-                              <Button variant="outline" size="sm">
-                                <BookOpen className="mr-2 h-3 w-3" />
-                                Leer completo
-                              </Button>
-                              <Button variant="ghost" size="sm">
-                                <ExternalLink className="mr-2 h-3 w-3" />
-                                Ver en DOF
+                              <Link to={`/biblioteca/${articulo.numero.toLowerCase().replace(/[^a-z0-9]/g, '')}`}>
+                                <Button variant="outline" size="sm">
+                                  <BookOpen className="mr-2 h-3 w-3" />
+                                  Leer completo
+                                </Button>
+                              </Link>
+                              <Button variant="ghost" size="sm" asChild>
+                                <a href="https://www.dof.gob.mx/" target="_blank" rel="noopener noreferrer">
+                                  <ExternalLink className="mr-2 h-3 w-3" />
+                                  Ver en DOF
+                                </a>
                               </Button>
                             </div>
                           </CardContent>

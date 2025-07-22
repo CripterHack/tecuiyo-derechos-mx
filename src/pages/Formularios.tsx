@@ -305,14 +305,18 @@ const Formularios = () => {
 
                   {/* Acciones */}
                   <div className="flex gap-2 pt-2">
-                    <Button className="flex-1 btn-hero">
-                      <Download className="mr-2 h-4 w-4" />
-                      Descargar
-                    </Button>
-                    <Button variant="outline" size="sm">
-                      <Eye className="mr-2 h-3 w-3" />
-                      Vista previa
-                    </Button>
+                    <Link to={`/formularios/${formulario.id}`} className="flex-1">
+                      <Button className="w-full btn-hero">
+                        <Download className="mr-2 h-4 w-4" />
+                        Descargar
+                      </Button>
+                    </Link>
+                    <Link to={`/formularios/${formulario.id}`}>
+                      <Button variant="outline" size="sm">
+                        <Eye className="mr-2 h-3 w-3" />
+                        Vista previa
+                      </Button>
+                    </Link>
                   </div>
                 </CardContent>
               </Card>

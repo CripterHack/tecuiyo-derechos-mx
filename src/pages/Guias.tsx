@@ -300,13 +300,17 @@ const Guias = () => {
 
                   {/* Acciones */}
                   <div className="flex gap-2 pt-2">
-                    <Button className="flex-1 btn-hero">
-                      <BookOpen className="mr-2 h-4 w-4" />
-                      Comenzar guía
-                    </Button>
-                    <Button variant="outline" size="sm">
-                      Vista previa
-                    </Button>
+                    <Link to={`/guias/${guia.id}`} className="flex-1">
+                      <Button className="w-full btn-hero">
+                        <BookOpen className="mr-2 h-4 w-4" />
+                        Comenzar guía
+                      </Button>
+                    </Link>
+                    <Link to={`/guias/${guia.id}`}>
+                      <Button variant="outline" size="sm">
+                        Vista previa
+                      </Button>
+                    </Link>
                   </div>
                 </CardContent>
               </Card>

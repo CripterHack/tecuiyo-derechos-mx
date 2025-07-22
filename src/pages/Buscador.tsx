@@ -225,14 +225,18 @@ const Buscador = () => {
                   </div>
                   
                   <div className="flex gap-2">
-                    <Button variant="outline" size="sm" className="flex-1">
-                      <FileText className="mr-2 h-3 w-3" />
-                      Leer más
-                    </Button>
-                    <Button variant="ghost" size="sm">
-                      <Clock className="mr-2 h-3 w-3" />
-                      Casos similares
-                    </Button>
+                    <Link to={`/buscador/${situacion.id}`} className="flex-1">
+                      <Button variant="outline" size="sm" className="w-full">
+                        <FileText className="mr-2 h-3 w-3" />
+                        Leer más
+                      </Button>
+                    </Link>
+                    <Link to="/calculadora">
+                      <Button variant="ghost" size="sm">
+                        <Calculator className="mr-2 h-3 w-3" />
+                        Calcular
+                      </Button>
+                    </Link>
                   </div>
                 </CardContent>
               </Card>
