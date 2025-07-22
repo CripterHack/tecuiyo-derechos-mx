@@ -261,17 +261,17 @@ const Index = () => {
               <ul className="space-y-2 text-sm">
                 <li><Link to="/biblioteca" className="link-underline hover:text-accent">Biblioteca LFT</Link></li>
                 <li><Link to="/guias" className="link-underline hover:text-accent">Guías por temas</Link></li>
-                <li><a href="#" className="link-underline hover:text-accent">Casos de estudio</a></li>
-                <li><a href="#" className="link-underline hover:text-accent">Glosario legal</a></li>
+                <li><Link to="/casos-estudio" className="link-underline hover:text-accent">Casos de estudio</Link></li>
+                <li><Link to="/glosario-legal" className="link-underline hover:text-accent">Glosario legal</Link></li>
               </ul>
             </div>
             <div>
               <h4 className="font-semibold mb-4">Legal</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="link-underline hover:text-accent">Aviso de privacidad</a></li>
-                <li><a href="#" className="link-underline hover:text-accent">Términos de uso</a></li>
-                <li><a href="#" className="link-underline hover:text-accent">Código abierto</a></li>
-                <li><a href="#" className="link-underline hover:text-accent">Contacto</a></li>
+                <li><Link to="/aviso-privacidad" className="link-underline hover:text-accent">Aviso de privacidad</Link></li>
+                <li><Link to="/terminos-uso" className="link-underline hover:text-accent">Términos de uso</Link></li>
+                <li><Link to="/codigo-abierto" className="link-underline hover:text-accent">Código abierto</Link></li>
+                <li><Link to="/contacto" className="link-underline hover:text-accent">Contacto</Link></li>
               </ul>
             </div>
           </div>
