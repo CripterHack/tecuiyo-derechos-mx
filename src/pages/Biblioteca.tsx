@@ -174,7 +174,7 @@ const Biblioteca = () => {
   const filtrarArticulos = (searchTerm: string) => {
     if (!searchTerm) return articulosLFT;
     
-    const filtered: any = {};
+    const filtered: Record<string, any> = {};
     
     Object.entries(articulosLFT).forEach(([key, categoria]) => {
       const articulosFiltrados = categoria.articulos.filter(articulo =>
@@ -186,7 +186,7 @@ const Biblioteca = () => {
       
       if (articulosFiltrados.length > 0) {
         filtered[key] = {
-          ...categoria,
+          titulo: categoria.titulo,
           articulos: articulosFiltrados
         };
       }

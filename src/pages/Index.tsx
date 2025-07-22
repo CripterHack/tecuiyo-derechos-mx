@@ -1,6 +1,7 @@
 import { Scale, BookOpen, Calculator, Search, Users, FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
@@ -22,13 +23,17 @@ const Index = () => {
             Conoce y defiende tus derechos laborales conforme a la Ley Federal del Trabajo
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="btn-hero text-lg px-8 py-3">
-              <BookOpen className="mr-2 h-5 w-5" />
-              Explorar mis derechos
+            <Button size="lg" className="btn-hero text-lg px-8 py-3" asChild>
+              <Link to="/biblioteca">
+                <BookOpen className="mr-2 h-5 w-5" />
+                Explorar mis derechos
+              </Link>
             </Button>
-            <Button size="lg" variant="outline" className="bg-white/10 border-white/30 text-white hover:bg-white/20 text-lg px-8 py-3">
-              <Calculator className="mr-2 h-5 w-5" />
-              Calculadora de liquidación
+            <Button size="lg" variant="outline" className="bg-white/10 border-white/30 text-white hover:bg-white/20 text-lg px-8 py-3" asChild>
+              <Link to="/calculadora">
+                <Calculator className="mr-2 h-5 w-5" />
+                Calculadora de liquidación
+              </Link>
             </Button>
           </div>
         </div>
@@ -67,8 +72,10 @@ const Index = () => {
                 <p className="text-sm text-muted-foreground mb-4">
                   Busca por palabras clave como "despido", "horas extra", "aguinaldo" o describe tu situación
                 </p>
-                <Button variant="outline" className="w-full">
-                  Buscar ahora
+                <Button variant="outline" className="w-full" asChild>
+                  <Link to="/buscador">
+                    Buscar ahora
+                  </Link>
                 </Button>
               </CardContent>
             </Card>
@@ -88,8 +95,10 @@ const Index = () => {
                 <p className="text-sm text-muted-foreground mb-4">
                   Ingresa tu salario, antigüedad y motivo del despido para obtener el cálculo exacto
                 </p>
-                <Button variant="outline" className="w-full">
-                  Calcular liquidación
+                <Button variant="outline" className="w-full" asChild>
+                  <Link to="/calculadora">
+                    Calcular liquidación
+                  </Link>
                 </Button>
               </CardContent>
             </Card>
@@ -109,8 +118,10 @@ const Index = () => {
                 <p className="text-sm text-muted-foreground mb-4">
                   Descarga formatos de renuncia, demanda laboral, solicitudes y más documentos
                 </p>
-                <Button variant="outline" className="w-full">
-                  Ver formularios
+                <Button variant="outline" className="w-full" asChild>
+                  <Link to="/formularios">
+                    Ver formularios
+                  </Link>
                 </Button>
               </CardContent>
             </Card>
@@ -130,8 +141,10 @@ const Index = () => {
                 <p className="text-sm text-muted-foreground mb-4">
                   Ubicaciones, horarios de atención y datos de contacto actualizados
                 </p>
-                <Button variant="outline" className="w-full">
-                  Ver directorio
+                <Button variant="outline" className="w-full" asChild>
+                  <Link to="/directorio">
+                    Ver directorio
+                  </Link>
                 </Button>
               </CardContent>
             </Card>
@@ -151,8 +164,10 @@ const Index = () => {
                 <p className="text-sm text-muted-foreground mb-4">
                   Textos oficiales con enlaces al DOF y explicaciones en lenguaje accesible
                 </p>
-                <Button variant="outline" className="w-full">
-                  Explorar biblioteca
+                <Button variant="outline" className="w-full" asChild>
+                  <Link to="/biblioteca">
+                    Explorar biblioteca
+                  </Link>
                 </Button>
               </CardContent>
             </Card>
@@ -172,8 +187,10 @@ const Index = () => {
                 <p className="text-sm text-muted-foreground mb-4">
                   Despidos, vacaciones, aguinaldo, horas extra y más temas explicados claramente
                 </p>
-                <Button variant="outline" className="w-full">
-                  Ver guías
+                <Button variant="outline" className="w-full" asChild>
+                  <Link to="/guias">
+                    Ver guías
+                  </Link>
                 </Button>
               </CardContent>
             </Card>
@@ -231,15 +248,15 @@ const Index = () => {
               <ul className="space-y-2 text-sm">
                 <li><a href="/calculadora" className="link-underline hover:text-accent">Calculadora de liquidación</a></li>
                 <li><a href="/formularios" className="link-underline hover:text-accent">Formularios legales</a></li>
-                <li><a href="#" className="link-underline hover:text-accent">Buscador legal</a></li>
-                <li><a href="#" className="link-underline hover:text-accent">Directorio de autoridades</a></li>
+                <li><Link to="/buscador" className="link-underline hover:text-accent">Buscador legal</Link></li>
+                <li><Link to="/directorio" className="link-underline hover:text-accent">Directorio de autoridades</Link></li>
               </ul>
             </div>
             <div>
               <h4 className="font-semibold mb-4">Recursos</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="link-underline hover:text-accent">Biblioteca LFT</a></li>
-                <li><a href="#" className="link-underline hover:text-accent">Guías por temas</a></li>
+                <li><Link to="/biblioteca" className="link-underline hover:text-accent">Biblioteca LFT</Link></li>
+                <li><Link to="/guias" className="link-underline hover:text-accent">Guías por temas</Link></li>
                 <li><a href="#" className="link-underline hover:text-accent">Casos de estudio</a></li>
                 <li><a href="#" className="link-underline hover:text-accent">Glosario legal</a></li>
               </ul>
