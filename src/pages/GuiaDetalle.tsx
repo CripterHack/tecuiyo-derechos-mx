@@ -199,13 +199,6 @@ const GuiaDetalle = () => {
                     {guia.dificultad}
                   </Badge>
                 </div>
-                <div className="space-y-2">
-                  <div className="flex items-center justify-between text-sm">
-                    <span>Progreso de la guía</span>
-                    <span>{guia.completado}%</span>
-                  </div>
-                  <Progress value={guia.completado} className="h-2" />
-                </div>
               </CardHeader>
               <CardContent>
                 <div 
@@ -224,12 +217,8 @@ const GuiaDetalle = () => {
                 <div className="space-y-4">
                   {guia.pasoDetallado.map((paso, index) => (
                     <div key={index} className="flex items-start gap-4 p-4 rounded-lg border">
-                      <div className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium ${
-                        paso.completado 
-                          ? 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-300' 
-                          : 'bg-gray-100 text-gray-700 dark:bg-gray-900/30 dark:text-gray-300'
-                      }`}>
-                        {paso.completado ? <CheckCircle className="h-4 w-4" /> : paso.numero}
+                      <div className="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-sm font-medium bg-primary/10 text-primary border-2 border-primary/20">
+                        {paso.numero}
                       </div>
                       <div className="flex-1">
                         <h4 className="font-medium">{paso.titulo}</h4>
@@ -244,21 +233,6 @@ const GuiaDetalle = () => {
 
           {/* Panel Lateral */}
           <div className="space-y-6">
-            <Card>
-              <CardHeader>
-                <CardTitle className="text-lg">Comenzar Guía</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-3">
-                <Button 
-                  onClick={handleComenzarGuia}
-                  className="w-full" 
-                  size="lg"
-                >
-                  <Play className="h-4 w-4 mr-2" />
-                  Comenzar Guía
-                </Button>
-              </CardContent>
-            </Card>
 
             <Card>
               <CardHeader>

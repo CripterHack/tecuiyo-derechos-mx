@@ -137,7 +137,19 @@
   }
 
   body {
-    @apply bg-background text-foreground font-sans antialiased;
+    @apply bg-background text-foreground font-sans antialiased overflow-x-hidden;
+  }
+  
+  html {
+    @apply overflow-x-hidden;
+  }
+  
+  #root {
+    @apply overflow-x-hidden;
+  }
+  
+  .container {
+    @apply max-w-full overflow-x-hidden;
   }
   
   /* Mejoras de accesibilidad */

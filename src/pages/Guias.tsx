@@ -216,7 +216,7 @@ const Guias = () => {
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-2xl font-bold mb-8">Guías destacadas</h2>
           
-          <div className="grid lg:grid-cols-2 gap-6">
+          <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-6">
             {guiasPrincipales.map(guia => (
               <Card key={guia.id} className="legal-card group hover:border-primary/50">
                 <CardHeader>
@@ -271,14 +271,6 @@ const Guias = () => {
                     ))}
                   </div>
 
-                  {/* Progreso */}
-                  <div>
-                    <div className="flex justify-between text-sm mb-1">
-                      <span>Progreso</span>
-                      <span>0/{guia.pasos}</span>
-                    </div>
-                    <Progress value={0} className="h-2" />
-                  </div>
 
                   {/* Vista previa del contenido */}
                   <div>
@@ -299,16 +291,11 @@ const Guias = () => {
                   </div>
 
                   {/* Acciones */}
-                  <div className="flex gap-2 pt-2">
-                    <Link to={`/guias/${guia.id}`} className="flex-1">
+                  <div className="pt-2">
+                    <Link to={`/guias/${guia.id}`} className="w-full">
                       <Button className="w-full btn-hero">
                         <BookOpen className="mr-2 h-4 w-4" />
-                        Comenzar guía
-                      </Button>
-                    </Link>
-                    <Link to={`/guias/${guia.id}`}>
-                      <Button variant="outline" size="sm">
-                        Vista previa
+                        Ver guía completa
                       </Button>
                     </Link>
                   </div>
