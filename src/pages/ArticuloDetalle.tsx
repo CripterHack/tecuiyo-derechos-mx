@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { useToast } from "@/hooks/use-toast";
+import { SafeHtml } from "@/utils/sanitizer";
 
 const ArticuloDetalle = () => {
   const { id } = useParams();
@@ -656,7 +657,9 @@ const ArticuloDetalle = () => {
       description: "Redirigiendo al Diario Oficial de la Federación...",
     });
     // Simular apertura del DOF
-    window.open("https://www.dof.gob.mx/", "_blank");
+    const url = "https://www.dof.gob.mx/";
+    const newWindow = window.open(url, "_blank", "noopener,noreferrer");
+    if (newWindow) newWindow.opener = null;
   };
 
   const handleLeerCompleto = () => {
@@ -697,9 +700,9 @@ const ArticuloDetalle = () => {
                 </div>
               </CardHeader>
               <CardContent>
-                <div 
+                <SafeHtml 
+                  html={articulo.contenido}
                   className="prose prose-sm max-w-none dark:prose-invert"
-                  dangerouslySetInnerHTML={{ __html: articulo.contenido }}
                 />
               </CardContent>
             </Card>
@@ -709,9 +712,9 @@ const ArticuloDetalle = () => {
                 <CardTitle>Explicación y análisis</CardTitle>
               </CardHeader>
               <CardContent>
-                <div 
+                <SafeHtml 
+                  html={articulo.explicacion}
                   className="prose prose-sm max-w-none dark:prose-invert"
-                  dangerouslySetInnerHTML={{ __html: articulo.explicacion }}
                 />
               </CardContent>
             </Card>

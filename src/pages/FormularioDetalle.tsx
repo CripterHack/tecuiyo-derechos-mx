@@ -5,6 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { useToast } from "@/hooks/use-toast";
+import { SafeHtml } from "@/utils/sanitizer";
 
 const FormularioDetalle = () => {
   const { id } = useParams();
@@ -164,9 +165,9 @@ const FormularioDetalle = () => {
 
                 <div>
                   <h3 className="text-lg font-semibold mb-3">Contenido del Formulario</h3>
-                  <div 
+                  <SafeHtml 
+                    html={formulario.contenido}
                     className="prose prose-sm max-w-none dark:prose-invert"
-                    dangerouslySetInnerHTML={{ __html: formulario.contenido }}
                   />
                 </div>
 

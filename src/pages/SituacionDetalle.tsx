@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Alert, AlertDescription } from "@/components/ui/alert";
+import { SafeHtml } from "@/utils/sanitizer";
 
 const SituacionDetalle = () => {
   const { id } = useParams();
@@ -127,9 +128,9 @@ const SituacionDetalle = () => {
                 </div>
               </CardHeader>
               <CardContent>
-                <div 
+                <SafeHtml 
+                  html={situacion.contenidoCompleto}
                   className="prose prose-sm max-w-none dark:prose-invert"
-                  dangerouslySetInnerHTML={{ __html: situacion.contenidoCompleto }}
                 />
               </CardContent>
             </Card>
