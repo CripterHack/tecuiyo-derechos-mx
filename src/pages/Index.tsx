@@ -2,12 +2,14 @@ import { Scale, BookOpen, Calculator, Search, Users, FileText } from "lucide-rea
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Link } from "react-router-dom";
+import { Navigation } from "@/components/Navigation";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background" role="main" id="main-content">
+      <Navigation />
       {/* Header Hero */}
-      <header className="relative bg-gradient-to-br from-primary via-secondary to-primary py-16 px-4">
+      <header className="relative bg-gradient-to-br from-primary via-secondary to-primary py-16 px-4" role="banner">
         <div className="container mx-auto max-w-4xl text-center">
           <div className="mb-6 flex justify-center">
             <img 
@@ -22,20 +24,26 @@ const Index = () => {
           <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
             Conoce y defiende tus derechos laborales conforme a la Ley Federal del Trabajo
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <nav className="flex flex-col sm:flex-row gap-4 justify-center" role="navigation" aria-label="Acciones principales">
             <Button size="lg" className="btn-hero text-lg px-8 py-3" asChild>
-              <Link to="/biblioteca">
-                <BookOpen className="mr-2 h-5 w-5" />
+              <Link to="/biblioteca" aria-describedby="explorar-desc">
+                <BookOpen className="mr-2 h-5 w-5" aria-hidden="true" />
                 Explorar mis derechos
               </Link>
             </Button>
+            <span id="explorar-desc" className="sr-only">
+              Accede a la biblioteca completa de la Ley Federal del Trabajo
+            </span>
             <Button size="lg" variant="outline" className="bg-white/10 border-white/30 text-white hover:bg-white/20 text-lg px-8 py-3" asChild>
-              <Link to="/calculadora">
-                <Calculator className="mr-2 h-5 w-5" />
+              <Link to="/calculadora" aria-describedby="calc-desc">
+                <Calculator className="mr-2 h-5 w-5" aria-hidden="true" />
                 Calculadora de liquidación
               </Link>
             </Button>
-          </div>
+            <span id="calc-desc" className="sr-only">
+              Calcula tu liquidación conforme a la Ley Federal del Trabajo
+            </span>
+          </nav>
         </div>
       </header>
 
@@ -50,17 +58,17 @@ const Index = () => {
       </section>
 
       {/* Funcionalidades principales */}
-      <section className="py-16 px-4">
+      <section className="py-16 px-4" aria-labelledby="herramientas-title">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-3xl font-bold text-center mb-12">
+          <h2 id="herramientas-title" className="text-3xl font-bold text-center mb-12">
             Herramientas para empoderar a trabajadores mexicanos
           </h2>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8" role="list">
             {/* Buscador por situación */}
-            <Card className="legal-card group hover:border-primary/50">
+            <Card className="legal-card group hover:border-primary/50" role="listitem">
               <CardHeader>
-                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors">
+                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-primary/20 transition-colors" aria-hidden="true">
                   <Search className="h-6 w-6 text-primary" />
                 </div>
                 <CardTitle>Buscador por situación</CardTitle>
@@ -73,10 +81,13 @@ const Index = () => {
                   Busca por palabras clave como "despido", "horas extra", "aguinaldo" o describe tu situación
                 </p>
                 <Button variant="outline" className="w-full" asChild>
-                  <Link to="/buscador">
+                  <Link to="/buscador" aria-describedby="buscador-desc">
                     Buscar ahora
                   </Link>
                 </Button>
+                <span id="buscador-desc" className="sr-only">
+                  Busca información específica sobre problemas laborales
+                </span>
               </CardContent>
             </Card>
 
@@ -238,7 +249,7 @@ const Index = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-primary py-12 px-4 text-primary-foreground">
+      <footer className="bg-primary py-12 px-4 text-primary-foreground" role="contentinfo">
         <div className="container mx-auto max-w-6xl">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
@@ -248,13 +259,15 @@ const Index = () => {
               </p>
             </div>
             <div>
-              <h4 className="font-semibold mb-4">Herramientas</h4>
-              <ul className="space-y-2 text-sm">
+              <h3 className="font-semibold mb-4">Herramientas</h3>
+              <nav aria-label="Enlaces de herramientas">
+                <ul className="space-y-2 text-sm">
                 <li><Link to="/calculadora" className="link-underline hover:text-accent">Calculadora de liquidación</Link></li>
                 <li><Link to="/formularios" className="link-underline hover:text-accent">Formularios legales</Link></li>
                 <li><Link to="/buscador" className="link-underline hover:text-accent">Buscador legal</Link></li>
                 <li><Link to="/directorio" className="link-underline hover:text-accent">Directorio de autoridades</Link></li>
-              </ul>
+                </ul>
+              </nav>
             </div>
             <div>
               <h4 className="font-semibold mb-4">Recursos</h4>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es-MX">
+<html lang="es-MX" dir="ltr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,6 +7,17 @@
     <meta name="description" content="Plataforma que empodera a trabajadores mexicanos enseñando sus derechos conforme a la Ley Federal del Trabajo. Información accesible, calculadoras laborales y asesoría legal." />
     <meta name="author" content="Tecuiyo" />
     <meta name="keywords" content="derechos laborales, Ley Federal del Trabajo, LFT, trabajadores mexicanos, calculadora liquidación, asesoría legal" />
+    
+    <!-- Accessibility enhancements -->
+    <meta name="theme-color" content="#0F7C6C" />
+    <meta name="color-scheme" content="light dark" />
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- Fuentes optimizadas para accesibilidad -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet" />
 
     <meta property="og:title" content="Tecuiyo - Conoce tus derechos laborales" />
     <meta property="og:description" content="Plataforma que empodera a trabajadores mexicanos enseñando sus derechos conforme a la Ley Federal del Trabajo" />
@@ -19,6 +30,11 @@
   </head>
 
   <body>
+    <!-- Skip to main content for screen readers -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 z-50 bg-primary text-primary-foreground px-4 py-2 rounded-br-lg">
+      Saltar al contenido principal
+    </a>
+    
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

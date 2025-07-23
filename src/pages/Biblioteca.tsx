@@ -6,6 +6,8 @@ import { Input } from "@/components/ui/input";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { Navigation } from "@/components/Navigation";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 const Biblioteca = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -205,6 +207,18 @@ const Biblioteca = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Navigation />
+      
+      {/* Breadcrumbs */}
+      <div className="border-b border-border/50 bg-muted/30">
+        <div className="container mx-auto max-w-6xl px-4 py-3">
+          <Breadcrumbs 
+            items={[
+              { label: "Biblioteca Legal", current: true }
+            ]}
+          />
+        </div>
+      </div>
       {/* Header */}
       <header className="bg-primary text-primary-foreground py-8 px-4">
         <div className="container mx-auto max-w-6xl">

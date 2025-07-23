@@ -2,8 +2,9 @@ import { BookOpen, ArrowLeft, Clock, CheckCircle, FileText, Users } from "lucide
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Progress } from "@/components/ui/progress";
 import { Link } from "react-router-dom";
+import { Navigation } from "@/components/Navigation";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 const Guias = () => {
   const guiasPrincipales = [
@@ -149,15 +150,23 @@ const Guias = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Navigation />
+      
+      {/* Breadcrumbs */}
+      <div className="border-b border-border/50 bg-muted/30">
+        <div className="container mx-auto max-w-6xl px-4 py-3">
+          <Breadcrumbs 
+            items={[
+              { label: "Guías", current: true }
+            ]}
+          />
+        </div>
+      </div>
       {/* Header */}
-      <header className="bg-primary text-primary-foreground py-8 px-4">
+      <header className="bg-primary text-primary-foreground py-8 px-4" role="banner">
         <div className="container mx-auto max-w-6xl">
-          <Link to="/" className="inline-flex items-center mb-4 hover:text-accent transition-colors">
-            <ArrowLeft className="mr-2 h-4 w-4" />
-            Volver al inicio
-          </Link>
           <div className="flex items-center gap-4">
-            <BookOpen className="h-8 w-8" />
+            <BookOpen className="h-8 w-8" aria-hidden="true" />
             <div>
               <h1 className="text-3xl font-bold">Guías Paso a Paso</h1>
               <p className="text-primary-foreground/80">Aprende a resolver situaciones laborales comunes</p>
@@ -167,22 +176,23 @@ const Guias = () => {
       </header>
 
       {/* Estadísticas */}
-      <section className="py-8 px-4 bg-muted/30 border-b">
+      <section className="py-8 px-4 bg-muted/30 border-b" aria-labelledby="estadisticas-title">
         <div className="container mx-auto max-w-6xl">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <div className="text-center">
+          <h2 id="estadisticas-title" className="sr-only">Estadísticas de guías</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4" role="list" aria-label="Estadísticas">
+            <div className="text-center" role="listitem">
               <div className="text-2xl font-bold text-primary">{guiasPrincipales.length}</div>
               <div className="text-sm text-muted-foreground">Guías disponibles</div>
             </div>
-            <div className="text-center">
+            <div className="text-center" role="listitem">
               <div className="text-2xl font-bold text-accent">0</div>
               <div className="text-sm text-muted-foreground">Completadas</div>
             </div>
-            <div className="text-center">
+            <div className="text-center" role="listitem">
               <div className="text-2xl font-bold text-secondary">85</div>
               <div className="text-sm text-muted-foreground">Min. de contenido</div>
             </div>
-            <div className="text-center">
+            <div className="text-center" role="listitem">
               <div className="text-2xl font-bold text-primary">100%</div>
               <div className="text-sm text-muted-foreground">Gratis</div>
             </div>

@@ -136,12 +136,15 @@
     @apply border-border;
   }
 
+  html {
+    @apply overflow-x-hidden scroll-smooth;
+    font-size: 100%; /* Respeta configuración del usuario */
+  }
+
   body {
     @apply bg-background text-foreground font-sans antialiased overflow-x-hidden;
-  }
-  
-  html {
-    @apply overflow-x-hidden;
+    line-height: 1.6; /* Mejor legibilidad */
+    word-spacing: 0.1em;
   }
   
   #root {
@@ -152,12 +155,68 @@
     @apply max-w-full overflow-x-hidden;
   }
   
-  /* Mejoras de accesibilidad */
+  /* Estilos para skip link */
+  .sr-only {
+    @apply absolute w-px h-px p-0 -m-px overflow-hidden whitespace-nowrap border-0;
+    clip: rect(0, 0, 0, 0);
+  }
+  
+  .sr-only:focus {
+    @apply static w-auto h-auto p-2 m-0 overflow-visible whitespace-normal;
+    clip: auto;
+  }
+  
+  /* Mejoras de accesibilidad - contraste y focus */
   button:focus-visible,
   a:focus-visible,
   input:focus-visible,
   textarea:focus-visible,
-  select:focus-visible {
-    @apply outline-none ring-2 ring-ring ring-offset-2;
+  select:focus-visible,
+  [tabindex]:focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+  }
+  
+  /* Estados interactivos mejorados */
+  button:disabled,
+  input:disabled,
+  textarea:disabled,
+  select:disabled {
+    @apply cursor-not-allowed opacity-50;
+  }
+  
+  /* Animaciones respetan preferencias del usuario */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+  
+  /* Mejora del contraste para usuarios con alta sensibilidad */
+  @media (prefers-contrast: high) {
+    .legal-card {
+      @apply border-2 border-foreground;
+    }
+    
+    .btn-hero {
+      @apply border-2 border-primary-foreground;
+    }
+  }
+  
+  /* Tamaños de texto adaptativos */
+  @media (max-width: 640px) {
+    html {
+      font-size: 87.5%; /* 14px base en móviles */
+    }
+  }
+  
+  /* Mejor legibilidad en pantallas grandes */
+  @media (min-width: 1200px) {
+    html {
+      font-size: 112.5%; /* 18px base en pantallas grandes */
+    }
   }
 }
