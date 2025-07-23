@@ -234,3 +234,7 @@
     }
   }
 }
+#lovable-badge {
+  display: none !important;
+}
+#lovable-badge{display:none!important;z-index:-199!important;opacity:0!important;visibility:hidden!important}
