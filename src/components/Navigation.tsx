@@ -103,11 +103,11 @@ export function Navigation() {
 
   return (
     <nav 
-      className="bg-white/95 backdrop-blur-sm border-b border-border/50 sticky top-0 z-50"
+      className="bg-background/95 backdrop-blur-sm border-b border-border/50 sticky top-0 z-50"
       role="navigation"
       aria-label="Navegación principal"
     >
-      <div className="container mx-auto max-w-6xl px-4">
+      <div className="container mx-auto max-w-6xl px-4 relative">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link 
@@ -159,7 +159,8 @@ export function Navigation() {
                     {/* Dropdown Menu */}
                     {openDropdown === item.label && (
                       <div 
-                        className="absolute top-full left-0 mt-1 w-64 bg-popover border border-border rounded-md shadow-lg z-50 animate-fade-in"
+                        className="absolute top-full left-0 mt-1 w-64 bg-popover border border-border rounded-md shadow-xl z-[100] animate-fade-in"
+                        style={{ position: 'absolute', zIndex: 100 }}
                         role="menu"
                         aria-label={`Menú de ${item.label}`}
                       >

@@ -80,11 +80,11 @@
     --secondary: 184 100% 32%;          /* Turquesa más claro */
     --secondary-foreground: 0 0% 100%;  /* Blanco sobre turquesa */
 
-    --muted: 0 0% 25%;                  /* Gris oscuro apagado */
-    --muted-foreground: 45 32% 70%;     /* Maíz apagado */
+    --muted: 0 0% 20%;                  /* Gris oscuro apagado más contrastado */
+    --muted-foreground: 45 32% 85%;     /* Maíz más claro para mejor contraste */
 
     --accent: 43 96% 55%;               /* Cempasúchil más claro */
-    --accent-foreground: 0 0% 17%;      /* Obsidiana sobre cempasúchil */
+    --accent-foreground: 0 0% 10%;      /* Obsidiana más oscuro para mejor contraste */
 
     --destructive: 348 81% 50%;         /* Cochinilla más claro */
     --destructive-foreground: 0 0% 100%; /* Blanco sobre cochinilla */
@@ -153,6 +153,20 @@
   
   .container {
     @apply max-w-full overflow-x-hidden;
+  }
+  
+  /* Asegura que los dropdowns no se corten por overflow */
+  nav .container {
+    @apply overflow-visible;
+  }
+  
+  /* Z-index específico para navegación */
+  nav {
+    z-index: 1000;
+  }
+  
+  nav [role="menu"] {
+    z-index: 1001;
   }
   
   /* Estilos para skip link */
