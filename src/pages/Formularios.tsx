@@ -162,7 +162,16 @@ const Formularios = () => {
         </div>
       </header>
 
-      {/* Disclaimer */}
+      {/* Disclaimer de construcción */}
+      <section className="py-4 bg-amber-100 dark:bg-amber-900/30 border-b border-amber-200 dark:border-amber-800">
+        <div className="container mx-auto max-w-6xl px-4">
+          <p className="text-sm text-amber-700 dark:text-amber-300 text-center">
+            <strong>🚧 En construcción:</strong> Esta sección está siendo desarrollada. La funcionalidad de descarga y vista previa de documentos estará disponible próximamente.
+          </p>
+        </div>
+      </section>
+
+      {/* Disclaimer legal */}
       <section className="py-4 bg-destructive/10 border-b border-destructive/20">
         <div className="container mx-auto max-w-6xl px-4">
           <p className="text-sm text-destructive text-center">
