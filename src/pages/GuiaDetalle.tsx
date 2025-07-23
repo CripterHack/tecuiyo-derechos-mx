@@ -6,135 +6,11 @@ import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { useToast } from "@/hooks/use-toast";
 import { SafeHtml } from "@/utils/sanitizer";
+import { guiasPrincipales } from "@/data/guias";
 
 const GuiaDetalle = () => {
   const { id } = useParams();
   const { toast } = useToast();
-
-  const guiasPrincipales = [
-    {
-      id: "1",
-      titulo: "Cómo realizar un despido justificado",
-      descripcion: "Guía completa para empleadores sobre el proceso legal de despido con causa justificada.",
-      duracion: "45 min",
-      pasos: 8,
-      dificultad: "Media",
-      categoria: "Empleadores",
-      articulosRelacionados: ["Art. 47", "Art. 25", "Art. 134"],
-      completado: 60,
-      contenido: `
-        <h2>Introducción</h2>
-        <p>El despido justificado es una herramienta legal que permite al empleador terminar la relación laboral cuando el trabajador incurre en faltas graves. Es crucial seguir el procedimiento correcto para evitar problemas legales.</p>
-        
-        <h2>Paso 1: Identificar la causa justificada</h2>
-        <p>Verificar que la conducta del trabajador encuadre en alguna de las causales del artículo 47 de la LFT:</p>
-        <ul>
-          <li>Faltas de honradez o probidad</li>
-          <li>Actos de violencia o injurias</li>
-          <li>Faltas injustificadas de asistencia</li>
-          <li>Desobediencia al patrón</li>
-          <li>Estado de embriaguez o uso de narcóticos</li>
-        </ul>
-        
-        <h2>Paso 2: Documentar la falta</h2>
-        <p>Reunir evidencias que comprueben la falta:</p>
-        <ul>
-          <li>Testigos presenciales</li>
-          <li>Videos o fotografías</li>
-          <li>Documentos escritos</li>
-          <li>Reportes de incidentes</li>
-        </ul>
-        
-        <h2>Paso 3: Notificación escrita</h2>
-        <p>Elaborar un aviso de rescisión que contenga:</p>
-        <ul>
-          <li>Fecha y lugar</li>
-          <li>Causa específica del despido</li>
-          <li>Hechos que la motivan</li>
-          <li>Artículo de la LFT que la contempla</li>
-          <li>Fecha en que se realizó la falta</li>
-        </ul>
-      `,
-      pasoDetallado: [
-        {
-          numero: 1,
-          titulo: "Identificación de la causa",
-          descripcion: "Verificar que la conducta encuadre en el art. 47 LFT",
-          completado: true
-        },
-        {
-          numero: 2,
-          titulo: "Recopilación de evidencias",
-          descripcion: "Documentar pruebas de la falta cometida",
-          completado: true
-        },
-        {
-          numero: 3,
-          titulo: "Elaboración del aviso",
-          descripcion: "Redactar notificación de rescisión",
-          completado: true
-        },
-        {
-          numero: 4,
-          titulo: "Notificación al trabajador",
-          descripcion: "Entregar aviso por escrito con acuse",
-          completado: false
-        },
-        {
-          numero: 5,
-          titulo: "Cálculo de finiquito",
-          descripcion: "Determinar prestaciones a liquidar",
-          completado: false
-        }
-      ]
-    },
-    {
-      id: "2",
-      titulo: "Proceso de contratación conforme a la LFT",
-      descripcion: "Pasos esenciales para contratar personal cumpliendo con la legislación laboral vigente.",
-      duracion: "30 min",
-      pasos: 6,
-      dificultad: "Básica",
-      categoria: "Empleadores",
-      articulosRelacionados: ["Art. 25", "Art. 26", "Art. 35"],
-      completado: 20,
-      contenido: `
-        <h2>Introducción</h2>
-        <p>La contratación de personal debe realizarse cumpliendo con los requisitos legales establecidos en la Ley Federal del Trabajo para evitar conflictos posteriores.</p>
-        
-        <h2>Paso 1: Definir el puesto</h2>
-        <p>Establecer claramente:</p>
-        <ul>
-          <li>Funciones específicas</li>
-          <li>Horario de trabajo</li>
-          <li>Lugar de prestación de servicios</li>
-          <li>Salario ofrecido</li>
-        </ul>
-        
-        <h2>Paso 2: Proceso de selección</h2>
-        <p>Realizar entrevistas y verificar:</p>
-        <ul>
-          <li>Experiencia laboral</li>
-          <li>Referencias personales y laborales</li>
-          <li>Documentación requerida</li>
-        </ul>
-      `,
-      pasoDetallado: [
-        {
-          numero: 1,
-          titulo: "Definición del puesto",
-          descripcion: "Establecer funciones, horario y salario",
-          completado: true
-        },
-        {
-          numero: 2,
-          titulo: "Proceso de selección",
-          descripcion: "Entrevistas y verificación de referencias",
-          completado: false
-        }
-      ]
-    }
-  ];
 
   const guia = guiasPrincipales.find(g => g.id === id);
 
@@ -159,9 +35,9 @@ const GuiaDetalle = () => {
 
   const getDificultadColor = (dificultad: string) => {
     switch (dificultad) {
-      case "Básica": return "bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-300";
-      case "Media": return "bg-yellow-100 text-yellow-700 dark:bg-yellow-900/30 dark:text-yellow-300";
-      case "Avanzada": return "bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-300";
+      case "Básico": return "bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-300";
+      case "Intermedio": return "bg-yellow-100 text-yellow-700 dark:bg-yellow-900/30 dark:text-yellow-300"; 
+      case "Avanzado": return "bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-300";
       default: return "bg-gray-100 text-gray-700 dark:bg-gray-900/30 dark:text-gray-300";
     }
   };
@@ -203,7 +79,7 @@ const GuiaDetalle = () => {
               </CardHeader>
               <CardContent>
                 <SafeHtml 
-                  html={guia.contenido}
+                  html={guia.contenidoCompleto}
                   className="prose prose-sm max-w-none dark:prose-invert"
                 />
               </CardContent>
@@ -270,7 +146,7 @@ const GuiaDetalle = () => {
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
-                  {guia.articulosRelacionados.map((articulo, index) => (
+                  {guia.articulosLFT.map((articulo, index) => (
                     <Badge key={index} variant="outline">
                       {articulo}
                     </Badge>
