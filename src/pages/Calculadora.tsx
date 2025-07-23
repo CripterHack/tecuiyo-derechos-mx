@@ -1,27 +1,56 @@
-import { Calculator, ArrowLeft, Info, DollarSign, Calendar, Clock } from "lucide-react";
+import { Calculator, ArrowLeft, Info, DollarSign, Calendar, Clock, CalendarIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
+import { Calendar as CalendarComponent } from "@/components/ui/calendar";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { format, differenceInDays, differenceInMonths, differenceInYears } from "date-fns";
+import { es } from "date-fns/locale";
+import { cn } from "@/lib/utils";
 
 const Calculadora = () => {
   const [salarioDiario, setSalarioDiario] = useState("");
-  const [antiguedad, setAntiguedad] = useState("");
   const [tipoSeparacion, setTipoSeparacion] = useState("");
   const [resultado, setResultado] = useState<any>(null);
+  
+  // Nuevo sistema de fechas o antigüedad manual
+  const [usarFechas, setUsarFechas] = useState(true);
+  const [fechaIngreso, setFechaIngreso] = useState<Date>();
+  const [fechaSalida, setFechaSalida] = useState<Date>();
+  
+  // Sistema manual de antigüedad
+  const [anos, setAnos] = useState("");
+  const [meses, setMeses] = useState("");
+  const [dias, setDias] = useState("");
+
+  const calcularAntiguedadEnAnos = () => {
+    if (usarFechas && fechaIngreso && fechaSalida) {
+      const totalDias = differenceInDays(fechaSalida, fechaIngreso);
+      return totalDias / 365.25; // Considera años bisiestos
+    } else if (!usarFechas) {
+      const totalAnos = parseFloat(anos || "0");
+      const totalMeses = parseFloat(meses || "0") / 12;
+      const totalDias = parseFloat(dias || "0") / 365.25;
+      return totalAnos + totalMeses + totalDias;
+    }
+    return 0;
+  };
 
   const calcularLiquidacion = () => {
-    if (!salarioDiario || !antiguedad || !tipoSeparacion) return;
+    const antiguedadCalculada = calcularAntiguedadEnAnos();
+    
+    if (!salarioDiario || antiguedadCalculada <= 0 || !tipoSeparacion) return;
 
     const salario = parseFloat(salarioDiario);
-    const anos = parseFloat(antiguedad);
+    const antiguedadAnos = antiguedadCalculada;
     
     // Fórmulas basadas en LFT
     const indemnizacion = salario * 90; // Art. 50 LFT - 3 meses
-    const primaAntiguedad = salario * 12 * anos; // Art. 162 LFT
+    const primaAntiguedad = salario * 12 * antiguedadAnos; // Art. 162 LFT
     const vacacionesProporcionales = (salario * 6 * (new Date().getMonth() + 1)) / 12; // Proporcional
     const primaVacacional = vacacionesProporcionales * 0.25; // 25% de vacaciones
     const aguinaldoProporcional = (salario * 15 * (new Date().getMonth() + 1)) / 12; // Proporcional
@@ -54,8 +83,11 @@ const Calculadora = () => {
       conceptos,
       total,
       salarioDiario: salario,
-      antiguedad: anos,
-      tipo: tipoSeparacion
+      antiguedad: antiguedadAnos,
+      tipo: tipoSeparacion,
+      fechaIngreso,
+      fechaSalida,
+      usarFechas
     });
   };
 
@@ -122,24 +154,158 @@ const Calculadora = () => {
                   </p>
                 </div>
 
+                {/* Selector de método de cálculo de antigüedad */}
                 <div>
-                  <Label htmlFor="antiguedad">Antigüedad (años)</Label>
-                  <div className="relative">
-                    <Calendar className="absolute left-3 top-3 h-4 w-4 text-muted-foreground" />
-                    <Input
-                      id="antiguedad"
-                      type="number"
-                      step="0.1"
-                      placeholder="2.5"
-                      value={antiguedad}
-                      onChange={(e) => setAntiguedad(e.target.value)}
-                      className="pl-10"
-                    />
+                  <Label>Método para calcular antigüedad</Label>
+                  <div className="flex gap-4 mt-2">
+                    <Button
+                      type="button"
+                      variant={usarFechas ? "default" : "outline"}
+                      size="sm"
+                      onClick={() => setUsarFechas(true)}
+                    >
+                      <CalendarIcon className="mr-2 h-4 w-4" />
+                      Usar fechas
+                    </Button>
+                    <Button
+                      type="button"
+                      variant={!usarFechas ? "default" : "outline"}
+                      size="sm"
+                      onClick={() => setUsarFechas(false)}
+                    >
+                      <Clock className="mr-2 h-4 w-4" />
+                      Ingresar manualmente
+                    </Button>
                   </div>
-                  <p className="text-xs text-muted-foreground mt-1">
-                    Tiempo trabajado en años (ej: 2.5 años = 2 años y 6 meses)
-                  </p>
                 </div>
+
+                {usarFechas ? (
+                  /* Selección por fechas */
+                  <div className="space-y-4">
+                    <div>
+                      <Label>Fecha de ingreso</Label>
+                      <Popover>
+                        <PopoverTrigger asChild>
+                          <Button
+                            variant="outline"
+                            className={cn(
+                              "w-full justify-start text-left font-normal",
+                              !fechaIngreso && "text-muted-foreground"
+                            )}
+                          >
+                            <CalendarIcon className="mr-2 h-4 w-4" />
+                            {fechaIngreso ? format(fechaIngreso, "PPP", { locale: es }) : "Selecciona fecha de ingreso"}
+                          </Button>
+                        </PopoverTrigger>
+                        <PopoverContent className="w-auto p-0" align="start">
+                          <CalendarComponent
+                            mode="single"
+                            selected={fechaIngreso}
+                            onSelect={setFechaIngreso}
+                            disabled={(date) => date > new Date() || date < new Date("1900-01-01")}
+                            initialFocus
+                            className="p-3 pointer-events-auto"
+                          />
+                        </PopoverContent>
+                      </Popover>
+                    </div>
+
+                    <div>
+                      <Label>Fecha de salida</Label>
+                      <Popover>
+                        <PopoverTrigger asChild>
+                          <Button
+                            variant="outline"
+                            className={cn(
+                              "w-full justify-start text-left font-normal",
+                              !fechaSalida && "text-muted-foreground"
+                            )}
+                          >
+                            <CalendarIcon className="mr-2 h-4 w-4" />
+                            {fechaSalida ? format(fechaSalida, "PPP", { locale: es }) : "Selecciona fecha de salida"}
+                          </Button>
+                        </PopoverTrigger>
+                        <PopoverContent className="w-auto p-0" align="start">
+                          <CalendarComponent
+                            mode="single"
+                            selected={fechaSalida}
+                            onSelect={setFechaSalida}
+                            disabled={(date) => 
+                              date > new Date() || 
+                              date < new Date("1900-01-01") || 
+                              (fechaIngreso && date < fechaIngreso)
+                            }
+                            initialFocus
+                            className="p-3 pointer-events-auto"
+                          />
+                        </PopoverContent>
+                      </Popover>
+                    </div>
+
+                    {fechaIngreso && fechaSalida && (
+                      <div className="p-3 bg-accent/10 rounded-lg">
+                        <p className="text-sm font-medium">Tiempo trabajado:</p>
+                        <p className="text-xs text-muted-foreground">
+                          {differenceInYears(fechaSalida, fechaIngreso)} años, {' '}
+                          {differenceInMonths(fechaSalida, fechaIngreso) % 12} meses, {' '}
+                          {differenceInDays(fechaSalida, new Date(fechaIngreso.getFullYear(), fechaIngreso.getMonth() + differenceInMonths(fechaSalida, fechaIngreso), fechaIngreso.getDate()))} días
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                ) : (
+                  /* Ingreso manual */
+                  <div className="space-y-4">
+                    <div className="grid grid-cols-3 gap-3">
+                      <div>
+                        <Label htmlFor="anos">Años</Label>
+                        <Input
+                          id="anos"
+                          type="number"
+                          min="0"
+                          placeholder="2"
+                          value={anos}
+                          onChange={(e) => setAnos(e.target.value)}
+                        />
+                      </div>
+                      <div>
+                        <Label htmlFor="meses">Meses</Label>
+                        <Input
+                          id="meses"
+                          type="number"
+                          min="0"
+                          max="11"
+                          placeholder="6"
+                          value={meses}
+                          onChange={(e) => setMeses(e.target.value)}
+                        />
+                      </div>
+                      <div>
+                        <Label htmlFor="dias">Días</Label>
+                        <Input
+                          id="dias"
+                          type="number"
+                          min="0"
+                          max="30"
+                          placeholder="15"
+                          value={dias}
+                          onChange={(e) => setDias(e.target.value)}
+                        />
+                      </div>
+                    </div>
+                    <p className="text-xs text-muted-foreground">
+                      Ingresa el tiempo trabajado en años, meses y días por separado
+                    </p>
+                    
+                    {(anos || meses || dias) && (
+                      <div className="p-3 bg-accent/10 rounded-lg">
+                        <p className="text-sm font-medium">
+                          Antigüedad total: {calcularAntiguedadEnAnos().toFixed(2)} años
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                )}
 
                 <div>
                   <Label htmlFor="tipo">Tipo de separación laboral</Label>
@@ -160,7 +326,11 @@ const Calculadora = () => {
                 <Button 
                   onClick={calcularLiquidacion}
                   className="w-full btn-hero"
-                  disabled={!salarioDiario || !antiguedad || !tipoSeparacion}
+                  disabled={
+                    !salarioDiario || 
+                    calcularAntiguedadEnAnos() <= 0 || 
+                    !tipoSeparacion
+                  }
                 >
                   <Calculator className="mr-2 h-4 w-4" />
                   Calcular liquidación
