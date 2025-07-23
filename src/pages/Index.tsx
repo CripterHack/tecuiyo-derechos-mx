@@ -291,11 +291,13 @@ const Index = () => {
           
           <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center text-sm text-primary-foreground/80">
             <p>
-              © 2025 Tecuiyo. Licencia MIT. • 
+              © 2025 Tecuiyo. <a href="https://github.com/sponsors/CripterHack">Edgar Zorrilla</a>. • 
               Información basada en la Ley Federal del Trabajo vigente • 
               <a href="#" className="link-underline hover:text-accent ml-1">
                 Fuentes oficiales DOF
               </a>
+              <br/>
+              <a href="https://github.com/sponsors/CripterHack">Apoya este proyecto hecho con amor y pasión por crear un mundo mejor y más justo ❤️</a>
             </p>
           </div>
         </div>
