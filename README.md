@@ -1,73 +1,183 @@
-# Welcome to your Lovable project
+# 🏛️ Tecuiyo
 
-## Project info
+![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
+![React](https://img.shields.io/badge/React-18.3.1-blue.svg)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.4+-blue.svg)
 
-**URL**: https://lovable.dev/projects/dbd23e40-a72f-4991-8981-a0d28d82f0dd
+**Tecuiyo** es una plataforma digital de código abierto que democratiza el acceso a la información sobre derechos laborales en México. Nuestro objetivo es empoderar a trabajadores, empleadores y profesionales del derecho con herramientas precisas y actualizadas basadas en la Ley Federal del Trabajo (LFT).
 
-## How can I edit this code?
+## 🌟 Características Principales
 
-There are several ways of editing your application.
+- **📚 Biblioteca Jurídica Completa**: Acceso a artículos completos de la LFT con explicaciones claras
+- **🔍 Buscador Inteligente**: Encuentra respuestas a situaciones laborales específicas
+- **🧮 Calculadora Legal**: Herramientas de cálculo para finiquitos, vacaciones, aguinaldos y más
+- **📑 Formularios Automatizados**: Genera documentos legales de forma rápida y precisa
+- **📖 Guías Prácticas**: Tutoriales paso a paso para procesos laborales comunes
+- **🎯 Casos de Estudio**: Ejemplos reales y análisis de situaciones laborales
+- **📞 Directorio Especializado**: Contactos de profesionales en derecho laboral
+- **🌙 Modo Oscuro**: Interfaz adaptable para mejor experiencia de usuario
+- **📱 Diseño Responsivo**: Funciona perfectamente en desktop, tablet y móvil
+- **♿ Accesible**: Cumple con estándares de accesibilidad web
 
-**Use Lovable**
+## 🚀 Demo en Vivo
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/dbd23e40-a72f-4991-8981-a0d28d82f0dd) and start prompting.
+Visita [Tecuiyo](https://tecuiyo.lovable.app) para ver la aplicación en funcionamiento.
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Stack Tecnológico
 
-**Use your preferred IDE**
+| Tecnología | Versión | Propósito |
+|------------|---------|-----------|
+| **React** | 18.3.1 | Biblioteca de interfaz de usuario |
+| **TypeScript** | 5.0+ | Lenguaje de programación tipado |
+| **Tailwind CSS** | 3.4+ | Framework de estilos utilitarios |
+| **Vite** | 5.0+ | Herramienta de construcción rápida |
+| **React Router** | 6.26+ | Enrutamiento para React |
+| **Radix UI** | 1.0+ | Componentes accesibles |
+| **Lucide React** | 0.462+ | Iconos SVG para React |
+| **Tanstack Query** | 5.56+ | Gestión de estado del servidor |
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📦 Instalación
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerrequisitos
 
-Follow these steps:
+- Node.js (v18 o superior)
+- npm o yarn
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Pasos
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+1. **Clona el repositorio**
+```bash
+git clone https://github.com/tecuiyo/tecuiyo.git
+cd tecuiyo
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+2. **Instala las dependencias**
+```bash
+npm install
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. **Inicia el servidor de desarrollo**
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. **Abre tu navegador**
+Visita `http://localhost:5173` para ver la aplicación.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📂 Estructura del Proyecto
 
-**Use GitHub Codespaces**
+```
+tecuiyo/
+├── src/
+│   ├── components/          # Componentes reutilizables
+│   │   ├── ui/             # Componentes de interfaz base
+│   │   ├── Footer.tsx      # Pie de página
+│   │   ├── Navigation.tsx  # Navegación principal
+│   │   └── ThemeToggle.tsx # Selector de tema
+│   ├── pages/              # Páginas de la aplicación
+│   │   ├── Index.tsx       # Página principal
+│   │   ├── Biblioteca.tsx  # Biblioteca de artículos LFT
+│   │   ├── Buscador.tsx    # Buscador de situaciones
+│   │   ├── Calculadora.tsx # Calculadoras legales
+│   │   └── ...
+│   ├── data/               # Datos estáticos y contenido
+│   │   ├── articulos-lft.ts # Artículos de la LFT
+│   │   └── guias.ts        # Guías y tutoriales
+│   ├── hooks/              # React hooks personalizados
+│   ├── lib/                # Utilidades y helpers
+│   └── utils/              # Funciones de utilidad
+├── public/                 # Archivos estáticos
+├── docs/                   # Documentación del proyecto
+├── tailwind.config.ts      # Configuración de Tailwind
+├── vite.config.ts          # Configuración de Vite
+└── package.json            # Dependencias del proyecto
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🎯 Casos de Uso
 
-## What technologies are used for this project?
+### Para Trabajadores
+- Consultar derechos laborales específicos
+- Calcular prestaciones y finiquitos
+- Generar cartas de renuncia y otros documentos
+- Entender procesos legales laborales
 
-This project is built with:
+### Para Empleadores
+- Verificar obligaciones legales
+- Calcular nóminas y prestaciones
+- Consultar procedimientos de contratación y despido
+- Acceder a formularios oficiales
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Para Abogados Laboralistas
+- Referencia rápida de artículos de la LFT
+- Herramientas de cálculo para casos
+- Plantillas de documentos legales
+- Casos de estudio para análisis
 
-## How can I deploy this project?
+## 🤝 Contribuir
 
-Simply open [Lovable](https://lovable.dev/projects/dbd23e40-a72f-4991-8981-a0d28d82f0dd) and click on Share -> Publish.
+¡Agradecemos las contribuciones de la comunidad! Hay varias formas de ayudar:
 
-## Can I connect a custom domain to my Lovable project?
+### Para Desarrolladores
+- 🐛 Reportar bugs y problemas
+- 💡 Proponer nuevas características
+- 🔧 Enviar pull requests
+- 📖 Mejorar la documentación
+- ⚡ Optimizar el rendimiento
 
-Yes, you can!
+### Para Juristas
+- ⚖️ Revisar contenido legal
+- 📝 Actualizar información jurídica
+- 📚 Proponer nuevos casos de estudio
+- 🔍 Mejorar explicaciones legales
+- 🧮 Validar cálculos y fórmulas
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### Proceso de Contribución
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+1. **Fork** del repositorio
+2. **Crear** una rama para tu feature (`git checkout -b feature/nueva-caracteristica`)
+3. **Realizar** cambios y commits (`git commit -m 'Agregar nueva característica'`)
+4. **Push** a la rama (`git push origin feature/nueva-caracteristica`)
+5. **Crear** un Pull Request
+
+Consulta nuestra [Guía de Contribución](./docs/CONTRIBUTING.md) para más detalles.
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](./LICENSE) para más detalles.
+
+### ¿Qué significa la Licencia MIT?
+
+- ✅ Puedes usar el código para cualquier propósito, incluso comercial
+- ✅ Puedes modificar y distribuir el código
+- ✅ Solo debes incluir el aviso de copyright y la licencia
+- ⚠️ No hay garantías ni responsabilidades por parte de los autores
+
+## 🙏 Agradecimientos
+
+Tecuiyo ha sido posible gracias a:
+
+- **🌟 Comunidad Open Source**: Por las increíbles herramientas y librerías
+- **👥 Trabajadores Mexicanos**: Inspiración y propósito del proyecto
+- **❤️ Contribuidores**: Futuras contribuciones de la comunidad
+
+## 📞 Contacto
+
+- **Website**: [tecuiyo.lovable.app](https://tecuiyo.lovable.app)
+- **Email**: contribuir@tecuiyo.com
+- **GitHub**: [@tecuiyo](https://github.com/tecuiyo)
+
+## 🛣️ Roadmap
+
+- [ ] API REST para integraciones
+- [ ] Aplicación móvil nativa
+- [ ] Sistema de notificaciones legales
+- [ ] Integración con sistemas de nómina
+- [ ] Versiones en otros idiomas
+- [ ] Módulo de capacitación interactiva
+
+---
+
+**Construido con ❤️ para la comunidad laboral mexicana**
+
+![Tecuiyo](https://img.shields.io/badge/Tecuiyo-Derechos%20Laborales-blue?style=for-the-badge)
