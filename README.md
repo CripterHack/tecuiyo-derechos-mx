@@ -49,7 +49,7 @@ Visita [Tecuiyo](https://tecuiyo.izignamx.com/) para ver la aplicación en funci
 1. **Clona el repositorio**
 ```bash
 git clone https://github.com/CripterHack/tecuiyo-derechos-mx.git
-cd tecuiyo
+cd tecuiyo-derechos-mx
 ```
 
 2. **Instala las dependencias**
@@ -68,7 +68,7 @@ Visita `http://localhost:5173` para ver la aplicación.
 ## 📂 Estructura del Proyecto
 
 ```
-tecuiyo/
+tecuiyo-derechos-mx/
 ├── src/
 │   ├── components/          # Componentes reutilizables
 │   │   ├── ui/             # Componentes de interfaz base
