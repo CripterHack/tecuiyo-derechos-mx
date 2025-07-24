@@ -48,7 +48,7 @@ Visita [Tecuiyo](https://tecuiyo.izignamx.com/) para ver la aplicación en funci
 
 1. **Clona el repositorio**
 ```bash
-git clone https://github.com/tecuiyo/tecuiyo.git
+git clone https://github.com/CripterHack/tecuiyo-derechos-mx.git
 cd tecuiyo
 ```
 
@@ -164,8 +164,8 @@ Tecuiyo ha sido posible gracias a:
 ## 📞 Contacto
 
 - **Website**: [tecuiyo.izignamx.com](https://tecuiyo.izignamx.com/)
-- **Email**: contribuir@tecuiyo.com
-- **GitHub**: [@tecuiyo](https://github.com/tecuiyo)
+- **Email**: dev@izignamx.com
+- **GitHub**: [@cripterhack](https://github.com/CripterHack/tecuiyo-derechos-mx)
 
 ## 🛣️ Roadmap
 
