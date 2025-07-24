@@ -22,7 +22,7 @@
 
 ## 🚀 Demo en Vivo
 
-Visita [Tecuiyo](https://tecuiyo.lovable.app) para ver la aplicación en funcionamiento.
+Visita [Tecuiyo](https://tecuiyo.izignamx.com/) para ver la aplicación en funcionamiento.
 
 ## 🛠️ Stack Tecnológico
 
@@ -163,7 +163,7 @@ Tecuiyo ha sido posible gracias a:
 
 ## 📞 Contacto
 
-- **Website**: [tecuiyo.lovable.app](https://tecuiyo.lovable.app)
+- **Website**: [tecuiyo.izignamx.com](https://tecuiyo.izignamx.com/)
 - **Email**: contribuir@tecuiyo.com
 - **GitHub**: [@tecuiyo](https://github.com/tecuiyo)
 
