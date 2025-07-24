@@ -8,145 +8,19 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Navigation } from "@/components/Navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { articulosLFT, categoriasDisponibles, obtenerArticulosPorCategoria } from "@/data/articulos-lft";
 
 const Biblioteca = () => {
   const [searchTerm, setSearchTerm] = useState("");
 
-  // Base de datos de artículos de la LFT organizados por temas
-  const articulosLFT = {
-    "relacion-laboral": {
-      titulo: "Relación de Trabajo",
-      articulos: [
-        {
-          numero: "Art. 20",
-          titulo: "Concepto de relación de trabajo",
-          contenido: "Se entiende por relación de trabajo, cualquiera que sea el acto que le dé origen, la prestación de un trabajo personal subordinado a una persona...",
-          temas: ["definición", "relación laboral", "subordinación"]
-        },
-        {
-          numero: "Art. 21",
-          titulo: "Presunción de relación de trabajo",
-          contenido: "Se presume la existencia del contrato y de la relación de trabajo entre el que presta un trabajo personal y el que lo recibe.",
-          temas: ["presunción", "contrato", "relación laboral"]
-        },
-        {
-          numero: "Art. 24",
-          titulo: "Condiciones de trabajo por escrito",
-          contenido: "Las condiciones de trabajo deben hacerse constar por escrito cuando no existan contratos colectivos aplicables...",
-          temas: ["contrato", "por escrito", "condiciones"]
-        },
-        {
-          numero: "Art. 25",
-          titulo: "Contenido del contrato de trabajo",
-          contenido: "El escrito en que consten las condiciones de trabajo deberá contener los datos del trabajador y patrón, tipo de relación laboral, servicios a prestar, lugar de trabajo, duración de jornada, forma y monto del salario...",
-          temas: ["contrato", "contenido", "elementos", "datos personales"]
-        }
-      ]
-    },
-    "salarios": {
-      titulo: "Salarios",
-      articulos: [
-        {
-          numero: "Art. 82",
-          titulo: "Concepto de salario",
-          contenido: "Salario es la retribución que debe pagar el patrón al trabajador por su trabajo.",
-          temas: ["definición", "salario", "retribución"]
-        },
-        {
-          numero: "Art. 85",
-          titulo: "Salario igual por trabajo igual",
-          contenido: "A trabajo igual, desempeñado en puesto, jornada y condiciones de eficiencia también iguales, debe corresponder salario igual.",
-          temas: ["igualdad salarial", "no discriminación", "trabajo igual"]
-        },
-        {
-          numero: "Art. 90",
-          titulo: "Salario mínimo",
-          contenido: "Salario mínimo es la cantidad menor que debe recibir en efectivo el trabajador por los servicios prestados en una jornada de trabajo.",
-          temas: ["salario mínimo", "jornada", "cantidad mínima"]
-        }
-      ]
-    },
-    "jornada": {
-      titulo: "Jornada de Trabajo",
-      articulos: [
-        {
-          numero: "Art. 58",
-          titulo: "Jornada de trabajo",
-          contenido: "Jornada de trabajo es el tiempo durante el cual el trabajador está a disposición del patrón para prestar su trabajo.",
-          temas: ["jornada", "tiempo", "disposición"]
-        },
-        {
-          numero: "Art. 61",
-          titulo: "Tipos de jornada",
-          contenido: "La duración máxima de la jornada será: ocho horas la diurna, siete la nocturna y siete horas y media la mixta.",
-          temas: ["duración máxima", "jornada diurna", "jornada nocturna", "jornada mixta"]
-        },
-        {
-          numero: "Art. 66",
-          titulo: "Tiempo extraordinario",
-          contenido: "Podrá también prolongarse la jornada de trabajo por circunstancias extraordinarias, sin exceder nunca de tres horas diarias ni de tres veces en una semana.",
-          temas: ["horas extra", "tiempo extraordinario", "límites"]
-        }
-      ]
-    },
-    "vacaciones": {
-      titulo: "Vacaciones",
-      articulos: [
-        {
-          numero: "Art. 76",
-          titulo: "Derecho a vacaciones",
-          contenido: "Los trabajadores que tengan más de un año de servicios disfrutarán de un período anual de vacaciones pagadas...",
-          temas: ["vacaciones", "derecho", "período anual"]
-        },
-        {
-          numero: "Art. 79",
-          titulo: "Duración de vacaciones",
-          contenido: "La duración de las vacaciones se aumentará en dos días laborables, hasta llegar a doce, por cada año subsecuente de servicios.",
-          temas: ["duración", "incremento", "días laborables"]
-        },
-        {
-          numero: "Art. 80",
-          titulo: "Prima vacacional",
-          contenido: "Los trabajadores tendrán derecho a una prima no menor de veinticinco por ciento sobre los salarios que les correspondan durante el período de vacaciones.",
-          temas: ["prima vacacional", "25%", "salario vacaciones"]
-        }
-      ]
-    },
-    "aguinaldo": {
-      titulo: "Aguinaldo",
-      articulos: [
-        {
-          numero: "Art. 87",
-          titulo: "Derecho al aguinaldo",
-          contenido: "Los trabajadores tendrán derecho a un aguinaldo anual que deberá pagarse antes del día veinte de diciembre, equivalente a quince días de salario...",
-          temas: ["aguinaldo", "15 días", "diciembre", "anual"]
-        }
-      ]
-    },
-    "terminacion": {
-      titulo: "Terminación de la Relación Laboral",
-      articulos: [
-        {
-          numero: "Art. 47",
-          titulo: "Causas de rescisión sin responsabilidad para el patrón",
-          contenido: "Son causas de rescisión de la relación de trabajo, sin responsabilidad para el patrón...",
-          temas: ["rescisión", "causas justificadas", "patrón"]
-        },
-        {
-          numero: "Art. 48",
-          titulo: "Derechos del trabajador despedido",
-          contenido: "El trabajador podrá solicitar ante la Junta de Conciliación y Arbitraje, a su elección, que se le reinstale en el trabajo que desempeñaba...",
-          temas: ["despido", "reinstalación", "indemnización", "elección"]
-        },
-        {
-          numero: "Art. 50",
-          titulo: "Indemnización por despido injustificado",
-          contenido: "Las indemnizaciones a que se refiere el artículo anterior consistirán: I. Si la relación de trabajo fuere por tiempo determinado menor de un año...",
-          temas: ["indemnización", "despido injustificado", "3 meses"]
-        }
-      ]
-    }
-  };
+  // Organizar artículos por categoría para la vista
+  const articulosPorCategoria = categoriasDisponibles.reduce((acc, categoria) => {
+    acc[categoria.value] = {
+      titulo: categoria.label,
+      articulos: obtenerArticulosPorCategoria(categoria.value)
+    };
+    return acc;
+  }, {} as Record<string, { titulo: string; articulos: any[] }>);
 
   const documentosComplementarios = [
     {
@@ -180,16 +54,16 @@ const Biblioteca = () => {
   ];
 
   const filtrarArticulos = (searchTerm: string) => {
-    if (!searchTerm) return articulosLFT;
+    if (!searchTerm) return articulosPorCategoria;
     
     const filtered: Record<string, any> = {};
     
-    Object.entries(articulosLFT).forEach(([key, categoria]) => {
+    Object.entries(articulosPorCategoria).forEach(([key, categoria]) => {
       const articulosFiltrados = categoria.articulos.filter(articulo =>
         articulo.numero.toLowerCase().includes(searchTerm.toLowerCase()) ||
         articulo.titulo.toLowerCase().includes(searchTerm.toLowerCase()) ||
         articulo.contenido.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        articulo.temas.some(tema => tema.toLowerCase().includes(searchTerm.toLowerCase()))
+        articulo.temas.some((tema: string) => tema.toLowerCase().includes(searchTerm.toLowerCase()))
       );
       
       if (articulosFiltrados.length > 0) {
