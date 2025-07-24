@@ -30,7 +30,7 @@ const TerminosUso = () => {
           <div className="flex items-center justify-center gap-4 text-sm text-muted-foreground">
             <div className="flex items-center gap-1">
               <Clock className="h-4 w-4" />
-              Vigente desde: 1 de enero de 2025
+              Vigente desde: 21 de julio de 2025
             </div>
           </div>
         </div>
@@ -233,8 +233,8 @@ const TerminosUso = () => {
             <CardContent>
               <p className="text-sm text-muted-foreground">
                 Para preguntas sobre estos términos, contacte: 
-                <a href="mailto:legal@tecuiyo.com" className="text-primary hover:underline ml-1">
-                  legal@tecuiyo.com
+                <a href="mailto:dev@izignamx.com" className="text-primary hover:underline ml-1">
+                  dev@izignamx.com
                 </a>
               </p>
             </CardContent>
