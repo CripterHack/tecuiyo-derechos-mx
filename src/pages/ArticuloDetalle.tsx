@@ -662,12 +662,6 @@ const ArticuloDetalle = () => {
     if (newWindow) newWindow.opener = null;
   };
 
-  const handleLeerCompleto = () => {
-    toast({
-      title: "Leyendo artículo completo",
-      description: "Mostrando el texto completo del artículo...",
-    });
-  };
 
   return (
     <div className="min-h-screen bg-background">
@@ -727,14 +721,6 @@ const ArticuloDetalle = () => {
                 <CardTitle className="text-lg">Acciones</CardTitle>
               </CardHeader>
               <CardContent className="space-y-3">
-                <Button 
-                  onClick={handleLeerCompleto}
-                  className="w-full" 
-                  size="lg"
-                >
-                  <FileText className="h-4 w-4 mr-2" />
-                  Leer Completo
-                </Button>
                 <Button 
                   onClick={handleVerEnDOF}
                   variant="outline" 
