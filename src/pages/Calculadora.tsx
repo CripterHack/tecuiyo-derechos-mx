@@ -126,7 +126,7 @@ const Calculadora = () => {
       {/* Calculadora */}
       <section className="py-12 px-4">
         <div className="container mx-auto max-w-4xl">
-          <div className="grid lg:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 gap-8">
             {/* Formulario */}
             <Card className="legal-card">
               <CardHeader>
