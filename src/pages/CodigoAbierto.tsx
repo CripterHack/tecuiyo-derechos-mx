@@ -143,7 +143,7 @@ const CodigoAbierto = () => {
           <CardContent>
             <div className="bg-muted p-4 rounded-lg font-mono text-sm">
               <div className="space-y-1">
-                <div>tecuiyo/</div>
+                <div>tecuiyo-derechos-mx/</div>
                 <div>├── src/</div>
                 <div>│   ├── components/</div>
                 <div>│   │   └── ui/           # Componentes de interfaz reutilizables</div>
@@ -258,13 +258,13 @@ const CodigoAbierto = () => {
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <Button size="lg" asChild>
-                <a href="https://github.com/tecuiyo/tecuiyo" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/CripterHack/tecuiyo-derechos-mx" target="_blank" rel="noopener noreferrer">
                   <Github className="h-4 w-4 mr-2" />
                   Ver en GitHub
                 </a>
               </Button>
               <Button variant="outline" size="lg" asChild>
-                <a href="mailto:contribuir@tecuiyo.com">
+                <a href="mailto:dev@izignamx.com">
                   Contactar Equipo
                 </a>
               </Button>
