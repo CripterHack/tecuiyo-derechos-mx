@@ -48,33 +48,115 @@ const Calculadora = () => {
     const salario = parseFloat(salarioDiario);
     const antiguedadAnos = antiguedadCalculada;
     
-    // Fórmulas basadas en LFT
-    const indemnizacion = salario * 90; // Art. 50 LFT - 3 meses
-    const primaAntiguedad = salario * 12 * antiguedadAnos; // Art. 162 LFT
-    const vacacionesProporcionales = (salario * 6 * (new Date().getMonth() + 1)) / 12; // Proporcional
-    const primaVacacional = vacacionesProporcionales * 0.25; // 25% de vacaciones
-    const aguinaldoProporcional = (salario * 15 * (new Date().getMonth() + 1)) / 12; // Proporcional
+    // Obtener fecha de referencia para cálculos proporcionales
+    const fechaReferencia = usarFechas && fechaSalida ? fechaSalida : new Date();
+    const diasTrabajadosEnAnio = usarFechas && fechaIngreso && fechaSalida ? 
+      differenceInDays(fechaReferencia, new Date(fechaReferencia.getFullYear(), 0, 1)) + 1 : 
+      fechaReferencia.getDate() + (fechaReferencia.getMonth() * 30);
+    
+    // Cálculos exactos según LFT
+    
+    // 1. Indemnización (Art. 50 LFT) - Solo para despido injustificado
+    const indemnizacion = salario * 90; // 3 meses exactos
+    
+    // 2. Prima de antigüedad (Art. 162 LFT) - 12 días por año, mínimo 15 años para renuncia
+    const primaAntiguedad = tipoSeparacion === "renuncia" && antiguedadAnos < 15 ? 0 : salario * 12 * antiguedadAnos;
+    
+    // 3. Vacaciones proporcionales (Art. 76 LFT)
+    // Primer año: 6 días, segundo año: 8 días, tercer año: 10 días, cuarto año: 12 días
+    // A partir del quinto año: 14 días + 2 días por cada 5 años adicionales
+    let diasVacaciones = 6; // Mínimo para el primer año
+    if (antiguedadAnos >= 2) diasVacaciones = 8;
+    if (antiguedadAnos >= 3) diasVacaciones = 10;
+    if (antiguedadAnos >= 4) diasVacaciones = 12;
+    if (antiguedadAnos >= 5) {
+      diasVacaciones = 14 + (Math.floor((antiguedadAnos - 5) / 5) * 2);
+    }
+    
+    const vacacionesProporcionales = (salario * diasVacaciones * diasTrabajadosEnAnio) / 365;
+    
+    // 4. Prima vacacional (Art. 80 LFT) - 25% mínimo sobre vacaciones
+    const primaVacacional = vacacionesProporcionales * 0.25;
+    
+    // 5. Aguinaldo proporcional (Art. 87 LFT) - 15 días mínimo
+    const aguinaldoProporcional = (salario * 15 * diasTrabajadosEnAnio) / 365;
+    
+    // 6. Salarios vencidos (solo para despido injustificado si aplica reinstalación)
+    // Este concepto requiere más datos específicos del caso, por ahora se omite
 
     let total = 0;
     let conceptos: any[] = [];
 
     if (tipoSeparacion === "despido_injustificado") {
-      // Art. 48 LFT - Despido injustificado
+      // Despido injustificado - Art. 48, 49, 50 LFT
       conceptos = [
-        { concepto: "Indemnización (3 meses)", monto: indemnizacion, articulo: "Art. 50 LFT" },
-        { concepto: "Prima de antigüedad", monto: primaAntiguedad, articulo: "Art. 162 LFT" },
-        { concepto: "Vacaciones proporcionales", monto: vacacionesProporcionales, articulo: "Art. 76 LFT" },
-        { concepto: "Prima vacacional (25%)", monto: primaVacacional, articulo: "Art. 80 LFT" },
-        { concepto: "Aguinaldo proporcional", monto: aguinaldoProporcional, articulo: "Art. 87 LFT" }
+        { 
+          concepto: "Indemnización constitucional (3 meses)", 
+          monto: indemnizacion, 
+          articulo: "Art. 50 LFT",
+          descripcion: "3 meses de salario por despido injustificado"
+        },
+        { 
+          concepto: "Prima de antigüedad", 
+          monto: primaAntiguedad, 
+          articulo: "Art. 162 LFT",
+          descripcion: `12 días de salario por cada año trabajado (${antiguedadAnos.toFixed(2)} años)`
+        },
+        { 
+          concepto: `Vacaciones proporcionales (${diasVacaciones} días anuales)`, 
+          monto: vacacionesProporcionales, 
+          articulo: "Art. 76 LFT",
+          descripcion: `Días de vacaciones correspondientes al tiempo trabajado en el año`
+        },
+        { 
+          concepto: "Prima vacacional (25%)", 
+          monto: primaVacacional, 
+          articulo: "Art. 80 LFT",
+          descripcion: "25% sobre el monto de vacaciones proporcionales"
+        },
+        { 
+          concepto: "Aguinaldo proporcional", 
+          monto: aguinaldoProporcional, 
+          articulo: "Art. 87 LFT",
+          descripcion: "15 días de salario proporcional al tiempo trabajado en el año"
+        }
       ];
     } else if (tipoSeparacion === "renuncia") {
       // Renuncia voluntaria
-      conceptos = [
-        { concepto: "Prima de antigüedad", monto: primaAntiguedad, articulo: "Art. 162 LFT" },
-        { concepto: "Vacaciones proporcionales", monto: vacacionesProporcionales, articulo: "Art. 76 LFT" },
-        { concepto: "Prima vacacional (25%)", monto: primaVacacional, articulo: "Art. 80 LFT" },
-        { concepto: "Aguinaldo proporcional", monto: aguinaldoProporcional, articulo: "Art. 87 LFT" }
-      ];
+      const conceptosRenuncia = [];
+      
+      // Prima de antigüedad solo si tiene 15 años o más
+      if (antiguedadAnos >= 15) {
+        conceptosRenuncia.push({
+          concepto: "Prima de antigüedad", 
+          monto: primaAntiguedad, 
+          articulo: "Art. 162 LFT",
+          descripcion: `12 días de salario por cada año trabajado (${antiguedadAnos.toFixed(2)} años)`
+        });
+      }
+      
+      conceptosRenuncia.push(
+        { 
+          concepto: `Vacaciones proporcionales (${diasVacaciones} días anuales)`, 
+          monto: vacacionesProporcionales, 
+          articulo: "Art. 76 LFT",
+          descripcion: `Días de vacaciones correspondientes al tiempo trabajado en el año`
+        },
+        { 
+          concepto: "Prima vacacional (25%)", 
+          monto: primaVacacional, 
+          articulo: "Art. 80 LFT",
+          descripcion: "25% sobre el monto de vacaciones proporcionales"
+        },
+        { 
+          concepto: "Aguinaldo proporcional", 
+          monto: aguinaldoProporcional, 
+          articulo: "Art. 87 LFT",
+          descripcion: "15 días de salario proporcional al tiempo trabajado en el año"
+        }
+      );
+      
+      conceptos = conceptosRenuncia;
     }
 
     total = conceptos.reduce((sum, item) => sum + item.monto, 0);
@@ -87,7 +169,9 @@ const Calculadora = () => {
       tipo: tipoSeparacion,
       fechaIngreso,
       fechaSalida,
-      usarFechas
+      usarFechas,
+      diasVacaciones,
+      diasTrabajadosEnAnio
     });
   };
 
@@ -392,16 +476,21 @@ const Calculadora = () => {
                     <div className="space-y-4">
                       <h4 className="font-semibold text-lg">Desglose por conceptos:</h4>
                       {resultado.conceptos.map((item: any, index: number) => (
-                        <div key={index} className="p-4 bg-card border border-border rounded-lg shadow-sm">
-                          <div className="flex justify-between items-start">
-                            <div className="flex-1">
-                              <p className="font-semibold text-base mb-1">{item.concepto}</p>
-                              <span className="inline-block px-2 py-1 text-xs bg-primary/10 text-primary rounded-md font-medium">
+                        <div key={index} className="p-5 bg-card border border-border rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                          <div className="flex justify-between items-start gap-4">
+                            <div className="flex-1 space-y-2">
+                              <p className="font-semibold text-base">{item.concepto}</p>
+                              {item.descripcion && (
+                                <p className="text-sm text-muted-foreground leading-relaxed">
+                                  {item.descripcion}
+                                </p>
+                              )}
+                              <span className="inline-block px-3 py-1 text-xs bg-primary/10 text-primary rounded-full font-medium">
                                 {item.articulo}
                               </span>
                             </div>
-                            <div className="text-right">
-                              <p className="text-xl font-bold">
+                            <div className="text-right flex-shrink-0">
+                              <p className="text-xl font-bold text-primary">
                                 ${item.monto.toLocaleString('es-MX', { minimumFractionDigits: 2 })}
                               </p>
                             </div>
