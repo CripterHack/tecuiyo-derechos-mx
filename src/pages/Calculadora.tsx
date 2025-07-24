@@ -136,204 +136,234 @@ const Calculadora = () => {
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-6">
-                <div>
-                  <Label htmlFor="salario">Salario diario (pesos mexicanos)</Label>
+                <div className="space-y-3">
+                  <Label htmlFor="salario" className="text-sm font-medium">Salario diario (pesos mexicanos)</Label>
                   <div className="relative">
-                    <DollarSign className="absolute left-3 top-3 h-4 w-4 text-muted-foreground" />
+                    <DollarSign className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
                     <Input
                       id="salario"
                       type="number"
+                      step="0.01"
+                      min="0"
                       placeholder="250.00"
                       value={salarioDiario}
                       onChange={(e) => setSalarioDiario(e.target.value)}
-                      className="pl-10"
+                      className="pl-10 text-lg font-semibold h-12"
                     />
                   </div>
-                  <p className="text-xs text-muted-foreground mt-1">
-                    Tu salario diario según tu contrato o comprobantes de pago
+                  <p className="text-xs text-muted-foreground">
+                    Ingresa tu salario diario según tu contrato o comprobantes de pago
                   </p>
                 </div>
 
                 {/* Selector de método de cálculo de antigüedad */}
-                <div>
-                  <Label>Método para calcular antigüedad</Label>
-                  <div className="flex gap-4 mt-2">
+                <div className="space-y-3">
+                  <Label className="text-sm font-medium">Método para calcular antigüedad</Label>
+                  <div className="grid grid-cols-2 gap-3">
                     <Button
                       type="button"
                       variant={usarFechas ? "default" : "outline"}
-                      size="sm"
                       onClick={() => setUsarFechas(true)}
+                      className="h-12 flex-col gap-1"
                     >
-                      <CalendarIcon className="mr-2 h-4 w-4" />
-                      Usar fechas
+                      <CalendarIcon className="h-4 w-4" />
+                      <span className="text-xs">Fechas exactas</span>
                     </Button>
                     <Button
                       type="button"
                       variant={!usarFechas ? "default" : "outline"}
-                      size="sm"
                       onClick={() => setUsarFechas(false)}
+                      className="h-12 flex-col gap-1"
                     >
-                      <Clock className="mr-2 h-4 w-4" />
-                      Ingresar manualmente
+                      <Clock className="h-4 w-4" />
+                      <span className="text-xs">Tiempo manual</span>
                     </Button>
                   </div>
                 </div>
 
                 {usarFechas ? (
                   /* Selección por fechas */
-                  <div className="space-y-4">
-                    <div>
-                      <Label>Fecha de ingreso</Label>
-                      <Popover>
-                        <PopoverTrigger asChild>
-                          <Button
-                            variant="outline"
-                            className={cn(
-                              "w-full justify-start text-left font-normal",
-                              !fechaIngreso && "text-muted-foreground"
-                            )}
-                          >
-                            <CalendarIcon className="mr-2 h-4 w-4" />
-                            {fechaIngreso ? format(fechaIngreso, "PPP", { locale: es }) : "Selecciona fecha de ingreso"}
-                          </Button>
-                        </PopoverTrigger>
-                        <PopoverContent className="w-auto p-0" align="start">
-                          <CalendarComponent
-                            mode="single"
-                            selected={fechaIngreso}
-                            onSelect={setFechaIngreso}
-                            disabled={(date) => date > new Date() || date < new Date("1900-01-01")}
-                            initialFocus
-                            className="p-3 pointer-events-auto"
-                          />
-                        </PopoverContent>
-                      </Popover>
-                    </div>
+                  <div className="space-y-6">
+                    <div className="grid md:grid-cols-2 gap-4">
+                      <div>
+                        <Label className="text-sm font-medium mb-2 block">Fecha de ingreso</Label>
+                        <Popover>
+                          <PopoverTrigger asChild>
+                            <Button
+                              variant="outline"
+                              className={cn(
+                                "w-full justify-start text-left font-normal h-auto py-3 px-4",
+                                !fechaIngreso && "text-muted-foreground"
+                              )}
+                            >
+                              <CalendarIcon className="mr-2 h-4 w-4 flex-shrink-0" />
+                              <span className="truncate">
+                                {fechaIngreso ? format(fechaIngreso, "PPP", { locale: es }) : "Selecciona fecha de ingreso"}
+                              </span>
+                            </Button>
+                          </PopoverTrigger>
+                          <PopoverContent className="w-auto p-0 z-50" align="start" side="bottom">
+                            <CalendarComponent
+                              mode="single"
+                              selected={fechaIngreso}
+                              onSelect={setFechaIngreso}
+                              disabled={(date) => date > new Date() || date < new Date("1900-01-01")}
+                              initialFocus
+                            />
+                          </PopoverContent>
+                        </Popover>
+                      </div>
 
-                    <div>
-                      <Label>Fecha de salida</Label>
-                      <Popover>
-                        <PopoverTrigger asChild>
-                          <Button
-                            variant="outline"
-                            className={cn(
-                              "w-full justify-start text-left font-normal",
-                              !fechaSalida && "text-muted-foreground"
-                            )}
-                          >
-                            <CalendarIcon className="mr-2 h-4 w-4" />
-                            {fechaSalida ? format(fechaSalida, "PPP", { locale: es }) : "Selecciona fecha de salida"}
-                          </Button>
-                        </PopoverTrigger>
-                        <PopoverContent className="w-auto p-0" align="start">
-                          <CalendarComponent
-                            mode="single"
-                            selected={fechaSalida}
-                            onSelect={setFechaSalida}
-                            disabled={(date) => 
-                              date > new Date() || 
-                              date < new Date("1900-01-01") || 
-                              (fechaIngreso && date < fechaIngreso)
-                            }
-                            initialFocus
-                            className="p-3 pointer-events-auto"
-                          />
-                        </PopoverContent>
-                      </Popover>
+                      <div>
+                        <Label className="text-sm font-medium mb-2 block">Fecha de salida</Label>
+                        <Popover>
+                          <PopoverTrigger asChild>
+                            <Button
+                              variant="outline"
+                              className={cn(
+                                "w-full justify-start text-left font-normal h-auto py-3 px-4",
+                                !fechaSalida && "text-muted-foreground"
+                              )}
+                            >
+                              <CalendarIcon className="mr-2 h-4 w-4 flex-shrink-0" />
+                              <span className="truncate">
+                                {fechaSalida ? format(fechaSalida, "PPP", { locale: es }) : "Selecciona fecha de salida"}
+                              </span>
+                            </Button>
+                          </PopoverTrigger>
+                          <PopoverContent className="w-auto p-0 z-50" align="start" side="bottom">
+                            <CalendarComponent
+                              mode="single"
+                              selected={fechaSalida}
+                              onSelect={setFechaSalida}
+                              disabled={(date) => 
+                                date > new Date() || 
+                                date < new Date("1900-01-01") || 
+                                (fechaIngreso && date < fechaIngreso)
+                              }
+                              initialFocus
+                            />
+                          </PopoverContent>
+                        </Popover>
+                      </div>
                     </div>
 
                     {fechaIngreso && fechaSalida && (
-                      <div className="p-3 bg-accent/10 rounded-lg">
-                        <p className="text-sm font-medium">Tiempo trabajado:</p>
-                        <p className="text-xs text-muted-foreground">
+                      <div className="p-4 bg-primary/5 border border-primary/10 rounded-lg">
+                        <div className="flex items-center gap-2 mb-2">
+                          <Clock className="h-4 w-4 text-primary" />
+                          <p className="text-sm font-semibold text-primary">Tiempo trabajado</p>
+                        </div>
+                        <p className="text-lg font-bold">
                           {differenceInYears(fechaSalida, fechaIngreso)} años, {' '}
                           {differenceInMonths(fechaSalida, fechaIngreso) % 12} meses, {' '}
                           {differenceInDays(fechaSalida, new Date(fechaIngreso.getFullYear(), fechaIngreso.getMonth() + differenceInMonths(fechaSalida, fechaIngreso), fechaIngreso.getDate()))} días
+                        </p>
+                        <p className="text-xs text-muted-foreground mt-1">
+                          Total: {calcularAntiguedadEnAnos().toFixed(2)} años
                         </p>
                       </div>
                     )}
                   </div>
                 ) : (
                   /* Ingreso manual */
-                  <div className="space-y-4">
-                    <div className="grid grid-cols-3 gap-3">
-                      <div>
-                        <Label htmlFor="anos">Años</Label>
-                        <Input
-                          id="anos"
-                          type="number"
-                          min="0"
-                          placeholder="2"
-                          value={anos}
-                          onChange={(e) => setAnos(e.target.value)}
-                        />
+                  <div className="space-y-6">
+                    <div>
+                      <Label className="text-sm font-medium mb-3 block">Tiempo trabajado</Label>
+                      <div className="grid grid-cols-3 gap-4">
+                        <div className="space-y-2">
+                          <Label htmlFor="anos" className="text-xs text-muted-foreground">Años</Label>
+                          <Input
+                            id="anos"
+                            type="number"
+                            min="0"
+                            max="50"
+                            placeholder="2"
+                            value={anos}
+                            onChange={(e) => setAnos(e.target.value)}
+                            className="text-center text-lg font-semibold"
+                          />
+                        </div>
+                        <div className="space-y-2">
+                          <Label htmlFor="meses" className="text-xs text-muted-foreground">Meses</Label>
+                          <Input
+                            id="meses"
+                            type="number"
+                            min="0"
+                            max="11"
+                            placeholder="6"
+                            value={meses}
+                            onChange={(e) => setMeses(e.target.value)}
+                            className="text-center text-lg font-semibold"
+                          />
+                        </div>
+                        <div className="space-y-2">
+                          <Label htmlFor="dias" className="text-xs text-muted-foreground">Días</Label>
+                          <Input
+                            id="dias"
+                            type="number"
+                            min="0"
+                            max="30"
+                            placeholder="15"
+                            value={dias}
+                            onChange={(e) => setDias(e.target.value)}
+                            className="text-center text-lg font-semibold"
+                          />
+                        </div>
                       </div>
-                      <div>
-                        <Label htmlFor="meses">Meses</Label>
-                        <Input
-                          id="meses"
-                          type="number"
-                          min="0"
-                          max="11"
-                          placeholder="6"
-                          value={meses}
-                          onChange={(e) => setMeses(e.target.value)}
-                        />
-                      </div>
-                      <div>
-                        <Label htmlFor="dias">Días</Label>
-                        <Input
-                          id="dias"
-                          type="number"
-                          min="0"
-                          max="30"
-                          placeholder="15"
-                          value={dias}
-                          onChange={(e) => setDias(e.target.value)}
-                        />
-                      </div>
+                      <p className="text-xs text-muted-foreground text-center mt-2">
+                        Ingresa el tiempo trabajado en años, meses y días
+                      </p>
                     </div>
-                    <p className="text-xs text-muted-foreground">
-                      Ingresa el tiempo trabajado en años, meses y días por separado
-                    </p>
                     
                     {(anos || meses || dias) && (
-                      <div className="p-3 bg-accent/10 rounded-lg">
-                        <p className="text-sm font-medium">
-                          Antigüedad total: {calcularAntiguedadEnAnos().toFixed(2)} años
+                      <div className="p-4 bg-primary/5 border border-primary/10 rounded-lg">
+                        <div className="flex items-center gap-2 mb-2">
+                          <Clock className="h-4 w-4 text-primary" />
+                          <p className="text-sm font-semibold text-primary">Antigüedad calculada</p>
+                        </div>
+                        <p className="text-lg font-bold">
+                          {calcularAntiguedadEnAnos().toFixed(2)} años
                         </p>
                       </div>
                     )}
                   </div>
                 )}
 
-                <div>
-                  <Label htmlFor="tipo">Tipo de separación laboral</Label>
+                <div className="space-y-3">
+                  <Label htmlFor="tipo" className="text-sm font-medium">Tipo de separación laboral</Label>
                   <Select value={tipoSeparacion} onValueChange={setTipoSeparacion}>
-                    <SelectTrigger>
+                    <SelectTrigger className="h-12">
                       <SelectValue placeholder="Selecciona el tipo de separación" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="despido_injustificado">Despido injustificado</SelectItem>
-                      <SelectItem value="renuncia">Renuncia voluntaria</SelectItem>
+                      <SelectItem value="despido_injustificado" className="py-3">
+                        <div>
+                          <div className="font-medium">Despido injustificado</div>
+                          <div className="text-xs text-muted-foreground">Me despidieron sin causa justificada</div>
+                        </div>
+                      </SelectItem>
+                      <SelectItem value="renuncia" className="py-3">
+                        <div>
+                          <div className="font-medium">Renuncia voluntaria</div>
+                          <div className="text-xs text-muted-foreground">Renuncié por mi propia decisión</div>
+                        </div>
+                      </SelectItem>
                     </SelectContent>
                   </Select>
-                  <p className="text-xs text-muted-foreground mt-1">
-                    Selecciona si renunciaste o te despidieron sin causa justificada
-                  </p>
                 </div>
 
                 <Button 
                   onClick={calcularLiquidacion}
-                  className="w-full btn-hero"
+                  className="w-full h-14 text-lg font-semibold mt-6"
                   disabled={
                     !salarioDiario || 
                     calcularAntiguedadEnAnos() <= 0 || 
                     !tipoSeparacion
                   }
                 >
-                  <Calculator className="mr-2 h-4 w-4" />
-                  Calcular liquidación
+                  <Calculator className="mr-3 h-5 w-5" />
+                  Calcular mi liquidación
                 </Button>
               </CardContent>
             </Card>
@@ -348,34 +378,47 @@ const Calculadora = () => {
               </CardHeader>
               <CardContent>
                 {resultado ? (
-                  <div className="space-y-4">
-                    <div className="p-4 bg-accent/10 rounded-lg">
-                      <h3 className="font-semibold text-lg mb-2">Total a recibir</h3>
-                      <p className="text-3xl font-bold text-accent">
-                        ${resultado.total.toLocaleString('es-MX', { minimumFractionDigits: 2 })} MXN
-                      </p>
+                  <div className="space-y-6">
+                    <div className="p-6 bg-gradient-to-br from-primary/5 to-primary/10 border-2 border-primary/20 rounded-xl">
+                      <div className="text-center">
+                        <h3 className="font-bold text-xl mb-2 text-primary">Total a recibir</h3>
+                        <p className="text-4xl font-bold text-primary mb-2">
+                          ${resultado.total.toLocaleString('es-MX', { minimumFractionDigits: 2 })}
+                        </p>
+                        <p className="text-sm text-muted-foreground">pesos mexicanos</p>
+                      </div>
                     </div>
 
-                    <div className="space-y-3">
-                      <h4 className="font-semibold">Desglose por conceptos:</h4>
+                    <div className="space-y-4">
+                      <h4 className="font-semibold text-lg">Desglose por conceptos:</h4>
                       {resultado.conceptos.map((item: any, index: number) => (
-                        <div key={index} className="flex justify-between items-center p-3 bg-muted/30 rounded">
-                          <div>
-                            <p className="font-medium">{item.concepto}</p>
-                            <span className="lft-badge text-xs">{item.articulo}</span>
+                        <div key={index} className="p-4 bg-card border border-border rounded-lg shadow-sm">
+                          <div className="flex justify-between items-start">
+                            <div className="flex-1">
+                              <p className="font-semibold text-base mb-1">{item.concepto}</p>
+                              <span className="inline-block px-2 py-1 text-xs bg-primary/10 text-primary rounded-md font-medium">
+                                {item.articulo}
+                              </span>
+                            </div>
+                            <div className="text-right">
+                              <p className="text-xl font-bold">
+                                ${item.monto.toLocaleString('es-MX', { minimumFractionDigits: 2 })}
+                              </p>
+                            </div>
                           </div>
-                          <p className="font-semibold">
-                            ${item.monto.toLocaleString('es-MX', { minimumFractionDigits: 2 })}
-                          </p>
                         </div>
                       ))}
                     </div>
 
-                    <div className="pt-4 border-t">
-                      <p className="text-sm text-muted-foreground">
-                        <Clock className="inline h-4 w-4 mr-1" />
-                        Cálculo realizado el {new Date().toLocaleDateString('es-MX')}
-                      </p>
+                    <div className="pt-4 border-t border-border">
+                      <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
+                        <Clock className="h-4 w-4" />
+                        <span>Cálculo realizado el {new Date().toLocaleDateString('es-MX', { 
+                          year: 'numeric', 
+                          month: 'long', 
+                          day: 'numeric' 
+                        })}</span>
+                      </div>
                     </div>
                   </div>
                 ) : (
