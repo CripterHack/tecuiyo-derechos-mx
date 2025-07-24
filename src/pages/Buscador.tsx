@@ -26,7 +26,7 @@ const Buscador = () => {
       titulo: "No me pagan horas extra",
       categoria: "salario",
       descripcion: "Derechos sobre pago de horas extra y tiempo extraordinario según Art. 66-68 LFT",
-      articulosLFT: ["Art. 66", "Art. 67", "Art. 68"],
+      articulosLFT: ["Art. 61", "Art. 66", "Art. 67", "Art. 68"],
       tags: ["horas extra", "tiempo extraordinario", "salario"],
       contenido: "Las horas extra deben pagarse al doble del salario ordinario..."
     },
@@ -44,7 +44,7 @@ const Buscador = () => {
       titulo: "Problemas con mis vacaciones",
       categoria: "prestaciones",
       descripcion: "Derechos de vacaciones y prima vacacional según Art. 76-81 LFT",
-      articulosLFT: ["Art. 76", "Art. 79", "Art. 80", "Art. 81"],
+      articulosLFT: ["Art. 76", "Art. 78", "Art. 79", "Art. 80", "Art. 81"],
       tags: ["vacaciones", "prima vacacional", "descanso"],
       contenido: "Tienes derecho a 6 días de vacaciones en el primer año, incrementándose gradualmente..."
     },
@@ -53,7 +53,7 @@ const Buscador = () => {
       titulo: "Acoso laboral o mobbing",
       categoria: "condiciones",
       descripcion: "Protección contra hostigamiento y acoso en el trabajo según reformas a la LFT",
-      articulosLFT: ["Art. 2", "Art. 3bis"],
+      articulosLFT: ["Art. 2", "Art. 3bis", "Art. 51", "Art. 132"],
       tags: ["acoso", "hostigamiento", "ambiente laboral"],
       contenido: "El patrón debe mantener un ambiente laboral libre de acoso y hostigamiento..."
     },
@@ -71,7 +71,7 @@ const Buscador = () => {
       titulo: "Trabajo sin contrato escrito",
       categoria: "contrato",
       descripcion: "Derechos cuando trabajas sin contrato por escrito según Art. 24-25 LFT",
-      articulosLFT: ["Art. 24", "Art. 25", "Art. 26"],
+      articulosLFT: ["Art. 21", "Art. 24", "Art. 25", "Art. 26", "Art. 28"],
       tags: ["contrato", "por escrito", "derechos"],
       contenido: "La falta de contrato escrito no te priva de tus derechos laborales..."
     },
@@ -80,9 +80,45 @@ const Buscador = () => {
       titulo: "Me redujo el salario unilateralmente",
       categoria: "salario",
       descripcion: "Protección contra reducción de salario según Art. 56 y 123 Constitucional",
-      articulosLFT: ["Art. 56", "Art. 51"],
+      articulosLFT: ["Art. 51", "Art. 56", "Art. 84"],
       tags: ["reducción salario", "modificación", "rescisión"],
       contenido: "El patrón no puede reducir tu salario unilateralmente, esto constituye una causa de rescisión..."
+    },
+    {
+      id: 9,
+      titulo: "No me dan prima dominical",
+      categoria: "prestaciones",
+      descripcion: "Derecho al 25% adicional por trabajar en domingo según Art. 71 LFT",
+      articulosLFT: ["Art. 69", "Art. 71", "Art. 73"],
+      tags: ["prima dominical", "domingo", "descanso", "25%"],
+      contenido: "Los trabajadores que laboren en domingo tienen derecho a una prima del 25% adicional..."
+    },
+    {
+      id: 10,
+      titulo: "Despido por embarazo",
+      categoria: "discriminacion",
+      descripcion: "Protección especial contra despido por embarazo o maternidad",
+      articulosLFT: ["Art. 51", "Art. 170", "Art. 171", "Art. 172"],
+      tags: ["embarazo", "discriminación", "maternidad", "despido"],
+      contenido: "El despido por embarazo está prohibido y constituye discriminación grave..."
+    },
+    {
+      id: 11,
+      titulo: "No me dieron incapacidad por enfermedad",
+      categoria: "condiciones",
+      descripcion: "Derechos a incapacidades médicas y protección del empleo por enfermedad",
+      articulosLFT: ["Art. 132", "Art. 478", "Art. 479", "Art. 480"],
+      tags: ["incapacidad", "enfermedad", "IMSS", "médico"],
+      contenido: "Todo trabajador tiene derecho a incapacidades médicas con protección del empleo..."
+    },
+    {
+      id: 12,
+      titulo: "Trabajador subcontratado (outsourcing)",
+      categoria: "contrato",
+      descripcion: "Derechos en subcontratación y nueva regulación del outsourcing",
+      articulosLFT: ["Art. 13", "Art. 15-A", "Art. 15-B", "Art. 15-C", "Art. 15-D"],
+      tags: ["outsourcing", "subcontratación", "solidaria", "registro"],
+      contenido: "La nueva regulación prohíbe la subcontratación abusiva y protege derechos laborales..."
     }
   ];
 
@@ -93,7 +129,8 @@ const Buscador = () => {
     { value: "prestaciones", label: "Prestaciones" },
     { value: "condiciones", label: "Condiciones laborales" },
     { value: "finiquito", label: "Finiquito" },
-    { value: "contrato", label: "Contratos" }
+    { value: "contrato", label: "Contratos" },
+    { value: "discriminacion", label: "Discriminación" }
   ];
 
   const filteredSituaciones = situacionesLaborales.filter(situacion => {
