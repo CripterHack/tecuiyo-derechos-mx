@@ -43,9 +43,9 @@ const Index = () => {
             <span id="explorar-desc" className="sr-only">
               Accede a la biblioteca completa de la Ley Federal del Trabajo
             </span>
-            <Button size="lg" variant="outline" className="glass-effect border-white/40 text-white hover:bg-white/20 text-lg px-10 py-4 hover:scale-105 transition-all duration-300" asChild>
+            <Button size="lg" variant="outline" className="glass-effect border-white text-white hover:bg-white hover:text-obsidiana-dark text-lg px-10 py-4 font-semibold transition-all duration-300 shadow-lg" asChild>
               <Link to="/calculadora" aria-describedby="calc-desc">
-                <Calculator className="mr-2 h-5 w-5 icon-rotate" aria-hidden="true" />
+                <Calculator className="mr-2 h-5 w-5" aria-hidden="true" />
                 Calculadora de liquidación
               </Link>
             </Button>
@@ -60,9 +60,9 @@ const Index = () => {
       <section className="py-6 glass-effect border-b border-destructive/20 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-destructive/5 via-transparent to-destructive/5"></div>
         <div className="container mx-auto max-w-4xl px-4 relative z-10">
-          <div className="alert-legal text-center max-w-3xl mx-auto">
-            <p className="text-sm leading-relaxed">
-              <strong className="text-destructive">⚖️ Aviso importante:</strong> La información proporcionada en esta plataforma es de carácter educativo 
+          <div className="bg-destructive/15 border border-destructive/40 text-foreground p-4 rounded-xl relative overflow-hidden backdrop-blur-sm before:absolute before:left-0 before:top-0 before:h-full before:w-1 before:bg-destructive shadow-sm text-center max-w-3xl mx-auto">
+            <p className="text-sm leading-relaxed text-foreground">
+              <strong className="text-destructive font-bold">⚖️ Aviso importante:</strong> La información proporcionada en esta plataforma es de carácter educativo 
               y no constituye asesoría jurídica personalizada. Para casos específicos, consulte con un abogado laboral certificado.
             </p>
           </div>
@@ -87,7 +87,7 @@ const Index = () => {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8" role="list">
             {/* Buscador por situación */}
-            <Card className="legal-card group parallax-container" role="listitem">
+            <Card className="legal-card group" role="listitem">
               <CardHeader>
                 <div className="w-14 h-14 bg-gradient-to-br from-primary/20 to-primary/10 rounded-xl flex items-center justify-center mb-6 group-hover:from-primary/30 group-hover:to-primary/20 transition-all duration-300 shadow-sm" aria-hidden="true">
                   <Search className="h-7 w-7 text-primary icon-rotate" />
@@ -114,7 +114,7 @@ const Index = () => {
             </Card>
 
             {/* Calculadora de liquidación */}
-            <Card className="legal-card group parallax-container">
+            <Card className="legal-card group">
               <CardHeader>
                 <div className="w-14 h-14 bg-gradient-to-br from-accent/20 to-accent/10 rounded-xl flex items-center justify-center mb-6 group-hover:from-accent/30 group-hover:to-accent/20 transition-all duration-300 shadow-sm">
                   <Calculator className="h-7 w-7 text-accent-foreground icon-rotate" />
@@ -138,7 +138,7 @@ const Index = () => {
             </Card>
 
             {/* Formularios y documentos */}
-            <Card className="legal-card group parallax-container">
+            <Card className="legal-card group">
               <CardHeader>
                 <div className="w-14 h-14 bg-gradient-to-br from-secondary/20 to-secondary/10 rounded-xl flex items-center justify-center mb-6 group-hover:from-secondary/30 group-hover:to-secondary/20 transition-all duration-300 shadow-sm">
                   <FileText className="h-7 w-7 text-secondary icon-rotate" />
@@ -162,7 +162,7 @@ const Index = () => {
             </Card>
 
             {/* Directorio de autoridades */}
-            <Card className="legal-card group parallax-container">
+            <Card className="legal-card group">
               <CardHeader>
                 <div className="w-14 h-14 bg-gradient-to-br from-primary/20 to-primary/10 rounded-xl flex items-center justify-center mb-6 group-hover:from-primary/30 group-hover:to-primary/20 transition-all duration-300 shadow-sm">
                   <Users className="h-7 w-7 text-primary icon-rotate" />
@@ -186,7 +186,7 @@ const Index = () => {
             </Card>
 
             {/* Biblioteca legal */}
-            <Card className="legal-card group parallax-container">
+            <Card className="legal-card group">
               <CardHeader>
                 <div className="w-14 h-14 bg-gradient-to-br from-accent/20 to-accent/10 rounded-xl flex items-center justify-center mb-6 group-hover:from-accent/30 group-hover:to-accent/20 transition-all duration-300 shadow-sm">
                   <BookOpen className="h-7 w-7 text-accent-foreground icon-rotate" />
@@ -210,7 +210,7 @@ const Index = () => {
             </Card>
 
             {/* Guías por temas */}
-            <Card className="legal-card group parallax-container">
+            <Card className="legal-card group">
               <CardHeader>
                 <div className="w-14 h-14 bg-gradient-to-br from-secondary/20 to-secondary/10 rounded-xl flex items-center justify-center mb-6 group-hover:from-secondary/30 group-hover:to-secondary/20 transition-all duration-300 shadow-sm">
                   <Scale className="h-7 w-7 text-secondary icon-rotate" />
@@ -250,7 +250,7 @@ const Index = () => {
             <p className="text-muted-foreground">Mantente informado sobre tus derechos laborales más importantes</p>
           </div>
           
-          <Card className="legal-card parallax-container group max-w-3xl mx-auto">
+          <Card className="legal-card group max-w-3xl mx-auto">
             <CardHeader>
               <div className="flex items-center gap-3 mb-4">
                 <span className="lft-badge">Art. 48 LFT</span>
