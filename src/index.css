@@ -103,31 +103,96 @@
   }
 }
 
-/* Componentes personalizados Tecuiyo */
+/* Componentes personalizados Tecuiyo - UX/UI Mejorado */
 @layer components {
-  /* Botón hero con gradiente jade-turquesa */
+  /* Botón hero con gradiente jade-turquesa mejorado */
   .btn-hero {
-    @apply bg-gradient-to-r from-primary to-secondary text-primary-foreground hover:from-secondary hover:to-primary transition-all duration-300 shadow-lg hover:shadow-xl;
+    @apply bg-gradient-to-r from-primary via-primary/90 to-secondary text-primary-foreground 
+           hover:from-secondary hover:via-secondary/90 hover:to-primary 
+           transition-all duration-500 ease-out shadow-lg hover:shadow-2xl 
+           hover:shadow-primary/20 transform hover:-translate-y-1 hover:scale-105
+           border border-primary-foreground/10 backdrop-blur-sm;
   }
   
-  /* Tarjeta de contenido legal */
+  /* Tarjeta de contenido legal con efectos elegantes */
   .legal-card {
-    @apply bg-card border border-border rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-200;
+    @apply bg-card/80 backdrop-blur-sm border border-border/60 rounded-xl p-6 
+           shadow-sm hover:shadow-xl hover:shadow-primary/5 transition-all duration-300 
+           hover:-translate-y-2 hover:border-primary/30 relative overflow-hidden
+           before:absolute before:inset-0 before:bg-gradient-to-br before:from-primary/5 before:via-transparent before:to-secondary/5 
+           before:opacity-0 hover:before:opacity-100 before:transition-opacity before:duration-300;
   }
   
-  /* Badge de artículo LFT */
+  /* Badge de artículo LFT mejorado */
   .lft-badge {
-    @apply inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-accent text-accent-foreground;
+    @apply inline-flex items-center px-3 py-1.5 rounded-full text-xs font-semibold 
+           bg-gradient-to-r from-accent via-accent/90 to-accent text-accent-foreground
+           shadow-sm border border-accent/20 transition-all duration-200
+           hover:shadow-md hover:scale-105;
   }
   
-  /* Alerta importante */
+  /* Alerta importante con mejores efectos */
   .alert-legal {
-    @apply bg-destructive/10 border border-destructive text-destructive-foreground p-4 rounded-lg;
+    @apply bg-destructive/10 border border-destructive/30 text-destructive-foreground 
+           p-4 rounded-xl relative overflow-hidden backdrop-blur-sm
+           before:absolute before:left-0 before:top-0 before:h-full before:w-1 
+           before:bg-gradient-to-b before:from-destructive before:to-destructive/60
+           shadow-sm;
   }
   
-  /* Enlace con subrayado animado */
+  /* Enlace con subrayado animado mejorado */
   .link-underline {
-    @apply relative inline-block after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-primary after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left;
+    @apply relative inline-block after:content-[''] after:absolute after:w-full 
+           after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 
+           after:bg-gradient-to-r after:from-primary after:to-secondary 
+           after:origin-bottom-right after:transition-all after:duration-300 
+           hover:after:scale-x-100 hover:after:origin-bottom-left
+           hover:text-primary transition-colors duration-200;
+  }
+
+  /* Efecto flotante para elementos interactivos */
+  .float-effect {
+    @apply transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-lg;
+  }
+
+  /* Gradiente de fondo animado */
+  .animated-gradient {
+    background: linear-gradient(-45deg, 
+      hsl(var(--primary)), 
+      hsl(var(--secondary)), 
+      hsl(var(--primary)), 
+      hsl(var(--accent)));
+    background-size: 400% 400%;
+    animation: gradient-shift 8s ease infinite;
+  }
+
+  /* Efecto de cristal glassmorphism */
+  .glass-effect {
+    @apply bg-background/40 backdrop-blur-lg border border-border/30 
+           shadow-lg shadow-primary/5;
+  }
+
+  /* Icono con efecto de rotación suave */
+  .icon-rotate {
+    @apply transition-transform duration-300 ease-out group-hover:rotate-12 group-hover:scale-110;
+  }
+
+  /* Texto con efecto de aparición */
+  .text-reveal {
+    @apply opacity-0 transform translate-y-4 transition-all duration-500 ease-out;
+  }
+
+  .text-reveal.visible {
+    @apply opacity-100 transform translate-y-0;
+  }
+
+  /* Contenedor con parallax sutil */
+  .parallax-container {
+    @apply transform transition-transform duration-300 ease-out;
+  }
+
+  .parallax-container:hover {
+    transform: perspective(1000px) rotateX(2deg) rotateY(2deg) scale(1.02);
   }
 }
 
@@ -198,6 +263,39 @@
     @apply cursor-not-allowed opacity-50;
   }
   
+  /* Animaciones elegantes */
+  @keyframes gradient-shift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  @keyframes float-gentle {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(-10px) rotate(1deg); }
+  }
+
+  @keyframes pulse-soft {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.8; transform: scale(1.05); }
+  }
+
+  @keyframes slide-up {
+    from { 
+      opacity: 0; 
+      transform: translateY(30px); 
+    }
+    to { 
+      opacity: 1; 
+      transform: translateY(0); 
+    }
+  }
+
+  @keyframes shine {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+  }
+
   /* Animaciones respetan preferencias del usuario */
   @media (prefers-reduced-motion: reduce) {
     *,

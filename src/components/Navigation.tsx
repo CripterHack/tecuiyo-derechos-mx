@@ -103,7 +103,7 @@ export function Navigation() {
 
   return (
     <nav 
-      className="bg-background/95 backdrop-blur-sm border-b border-border/50 sticky top-0 z-50"
+      className="glass-effect border-b border-border/30 sticky top-0 z-50 shadow-lg shadow-primary/5"
       role="navigation"
       aria-label="Navegación principal"
     >
@@ -112,11 +112,13 @@ export function Navigation() {
           {/* Logo */}
           <Link 
             to="/" 
-            className="flex items-center gap-2 hover:opacity-80 transition-opacity focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded-sm"
+            className="flex items-center gap-3 hover:scale-105 transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded-lg p-2 group"
             aria-label="Tecuiyo - Ir a inicio"
           >
-            <Scale className="h-6 w-6 text-primary" aria-hidden="true" />
-            <span className="font-bold text-xl text-foreground">Tecuiyo</span>
+            <Scale className="h-7 w-7 text-primary icon-rotate group-hover:text-secondary transition-colors duration-300" aria-hidden="true" />
+            <span className="font-bold text-xl bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+              Tecuiyo
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -159,7 +161,7 @@ export function Navigation() {
                     {/* Dropdown Menu */}
                     {openDropdown === item.label && (
                       <div 
-                        className="absolute top-full left-0 mt-1 w-64 bg-popover border border-border rounded-md shadow-xl z-[100] animate-fade-in"
+                        className="absolute top-full left-0 mt-2 w-72 glass-effect rounded-xl shadow-2xl shadow-primary/10 z-[100] animate-fade-in border border-border/20"
                         style={{ position: 'absolute', zIndex: 100 }}
                         role="menu"
                         aria-label={`Menú de ${item.label}`}
