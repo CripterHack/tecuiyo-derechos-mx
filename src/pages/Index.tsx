@@ -43,8 +43,9 @@ const Index = () => {
             <span id="explorar-desc" className="sr-only">
               Accede a la biblioteca completa de la Ley Federal del Trabajo
             </span>
-            <Button size="lg" variant="outline" className="glass-effect border-white text-white hover:bg-white hover:text-obsidiana-dark text-lg px-10 py-4 font-semibold transition-all duration-300 shadow-lg" asChild>
+            <Button size="lg" variant="contrast" className="text-lg px-10 py-4 font-semibold transition-all duration-300 shadow-lg hover:shadow-xl relative overflow-hidden group" asChild>
               <Link to="/calculadora" aria-describedby="calc-desc">
+                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-foreground/15 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
                 <Calculator className="mr-2 h-5 w-5" aria-hidden="true" />
                 Calculadora de liquidación
               </Link>
