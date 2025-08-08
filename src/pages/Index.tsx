@@ -43,7 +43,8 @@ const Index = () => {
             <span id="explorar-desc" className="sr-only">
               Accede a la biblioteca completa de la Ley Federal del Trabajo
             </span>
-            <Button size="lg" variant="outline" className="glass-effect border-white text-white hover:bg-white hover:text-obsidiana-dark text-lg px-10 py-4 font-semibold transition-all duration-300 shadow-lg" asChild>
+            <Button size="lg" variant="outline" className="glass-effect border-white text-white hover:bg-white hover:text-obsidiana-dark text-lg px-10 py-4 font-semibold transition-all duration-300 shadow-lg
+              inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 min-h-[44px] border hover:text-accent-foreground h-11 rounded-md bg-white/10 border-white/30 text-white hover:bg-white/20 text-lg px-8 py-3" asChild>
               <Link to="/calculadora" aria-describedby="calc-desc">
                 <Calculator className="mr-2 h-5 w-5" aria-hidden="true" />
                 Calculadora de liquidación
@@ -62,7 +63,7 @@ const Index = () => {
         <div className="container mx-auto max-w-4xl px-4 relative z-10">
           <div className="bg-destructive/15 border border-destructive/40 text-foreground p-4 rounded-xl relative overflow-hidden backdrop-blur-sm before:absolute before:left-0 before:top-0 before:h-full before:w-1 before:bg-destructive shadow-sm text-center max-w-3xl mx-auto">
             <p className="text-sm leading-relaxed text-foreground">
-              <strong className="text-destructive font-bold">Aviso importante:</strong> La información proporcionada en esta plataforma es de carácter educativo 
+              <strong className="text-destructive font-bold">⚖️ Aviso importante:</strong> La información proporcionada en esta plataforma es de carácter educativo 
               y no constituye asesoría jurídica personalizada. Para casos específicos, consulte con un abogado laboral certificado.
             </p>
           </div>
