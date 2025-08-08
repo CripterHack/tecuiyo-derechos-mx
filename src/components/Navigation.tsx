@@ -116,7 +116,7 @@ export function Navigation() {
             aria-label="Tecuiyo - Ir a inicio"
           >
             <Scale className="h-7 w-7 text-primary icon-rotate group-hover:text-secondary transition-colors duration-300" aria-hidden="true" />
-            <span className="font-bold text-xl bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+            <span className="font-bold text-xl bg-gradient-to-r from-primary to-secondary bg-clip-text text-foreground">
               Tecuiyo
             </span>
           </Link>
