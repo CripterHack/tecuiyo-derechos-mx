@@ -126,11 +126,7 @@ export function Navigation() {
             {navigationItems.map((item) => (
               <div key={item.label} className="relative group">
                 {item.children ? (
-                  <div
-                    className="relative"
-                    onMouseEnter={() => setOpenDropdown(item.label)}
-                    onMouseLeave={() => setOpenDropdown(null)}
-                  >
+                  <div className="relative">
                     <button
                       className={cn(
                         "flex items-center gap-1 px-3 py-2 text-sm font-medium rounded-md transition-colors",
@@ -141,6 +137,9 @@ export function Navigation() {
                       aria-expanded={openDropdown === item.label}
                       aria-haspopup="true"
                       aria-describedby={`${item.label}-desc`}
+                      onClick={() => {
+                        setOpenDropdown(openDropdown === item.label ? null : item.label);
+                      }}
                       onKeyDown={(e) => handleKeyDown(e, () => {
                         setOpenDropdown(openDropdown === item.label ? null : item.label);
                       })}
@@ -161,8 +160,7 @@ export function Navigation() {
                     {/* Dropdown Menu */}
                     {openDropdown === item.label && (
                       <div 
-                        className="absolute top-full left-0 mt-2 w-72 glass-effect rounded-xl shadow-2xl shadow-primary/10 z-[100] animate-fade-in border border-border/20"
-                        style={{ position: 'absolute', zIndex: 100 }}
+                        className="absolute top-full left-0 mt-1 w-72 rounded-xl shadow-2xl shadow-primary/10 z-50 animate-fade-in border border-border/20 bg-popover text-popover-foreground"
                         role="menu"
                         aria-label={`Menú de ${item.label}`}
                       >
