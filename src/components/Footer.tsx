@@ -45,7 +45,7 @@ const Footer = () => {
           <p>
             © 2025 Tecuiyo. <a href="https://github.com/sponsors/CripterHack">Edgar Zorrilla</a>. • 
             Información basada en la Ley Federal del Trabajo vigente • 
-            <a href="#" className="link-underline hover:text-accent ml-1">
+            <a href="https://www.dof.gob.mx/" className="link-underline hover:text-accent ml-1">
               Fuentes oficiales DOF
             </a>
             <br/>
