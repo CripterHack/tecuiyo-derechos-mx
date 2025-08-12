@@ -102,6 +102,56 @@ const CasosEstudio = () => {
       resultado: "Reconocimiento de relación laboral directa y pago de diferencias",
       leccion: "La subcontratación solo es válida para servicios especializados no relacionados con el objeto principal"
     }
+,
+    {
+      id: 7,
+      titulo: "Despido injustificado y acusación infundada de extorsión tras solicitar liquidación",
+      categoria: "Despido Injustificado",
+      duracion: "11 min lectura",
+      nivel: "Intermedio",
+      resumen: "Trabajador solicita por correo el pago de su liquidación; el patrón responde con terminación y acusa 'extorsión'. Sin denuncia ni aviso de rescisión con causa, el tribunal determina despido injustificado.",
+      puntosClave: [
+        "Solicitud en buena fe por correo, con lenguaje respetuoso y sin amenazas",
+        "Falta de aviso por escrito de rescisión con causa (LFT art. 47, último párrafo)",
+        "Carga de la prueba recae en el patrón para acreditar la causa (LFT art. 784)",
+        "Indemnización constitucional: 3 meses, salarios vencidos hasta 12 meses e intereses posteriores (LFT arts. 48 y 50)",
+        "Conciliación prejudicial agotada ante el CFCRL (LFT arts. 684-A a 684-E)"
+      ],
+      resultado: "Condena al pago de 3 meses de salario, prima de antigüedad, partes proporcionales, salarios vencidos por 12 meses e intereses posteriores al 12º; se descarta extorsión al tratarse de una reclamación de buena fe.",
+      leccion: "Solicitar por escrito, con pruebas y lenguaje objetivo. El patrón no puede encubrir un despido injustificado alegando 'extorsión' sin pruebas ni cumplir el art. 47 LFT."
+    },
+    {
+      id: 8,
+      titulo: "Denuncia penal archivada y efectos en el juicio laboral por despido",
+      categoria: "Despido Injustificado",
+      duracion: "9 min lectura",
+      nivel: "Intermedio",
+      resumen: "La empresa presenta denuncia por extorsión tras la solicitud de liquidación. La fiscalía archiva por inexistencia de delito. El tribunal laboral analiza la relación de trabajo y la falta de aviso de rescisión.",
+      puntosClave: [
+        "La denuncia penal no suple el aviso de rescisión con causa (LFT art. 47)",
+        "Principio de independencia de materias: lo penal no determina por sí mismo lo laboral",
+        "Patrón no acredita causa; trabajador sí acredita relación y despido (LFT art. 784)",
+        "Procede indemnización constitucional y prestaciones (LFT arts. 48 y 50)"
+      ],
+      resultado: "Se declara el despido injustificado y se condena el pago de indemnización, prestaciones y salarios caídos; la denuncia penal archivada no tiene efecto exculpatorio en lo laboral.",
+      leccion: "Aun con denuncia, el patrón debe cumplir el procedimiento del art. 47 y probar la causa. El trabajador debe mantener su reclamación por vías formales."
+    },
+    {
+      id: 9,
+      titulo: "Mensajes insistentes vs. acoso: umbral de conducta y buena fe",
+      categoria: "Despido Injustificado",
+      duracion: "8 min lectura",
+      nivel: "Básico",
+      resumen: "El trabajador envió recordatorios por WhatsApp para pagar la liquidación. La empresa alegó 'acoso'. El contenido fue respetuoso y limitado a horarios laborales.",
+      puntosClave: [
+        "Documentación de mensajes con tono neutral y objetivo",
+        "No existen amenazas ni condicionamientos: no hay acoso ni extorsión",
+        "Patrón omite aviso de rescisión y no acredita causa (LFT art. 47 y 784)",
+        "Conciliación previa solicitada en tiempo; constancia anexada a la demanda (LFT arts. 684-A a 684-E)"
+      ],
+      resultado: "Despido injustificado; pago de indemnización constitucional, prestaciones y salarios vencidos. Se exhorta a canalizar gestiones por correo y conciliación.",
+      leccion: "Evita el lenguaje que pueda interpretarse como presión indebida. La persistencia razonable y respetuosa para exigir derechos no configura acoso."
+    }
   ];
 
   return (
