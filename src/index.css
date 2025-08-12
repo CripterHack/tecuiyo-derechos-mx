@@ -326,3 +326,7 @@
   display: none !important;
 }
 #lovable-badge{display:none!important;z-index:-199!important;opacity:0!important;visibility:hidden!important}
+.logo-hero{
+  background-color:wheat;
+  border-radius:15px
+}
