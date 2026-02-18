@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 import { Navigation } from "@/components/Navigation";
+import { NewsFeed } from "@/components/NewsFeed";
 
 const Index = () => {
   return (
@@ -290,6 +291,21 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-20 px-4 relative overflow-hidden" aria-labelledby="noticias-title">
+        <div className="absolute inset-0 bg-muted/20"></div>
+        <div className="container mx-auto relative z-10">
+          <div className="text-center mb-10">
+            <h2 id="noticias-title" className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
+              Novedades y Actualizaciones
+            </h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              Entérate de los últimos cambios en la legislación laboral y noticias relevantes
+            </p>
+          </div>
+          <NewsFeed />
+        </div>
+      </section>
+      
       {/* Footer */}
     </div>
   );
