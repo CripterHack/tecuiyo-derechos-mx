@@ -179,10 +179,22 @@ const Biblioteca = () => {
     }
   ];
 
+  interface Articulo {
+    numero: string;
+    titulo: string;
+    contenido: string;
+    temas: string[];
+  }
+
+  interface Categoria {
+    titulo: string;
+    articulos: Articulo[];
+  }
+
   const filtrarArticulos = (searchTerm: string) => {
     if (!searchTerm) return articulosLFT;
     
-    const filtered: Record<string, any> = {};
+    const filtered: Record<string, Categoria> = {};
     
     Object.entries(articulosLFT).forEach(([key, categoria]) => {
       const articulosFiltrados = categoria.articulos.filter(articulo =>

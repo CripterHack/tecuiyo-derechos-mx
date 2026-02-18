@@ -12,10 +12,30 @@ import { format, differenceInDays, differenceInMonths, differenceInYears } from 
 import { es } from "date-fns/locale";
 import { cn } from "@/lib/utils";
 
+interface Concepto {
+  concepto: string;
+  monto: number;
+  articulo: string;
+  descripcion: string;
+}
+
+interface ResultadoLiquidacion {
+  conceptos: Concepto[];
+  total: number;
+  salarioDiario: number;
+  antiguedad: number;
+  tipo: string;
+  fechaIngreso?: Date;
+  fechaSalida?: Date;
+  usarFechas: boolean;
+  diasVacaciones: number;
+  diasTrabajadosEnAnio: number;
+}
+
 const Calculadora = () => {
   const [salarioDiario, setSalarioDiario] = useState("");
   const [tipoSeparacion, setTipoSeparacion] = useState("");
-  const [resultado, setResultado] = useState<any>(null);
+  const [resultado, setResultado] = useState<ResultadoLiquidacion | null>(null);
   
   // Nuevo sistema de fechas o antigüedad manual
   const [usarFechas, setUsarFechas] = useState(true);
@@ -85,7 +105,7 @@ const Calculadora = () => {
     // Este concepto requiere más datos específicos del caso, por ahora se omite
 
     let total = 0;
-    let conceptos: any[] = [];
+    let conceptos: Concepto[] = [];
 
     if (tipoSeparacion === "despido_injustificado") {
       // Despido injustificado - Art. 48, 49, 50 LFT
@@ -475,7 +495,7 @@ const Calculadora = () => {
 
                     <div className="space-y-4">
                       <h4 className="font-semibold text-lg">Desglose por conceptos:</h4>
-                      {resultado.conceptos.map((item: any, index: number) => (
+                      {resultado.conceptos.map((item: Concepto, index: number) => (
                         <div key={index} className="p-5 bg-card border border-border rounded-lg shadow-sm hover:shadow-md transition-shadow">
                           <div className="flex justify-between items-start gap-4">
                             <div className="flex-1 space-y-2">

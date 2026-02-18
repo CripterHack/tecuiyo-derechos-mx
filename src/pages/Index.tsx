@@ -19,8 +19,8 @@ const Index = () => {
           <div className="mb-8 flex justify-center">
             <div className="relative">
               <img 
-                src="/lovable-uploads/25c5c5f8-9fae-4919-8d25-6483c7fd45d1.png" 
-                alt="Tecuiyo - Balanza de la justicia con hojas verdes" 
+                src="/logo.png" 
+                alt="Tecuiyo - Justicia Laboral" 
                 className="w-28 h-28 drop-shadow-2xl logo-hero"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent rounded-full blur-xl"></div>

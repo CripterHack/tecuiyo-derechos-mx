@@ -20,7 +20,7 @@ export const sanitizeHtml = (html: string): string => {
     // Ensure links open safely
     ADD_ATTR: ['target', 'rel'],
     // Remove any potentially dangerous protocols
-    ALLOWED_URI_REGEXP: /^(?:(?:(?:f|ht)tps?|mailto|tel|callto|sms|cid|xmpp):|[^a-z]|[a-z+.\-]+(?:[^a-z+.\-:]|$))/i
+    ALLOWED_URI_REGEXP: /^(?:(?:(?:f|ht)tps?|mailto|tel|callto|sms|cid|xmpp):|[^a-z]|[a-z+.-]+(?:[^a-z+.:-]|$))/i
   });
 };
 
