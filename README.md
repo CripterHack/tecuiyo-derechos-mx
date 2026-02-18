@@ -89,10 +89,16 @@ tecuiyo-derechos-mx/
 │   └── utils/              # Funciones de utilidad
 ├── public/                 # Archivos estáticos
 ├── docs/                   # Documentación del proyecto
+│   ├── AGENTS.md           # Guía para Agentes de IA
+│   ├── ARCHITECTURE.md     # Arquitectura del Sistema
+│   ├── CONTRIBUTING.md     # Guía de Contribución
+│   └── DEPLOYMENT.md       # Guía de Despliegue
 ├── tailwind.config.ts      # Configuración de Tailwind
 ├── vite.config.ts          # Configuración de Vite
 └── package.json            # Dependencias del proyecto
 ```
+
+Para más detalles sobre la arquitectura, consulta [ARCHITECTURE.md](./docs/ARCHITECTURE.md).
 
 ## 🎯 Casos de Uso
 

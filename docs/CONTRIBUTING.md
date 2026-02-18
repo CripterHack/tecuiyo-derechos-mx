@@ -4,31 +4,33 @@
 
 ## 📋 Tabla de Contenidos
 
-- [Código de Conducta](#código-de-conducta)
-- [Cómo Contribuir](#cómo-contribuir)
+- [Código de Conducta](#codigo-de-conducta)
+- [Cómo Contribuir](#como-contribuir)
 - [Reportar Bugs](#reportar-bugs)
 - [Sugerir Mejoras](#sugerir-mejoras)
 - [Pull Requests](#pull-requests)
-- [Estándares de Código](#estándares-de-código)
-- [Configuración del Entorno](#configuración-del-entorno)
+- [Estándares de Código](#estandares-de-codigo)
+- [Configuración del Entorno](#configuracion-del-entorno)
 
-## 📜 Código de Conducta
+## <a name="codigo-de-conducta"></a>📜 Código de Conducta
 
-Este proyecto adhiere a un código de conducta. Al participar, se espera que mantengas este código. Por favor reporta comportamientos inaceptables a [conducta@tecuiyo.com](mailto:conducta@tecuiyo.com).
+Este proyecto adhiere a un código de conducta. Al participar, se espera que mantengas este código. Por favor reporta comportamientos inaceptables a [edgar@izignamx.com](mailto:edgar@izignamx.com).
 
-## 🚀 Cómo Contribuir
+## <a name="como-contribuir"></a>🚀 Cómo Contribuir
 
 ### Para Desarrolladores
 
 1. **Configuración del entorno**
+
    ```bash
-   git clone https://github.com/tecuiyo/tecuiyo.git
+   git clone https://github.com/CripterHack/tecuiyo-derechos-mx.git
    cd tecuiyo
    npm install
    npm run dev
    ```
 
 2. **Tipos de contribuciones**
+
    - 🐛 Corrección de bugs
    - ✨ Nuevas características
    - 📚 Mejoras en documentación
@@ -39,16 +41,18 @@ Este proyecto adhiere a un código de conducta. Al participar, se espera que man
 ### Para Juristas y Expertos Legales
 
 1. **Revisión de contenido legal**
+
    - Verificar exactitud de artículos de la LFT
    - Validar fórmulas de cálculo
    - Revisar casos de estudio
 
 2. **Creación de contenido**
+
    - Nuevos casos de estudio
    - Guías prácticas
    - Explicaciones simplificadas
 
-## 🐛 Reportar Bugs
+## <a name="reportar-bugs"></a>🐛 Reportar Bugs
 
 ### Antes de reportar
 - Verifica que el bug no haya sido reportado previamente
@@ -56,6 +60,7 @@ Este proyecto adhiere a un código de conducta. Al participar, se espera que man
 - Recopila información del entorno (navegador, OS, etc.)
 
 ### Formato del reporte
+
 ```markdown
 **Descripción del Bug**
 Una descripción clara y concisa del bug.
@@ -78,9 +83,10 @@ Si aplica, agrega capturas de pantalla para ayudar a explicar el problema.
 - Versión: [ej. 22]
 ```
 
-## 💡 Sugerir Mejoras
+## <a name="sugerir-mejoras"></a>💡 Sugerir Mejoras
 
 ### Formato de sugerencia
+
 ```markdown
 **Descripción de la Mejora**
 Una descripción clara y concisa de la mejora propuesta.
@@ -95,9 +101,10 @@ Una descripción clara de lo que quieres que pase.
 Una descripción clara de cualquier solución alternativa que hayas considerado.
 ```
 
-## 🔄 Pull Requests
+## <a name="pull-requests"></a>🔄 Pull Requests
 
 ### Proceso
+
 1. **Fork** el repositorio
 2. **Crea** una rama desde `main`
 3. **Realiza** tus cambios
@@ -107,6 +114,7 @@ Una descripción clara de cualquier solución alternativa que hayas considerado.
 7. **Crea** un Pull Request
 
 ### Checklist del PR
+
 - [ ] El código sigue los estándares del proyecto
 - [ ] Se han agregado tests si es necesario
 - [ ] La documentación ha sido actualizada
@@ -115,6 +123,7 @@ Una descripción clara de cualquier solución alternativa que hayas considerado.
 - [ ] Los commits tienen mensajes descriptivos
 
 ### Formato del PR
+
 ```markdown
 ## Descripción
 Breve descripción de los cambios realizados.
@@ -136,22 +145,25 @@ Describe las pruebas que ejecutaste para verificar tus cambios.
 - [ ] Mis cambios no generan nuevas advertencias
 ```
 
-## 🎨 Estándares de Código
+## <a name="estandares-de-codigo"></a>🎨 Estándares de Código
 
 ### TypeScript/React
+
 - Usar TypeScript estricto
 - Componentes funcionales con hooks
 - Props tipadas con interfaces
 - Naming conventions descriptivos
 
 ### Estilos
+
 - Usar Tailwind CSS
 - Seguir el sistema de diseño establecido
 - Componentes responsivos por defecto
 - Soporte para modo oscuro
 
 ### Estructura de Archivos
-```
+
+```bash
 src/
 ├── components/
 │   ├── ui/           # Componentes base reutilizables
@@ -164,6 +176,7 @@ src/
 ```
 
 ### Convenciones de Naming
+
 - Componentes: `PascalCase`
 - Archivos: `PascalCase.tsx`
 - Variables/funciones: `camelCase`
@@ -171,9 +184,10 @@ src/
 - CSS classes: `kebab-case`
 
 ### Commits
+
 Usa [Conventional Commits](https://www.conventionalcommits.org/):
 
-```
+```text
 feat: agrega nueva calculadora de finiquitos
 fix: corrige cálculo de aguinaldo
 docs: actualiza guía de instalación
@@ -185,6 +199,7 @@ test: agrega tests para calculadora
 ## 🛠️ Configuración del Entorno
 
 ### Herramientas Recomendadas
+
 - **Editor**: VS Code con extensiones:
   - ES7+ React/Redux/React-Native snippets
   - Tailwind CSS IntelliSense
@@ -193,6 +208,7 @@ test: agrega tests para calculadora
   - ESLint
 
 ### Scripts Disponibles
+
 ```bash
 npm run dev          # Servidor de desarrollo
 npm run build        # Build de producción
@@ -203,7 +219,9 @@ npm run lint:fix     # Fix automático de linting
 ```
 
 ### Variables de Entorno
+
 Crea un archivo `.env.local` para configuración local:
+
 ```env
 VITE_APP_NAME=Tecuiyo
 VITE_APP_VERSION=1.0.0
@@ -212,6 +230,7 @@ VITE_APP_VERSION=1.0.0
 ## 🧪 Testing
 
 ### Ejecutar Tests
+
 ```bash
 npm run test         # Ejecutar tests
 npm run test:watch   # Tests en modo watch
@@ -219,12 +238,15 @@ npm run test:coverage # Coverage report
 ```
 
 ### Escribir Tests
+
 - Tests unitarios para utilidades
 - Tests de componentes con Testing Library
 - Tests de integración para flujos críticos
 
 ## 📚 Recursos Adicionales
 
+- [Arquitectura del Sistema](./ARCHITECTURE.md)
+- [Guía para Agentes de IA](./AGENTS.md)
 - [Documentación de React](https://reactjs.org/docs)
 - [Documentación de TypeScript](https://www.typescriptlang.org/docs)
 - [Guía de Tailwind CSS](https://tailwindcss.com/docs)
@@ -234,9 +256,9 @@ npm run test:coverage # Coverage report
 
 ¿Tienes preguntas? No dudes en contactarnos:
 
-- **Email**: contribuir@tecuiyo.com
-- **Discusiones**: [GitHub Discussions](https://github.com/tecuiyo/tecuiyo/discussions)
-- **Issues**: [GitHub Issues](https://github.com/tecuiyo/tecuiyo/issues)
+- **Email**: <edgar@izignamx.com>
+- **Discusiones**: [GitHub Discussions](https://github.com/CripterHack/tecuiyo-derechos-mx/discussions)
+- **Issues**: [GitHub Issues](https://github.com/CripterHack/tecuiyo-derechos-mx/issues)
 
 ---
 

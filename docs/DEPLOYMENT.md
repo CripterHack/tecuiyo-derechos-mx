@@ -4,14 +4,14 @@ Esta guía explica cómo desplegar Tecuiyo en diferentes plataformas.
 
 ## 📋 Tabla de Contenidos
 
-- [Prerrequisitos](#prerrequisitos)
-- [Build de Producción](#build-de-producción)
+- [Prerrequisitos](#-prerrequisitos)
+- [Build de Producción](#-build-de-producción)
 - [Lovable Platform](#lovable-platform)
-- [Vercel](#vercel)
-- [Netlify](#netlify)
-- [GitHub Pages](#github-pages)
-- [Docker](#docker)
-- [Variables de Entorno](#variables-de-entorno)
+- [Vercel](#-vercel)
+- [Netlify](#-netlify)
+- [GitHub Pages](#-github-pages)
+- [Docker](#-docker)
+- [Variables de Entorno](#-variables-de-entorno)
 
 ## ✅ Prerrequisitos
 
@@ -47,30 +47,17 @@ npm run lint
 npm test
 ```
 
-## 🌐 Lovable Platform
-
-Tecuiyo está optimizado para desplegarse en Lovable:
-
-1. **Acceso directo**: Visita tu proyecto en Lovable
-2. **Publicación**: Haz clic en "Share" → "Publish"
-3. **Dominio personalizado**: Configura en Settings → Domains
-
-### Ventajas de Lovable
-- ✅ Despliegue automático desde GitHub
-- ✅ SSL automático
-- ✅ CDN global
-- ✅ Preview builds para PRs
-- ✅ Rollback con un clic
-
 ## ▲ Vercel
 
 ### Despliegue Automático
+
 1. **Conecta tu repo**: Ve a [vercel.com](https://vercel.com)
 2. **Importa proyecto**: Selecciona el repositorio de Tecuiyo
 3. **Configura**: Vercel detectará automáticamente Vite
 4. **Despliega**: Haz clic en "Deploy"
 
 ### Configuración Manual
+
 ```bash
 # Instalar Vercel CLI
 npm install -g vercel
@@ -83,6 +70,7 @@ vercel --prod
 ```
 
 ### Archivo de Configuración (vercel.json)
+
 ```json
 {
   "framework": "vite",
@@ -100,6 +88,7 @@ vercel --prod
 ## 🔷 Netlify
 
 ### Despliegue Desde Git
+
 1. **Conecta repositorio**: En [netlify.com](https://netlify.com)
 2. **Configuración de build**:
    - Build command: `npm run build`
@@ -107,6 +96,7 @@ vercel --prod
 3. **Despliega**: Netlify construirá automáticamente
 
 ### Netlify CLI
+
 ```bash
 # Instalar Netlify CLI
 npm install -g netlify-cli
@@ -122,6 +112,7 @@ netlify deploy --prod
 ```
 
 ### Archivo de Configuración (netlify.toml)
+
 ```toml
 [build]
   command = "npm run build"
@@ -135,47 +126,34 @@ netlify deploy --prod
 
 ## 📄 GitHub Pages
 
-### Usando GitHub Actions
-Crea `.github/workflows/deploy.yml`:
+### Pipeline de CI/CD (Automatizado)
 
-```yaml
-name: Deploy to GitHub Pages
+El proyecto cuenta con un workflow automátizado en `.github/workflows/ci-cd.yml` que realiza lo siguiente:
 
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+1. **Verificación Contínua (CI)**:
+    - Se ejecuta en cada `push` y `pull_request` a `main`.
+    - Instala dependencias (`npm ci`).
+    - Ejecuta el linter (`npm run lint`) para asegurar calidad de código.
+    - Verifica tipos de TypeScript (`npm run type-check`).
+    - Construye la aplicación (`npm run build`).
 
-jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
-    
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v3
-      
-    - name: Setup Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '18'
-        cache: 'npm'
-        
-    - name: Install dependencies
-      run: npm ci
-      
-    - name: Build
-      run: npm run build
-      
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      if: github.ref == 'refs/heads/main'
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./dist
-```
+2. **Despliegue Contínuo (CD)**:
+    - Solo se ejecuta si el paso de CI es exitoso y estamos en la rama `main`.
+    - Utiliza `peaceiris/actions-gh-pages` para desplegar la carpeta `dist/` a la rama `gh-pages`.
+
+### Configuración de Dominio Personalizado
+
+Para conectar tu subdominio (ej. `app.tecuiyo.com`):
+
+1. Ve a tu repositorio en GitHub -> **Settings** -> **Pages**.
+2. En "Build and deployment", asegúrate que Source sea "Deploy from a branch" y selecciona `gh-pages`.
+3. En "Custom domain", ingresa tu dominio (ej. `app.tecuiyo.com`) y guarda.
+    - *Nota:* Esto creará un archivo `CNAME` en la raíz de la rama `gh-pages`.
+4. En tu proveedor de DNS, crea un registro `CNAME` apuntando a `CripterHack.github.io`.
+5. Espera a que GitHub verifique el DNS y activa "Enforce HTTPS".
 
 ### Configuración de Vite para GitHub Pages
+
 En `vite.config.ts`:
 
 ```typescript
@@ -194,6 +172,7 @@ export default defineConfig({
 ## 🐳 Docker
 
 ### Dockerfile
+
 ```dockerfile
 # Build stage
 FROM node:18-alpine as build
@@ -227,6 +206,7 @@ CMD ["nginx", "-g", "daemon off;"]
 ```
 
 ### Docker Compose
+
 ```yaml
 version: '3.8'
 services:
@@ -238,6 +218,7 @@ services:
 ```
 
 ### Comandos Docker
+
 ```bash
 # Construir imagen
 docker build -t tecuiyo .
@@ -252,6 +233,7 @@ docker-compose up -d
 ## 🔧 Variables de Entorno
 
 ### Variables de Producción
+
 ```env
 # Información de la aplicación
 VITE_APP_NAME=Tecuiyo
@@ -273,27 +255,32 @@ VITE_ENABLE_FEEDBACK=true
 ### Configuración por Plataforma
 
 #### Vercel
+
 ```bash
 vercel env add VITE_APP_URL
 ```
 
 #### Netlify
+
 ```bash
 netlify env:set VITE_APP_URL https://tecuiyo.netlify.app
 ```
 
 #### GitHub Actions
+
 Agrega secrets en Settings → Secrets and variables → Actions
 
 ## 🔍 Monitoreo y Analytics
 
 ### Herramientas Recomendadas
+
 - **Uptime**: Uptimerobot, Pingdom
 - **Analytics**: Google Analytics, Plausible
 - **Errores**: Sentry, LogRocket
 - **Performance**: Lighthouse CI
 
 ### Configuración de Monitoring
+
 ```typescript
 // src/lib/analytics.ts
 export const initAnalytics = () => {
@@ -313,6 +300,7 @@ export const initErrorReporting = () => {
 ## 🚀 Optimizaciones de Producción
 
 ### Performance
+
 - ✅ Lazy loading de componentes
 - ✅ Code splitting automático
 - ✅ Compresión gzip/brotli
@@ -320,12 +308,14 @@ export const initErrorReporting = () => {
 - ✅ Service Worker (PWA)
 
 ### SEO
+
 - ✅ Meta tags dinámicos
 - ✅ Sitemap.xml
 - ✅ robots.txt
 - ✅ Schema markup
 
 ### Seguridad
+
 - ✅ Headers de seguridad
 - ✅ HTTPS obligatorio
 - ✅ CSP (Content Security Policy)
@@ -334,11 +324,13 @@ export const initErrorReporting = () => {
 ## 📊 Métricas de Producción
 
 ### Core Web Vitals
+
 - **LCP** (Largest Contentful Paint): < 2.5s
 - **FID** (First Input Delay): < 100ms
 - **CLS** (Cumulative Layout Shift): < 0.1
 
 ### Lighthouse Score Target
+
 - **Performance**: > 90
 - **Accessibility**: > 95
 - **Best Practices**: > 90
@@ -349,6 +341,7 @@ export const initErrorReporting = () => {
 ### Problemas Comunes
 
 #### Build Falla
+
 ```bash
 # Limpiar cache
 rm -rf node_modules package-lock.json
@@ -359,9 +352,11 @@ node --version  # Debe ser 18+
 ```
 
 #### Rutas No Funcionan
+
 Asegúrate de tener configurado el fallback a `index.html` para SPAs.
 
 #### Variables de Entorno No Se Cargan
+
 Las variables deben empezar con `VITE_` para ser accesibles en el frontend.
 
 ## 📞 Soporte
@@ -369,8 +364,9 @@ Las variables deben empezar con `VITE_` para ser accesibles en el frontend.
 ¿Problemas con el despliegue?
 
 - **Documentación**: Consulta la documentación de tu plataforma
-- **Issues**: [GitHub Issues](https://github.com/tecuiyo/tecuiyo/issues)
-- **Email**: soporte@tecuiyo.com
+- **Arquitectura**: [Documentación de Arquitectura](./ARCHITECTURE.md)
+- **Issues**: [GitHub Issues](https://github.com/CripterHack/tecuiyo-derechos-mx/issues)
+- **Email**: [edgar@izignamx.com](mailto:edgar@izignamx.com)
 
 ---
 
