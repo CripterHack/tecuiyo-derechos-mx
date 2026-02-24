@@ -33,6 +33,7 @@ jobs:
           node scripts/research-updates.js
           if [ -f updates-report.md ]; then
             echo "has_updates=true" >> $GITHUB_OUTPUT
+            echo "week_info=$(date +'%V of %Y')" >> $GITHUB_OUTPUT
           else
             echo "has_updates=false" >> $GITHUB_OUTPUT
           fi
@@ -43,7 +44,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "feat(content): update news with weekly research findings"
-          title: "📰 Novedades Laborales - Semana $(date +'%V of %Y')"
+          title: "📰 Novedades Laborales - Semana ${{ steps.research.outputs.week_info }}"
           body-path: updates-report.md
           branch: content-updates/weekly-report
           base: main
