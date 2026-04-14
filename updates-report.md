@@ -1,254 +1,329 @@
-# 📰 Propuesta de Actualización - 2 de marzo de 2026
+# 📰 Propuesta de Actualización - 13 de abril de 2026
 
-Se han agregado **50** nuevas noticias.
+Se han agregado **65** nuevas noticias.
 
-### Después de la reforma aprobada, ¿qué sigue para la jornada laboral de 40 horas? - El Economista
-- **Fecha**: 2026-02-26
-- **Resumen**: Después de la reforma aprobada, ¿qué sigue para la jornada laboral de 40 horas?  El Economista
-- [Leer original](https://news.google.com/rss/articles/CBMitgFBVV95cUxNMjc4eEtORDJYMk8xXzZkQTFtS2ZMSG9WSFBid01ocHQzYzRoZFRVaVFVeGxlZWc0WnFDREVGTXM1V0tjeTFuekpTeXBOelI2VzdVQkxvOU1hUmxPZmo1RUFNLTJzZmFRbFdMQ1pyeWVqbWh3R2NObTYwNV9kS2swakdiNG9YVjhVeHFBT3lVeUZMczQyd291NUVPS2d2UFpSWXhjMVRwQy04Q3dadWNSMHo3VTA0Z9IBuwFBVV95cUxQd0hNNmxsYThkaHJXLTZ6eU5FTUozRmtfaTdKeXZDaF9sbEp2RmFPbGVoNm8tU0FiQ3lfQmVPM0dvYXc1SExiVXBUYnAycWV5anN0MkpkR3lNOEJUaFI3eTVMcERyU1ZyVHlsRzdDbDIySnBUdzB2QUhrV0NGVHNITnNkSE5vSko0Y1l6Nk5Iek5qSnN0ZjlfbTFET082Ujl6a0VRa3l1MFZzbEhRc1F4UHUtVUU0VFFhOURj?oc=5)
+### Aprueba Pleno del Senado reforma a Ley Federal del Trabajo para reducir la jornada laboral a 40 horas semanales - Senado de la República
+- **Fecha**: 2026-04-08
+- **Resumen**: Aprueba Pleno del Senado reforma a Ley Federal del Trabajo para reducir la jornada laboral a 40 horas semanales  Senado de la República
+- [Leer original](https://news.google.com/rss/articles/CBMijwJBVV95cUxNdC1QSXRLNTMzQ29ZS3g4cEJZVE9tQWN6MHNVV2htVjczVm5rR0RGRnM1ZzYwdWxZeC1BeWp6VGRSdGZGbmozSzVZUzNGdkZaTG02d0llSnhCazRjTTVGX2ZVMVAybkM1V18ycjZiTVh6QllzZFJSZlE0b3o3RzlKWTI0Y0RYeFRqdG1QUGNLY1Z5VGFpQlJVZU1zTVdsOUktMFp3VVJPaVNSUEN1aHJlZ25OZmI2NmI2US11SmRtUW5zbzJvSFJncVpyMzJoSFAtMXhHRUlkZzlTeHlaNUdaS1dOZlZkaEpUektTSk9HUFp5MTZIQW1FNGRRZjdhYmtVOC1mZ0lXbFlrSDZwUW9r?oc=5)
 
-### Diputados avalan en lo general y particular la jornada laboral de 40 horas - La Jornada
-- **Fecha**: 2026-02-25
-- **Resumen**: Diputados avalan en lo general y particular la jornada laboral de 40 horas  La Jornada
-- [Leer original](https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX1FMT3pUdXBoSU9TeDU4UzRzcWpLTXpISmg5T3lwcDhYN2NsZFR6UUVJOUxURVI0UlVvaXg5ZG9vX2NTOUVtR21VWFFwSnFCVWRLZi1HWGRCMnNOUmpISmMtY2w5QkROc2tXSXNWUlJZaHRGV2JvYnE2cno2NkdIUG1mNDJSVWQtN0x1aWl2UmRSRTJjeGZCa1gtbm5wV2x1ZFlaOWVSRm55aGtobkhwcm42eEMwb2ItaGRrTFVvU0wzSUs3Q3ZfZA?oc=5)
+### Comisiones del Senado aprueban reforma a LFT sobre jornada laboral - El Economista
+- **Fecha**: 2026-04-08
+- **Resumen**: Comisiones del Senado aprueban reforma a LFT sobre jornada laboral  El Economista
+- [Leer original](https://news.google.com/rss/articles/CBMixwFBVV95cUxQcjZLeWEzQW5yUjNobGJZVnpBRlpsblFJajh0VmRPTXJETExmZnA2WGNHT3JNazNUWkRkMERpQnhXYjRIWm9qSUdhTUpXdUs4WjF0YUxwbjA4emlQMG9qUjltbWc2MGYtVnd1T191MkhoWldtNWJvbEZxdjhzdXdJeEU2TWlXeUFaeHBpQkFDR1hYS2duV0FId2dzSWM5Q1hGT1QyNFVka3dHbmI3U0tmTVRZY1U5Z2FCM1RPX2VxSEJGTlJFOHdB0gHMAUFVX3lxTE1CdGFxQ3U0MWlPRXBsQ0RfMUhDUHB3eHlYRlMtM01QVExIcVozekRoZ2luQXRBRDViUkxSZ3hHTnV5RXhEbm00cWlKWi1fSi13Mms3R25Fd0hoY1RTMFZYbWJyc1JjSUx3NHk2MW1TYVhGelI4bUcwRy1WOWVTeUVheWRuVUZWR0EtT3BrLUFCN3l0TU5yUXpQc3ZvcDByMkFublRjRXFJTkN6dGRqQ3FUS0VidTdhZVVKbFFpMzlMN0MxM2Rqel9XeVpvSw?oc=5)
 
-### Reforma laboral: Jornada de 40 horas ya es constitucional - El Informador
-- **Fecha**: 2026-02-27
-- **Resumen**: Reforma laboral: Jornada de 40 horas ya es constitucional  El Informador
-- [Leer original](https://news.google.com/rss/articles/CBMirAFBVV95cUxNOXgyZHNMbjh4MDFXZ2ZFbGNwbWkyZ250VDIxWWFGZ081MG8yQzl6cXFMMG5ZdmM0UlJSZ2NENTZwVHZiRUo1QlJIcXFWUmNfNHE5ZUd4eENOZUUzb0ZNQ0xpQk1TWTgwbFpnZkM3bTh5eUc1UGJrMHRZbnktbXoxS05LNUNKQldmNV9SLThPRGFIZjlpeWkxWWxMa1pTSkhLRzNHay1QNkRWeHph0gGyAUFVX3lxTFBLRnRWUjJGMXV1dlZpb2pBdm40Mkt2al9yQ3hldEdmc2NmWHphT1U4RzI2aklOMndKaVJ5ZnB6RDdHaHhzWEhORm1OQjcxZ2hJYkJCVDZ4MEthWEZ3cVA5NHVPVWJHU1RNZk5DYmZObFoxMmRZR0RpNy1KY1JkWG1ZejNBRGFUUTRtcUd5YmNKV2M4RVliRnVYUXVVaVFtNUhtemRic1ZjNTlKYTdwME51aEE?oc=5)
+### Aprueban jornada laboral de 40 horas... pero no garantiza dos días de descanso - El Financiero
+- **Fecha**: 2026-04-09
+- **Resumen**: Aprueban jornada laboral de 40 horas... pero no garantiza dos días de descanso  El Financiero
+- [Leer original](https://news.google.com/rss/articles/CBMi4gFBVV95cUxPdDRxcjVva0x6S2lqOVVwY29DNThyS2lfY25kOHNCQTVvSWpZTVVTcVRjMWctdmlyWnRLUThpcGVFeERjYV83eWQ4WGtaMFhKNEZ0c3Z1UHhOY0gwX1VZdFJkSC1FV2R4SnVnT2dZYS1SV1dOWE1WanpXMWJKQVJUWlJRYllfS2ZGaEJWX0JZZjdEVzNhXzRaaUNtbGFSQ2F5M09IMmRqdnc0aWRfZF9MRXZJdXprcFRrVC1qSE13dThzZGQ2RnU1emlvcnFaZmNGT0NrZ09KS2RZMzBoY1ViMGN3?oc=5)
 
-### Diputados aprueban reducir jornada laboral a 40 horas sin segundo día de descanso obligatorio - Infobae
-- **Fecha**: 2026-02-25
-- **Resumen**: Diputados aprueban reducir jornada laboral a 40 horas sin segundo día de descanso obligatorio  Infobae
-- [Leer original](https://news.google.com/rss/articles/CBMi0gFBVV95cUxNdlFQU3phTUFobzYzS25Qb2pyakE3UEpocjFKZ3RDZUs0R25hYjBtT21VdldQQmxKSklzU016ZEpVaEpxYzN1UEs1dHRhN29NMUp4ekdTTllOSk5aSFpoOFdMbldmcm5ENHVpT3JtbVc2aVFnMW4xa0N3Wk5PcnpTYXdjNVd5U0hQSGt3Yl8yelRUQngzSTcwTncxcTVEQTQycHlyOHBDZ3FaOEI0WkpDQW03eXZ6NjZjdzV3Y2d2Q1pMR1FSUUsxREM0cjdNdnBnMnfSAewBQVVfeXFMTUNyODl5X18zNUU2d1d4ZUlmd2VIZFVsV2l6bWduVUNhWkRZZGFsY09GaERnTU1rMEU2WXVGQXRTS2tEYU54Qnp4VlJxekdOSjRwclZLaHdlMDQ1V3IxY01Wc0lRNWNGQ1ZyZDR0Q2lRWE5iclFBUi1PYkloeWJyc0xRSmFheDdxMFBlam04M1JZcUZBbmhCS3JkWVRfRWZBNmdNQ1F6anJqQWFodUJTeDdvalA1bFdCWE53VXpxU3loY3JNcnhHVlp0aUR0Mm1ndXduNW52NjhJWkppcy1UaDdERGt4YkI5TEV3WlY?oc=5)
+### Senado aprueba reforma a la Ley Federal del Trabajo: ¿habrá dos días de descanso? - IDC Online
+- **Fecha**: 2026-04-10
+- **Resumen**: Senado aprueba reforma a la Ley Federal del Trabajo: ¿habrá dos días de descanso?  IDC Online
+- [Leer original](https://news.google.com/rss/articles/CBMiugFBVV95cUxNbUM2X0lqUTF3dDN5SnNNaUxYQk5MWkJ3eHMzRkFfbkN4bnNIUUVtYTVZSGZzSERSRHhNWXF6d3BCcHlHeFdITndWT1lVVk5FRlBLVFF5cWhXdjFEVEVLZjVXaVgzLXBDajRoUHo4bjAxYmkwQTFENGl1LTJyR0hFRXd0RVJFTEh5V3N4dERWT2NpVlEtSVEzUVhSa3kwNmRUaWEwXzN1UGVTQTMyTlEtQzlEY1VsRXJtVlE?oc=5)
 
-### México. La reducción de la jornada laboral a 40 horas - Resumen Latinoamericano -
-- **Fecha**: 2026-02-28
-- **Resumen**: México. La reducción de la jornada laboral a 40 horas  Resumen Latinoamericano -
-- [Leer original](https://news.google.com/rss/articles/CBMipgFBVV95cUxPSzUzRnlCakdCdDYtaDU3by1KTUpsN1ZYM25WR0hMWVNpNkVJSjNNNXZpdnE5RU91RXp0R3ZzdWF1VGViaGdYdnFqVVZQNU16RHphdjQyaHlDYlVfMTBlZ3ZsX2cxQ2dMR1dOYlNaOXI1N2k4ZTVMdHhfeng2cFBMeXU1SmJ5OE9xNTNxbFgwRE4xXzgteFFHODk2MDBNYUVxcURoSThn?oc=5)
+### Jornada laboral de 40 horas: ¿qué cambios aprobó el Senado a la Ley Federal de Trabajo? - El Heraldo de México
+- **Fecha**: 2026-04-09
+- **Resumen**: Jornada laboral de 40 horas: ¿qué cambios aprobó el Senado a la Ley Federal de Trabajo?  El Heraldo de México
+- [Leer original](https://news.google.com/rss/articles/CBMi2wFBVV95cUxNREl3Z3lQS1A1cy1odHlrd3JhTm40NXJ5QnAwWktJd3FITURESDBJTEk1TGxzbUpwTW51aFVZTkVtUks0UHdqWUtUTklGTGRaVmQ0N1JnbEdWV2szUktXRW92TUpUa3kxaW9xSW1ERlBMaWlEaVNfY1VSQTZjejlfS0lQNEJvNDg5cjVWZTJJZ1ZCZXJweEQ4YzdpXzRER3UyNGxfdlkxQk9hVlRscW5fb0x1Sm9IdUZ0VXh6NkdoVTZBdE91cXBNTkRpdDhDdGZMSTJvVXc0cVh1dVnSAeABQVVfeXFMUERNejZxVl9uXzZrTGh2cVlmQlVlanp4RVlSbTl6d3lscFYyUk4xeWVaaGszQ0JfbFpFLTh5NUxheW9UZldSS29DUEV1ZmNUMXFQNGlNTWg5Rml4eWkySHRHdVVNOVBhRlJ3bTFUY0UzNm5BZXY5Vl8zM0VCUW5QMnlsZ2JIRzlEVXJfSzZJLUo5T1JwVFpKWEtuSGVYa0x6N1RUMnFRN3F4Z010V2I3eTVOYURhRzlMUFdPRWM2NXIxTWhiaEZiYTZyTTFwQzRrRlhtbUFnNkZSUWloSGZybl8?oc=5)
 
-### Jornada Laboral 40 horas: diputados aprueban solo 1 día de descanso - Mediotiempo
-- **Fecha**: 2026-02-25
-- **Resumen**: Jornada Laboral 40 horas: diputados aprueban solo 1 día de descanso  Mediotiempo
-- [Leer original](https://news.google.com/rss/articles/CBMizgFBVV95cUxNU1k0UGp0RjMzdGRZR0dVWHJCc0dYc0JJQUd1aHpYNWp4WEIyUVhENzZpeGhjSW1tZnZYOV9ISFhPRDdvQ3had3h3MnNGdGZGVmpudDRSekdaWEJ3Q2d5dFNjYkZqR2d6NExwazVtT2VtbGFUZlctWEh2ZzFXSFZTeE03V1Y0Z3ZId1NiNG0tU0RXdEhxci1VclNQQ0xLZ2JYTzF3X2gwa2tyazBDNV9PS0UtNE9XN2ZaZllHaHczVnVMUnFQQnNlS3hicFA5QdIBzgFBVV95cUxQTDFrZWE1TXVSUFEyWEJkQXFQdV9ONVBoR1pDdmhMX2xsMDlHQ0p5VTZpUXJ2bjhFc2JBZ1NUam56VVZaWUJvMWF0cnhoX0JMeC1jT25fejBfbWNTVUhFNlcyeUZFNTRMU2dEX2w1M2JuRWtYQWN0OF9qa3g0c3lBWVpzUUFvWWlPY2htZ2RVMXUteVBLZTJSVkdGMklMOUlfcmpfOHFGOFV2ejBXNFB5WDZteE12ZTNVNDJDM3VscGFTbFhvQmRlck1CWFJnQQ?oc=5)
+### Senado aprueba reforma que reduce jornada laboral semanal; envían a San Lázaro - El Universal
+- **Fecha**: 2026-04-08
+- **Resumen**: Senado aprueba reforma que reduce jornada laboral semanal; envían a San Lázaro  El Universal
+- [Leer original](https://news.google.com/rss/articles/CBMitwFBVV95cUxOOWNOZk5RNXZxTjZSQmJ5VUg4WkVEVGNOemNyR2h5WTlQX05ZZ1AteG03X0FPQlpkM3JOenV2YzdEbUg3bUhSYkRFbUtRb2h6a0szYV9fTURIc2V6ejlVTXM5VjRFN09wU0J4LTd3Znl1SV9OaGtjcVBWYlZJR0VmVGNUcENnSWoxWENncHJWT29tNENSOXZkMlUxd1NwMHpmYnc2eXlua1RicWs1c0NkNjFwWjlEU3fSAcsBQVVfeXFMTWFyR09EUVVYMzRpdXM2WUx3cEpPc0tNMjRHcDVLM05CTnJhZTVhaFk4TWJqQnM5WE1XM282VVV2SjZoWUQyRXN3N2k4SkxSa3pxWjVKdURSbkRJNlhqQ3BOUHIySm5WVHZ4MUcyRzBCUHN1ZHJrekJtWE9tdVkyZWlWSHRIb0l3OUZIMnl2ZXdSeERvVV9zY205eGRJMUN0Zm5McFpSYXYxYzVINUFYdVI1bVBISy1YTlR0ODNLOWhfU1lidVBzMzh0eTg?oc=5)
 
-### Jornada de 40 horas: Todo lo que (todavía) no contempla la reforma aprobada por el Congreso - El Economista
-- **Fecha**: 2026-02-26
-- **Resumen**: Jornada de 40 horas: Todo lo que (todavía) no contempla la reforma aprobada por el Congreso  El Economista
-- [Leer original](https://news.google.com/rss/articles/CBMixwFBVV95cUxPZGdwdGJoSVd5LUNkeHdKaHZaUmVXakhOekNhZy1tR0hlRTliMHRmM3BJWF9OVjI3UmdRUmpTZ1h6UnhXSEx5ZDJiSzlEZmlkellTOGtyRWF4d21xNWpkRjd1bzBYMm9QYm9aV1A1TC1tbW5CbG5ublN0dlR0Nm1sVGFEOFpIMEk4ZjRodWNfakRpajFSeEFYS2psT1JtaHBfVDFQS0FubGhNM2FKRE9UX05vWUwzQjBuUlN1cC00dnlsS2JMckNv0gHMAUFVX3lxTE9uRVBfcktUMkI1ellGNTEtR003Z2ZsVk1hVzloSlAwSlItS29RdWhmX1FfZnMxay1RQ3ZsdnVLSFlRZXgzVkVFd1ZYNWpEbUxBVVByWlR0RzBkZ3lKdUtQclV3MTRBTTZKZVcyV1pjZHJSOWpaazBGQnk4U2xKSm5BV0NPOE53eXc1WW1qM3hIUHBWWGlYSldlZl9MWWZMRGZUSXV3RG9qelc2b1JXeU5Pak9iUEN2c2U3WUNTaE5sOXI1bGtsaDBkd2tjYw?oc=5)
+### RESPALDA PARTIDO VERDE REFORMA PARA REDUCIR JORNADA LABORAL DE 40 HORAS SEMANALES - Partido Verde Ecologista de México
+- **Fecha**: 2026-04-09
+- **Resumen**: RESPALDA PARTIDO VERDE REFORMA PARA REDUCIR JORNADA LABORAL DE 40 HORAS SEMANALES  Partido Verde Ecologista de México
+- [Leer original](https://news.google.com/rss/articles/CBMi2wFBVV95cUxNNGQ2YXJNLWFQMm5MMVZXT2RNV3RYaUZVNWlMRjRMZV9lYUpkdzQ5SFJ2V3B1ZktQNXd6MWRLSW9ob0FpbVh0SlJpSGlIbmJfNXFpZkVEQ1k3SW5UQWEySUlkT2QzVXNDNFpxOUlpV1lnOHZ0SjYtQmU2NmxUX2o0Zm9NN0xaV0lMR1BXTzVEZk5qWVM4R3FHcFprZzE5Vk14emI1a283U0V6QTRRTmM3cWc3SnNMMDExX3pGQlVObVB2QnRGVTdpTVEyeG1hcGxVVVFmNGVJNU1uT2c?oc=5)
 
-### Comisiones de San Lázaro avalan reducción a 40 horas semanales hacia 2030 - La Jornada
-- **Fecha**: 2026-02-23
-- **Resumen**: Comisiones de San Lázaro avalan reducción a 40 horas semanales hacia 2030  La Jornada
-- [Leer original](https://news.google.com/rss/articles/CBMixwFBVV95cUxOWF9wUWJxYWxubHNPcFd1MWV6OWJuRVpicU5tT3h4eDFUU1R6SzFDMjhiT00weTl2QjgwNlZBOXNEcUYtTUJncWNPazNuVWF0aWY1UHBjODdnTklFSi0yWEFvVHlqaExfVVJlZ2ZvbmJiZGhtRWhaeVVtWkQxenJoUjFnU2ViYVRsN0J1LW1RXzJFRVM1Y053UXI4MTljbnVvLWhpOXYyVnFUbEtBYWpacVZ2MkRfNDZvSzdVcmgwbGdfZDMza2dN?oc=5)
+### Con reforma laboral, los jefes y los trabajadores acordarán las jornadas de trabajo - Excélsior
+- **Fecha**: 2026-04-09
+- **Resumen**: Con reforma laboral, los jefes y los trabajadores acordarán las jornadas de trabajo  Excélsior
+- [Leer original](https://news.google.com/rss/articles/CBMiqAFBVV95cUxONEJ5Z3NkNGJ5aEJMWkt4QzhrZERHTkM4RFZ1TlFxZHNMZXhqQWRPSUZOQTQzelBHZlJNTXFhWXROYW9JT3R2anZ2Vl85YWZkZ2VyeGIyeE1xaW1ZMEZhY09LcVozNTl0VGlZcXYxeUZQSFE3ekhBd0xCVjBKTGQtWURkRjFHWkhaYk96Sm4xRWxWNnFqcGJxVnNxVzk5NHBiMEMxSTd0ekbSAa4BQVVfeXFMTXlGdTRrVlVKNF9TMENYQmdEcUZWOHJJVTdUcWtuclQyQW5qUWVUS0UzTzF4bnJ1UmM5SHctSkMyOVlESGFJSXU1VGloU1NFVDR6UW0teWJPX1VxbEJGRjl3QTd5RFBjdDdUaUZIcFdVYklRcHlNUlhyUExvdlh2Q1hYNnIyWkp5aGhpRDdlNDRhdU4zSGNqa1FaRmxnSngxUFppVklzM3p0WG1kZEd3?oc=5)
 
-### Luces y sombras sobre la reforma a la jornada laboral - El Informador
-- **Fecha**: 2026-02-27
-- **Resumen**: Luces y sombras sobre la reforma a la jornada laboral  El Informador
-- [Leer original](https://news.google.com/rss/articles/CBMipwFBVV95cUxPQU5SZlJLY2RzMTFJYVRRbWd0NFFjaUl3S2xJMFBFQUVtanFBT1FIa1V4N3ZpYVR4Y2p2bURFazR3NDBHeFlpalNVRFJKbTR2NXk2OXdaSDdLVUxkVWwtbUdqekZlcGhnSGNfaXBWZnROcHlWRmk0WUpVRWoxWTZIUEhUd0NmRzRFeWxQMHlnUVdoWTRETGxCeTcycGtnaVZNdFVaX3Jya9IBrAFBVV95cUxOWENnRFd0MlFvMFotbnI0NkViUEk5bTdaUmsyX05vSWFoX3NBdVhmUEpmOHpTeDRzWUVpMi1WQ1JtYUtVN3ZkX1BGX1F2amVtR2trVkN3dEt3bV9uc19LYUNfb3cyb3lUT3JkdUZadmpiQWNjTFhHa2VwRS1DRFNfRE9pZW5sbnBacFZGQmZRSjdINHVFNzRQdS1NZWprWTRiLW1pMTRVbWpuVGVZ?oc=5)
+### Avanza reforma laboral: Comisiones del Senado aprueban reforma a LFT - altonivel.com.mx
+- **Fecha**: 2026-04-08
+- **Resumen**: Avanza reforma laboral: Comisiones del Senado aprueban reforma a LFT  altonivel.com.mx
+- [Leer original](https://news.google.com/rss/articles/CBMingFBVV95cUxQZW0xNFI4anJwUGpjc2lOME9CMEhVa3lKM09nQU9RWENGQ3V3VEJBVWxUbXVIOGJuSUMtbmU0djJSMm5JSHNkVVRXNHp2Yjh5MFlGWnRsbS0wdndWNzI1Rm4yWnVlaFhzT0UtbnhWM1NrV041Q1QzSFJwbWFrdUtEVTI2UTByWlZ4TVFxNU9mQ21USEFNN1lkazEzd3ZKUQ?oc=5)
 
-### Empresarios alertan sobre efectos de la reforma laboral que reduce la jornada a 40 horas - Infobae
-- **Fecha**: 2026-02-26
-- **Resumen**: Empresarios alertan sobre efectos de la reforma laboral que reduce la jornada a 40 horas  Infobae
-- [Leer original](https://news.google.com/rss/articles/CBMiywFBVV95cUxQLS16THE3ZTRseHEySXB0cEltZ2tGU3BrOGtxZjdJZm9iNGdiTkxpbzJ3NE5tQTZoSVVfTXlWcGpkRGV6aFRMZGxmR3hkaTlWWmwxbHluRV9yNzZFZ2d2LVlhN3dQb1dIYjQ5WVpEd0tIZXA1MDh2Mko3LThBVVVXRXV6S05VRjliU2VqMGhHT2ZTT01XdkJXUTFpR0dpUnA1ZFEtSGNVQW9hMkpSUW55QUJ4ZU5lcWU3N0o0eVdCdDVmZE1ielJzSjZaVdIB5gFBVV95cUxOMjRaZEZJZjBtUHNOUFlFZ29wWnh6am52T2dQc0x0cW9UeGp2NFVPbXFuVzk1UnBkTnhfN1R4MnRKUkFod0VOZktLWDBzOG5sYVpCWU5oVkM4YjRGYjlpYmRyMUVLTjk5a3k4UnlfVzFvcHJTTUFMdTlSdFNKTVE5Z1FYM1RqMktqbjhJWDNuZXpjTGJlZTBhQkk2SmsycGZMdmpERjEzdUtzeC1jRldwUjFZVTl5UzFzcDNMblRYXzJrWlUzaDh5R3lFazAzT09LNVQwY1lfT3R1bjE5NUoyYkM4OG1uUQ?oc=5)
+### Avanzan en Comisiones del Senado reformas a Ley Federal del Trabajo para reducir la jornada laboral - Senado de la República
+- **Fecha**: 2026-04-08
+- **Resumen**: Avanzan en Comisiones del Senado reformas a Ley Federal del Trabajo para reducir la jornada laboral  Senado de la República
+- [Leer original](https://news.google.com/rss/articles/CBMi_wFBVV95cUxPSHU3VGd3WHhIeVh4ZzBSLXNEVW5KS0tlWklUR3VkcE14MXV2UnZzYU9ZdTBmaXQ1cWt0TWhQTjNkZVlqaEhVNkR6UU5OR1dZcmRMdVhyN1BoS1o0aVZ4Snpua0VoQklUNmlZNEozM1JNaTVOS3E1VWdNQWxkT0hUYW5ZNDVqNWtpeFJrT3RUam1tQkFna2syWXhGbnNDZm53bDd4dVRNcWJOOGlUNlZNQzhpSVdMeHNmQm1meW9HQU1ncXNMS0FxeUFPVEhYU2c2QkZLRHh4YVc3Rlh5TGE3MnJXWktSMjBGWk0xVkV1MDlNSUZvNDFHRzdVVmUwWFE?oc=5)
 
-### Cámara de Diputados aprueba reforma de jornada laboral con reducción gradual - El Economista
-- **Fecha**: 2026-02-25
-- **Resumen**: Cámara de Diputados aprueba reforma de jornada laboral con reducción gradual  El Economista
-- [Leer original](https://news.google.com/rss/articles/CBMizwFBVV95cUxPODhVUnd0SU0wN281aVE0VzZ1UERpQVZkVWhJVkFqZG5rel9TLW9mcW9jYWlEWGRGMnZiLWNMOElDZVNlckFSa2F2UjhQdmRSM3ZHLW8tS3ZHTWt5QjQ4MWNfRUdOczUyYWltNE9Yc0V0X1laOFJzV3pCTWF3UGRWZV9pa2h3Y2ZZS21XMHRpYm1HWnIyRG5iNWp3bVJIZ20zZFRmWEIxU3VQQ2ROOWJJNVpyVUxQX1V1RXRvd0V1UmROT3B0VFJvZ2FvRmpWbWPSAdQBQVVfeXFMTTVUTDZFT2JuNWtrUUdYczNUX2ViQ3gyZWJERVloSFlFUGFOY3M2eWZoSGlMQzNlekVPaVFld1RvU2F1N1VGS0lwcGwyMmtkMFA2d1VZN2NKTXRfWG1kWnB5Sm92Z0ZSTzN1a1k0LUl1Yk12ekZJXzhReGhJUEhaR0UwSFNmQ00yeFJSclhXTWhQSUJoYmUwcFdDeG5EOENQTTZOZjZnOENBSGFBUmtUNHVXbkt5eWNPRVV4bUg4Y2RoNHNXeXN1YUE0LUFpdkdITHRpdWE?oc=5)
+### Senado aprueba reforma a la LFT sobre jornada laboral con obligación de reloj checador - El Economista
+- **Fecha**: 2026-04-08
+- **Resumen**: Senado aprueba reforma a la LFT sobre jornada laboral con obligación de reloj checador  El Economista
+- [Leer original](https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdktkczR2ZHRRZV9McEs4bUU5VmRuOUlBS3BnZVZXclJCMTI0NEtzWmlrZmt4dnR4WnI4OTlZY3dIMjI1UUVlUUpYaHY2cmdlUWxYRzN3THE5OXQxa0ZJVktyMEpxNnZXWVMwTURiSEZuUGhxb29MZEIzYlFnYl9OR1l5Q0VGN2cxSTlzOWEySjBadHNPeGNvVlRzSF95Z3JjV3JFbEE3VWpuQTA0MVRlUDE4cGJUTjhfNThuNlBocXNXeUJaaVpyN21HY1Q5bWYyOGtyZXVqaEJ2Z9IB3wFBVV95cUxOVDEzMG5lYWFMY0NIQnlDWmtQSVJWSHZ0WWk3U0c2OE1qcGRSV0pEVFRnaW1uQUptd0R0UjVvS0F0TkYzTk84cWtiQXVVVUpWYlk0WWdFQjN4NW1MbmVTV0VJRUVDNTBFT3lMY2QwcVVZTmRYdlhET1hSWjVpcXlqaTZ0WEh3TjRvNXJBMmN6VG9HRmFDbnduckZMSE9XUElOLWxoNWc1czRzcU9sVmJWaE9fRlNTYU8xUnh0ak1XVGhMQlprY2M3OE16bzVsOWxiUnhjRlBPWlhiVW5WWGJZ?oc=5)
 
-### ¿Cómo se reducirá la jornada laboral en México? Este es el calendario aprobado por el Congreso - El Economista
-- **Fecha**: 2026-02-25
-- **Resumen**: ¿Cómo se reducirá la jornada laboral en México? Este es el calendario aprobado por el Congreso  El Economista
-- [Leer original](https://news.google.com/rss/articles/CBMixwFBVV95cUxPZ19zUkRiQ1cwbl8zZGJQeHR2c1A1R0JUZ3RrTjEzUmt4VUFYSlBGT1U1ZTV3aGFmM0c5RlJXZFVyaGNDcGlsazdlZDQ4X0hQdGtHWjdsN2EtRkl6dUt4c0Nib3dkTWVNUV8wUXI0eTFvVV9ZWm1CWjJwWVB3UzNkRURMbW9SS2h1R245M0xZT0Mxb0ZIN1NVUWxNMGtvN3p4czVGUzA4em1wZWFMT2ZsMWZNTWZxNkxxUzJ6d19kYlVxT1V0UWl30gHMAUFVX3lxTFBlV2QwcVZUOGRjSmtlUXBIRFhCV19rVmFIdmNiMzVkX3l5UVk1WEdGWVVWZnFlM216b1FsbGlQRjFMSnZqYkZOcUs3aWxxZDI3bG96X3FEcXVSYUJFY2hVSHV4M2hNMV9KeF9GdWU0eTg1YTRCaWRJVVFKeFZ4Y3RJZWs3WDJzTERYZ1QxR1Y3R2MtLVhsbUxPYWktckQwc0RibGRzd2JjTzdVNnpOemJYb1dkNzZBS1FaSVJIMG44TnBDOWFXTDMtdW5hLQ?oc=5)
+### Aprueban en Senado reformas a la Ley Federal del Trabajo para armonizar reducción de jornada laboral de 40 horas - El Heraldo de México
+- **Fecha**: 2026-04-09
+- **Resumen**: Aprueban en Senado reformas a la Ley Federal del Trabajo para armonizar reducción de jornada laboral de 40 horas  El Heraldo de México
+- [Leer original](https://news.google.com/rss/articles/CBMigAJBVV95cUxOTUFuLXd0V2trUW03NmZULVloLWJMVWtKYVkwb0g5RU42RlU5LVZaQ1VuakdtZFpxTUtnclFaSWp4WVE1NzYzNjM3M3FOY09BeDQ2dnBKWTZVVGxiSkd1NzBsak9ZRTJMSk1ENUwzUGVKU0FTdk5XcFFiUkd2MHdtUGpXTG5ZaDUtOW1YTWwtNjFMU2NYMXZLc090YkpnM2N0OWJQYTVGUkQ0SGJEWVdGTmp1cnY1WFBJbzk5Q1NvaG1lWHZOM2hvMkVYdjFUaVNKV3h3cmFMQ1gyMHo1WVpMNW50amJXN3FjeHZvNGVOc1NiaHI5UmdyZDFSNlpLU3hF0gGGAkFVX3lxTE0ySGFKd0tTdXl3c1J2X0NlcGpobWFVc1pXQ0xmU0U2WThYYkV1WGpyS1hRbTFqREdCYzlxTWdBeEpMZUx6M2VZU2ZBUlhsbFFaVzZqUk1wSXQ4bVRBLWNmQmRsSFZockx1Q1R4cW96R1Z2Zk9KakdvWmkxbUZEcjR4U0Y1SkJrbURqQnhEVV85NmlMTTBuSTYxaE9DelV3WWsxNDB6Z3JfcGRoRG5UeVhyejJhMzJqMGxaNG9EQ2R6bUN3T0NIMEhSdjFfZzdBZHV3SzBKQkF1QmFNQzBRTDNXNW91MEJNeWVvVWhlZDd1Z1FwbVJnWlpLOG56a2FSbVV3MUE2M2c?oc=5)
 
-### 10 congresos locales aprueban reforma de jornada laboral: ¿Cuáles son los siguientes? - El Economista
-- **Fecha**: 2026-02-26
-- **Resumen**: 10 congresos locales aprueban reforma de jornada laboral: ¿Cuáles son los siguientes?  El Economista
-- [Leer original](https://news.google.com/rss/articles/CBMizAFBVV95cUxQQ3ZPLWZ0anBHTFExSXBlekEyejJRY2N0Zl83Nzgzbm5WS1ZGdWFLejVnUk9xTVZLOXhwX0J3ekJ3T2JfMFNnSk93M2ItdVlSSjFGTUlhSzhpZU9reHpSTTd4TWdKaW8xbFhMa3ZreS1JbTB2SG02SzEwWGZYTmVCdmhvNDAxUlo4blIxN0EtQkp1TnVjQXh4ZloyV1pGT3FJQ3FHcnJoUUk1SXMtTjZVTEVDOXF6c2pnZVcyaEFfb0ZmZTExeWtIMmxNdUTSAdIBQVVfeXFMTUotQWNaYkZRblRDT0ctSG9xTnRJcW91anQ0YlZ0bDNwcHFXTEI0TjQwbFNCZlk1N05fS09mRktMbDdMMjhLMTZWVUktZm81STBpbnpoVW5tR2xsQ01DcXhkczl2R3ppYm52N2w4b2VQYV9DYzlFcWpGUWFock5FZzdWakpzV000SHpxQlFfdlU2THVGSHhfei1nbTdYdkVNeUpETXRKMDh1V3ZZTnJsQjdLY0VDUzdLd2s1X25NbXgweWJSd0gxdUFaRW9pVUYyNmpR?oc=5)
+### Reforma de jornada laboral: ¿Qué cambios aprobó el Senado a la Ley Federal del Trabajo? - El Economista
+- **Fecha**: 2026-04-09
+- **Resumen**: Reforma de jornada laboral: ¿Qué cambios aprobó el Senado a la Ley Federal del Trabajo?  El Economista
+- [Leer original](https://news.google.com/rss/articles/CBMizgFBVV95cUxNSGN3anRFTlAwWWRzNXhwclh0SWVBTDVOUHYwTjdlaEtEdXItaE9rOEJsNU5KcUR6cnBtWnBIaHE5THQxNGlaT3FTRnlocGRjMUc0Mi1zRnYtNkFMQkZIU0ZIRW9JbGRJdUVnam11MENWWnBtczBFM3dLV2tueXJOZjZsalctRzE2QUJjaElpSTBacHhNS0xpWnZjUGZhRXVPTDNPME1pV1ptUmxkcUFXZ0szRVRsWVQySjYzYmxtTDhPcEVER1RfR2R3aFplUdIB0wFBVV95cUxOQVRJZjBacFZ0TW1MTTJabV9pQVJqM2hEM3dOYTdPWm5LUTBZUDllaTh6bEdURnJCM3AxUEo4N3NIcmM2SzBGNUpOblIwTml6eEtJX3ZsYzhlN0wyRG1rU3BXZzRzb0tDTmhwSHBRdVV1bDMwUXJwdHdBdk44QWxIOG9TOVE0eWlNMmVKVzFOR2lxTEdVMGk0dWZIQmNLZmV3TFpSM0UxdFNlYUhZNXQ5SGhjeDI1Q1VlQ0hkNU92TEE5Tkk3RTFMYW9WT2NHOVhod3ZF?oc=5)
 
-### Jornada de 40 horas cumple requisito constitucional: 18 estados dan el sí; así será la transición - El Economista
-- **Fecha**: 2026-02-26
-- **Resumen**: Jornada de 40 horas cumple requisito constitucional: 18 estados dan el sí; así será la transición  El Economista
-- [Leer original](https://news.google.com/rss/articles/CBMi2AFBVV95cUxOV3dPVFg5N2g4M2dwWVRma3EydWdSVFcybS00aWJyazhtQndoVTVNWnMtRGRMVFFSVnA3RjJWQUxGSzZCZ1k2QXd6ZndsM2l6LU1aSlRwcVgxSWZEOC1MNllmdk1Tbmt1Zm9fWUJzZE1wVGJ4ZTdUZEdQcjFValVkNnlNRUhVQnpMNUxUMkVMRHlnYklpY01ydWFyTFJmdDJkU1JkTDBMZGl0S0xkR2lhVVJFb0RfZGZSQnptdm15YV9vbnNKamJUSS1ZcTZhdnJpN1lPNWYxbEHSAd4BQVVfeXFMTVpyZGp6aEI4QU1zM0IzQjQzekxxZ0J6X3JIZ284Tm9hcmozWWFTdmNjUnh4MmN1VmJISFNMakhXNGw1emd1NHBhak9NZjlfenZmd1lnZHpIa3lNS2E4Y0QtVU42Q2oyQURGYmxVRVRDQ0R3Nk5nN25NOGhuV3BEY01aT0pyNFljY2J6YlNDM1BTbVU1eDc2UW00bkdQYmpGQV9vQTREQzNqaGI4YXVheHdSMUdjQUJLVjJfOEFRcFJZano3OHRfV2NjdWRNLTZDYUxqa2M1MlpidlI1UlJ3?oc=5)
+### GPPAN vota a favor de reducción de la jornada laboral, pero seguirá insistiendo para que mexicanos tengan dos días de descanso obligatorio - pan.senado.gob.mx
+- **Fecha**: 2026-04-08
+- **Resumen**: GPPAN vota a favor de reducción de la jornada laboral, pero seguirá insistiendo para que mexicanos tengan dos días de descanso obligatorio  pan.senado.gob.mx
+- [Leer original](https://news.google.com/rss/articles/CBMihwJBVV95cUxQRVFVR0llcGF5UklfeXI2ZUhDTG00MUp1eG5mbmN3UFp3QVpGV3hYR01KTVAxRGRsaVpveURvNWR2T1EtWkQyb0xobDdrVHljRHh5TF9pNHRkQ1J0QmJZTzJFeTdDZ3JtQjU1eUFQdnRpbHd5eTNiNHI1MTZRS3o4RGxZcVUwaUNJQUh5eXNRN1E5VHRXSG5fUXpqaHYzc1Q2cmppR0NmRWstTm9WeWhvMXh5bk1HbnBFTVBBdFBLVTFmcW55REF5c3lJUzlBYlJVR0RDY2paWVJydzJ3THpoOFpsXzE2eThId0NOT0FQb3BiZkIxZ1ZmeFBGTzZEZ2stbDNuOHAzZw?oc=5)
 
-### Senado aprueba ampliar catálogo de profesiones artísticas y sus derechos laborales en la LFT - El Economista
-- **Fecha**: 2026-02-25
-- **Resumen**: Senado aprueba ampliar catálogo de profesiones artísticas y sus derechos laborales en la LFT  El Economista
-- [Leer original](https://news.google.com/rss/articles/CBMi3gFBVV95cUxNY0x1R0NJc3lqdzR2ZXROUUJfczktdWFhakRiRnhaT0ZiQXppY2UtMzFkZGY1dnhCQUVyNElEcnFuZjZHOWoyMS1INnJlLWhrS1gwVE15bnVkYmUza3ZaeHoxZnBSUlVjZ0dzeGRoYmtObkNYbk1ZbUs3Ukozb3l3MF9iSk1QaGRIZVVfQWFmMUVJWlFPVm14czBDRGVNYXVxazYtUzBXRDc3MUJuT2ZrTDAxd093TlB0emhfdm5TTUxfZk00bXlVRjA2WnZWcU9Rd0pDcGJzZFR4NFJRdEHSAeMBQVVfeXFMTTBPMENQQ2ZFSmZjN3BJMjJTWmRJQnhHd1B2Si1OQlByRU40NEtyYWM2Wjl2NHJ1Ql9VQkE3eVpjVFJpd0U4VGk2a0g3WEFpckFLQTd3SEZBU2h0M0JxNWJGZjczLWJlMVBUbE9rWHQxNFQ1bklQTDlmeTM4MjlZY1FBQ0toeVVqSGVsWFhXVVlLVVRvWmZWa2ZJTmRNeWUzZS1aUlpfNFRvMm9IT2RVaVpGdGxxUUlpUUVYTTFLajdTeWgwMHpUT3dmTEpaXzVEWUdhWG42Z2ZyUFhpZThhdk52WVk?oc=5)
+### Sí al reloj checador, no a la redefinición de la jornada laboral: Esto se debate en el Senado - El Economista
+- **Fecha**: 2026-04-08
+- **Resumen**: Sí al reloj checador, no a la redefinición de la jornada laboral: Esto se debate en el Senado  El Economista
+- [Leer original](https://news.google.com/rss/articles/CBMiygFBVV95cUxPOFBMeEtCNXdXWFZ2ZHM2a3JILW9FUWpTNXZTWDVkc0NtQzlvYWY3SlNUX0NlLWFLWm1RQ3Q0emNWbGR0UzZOcHFURDJ5bl9SUHJwZmhSVFBlMzR0cWV0NW1YV01DazFsckNTNzVXUDlZV0dhdzhNdWtpU0xNVjdlNVdWbHQzRVVuWG52Q25EYWpuOXFWYmN0WVItOUFLTHZmY0liR0dueEIwZE1RY2tZOXczaXJYY19CZGUwNzI4RjYtTzVPMC1Cc3Z30gHPAUFVX3lxTE96dWoxMThTWFJITlVWU1YzcmpweVgwRWpYNm16b3gzQzZLTFFzck5IZHdfUnBhUzc1Rlo3QjcxU3FnZWdac3VGbVZCYXZ2RnI4dVFZX3djdTcwemhLNTA2aEtCNDlHOVEwZ1l1UGtBbnAwcDQ5dkVTZ0JqZnZ0N2pteTlDWHBuQ1p6eWdlSVFTVEJ3ZDJ5UEVaNzVJdjh3aV9iZV9uX0xMMEdGQk0tSzEtZEhrdS0tWk5zV1RPR0FJalI1UGRFNXBJVUdxZmFEWQ?oc=5)
 
-### Reforma laboral traerá una reorganización y alza de costos operativos: Canacintra en Puebla - El Economista
-- **Fecha**: 2026-02-26
-- **Resumen**: Reforma laboral traerá una reorganización y alza de costos operativos: Canacintra en Puebla  El Economista
-- [Leer original](https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTkhYWDF3aXJ3d2ZleVYydWJ5X21FMG5GMjRKMWNzWnpQWnF1QVEwZExGcTRjSGtKY2ZmUHNHSnZiRnM3cXNydUwtQWVsZ05LY0Uxc2JKRXJFMVFlNkx5bDhxMTB3YXVTc1lRWHlxLWZMT1R5Q2dZZHhGTTNiMDV2TTB3cVIxalRJUnRNd2lKQzRHMlo3LXZ4Wk9JSjFfa2drVjJ5TmNORDY2TXZzajFicUZnS3U1ZWVVVzlQR1hyOG1LMXQ5RG5EMjV5Y0R2V2dmdnRKY1ZR0gHbAUFVX3lxTE5NX0N4elI5QV9mdzdodXVjZm1nUFpBcVFWTUFiV1Fuc2hvSUw1NFZfcWxIWTR3Ty03UGhsRkNhNjRxS29JUTdoMmhSX01iemNieGs3S3ZNMHVRRTdZU09qVGQ2aXZpeWI2SE94Y2NWVlNZM0hoNmNweTlvTE9Gd3hiM3JHNGdwRWgwWFBzMVUwQVRXZnJPMnBkMWV2cVdSNFVEc2p4cXhsRl9KdHh6bmlka1REYXdPd1FrbTJuVmJ3ZUJHdnRJWnVLT01ZYXhDWjEzbHE4ZGxSc19ONA?oc=5)
+### Senadora Ivideliza Reyes Hernández, en la discusión del dictamen en materia de reducción de la jornada laboral - pan.senado.gob.mx
+- **Fecha**: 2026-04-08
+- **Resumen**: Senadora Ivideliza Reyes Hernández, en la discusión del dictamen en materia de reducción de la jornada laboral  pan.senado.gob.mx
+- [Leer original](https://news.google.com/rss/articles/CBMi4gFBVV95cUxOekRic2JfYkpBRG5OSTAxbE8yMTRNZ2txSUNrNnlsblduY0t6VTAtLVpxak1DS3JWTTdUeEYzdjhZNVFHeGJ0YXpHLUFxVW5Cb2FVdlVleHhZRGpCMlI4TzVNMWZCaWlnT2hKU08tVjJFLUNJZWhoNWpBTllsdzZIYWJUSEo2UDNnMTJfdDlKTEhfOHMxWlJZMEJTMGZZX09kY3pZQXdDVjdlS3llUzY5RENxZXBCaXR2c1FYSFNmMWh3VVFjV2VKME5xbHZqVkdnVEZ4OTNCYzkxMlVEWnVzOGVn?oc=5)
 
-### Aprueba Congreso de Puebla la reforma para reducir jornada laboral a 40 horas - Intolerancia Diario
-- **Fecha**: 2026-02-25
-- **Resumen**: Aprueba Congreso de Puebla la reforma para reducir jornada laboral a 40 horas  Intolerancia Diario
-- [Leer original](https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSmsxTmFBdk5xZFRZdEVtQk1Na1RHc1RMY0ZDd0wyQzZucThZOGFOUlNuQVM0ZTJYU1A1cFVLWGphR0hSVkxqQmtnM2lkbDRvQjJFcm5OUXVGS2NOaHY0MWd4QzltSEhRSHNOZDAtZUpTaHVOTDF1WnhuTTk3Z255azhBQVNtWmpBTXJPcHg3aXV2dWVsUEdza2Mxd3VLTEU1UTVyTEw3YjlCbk85amY4WjlpVTNha2ozRE83OEdrbFFwV0Q0emFyb1dUN05KVFoxZUNxTQ?oc=5)
+### Jornada de 40 horas: Senadores ajustan proyecto para asegurar dos días de descanso - El Economista
+- **Fecha**: 2026-04-07
+- **Resumen**: Jornada de 40 horas: Senadores ajustan proyecto para asegurar dos días de descanso  El Economista
+- [Leer original](https://news.google.com/rss/articles/CBMi1AFBVV95cUxQOHlwQ1ZPVExRVWx0cUxoUTU3SkZQZENSYTF6enEtaERqbXpNbWZvZlBpZWFCQTd2SmdSTVRoQlZZUktuczF1Ny03STVxMGI0emVrRE9kcHc2Ylp6Mk1UNmJuTUtVSjIwOVliU3dEazZDbjZkazhYMDRXVmhFRnRYYXpsTF9PVVkxY09ieWxESU1KZ1VqMG1rbzROVkZOR1RaSmk3MXN0QmRoMG9sRUtJMXlvWC1iMWlsZVV6Z3BpY3ZUcV9SVHdWSE9rZ0VmR0puZ2hDQdIB2gFBVV95cUxNbktXc2hkaVBvNmRLa282dWJKRWZWZ1pMN21oSk5rMXhKX3cwa0VsSnc0VDkwVEd1NXdrT2hMenFNYWZacHo5WmdlWXVXYzBYRDFfNXZQNFg0SDhJNlZDdGZjdFZJMWpUY0NjNWtRMmV2cl8wOWZ5bXlYRW9CVTM2N1ZYeE9xbmgzcjdVX2ctWGRELXhiRlQtb1hBbnByb1gwZnV3RzJFb3RIczVWaVN1SzZuTjE1emdncFdKR05BSGlVd0hVdllzVTJNbFcwVWFHeGhwNVR6ZU9hZw?oc=5)
 
-### Presenta diputada del PRI Paloma Domínguez dos reservas para garantizar descanso efectivo y coherencia normativa en la reforma laboral - Hoja de Ruta Digital
-- **Fecha**: 2026-02-25
-- **Resumen**: Presenta diputada del PRI Paloma Domínguez dos reservas para garantizar descanso efectivo y coherencia normativa en la reforma laboral  Hoja de Ruta Digital
-- [Leer original](https://news.google.com/rss/articles/CBMi9wFBVV95cUxQRkZpanNrdm1sdjg1akVGdWNxbFdPRVhIcGRTNW9JUUg1dG1ZOFBpMFI5RWtodGQtS085N0FENGRjbUVWSzdUTS1JZWJ5UzFJR1oxeFA4dm1nbTU3T3drTC14SV8zTVNTSEJiNVVqNWE0NUFXTUh3OXhrcXZTR0RRcFdtQWlyMGxUd2M2OUF5c1NkS0diWWlldy1jcTg2endEWlRzamtqU19YWmlNU1VfcDRrUnFCVnJwMHBXWFZJUEtDdXFJTjBGWnh2NWVFV25hUU9Eb3lMQ0Q3ZElyQXNPbkNmb1N1ay1TbFBkLW4xYXJ0RjNxY09R?oc=5)
+### Senadores van por registro electrónico de jornada laboral y multa de hasta 586,000 pesos - El Economista
+- **Fecha**: 2026-04-07
+- **Resumen**: Senadores van por registro electrónico de jornada laboral y multa de hasta 586,000 pesos  El Economista
+- [Leer original](https://news.google.com/rss/articles/CBMizwFBVV95cUxOYVBSQ1RwOVVSbUdHaWpMQjVSTkxwLXZtRmlXNDVBa2IxeHBqQmpsdkhKMlozc250eHBoZktkeDkwX2J1Q3BCTGRndHJET3dEakMzRzdCN2RITlF5MmJhR3VzZkZxbFlBc0liZWVVdjN1dzNrY0kyMGtXSTctV04yOEZQRzI0ZEFVNXFIUng0MVdsdzViaUI5alVpaTFFZTNscUg2Q2s4LTBlUy1zUHBqR042WEk2UXI1Y3Z0aExTVl9mQ0ZrS1RGYm80RjlNWGPSAdQBQVVfeXFMUFBtcWlSRDFSZTVPRHBPLTBMejJIcFZUNHBUX29tMk1vX0JrbVFFU0xIN1pqVGFxS21yUGltaDN0M3h5SndVckF3aHdBYWhXTjhzTTBzUTNjYUVPelJIU1hqQXkwX3l1VUJlZHJHMVliSmNDR05rOGZKcmFlN0llWkExSWFrZmIzc3ZNaGZQb1ozRjVQNW9ydE9udVNtVHhBc3YxVkRGVXZrOE5wczlxdG5ibkY0T2dBYnVsOGlhRE4tVFFDY0lPdFdjOFVYbEN3TGxUYks?oc=5)
 
-### Cámara de Diputados aprueba la jornada laboral de 40 horas y otras reformas a la ley laboral - Pijamasurf
-- **Fecha**: 2026-02-25
-- **Resumen**: Cámara de Diputados aprueba la jornada laboral de 40 horas y otras reformas a la ley laboral  Pijamasurf
-- [Leer original](https://news.google.com/rss/articles/CBMikAFBVV95cUxQN1NDUU5UMmk0OGlEZzJuMnhGbWJ5MnE4MzJEQ3JMaGxRcUxsb0xHYnVLeEZfNWJUZ0lTZ1dQeGNjWDVFOXNMRU01SmxwWTNJMGpSLXV4ajV6TWFnM01CWVdXMVNPT1JudzJsbEcwMVNJUHQwMWs1azhzelZDNFdjckVUeFQ5anJMS1F2WnFKVzA?oc=5)
+### Reforma secundaria de jornada laboral garantiza dos días de descanso y flexibilidad - El Economista
+- **Fecha**: 2026-04-13
+- **Resumen**: Reforma secundaria de jornada laboral garantiza dos días de descanso y flexibilidad  El Economista
+- [Leer original](https://news.google.com/rss/articles/CBMi2wFBVV95cUxQdXV3djNLa1pjY1FuMUs2X2w1amJpclVPNnZlZGgzVEtXNWRBeVo4blNscEJIMm4yQnVsNTJUR1lYMTJ4YmJJVHp2aExKdmp4anR0alUybnFUcEcwbkxobXc4ekZXNGhpSVRGXzlRM2c0SGNyc1p3M01sVWlwMnVPTWljVDl4MTlEeHc1RHRqN2RPYnBjSExGZllOWC1tTk5jc1hWTTQ2OGJ1aWNyaVNqazNxWUd2SnMwTnIyaER4bnFPUHlkS3owREFBd1pFSFU4SzdYRGhvN2dPMDDSAeABQVVfeXFMT2k5SEZteEVmc1pjVklESndRaDlqOGMxZmxrVnEtV3R0b0Zqb0xpaVM5Rl92XzNnZlZ1N0llZE0wRzBYaXRuZHdVN0JpamtPNEZCME1mQWo5NjQyYmRlX24yU2ZzdjhNRXFjU3ZRM0tVZGtQZ1NWV1B6VHJLQlJSb25PVUxsWDRVUWR5QU1mTUZHRlN6YmpxMGtCT2lBVWZ0ZVdhUDIzdk92cHI3c1dFQk1XamE3YWtTMU1yamkyOE9ndjNHaHRaTEhYODBHQWdZQ21JM2JZVnR1YXljZTdhWTA?oc=5)
 
-### Diputados aprueban jornada laboral de 40 horas con aplicación gradual - 8 Columnas
-- **Fecha**: 2026-02-25
-- **Resumen**: Diputados aprueban jornada laboral de 40 horas con aplicación gradual  8 Columnas
-- [Leer original](https://news.google.com/rss/articles/CBMipwFBVV95cUxOeE1NRDlvYU1xQlR1RV85ZXlXZndIbS1IYzN2NkVlQm9OUTg4OWE2eVFIWWpfSXBaQ2pPS243SjRkcXBWb2VwMDBtc0NiaXZIVE9POTFyLV9TNmEwYlh2elRSUWpRY0stTjJRc2p5Tjh5UzRRd3JVWVA1R1IwZzRBMnhZQnVBVTVMNnpIR1cxbVRiWjRzb0FaaXQyOVY2SlNxLUxwYmJVUQ?oc=5)
+### Reforma secundaria de jornada laboral: ¿Qué debe considerar el siguiente debate legislativo? - El Economista
+- **Fecha**: 2026-04-07
+- **Resumen**: Reforma secundaria de jornada laboral: ¿Qué debe considerar el siguiente debate legislativo?  El Economista
+- [Leer original](https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTjZXRjFVT3ktTzBJc1g2WUpsb2F1cmFTZlJWTFlKWldvTHZZalNJbEwwS2ZIZUNPNVIwQU94Ukd6Y0stSUs2bkR1aDRROGVfenVEYXl2blZwNTF5Y2pUMHB1SUV0b0JEOEE3ZTlxX3E1Y3hQWmJiMlZ0SkZsbk5LenA0RDVkaE1BLUx0VDU0NXNHZVI3RFBJNTkxM2pqNEdqNnBCT09vYUFPVzRiYi01ZGtSc1hPSXBLRkh6dmRESlFXNGRsaGFCMEswU3NjQXZaQ1JfTVdGS0dFTUEtRmFlLdIB5gFBVV95cUxQcFprQmhqNk9mLWhxUjJIYmxuMmVhQWtPeTQ1c01CaGNoRkdxNnZLME1mMGpkdVA3TVg3WmRtaVp4MnNRb18tRjY5RFl5bTZ4VXFXN3dkbFl6US16MXl0OGRrUGpsaU9EcjljelNMV0NYaWhlT0Rnekg5WmlyLXZNVk5uejhyMFFxcTJyX3U4T3RDRWNjSnJaT1hkazdnRnRwajRWZnFsNWtCUG1NbE4zcWhsbHpQSU51Ql9lcWotNHgzQlN0WGJvVU11ZkpiXzlTanNwMTVkYXlLOVJrdkdnOGhEakkyUQ?oc=5)
 
-### "Es un avance importante": Rocha Moya tras aprobación de jornada laboral de 40 horas - debate.com.mx
-- **Fecha**: 2026-02-25
-- **Resumen**: "Es un avance importante": Rocha Moya tras aprobación de jornada laboral de 40 horas  debate.com.mx
-- [Leer original](https://news.google.com/rss/articles/CBMi2wFBVV95cUxQVjljSGtQaDNUbm5hdnlienVjT2N3Mm5kbFpxdXpYZzNBaTdrOWZEMXNMc04ySjRmZkhlZnRFekdpdkNNaE53QjQ3RHh2UHhjcDMtRGVOcDZZVUhKa3JVRkE3ZEtpNFMwS3ktcUhpeXpMcml3S25fNHlvRU96aWxoamc3VkNzX25WM1lQaWtXbFRxcXk4TXEwRHlwRnQwb1dxNDFJSkpyMFVxN3VSMFZVd2x3OXEwMWVTX0RNNFlqcTUzbXp6cXc1V3J3OEM4alpNRnBoY2VabzQ4d0nSAeABQVVfeXFMTTZSTmpvR0FqWHVPX054QUlQd2xHbWRUTjhWU1JSYzdKcklKSFVkQTdjMkFSVXlPckpibmIyTUtVcXY0M0ZBZmFZZWUxa01mTTZONm1ZNmk4aFk3RXM5SDhReVQ1MUVhbUgxRmcxWkEtdlk5WlJYcFF4b2c3Q05MSjlXb0ZHeGx0Mm1fOEJERmhZQTdQb2kwckVha2xTcTdGM2lvdFhyY3pYbUhmaFpzRVhRYW14a3VyRWRqYkoxU2laZGUtMjc4WG1jcnh5RDJSSDVWaktsWWJKU0lKdVJHQU4?oc=5)
+### Ley Federal del Trabajo: Senado avala reducir la jornada laboral y obligar al uso de ‘checador’ - Nación321
+- **Fecha**: 2026-04-09
+- **Resumen**: Ley Federal del Trabajo: Senado avala reducir la jornada laboral y obligar al uso de ‘checador’  Nación321
+- [Leer original](https://news.google.com/rss/articles/CBMi1gFBVV95cUxNb3puUHo1WGNHc1J6Zk1XZVhqRFc2NDBwR1VPanQ4VzRqQ0ZqMW5JSlNKQkNPX25uMzJmRDdJYml1RkNNNk1vejk0ZUtCTmxIcWFBbGhCYUpWRW5LbzB0WGl2N3lKaG5JN1lXY0YteGpwMzlFZ0dWZTVVcjlzempwOEp6MUdpMXVTNFh3amF4NHpiNmhZTWpJVXhabkNKM1BWdVZEenlKN1NkYVdGTTV3eVJMT09FSkdYWnVOTVdLQnotSExFaTNySU82MTF4TlNrRnB3ZVVR?oc=5)
 
-### Reforma laboral: Ampliación de horas extras beneficiará a empresas, señala Coparmex - El Sol de México
-- **Fecha**: 2026-02-27
-- **Resumen**: Reforma laboral: Ampliación de horas extras beneficiará a empresas, señala Coparmex  El Sol de México
-- [Leer original](https://news.google.com/rss/articles/CBMiygFBVV95cUxNMXJWbmhOcUNtY0JzN1JRZU5FTlVPcjJkWklYU3ZZczZtTXBnaXhFc1h4TERCTGg4MTJJSlBKQjBRcFoyZ2FGb05wY2lmMVpMV00tempyM0hsajNfdDlRWGNkaHRnbS1STHBFeVFMeFlGRGN3S3o5WVhZM2lWczdseTljcFBJVm5LallaUjNEOWtXNHB0VS16VVFHNHAwR3hCTUREVWpNRGVRZm5KSTNlRDZwUDNrWE5nc2dZSS1JUU0wR0kyWmFwY1p3?oc=5)
+### Regulan parámetros para que jefes y empleados acuerden la jornada laboral - Imagen Radio 90.5
+- **Fecha**: 2026-04-06
+- **Resumen**: Regulan parámetros para que jefes y empleados acuerden la jornada laboral  Imagen Radio 90.5
+- [Leer original](https://news.google.com/rss/articles/CBMipwFBVV95cUxNRmFuM1Q3U0pDOWVtdG5mUDdDQkZFQ3V4UU0wMllyS3d2bm1sSVFZdk01ZzNhQTJSYURRWTZoekdfM29qUWN4bElnb2JfTFJGNk5vbUUwMEFJaVFEeF9DVmZsd0NubTEwaUVzZHAyWUt4QzVxTnMwbENLU0FKM3BYeUw1dGx4cTduVkEyVWVodlVTdTVBT2YtZ3dBUlRvSzIzMWpQV1lzd9IBrAFBVV95cUxQMGJxTXh3VlNjdkpValNsX1RmN1NhU0Ric1BCNnY5WnR2X3c4dTJPNTdSaDF6RjA0dkthQmlYTkM1Y2tfUkQ5ZTZtRk50UzA0aGZwQU0zZjU4Xzc5N2tmNDVHM3ZFWG9mQWxLam5hMUFGUDNISG5tZ1pOU0JKcUJtZ0FDNk9tOFZETzNUTVdEOV9yRklaU0V0b0ttNTMyM1pWd3ppUXFRSHpGYWxR?oc=5)
 
-### Reforma Laboral es un logro para los trabajadores, destaca líder de FTOT - XEVA
-- **Fecha**: 2026-02-25
-- **Resumen**: Reforma Laboral es un logro para los trabajadores, destaca líder de FTOT  XEVA
-- [Leer original](https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM19xSzdNSXFERDNIc2pqbFRTSDdqZE5wc01xQUV5ZkFGSjFjQURNUVg3ZUhmb0FmTlFYbTgtbGJQNmpENXVxcEtqVUpHZmd2aEI1cTI5ZUQ1STg4bG45YkJEVnNLRy1KMl9XcmVOOEQyMERsWUZEQzRoUDNnMlo3U1dsX1AzS2tLSnQ5cFpqNm9KbVQ3UTV3a0VhLTZXNlUycU9HOVRoakg2Zw?oc=5)
+### Senado avala jornada laboral de 40 horas en México, pero mantiene un día de descanso - W Radio México
+- **Fecha**: 2026-04-09
+- **Resumen**: Senado avala jornada laboral de 40 horas en México, pero mantiene un día de descanso  W Radio México
+- [Leer original](https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVzVXbWk3eGtxeEktUGR3T2ZGbFdpbFJTaGMydWhNdVZKb2JyNk5yell5M25mZFQxbXY5UGtUYmE3NUgwWXRjQ1llLXg4eTJfeUVLZHpsdHYtcnVLb2QtZG9xWXZqcWx2cFhYMjUyMnpkU3ZFREtuWVZ5VmdzamVmNFZPeWEwb0p5cGgyb3E4Q3NOb0ZuS0F5ZmtqV1EwUncyb2k3cTByeld6U2JvTFZaYkFabE53Vk5C?oc=5)
 
-### México aprueba reducir la jornada laboral de 48 a 40 horas semanales - Latam Gremial
-- **Fecha**: 2026-02-25
-- **Resumen**: México aprueba reducir la jornada laboral de 48 a 40 horas semanales  Latam Gremial
-- [Leer original](https://news.google.com/rss/articles/CBMimgFBVV95cUxNbjFDanhzVVNHbjQ3NTB6Ylc4OGF5NC1JNkpqUHh4MG9tV29wTHlRTDNyTzhDZm1BTS1zNnNHelRkVzR1X1lsWF9NQ2dkc3NaT1FZdl9HcGNhRmJRb0tIV09jN0FOTkI0QzhsTWhvenZ1a3RRMG9LcENXX2JtVkhGd3BNX0U3TUVfNWlPMG9HNTJTQ25vQXQ2dzlB?oc=5)
+### Semana laboral: ¿Cuáles son los cambios aprobados en la reforma a la Ley Federal del Trabajo? - MVS Noticias
+- **Fecha**: 2026-04-12
+- **Resumen**: Semana laboral: ¿Cuáles son los cambios aprobados en la reforma a la Ley Federal del Trabajo?  MVS Noticias
+- [Leer original](https://news.google.com/rss/articles/CBMi2wFBVV95cUxQQVNxcldtbktua0pNNDhwMWRsWlB0RkNZM2YtenAwazNDd3dkbzJGdlFUSXZRSlN5c0libkpwQm9DVldXa044ajNhbDJVdUtkVnh0TXZKd3RYT0x1d3N5OVZqQjRmXzNnSURwbVZWRHp1NTY1b0dLM0VRdmxYWl9CQ2FuT3lpMExsUVM2UTJPVkxyakM2T2I4QzlkMk15dFBTRTlrcXNqZ3ZFSU1yaW15OUFqRXpVUG1BWndUYzRTeWpweWJ3Vnc1bzdCYmcwMWZUa0M0c3NFWU5BbGvSAdsBQVVfeXFMUEFTcXJXbW5LbmtKTTQ4cDFkbFpQdEZDWTNmLXpwMGszQ3d3ZG8yRnZRVEl2UUpTeXNJYm5KcEJvQ1ZXV2tOOGozYWwyVXVLZFZ4dE12Snd0WE9MdXdzeTlWakI0Zl8zZ0lEcG1WVkR6dTU2NW9HSzNFUXZsWFpfQkNhbk95aTBMbFFTNlEyT1ZMcmpDNk9iOEM5ZDJNeXRQU0U5a3Fzamd2RUlNcmlteTlBakV6VVBtQVp3VGM0U3lqcHlid1Z3NW83QmJnMDFmVGtDNHNzRVlOQWxr?oc=5)
 
-### Reforma Laboral no beneficia a trabajadores: Janitzio Soto - La Jornada Estado de México
-- **Fecha**: 2026-02-24
-- **Resumen**: Reforma Laboral no beneficia a trabajadores: Janitzio Soto  La Jornada Estado de México
-- [Leer original](https://news.google.com/rss/articles/CBMimgFBVV95cUxOdHVOOGxLR01hMWFFYWZnbXFjTmw1YS1Ucm0xb0x0V3VEYUJKeUx1OVUyZklnYkxpRjN0V0Jsa1RGbW81RDVXSnVrMTRQM2t3X3QwcXRPd2RtU05zbDBzY1BCNnFlbjBKRnVDVG9zUzZGN1BlRTVlMDVBVlo0c3FWQ0JIcWRrZXNaRFhXeE0wNEkzd0VYb0E1emZn?oc=5)
+### Reforma constitucional reduce jornada laboral a 40 horas en México a partir de 2030 - Semanario ZETA
+- **Fecha**: 2026-04-08
+- **Resumen**: Reforma constitucional reduce jornada laboral a 40 horas en México a partir de 2030  Semanario ZETA
+- [Leer original](https://news.google.com/rss/articles/CBMitwFBVV95cUxNb2ZSVWlyNGpNaE5JQ2R3UkQ3QXJ0ZWxaV1NpdDl4WWFsbGd1VlVCMDk4R0ZnWHBERk42SzRLZWZjV3owc1hJVXloQjBpcHpSc19EVDd6ZlFZcGR4MTJnZ2luQnFoMENjeVQ3c25YYm1BLWdtZHJjM0lONUJ5UnpFU0pIYTBDSkhUWEV0dS1LYVFyNHZOWGwyd1RQeTlJVlI3cnJWY1R0aE5DY1JhaWJ4MktWUlQyT0U?oc=5)
 
-### México: Diputados aprueban reforma laboral para reducir jornada a 40 horas semanales - teleSUR - teleSUR
-- **Fecha**: 2026-02-25
-- **Resumen**: México: Diputados aprueban reforma laboral para reducir jornada a 40 horas semanales - teleSUR  teleSUR
-- [Leer original](https://news.google.com/rss/articles/CBMieEFVX3lxTE81WnBaeDU5bjgxeWNRaTVhNXM2TG5NTnN6MXlPQ3BXeHNrM1EtX2VBQUJlM1o5czBDc1lUMEtpZ19Qb2FjZ2JmTGFvQjJ5dTh4Y19nT1FYbGdhNWtLeF8tQndQN0s3aHdMdVR3M2RVRVpmNWVydVJFMA?oc=5)
+### Senadores van por sanciones a empleadores que no registren las horas laborales de los trabajadores - Expansión Política
+- **Fecha**: 2026-04-08
+- **Resumen**: Senadores van por sanciones a empleadores que no registren las horas laborales de los trabajadores  Expansión Política
+- [Leer original](https://news.google.com/rss/articles/CBMi4gFBVV95cUxPVzhMQS1hb3NaTlVWclpYUTFsazZDT0ppdkVLQm9iNnpER2VKUjB2em81d05JLTlZTDBRZkw3WnN6NXh4c1phdWN5akpGOFRTNG5lTFlLZHFrNjRsUzZDVjN3aFRWVUszcDY3WVlObkwwQUdrTHdNV3J6TTlRTy1LSEJSd09EZ255NkZGWElFSlJiVTU3UXQ4UnhaeDZfdXJtcjFJcHhmTU5GUlhVNFEyc2tyeUVVSnUxc1NhY2VTTUhWT0hlTXFORklqMFh1anl6Q2huX3B0cGlBQXVRbWVLY2d30gHvAUFVX3lxTE1kS3c4WE02TXJ1VVpZYVp6TWRVNDRMb2V3dFhBTjJpRXB2aWoxTkY5bFZ1SU1WRE5seHVlU3RvLWpNaXlpWkJaLVhxenU5d2N5V19vdnUtcFVlY3RtZGc0cUJiSDhTckx1X0VxQU9xQXM5UVkxc0E5U1NuU3hzOThJUkNpd3U3QmFnbmx6SW1ZNmFvckxGendfdjRJR3VYaloya0VGb3VvelNybTRJTEdoUHVLZERVTU9aR1ZEX2s2RklHdExLVFYxdTEzSVRqNnhRMjZrSE1RUG85d0hHcjh1VGJSOXR0bXlIcXZBWk1N?oc=5)
 
-### Reforma a Jornada Laboral de 40 HORAS en México: ¿Desaparece el pago de días festivos o primas dominicales? - foxsports.com.mx
-- **Fecha**: 2026-02-25
-- **Resumen**: Reforma a Jornada Laboral de 40 HORAS en México: ¿Desaparece el pago de días festivos o primas dominicales?  foxsports.com.mx
-- [Leer original](https://news.google.com/rss/articles/CBMi3gFBVV95cUxNTG9EdklyM2cyQ0ZaRDE3LXB5dldLZzNqZUlkMGNXN2hmWmZ6UHdsRTk4TEVHTzhUUHBKU1E2dFF3bUpaX1hsMWVxZTZ3TjFibUtxX3JqY195cWpqaS1iYlBnc3dBOHpEYkhaeE5rbTNDbDFycC0tanVzaUpVcC1SSm1zV09kMUxvZTU5X3VPUnVWVkVuZjBDRG1GUURwaFNKcHQ3c2dMbGlFWWJnNUI0QWo2ekpSR1lPZDMtNGJNOHE0X2UtRWVVLXpPcmJGby1kYUpRZ1ZDRkF1MmdnQ1E?oc=5)
+### Senado avala la jornada laboral de 40 horas, pero sin garantizar dos días de descanso - Infobae
+- **Fecha**: 2026-04-09
+- **Resumen**: Senado avala la jornada laboral de 40 horas, pero sin garantizar dos días de descanso  Infobae
+- [Leer original](https://news.google.com/rss/articles/CBMixgFBVV95cUxOTnliRFo1QWNNcjlwUEY3VEkxQnZneTNrWkx5VUVPX0RySGhCWnpKQXkxc0NrN0pESUR5UlhPNVAwYzQ2QmwwQ3JucWxUcGVGOXRZRER1OEJremktY0ljS2ZfXzlZV3BOZGpmWjRkZUU1WXhHczFfWVZPSEZlakZXZURRNXFpLVgyYktCTTUxamVtVEh5SU9Gd2FmMGRXTmwzOVlPZHJRVmlBQnBFY2M5VFIyVTBwU0JHRVUtZXF1Z2I1ZndRRlHSAeABQVVfeXFMUEtOSFNSWEFxelpFRVVVLUJXcEFxN3dCNlNHLTFZRGF5b0d0cE5BYUEtQUFlTzZfTzFnTXJ5TlVFMkhJbjhvcHhNVWVkYVVTUDBaVFZMeThCT0V2OVdlVld1YllGNTRmcmxYazFXX2k1bG5BQkgtWkNZYno4NHctNXRsV2tCZklCdWdaSkdDNmpPeUpveEJITEM5b2QzdXU5c21NM2VPcS01UllKTDk5R25BQ3lJM21RSTlfai1iS2dwWFZMVUkxTnYxMXQtQ004eEx1RDhyUnlFMmh0bC1ud1M?oc=5)
 
-### Reformas a la Ley Federal del Trabajo dan certeza jurídica a la labor artística: Geovanna Bañuelos - La Crónica de Hoy
-- **Fecha**: 2026-02-26
-- **Resumen**: Reformas a la Ley Federal del Trabajo dan certeza jurídica a la labor artística: Geovanna Bañuelos  La Crónica de Hoy
-- [Leer original](https://news.google.com/rss/articles/CBMi3gFBVV95cUxNay1NaFphdzVmYjFsNkVpR2RYZXF4bUU3c0UxdHZ6bV9LM0FnbEFTRnhMdnV0M0QxdDdnMF91eG05UTdUMW1TOVN6Tm1xRXNKNnpIakV4ZXppZTVsSnRJajJYZTVhU29pTzZSSGlvcmJCV2N1MTdKSGtDUnd1R2J0b2RuTXVOdlNxWlNhTW1sRFNRRjMzdHZXTUFENS05TXF1bk5ncXF2cW4zbDMzOTJZeWNEaG1MS0MtQ3dnTkRwQnNVVUxCcm5uUFNRaXZsZ1VqZlJtMl8yQ085WXY3YUE?oc=5)
+### El Senado aprueba reforma secundaria para la jornada laboral de 40 horas - Proceso
+- **Fecha**: 2026-04-09
+- **Resumen**: El Senado aprueba reforma secundaria para la jornada laboral de 40 horas  Proceso
+- [Leer original](https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTVdCbmhLVHJMVHRYWlFEMUwxM3FsZWpuVUVIZWVNNm5rVV9TQ2VMcWZmeHhLbUpVQ0hiYUJnOU5Yam5kRmgyQXNqUHY5LXBIODljZGdZWTh5dWU5Z1lSd21EVmU3NGFwaGZUOF8yMUlFMjctQmpFUkt6d3o2ZTcxdDgweG0yRktzdWVpOFdfajY0SU92S3pjNlA1MWRMVmJPRWp3OVlSV2M3cFFhX1FVTGU5b0JqOGFCeFdvd0ZjNmpmNUd5RGM4adIByAFBVV95cUxQTVdCbmhLVHJMVHRYWlFEMUwxM3FsZWpuVUVIZWVNNm5rVV9TQ2VMcWZmeHhLbUpVQ0hiYUJnOU5Yam5kRmgyQXNqUHY5LXBIODljZGdZWTh5dWU5Z1lSd21EVmU3NGFwaGZUOF8yMUlFMjctQmpFUkt6d3o2ZTcxdDgweG0yRktzdWVpOFdfajY0SU92S3pjNlA1MWRMVmJPRWp3OVlSV2M3cFFhX1FVTGU5b0JqOGFCeFdvd0ZjNmpmNUd5RGM4aQ?oc=5)
 
-### Llaman a incluir en reforma laboral los 2 días de descanso - Diario de Yucatán
-- **Fecha**: 2026-02-28
-- **Resumen**: Llaman a incluir en reforma laboral los 2 días de descanso  Diario de Yucatán
-- [Leer original](https://news.google.com/rss/articles/CBMirAFBVV95cUxPYzBUSGF6RGtlMnRaYjREeWt0dWFBZzNldDdGVmVHTnlEN1E3MTNxbDBtM29hR0Z6ZDg4a3RFSjZCc191TGRrb2IwY01QSHVYNU5ZOG94T1VsRVdmZEdSbEV4MXJfUEduSnhfOU1vQUlPemhkZXd3czdyUUd6TmtULUtzVnNOS3dWYzI5V0tQeTFWMnhSenFhTGtIc3hyWE05V21xU253bk0yZ2th?oc=5)
+### Comisiones del Senado votarán este miércoles la reforma secundaria de jornada laboral - Yahoo
+- **Fecha**: 2026-04-06
+- **Resumen**: Comisiones del Senado votarán este miércoles la reforma secundaria de jornada laboral  Yahoo
+- [Leer original](https://news.google.com/rss/articles/CBMiowFBVV95cUxQLTg3STlvRndYOGRKN0tqbzVteFFYUE9lV2xwNnZCaUNKcE9ub0hIdEs5SGc3WFNWN185UjdyX0ZjclByV1p2NGtxZmVHcmtJZmYzR3c4SVpKSzNNdC16YTZqNnE5U05KXzBLMkxJVDNkSkRERG4waDR0V3JzeHdfa1J2cEw2WWVQejZfUGdGMExJMXlQc0xHS28taUJjNlFRU29V?oc=5)
 
-### La reforma laboral de 40 horas alcanza el "sí" de los estados necesarios para su declaratoria - Diario de Yucatán
-- **Fecha**: 2026-02-27
-- **Resumen**: La reforma laboral de 40 horas alcanza el "sí" de los estados necesarios para su declaratoria  Diario de Yucatán
-- [Leer original](https://news.google.com/rss/articles/CBMizAFBVV95cUxPRXdlVWV6WFkzR0dUZk5tTTJqbmFvc0JDMGRVcHdIVTF3WFZLRFZyZ2NPLWVCVldyR2pWWGJkNEt3RlR1YVJ3QlNGZG1jMEhsM04xbjVyWkN2dldsekcyVXpwWXQtWXBQVEJPcU0xTlVuQ2RubjRxeENUWjFJRnhyZlBqYm54akd3ZEs5WklUaDBIdHM4eTRVamQ5ZFVxN1Nza2czUjJabldWSnIxUXNJaUZTMDU4TTBNbHdNejJtY2hiTEd1Z1Q0YmNQalM?oc=5)
+### Reforma jornada laboral 2026: Senado aprueba cambios a la Ley Federal del Trabajo y avanza semana de 40 horas - Cadena Politica
+- **Fecha**: 2026-04-10
+- **Resumen**: Reforma jornada laboral 2026: Senado aprueba cambios a la Ley Federal del Trabajo y avanza semana de 40 horas  Cadena Politica
+- [Leer original](https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWEV1T1MwcGg3UV9XeURMY1NObEVBaDZiUExNNHZsQUZPN0I3Z1ZkQmVoRVJEUmdqR2xNc1JhQkV3bVBCRDRoOHNVU1hDaEhkdjhwcGEtM1ZuYXZuSXRGYmludTVvM0NMMnFMVDd5WW1hRkNuaE5yMTJUSjNkekxxdTlPUjd1N0FwaXJfX2huemNlVWRjaUkySHpoMzQ3aV9zYnJsZTV0ZXMyN285bVNuSDROeUdBUXpWcW9MNHdEVG5tMXRteVlxT1FmdV9oSU1tYTNTaXBIOVVLNUFxRDdDQg?oc=5)
 
-### Jornada laboral de 40 horas sólo ajusta el reloj, no el descanso - debate.com.mx
-- **Fecha**: 2026-02-26
-- **Resumen**: Jornada laboral de 40 horas sólo ajusta el reloj, no el descanso  debate.com.mx
-- [Leer original](https://news.google.com/rss/articles/CBMitwFBVV95cUxPOFFXX1B4TGw2STZiblItcTZaWnhiYTRFMy1KWGgwbVZrTUk1QWxxZkVIQ0VncmlDekxIbm5ZbFpNcEpCWUJibUdNeXpxNDRuazE4aG5VeWlTTk1sVXgwd2I1anViOHh0bjAzVzRJOEtRT2pBMzlyWjI0Skx5Y0w1VS11Nm5PZGtCaURmZHVFdGRJWDliS2RWclc0Sk1EOEdvaWpLaEFuVk14YWtUalZvLVcwWThCMlXSAbwBQVVfeXFMUHZMeElMcnlZaVlZaExyekhFeGYxTVlDWmFwSGNNWEFWVzk3c2RjdnhmRS1TcHAwcW1CaEN1dnZnLUh3clY5LWpPRnVGMjF1dmhUM2llWHJHcnU0RzZ2dmZSTElhT1haV2R1TElQU0stLWpXV2FrY1JJbkpSUENxb2xyYWh5NXBKTVNUb0IxNDc3OHFWdktjajVvSG02OFZsR1VQbHNTTEVWd2JMV1FtMDVQbTR1NjN6OHYyc1k?oc=5)
+### Reforma para reducir jornada laboral aún no llega a la Cámara de Diputados - oem.com.mx
+- **Fecha**: 2026-04-11
+- **Resumen**: Reforma para reducir jornada laboral aún no llega a la Cámara de Diputados  oem.com.mx
+- [Leer original](https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZVhoWVlUMEFNeExheDJpUjBPYm5DN2VfQ0VKZWdrME16VGxQcEc4RXN6TVVhcmE3Y0UwOUJlZU9objJWMGdRdDBUeTRMRFpuMk12R2huZFNwMFFJbkJyZG55bkFqeFdIQVNRUzgtRHVNOHgxVzBVWEpaOUdPTU54M3dsVHpYMzJxY2JNclkwM0FhRGNIY29OdTN1WDAtWmhHR2FrLUZZRlliczBucjJyR216QU1BNFhwN1ZVb3ptVnQxT2tuN292Qw?oc=5)
 
-### Reforma laboral en México: reducción a 40 horas semanales sin recorte de descansos - ContraRéplica
-- **Fecha**: 2026-02-28
-- **Resumen**: Reforma laboral en México: reducción a 40 horas semanales sin recorte de descansos  ContraRéplica
-- [Leer original](https://news.google.com/rss/articles/CBMixAFBVV95cUxOOW9MQzAxWldUSFlzTlduS015aDYzRGIxR0c1Mks4NlBtUW4xc0VaNTUzXzZHem1kVTF6MkcwNWN1QVF5TmZPRVlUTFE5bDNUa3FpWE9rSWxRLXNmVG1JOXBmMl9LSzZBeVpBcjl1TmM0b1hPUkZ2Tld4NW1CTlRzckNzYlh3Q1lUakYtVHhZVTd0Ny1WcEEtODIxRlo3T0dMaFpoVnpQQTVQS1VqMF9ZV3hxQmhmOGt5ajdPUU5EMjZOaFpR?oc=5)
+### Proponen en el Senado hacer obligatoria la capacitación laboral en salud mental - El Economista
+- **Fecha**: 2026-04-09
+- **Resumen**: Proponen en el Senado hacer obligatoria la capacitación laboral en salud mental  El Economista
+- [Leer original](https://news.google.com/rss/articles/CBMiyAFBVV95cUxNY1ZyRzV3VWZKMXhRYmtPalpDQXdNOE9wYTBDVVVDTjdVbXROYzlDM3BmMS1tYURUZklfNWMtMXJxUkVrdDZKbW1Da0QwaldsTEt4eHZlWjhSTnF0bURPVFNnX0EwVEdIUUF2bi1wSk9JVGh6MGNOSmM4OHNOdUxSbG9fdkpTVTYwS193amhxVnZIaFBWZHZ2MVA4RTlxbzVfZmJPbXl4bGVxZk01Mnd1eU1UdDZ0WmZVeE9qUFdYN0RzYVRVU0RkWdIBzgFBVV95cUxQMGsxN3RSbl9OTnRua0ktZTA0WnhnXzJySjRjSE1tN21RTzQ2a2UxenQ0NzNqNkk5UEdIdjVUSWZVTHNYNFBMRXgzTzM2d1JqUDR4MF9VbU10dDJCSkxncC1tZFBONHFCY1Jyc3B6QnZFVzRGd1pqcHVBaXBTZTR4SVB3Zk9FYmh3aXFBU0dDdU0zWTU1ZHpOSlZTVjRNb3RJTzItek9uSnlrZExzZFVqR0piWFNndFVkS3lSZ2lMN0Vrb3F4aVpHcUVKSXk0dw?oc=5)
 
-### Morena bloquea en la Cámara de Diputados propuesta del PAN para eliminar impuestos al aguinaldo - Infobae
-- **Fecha**: 2026-02-24
-- **Resumen**: Morena bloquea en la Cámara de Diputados propuesta del PAN para eliminar impuestos al aguinaldo  Infobae
-- [Leer original](https://news.google.com/rss/articles/CBMi1AFBVV95cUxPbzFia3U4elVBNlJEX1MzVmZzbnJRVGFwVDRGcURTbFg1cWpyUEt2b2VLUEtBeWxzZDZOakJjQk5VU0xpbEt5Q1ZoNzF3WUJEaGFyWkRpVzVJMGFSeTFnXzZadGJRdzhEdzdKdjZzNVMtUDR4M0hlRUZSMEhSSF9Nb1ZzX3BPeTVNZWtsVGMxUmVWclA3RzhkZmZkRUJVV0FMdUpVS0hSb0dUTDBCNkwtM2VaN3FKZDVqTXVGRm1IbWkzUnpRa0NFNDFvYnlyWFQ5ZUZoaNIB7wFBVV95cUxOMkZHdnVnTmpWVzA0UjNVd1FiUHpYMlhKbTFhWUE4VTNENm9sZXM4bjlBRk54NWpSRmliMWtFM25OOGVGbWMwd2t4aVFPNk9EMUlNYXpySzhCSzZna05hbUYyT3B3cFJXZHJWZEFuT1lDa3ppbzk4SVA4a3o5LURFN2FoMmdacUlhYXhSMi1tUXZlbkFpYVJ6MUJmYV8xYTdVUmp2S3JUeGVGeTRPb25FQWFuZndnVVlnbzY3YjM5R3c1akVtb21xUkNtRHlBZHZrcjVlVTd2eGMyRjBqMTlxVDNodkdzQ1lzbE5GSXFzVQ?oc=5)
+### Senado aprueba jornada laboral de 40 horas; pasará a Cámara de Diputados - Revista Fortuna
+- **Fecha**: 2026-04-09
+- **Resumen**: Senado aprueba jornada laboral de 40 horas; pasará a Cámara de Diputados  Revista Fortuna
+- [Leer original](https://news.google.com/rss/articles/CBMiswFBVV95cUxPU0ZoNzhqRENRTF9neWRjZnFwUEFldy0wQmZMNjByUFhYb2lzWklKZVU0QnNJeWptQXZfSHdvWkRsMXRXRlRYZzZId1IzZnlmYVZ0RUdhMVRmNHNrcV94eFBteVlZUHVyRE5tMlhnTWl3Rk90TUFLT3lpb2dNbXR2Ty04QTZUWkN0MXRhdENqTC15ZWV6YnJtNlRuU0RBUkRHVG5lT0locXZFZ3VUdURkRThOUQ?oc=5)
 
-### Reducir la jornada laboral a 40 horas podría afectar a más de 70 mil Mipymes en Aguascalientes y provocar cierres, alerta Canaco - El Sol del Centro | Noticias Locales, Policiacas, sobre México, Aguascalientes y el Mundo - El Sol de México
-- **Fecha**: 2026-02-26
-- **Resumen**: Reducir la jornada laboral a 40 horas podría afectar a más de 70 mil Mipymes en Aguascalientes y provocar cierres, alerta Canaco - El Sol del Centro | Noticias Locales, Policiacas, sobre México, Aguascalientes y el Mundo  El Sol de México
-- [Leer original](https://news.google.com/rss/articles/CBMiiwJBVV95cUxQN0VTSU9TRGVzaTEwRUhaTDZnajZEano3VnZtS2lfV2ktMW5LbTB0U0dVVFFyWlJvUzFueG1Mb0tXSklmdV9YMFhvS0hqRmsxLUVIaDBEZ3NpaGh1YTN6SXFtdnpVT1EybFNrMkFjSF85YjZnVXBodFVGR0ZOZERDbHpyLVB3cFdzeU50RTJrZW5iNXdjOExoSFpmc08wWVg5Q2NoaUx0dzRSRXdadW9jMzJEOGxKOTBKYUpfbmtpR0kwSG5NZEowWnNYb3ZsNlM4V2tGNllQMFByTUVyNEljZ2NNYWptNWFaUzY1c3pUeEZzdl9jQlhHeTU1b0g4MVdJLW1BZnRTWkdfU2s?oc=5)
+### Jornada laboral de 40 horas: ¿Qué personas tendrán más días de descanso en México? - Escapada H
+- **Fecha**: 2026-04-13
+- **Resumen**: Jornada laboral de 40 horas: ¿Qué personas tendrán más días de descanso en México?  Escapada H
+- [Leer original](https://news.google.com/rss/articles/CBMi0wFBVV95cUxQSjVzSEozajRZdDRGN25rMnVMOTlQY1FPdEtBTFZnd2dXVGFuMVFpU0VZSkxFTG9LdzYzMUpGbFRCZmlJSXJ6Qkp5NWg4UElsaDU2S2QtUHY4aVNNVWdnc0hoTFc3T2k2R1MwcldWNFZwdVN1QjBwZ1dGWXJwRmlTTlB4YUl0M0dxd2hmOExMTkxLRm54aV9sQ2QyVmtQVlNuMTJmdnQ4MHB5QnpQVDBUT1U0UmRwdXlCWlZKTVYzS3lqUlFkSEdxX3drajZrdUF0Q1E40gHTAUFVX3lxTFBKNXNISjNqNFl0NEY3bmsydUw5OVBjUU90S0FMVmd3Z1dUYW4xUWlTRVlKTEVMb0t3NjMxSkZsVEJmaUlJcnpCSnk1aDhQSWxoNTZLZC1QdjhpU01VZ2dzSGhMVzdPaTZHUzByV1Y0VnB1U3VCMHBnV0ZZcnBGaVNOUHhhSXQzR3F3aGY4TExOTEtGbnhpX2xDZDJWa1BWU24xMmZ2dDgwcHlCelBUMFRPVTRSZHB1eUJaVkpNVjNLeWpSUWRIR3Ffd2tqNmt1QXRDUTg?oc=5)
 
-### Jornada laboral de 40 horas en Hidalgo, Congreso local ratifica reforma federal - La Silla Rota
-- **Fecha**: 2026-02-26
-- **Resumen**: Jornada laboral de 40 horas en Hidalgo, Congreso local ratifica reforma federal  La Silla Rota
-- [Leer original](https://news.google.com/rss/articles/CBMi1gFBVV95cUxNT2VKVk9PaHZzZjBobENFTmtfUmJHSU1veVA5TWY3c20zQTdjZXJiUU8xZndzdE1VMnZ2Tm5FUElsZS1wZGlPUjNqdDVQM2NYczRSWFRNSG5IbHdtWnB4R3A2Z2xTMVFRVnRfZVFPdFg2enJNTmI5cy1WY2cxcC1NM0hheUtsYUZnbVNabmVqcnpjWTJpcEJEbGJOVmU1MERfRkhoWnVVVldsYnlEWVY3Y2xOWjctRmZLN0hOYWRjcmIzU3RLVFNPNHdmMGRWR3JHa3ZLZDln0gHWAUFVX3lxTE1PZUpWT09odnNmMGhsQ0VOa19SYkdJTW95UDlNZjdzbTNBN2NlcmJRTzFmd3N0TVUydnZObkVQSWxlLXBkaU9SM2p0NVAzY1hzNFJYVE1Ibkhsd21acHhHcDZnbFMxUVFWdF9lUU90WDZ6ck1OYjlzLVZjZzFwLU0zSGF5S2xhRmdtU1puZWpyemNZMmlwQkRsYk5WZTUwRF9GSGhadVVWV2xieURZVjdjbE5aNy1GZks3SE5hZGNyYjNTdEtUU080d2YwZFZHckdrdktkOWc?oc=5)
+### 9 claves de la Reforma a la Ley Federal del Trabajo 2026: Así fijó el Senado la reducción de 48 a 40 horas - debate.com.mx
+- **Fecha**: 2026-04-09
+- **Resumen**: 9 claves de la Reforma a la Ley Federal del Trabajo 2026: Así fijó el Senado la reducción de 48 a 40 horas  debate.com.mx
+- [Leer original](https://news.google.com/rss/articles/CBMi5AFBVV95cUxQeTlLM3I0R3Vyb1U2bE10elJncnNPOFhyQl9PazEzUEpIZ1dhM0Z1cDd3aFgxY3RKV3lVM0VraEtMUHlHMEJlb0NsNmxVU1EwWGxpOTdMMzI5OWhEUjR1LTJaMEV5Uy1XM2dXZGdOV1FmUEl0NVh4Y1lWTmN0WXZoWXptbEhOaDVIWGdxTkMxNXZNa0FCZWxXd2ZnNmd3OHUtdE5aVVFCNGRuZzRmSi1fUUNvWXFEUGJlTFE4c0JZQ0paaUVGOWQ4dXVIQWNOS3F6dUVmNldQRFg5bFdsWnAyQjhTRk_SAeoBQVVfeXFMUFc1TTJBRnVheGdXYUluQ2p4NldjX0VkRDZjUmdIaEROcjJBcmRIWlUtTEUtNktHTHFoQ0o1d1VRZHFvLVVSOWwyZldDWDRXekVqd1BxWnN2OVRRN3QtSURWblY5c1A5eWMtRXpuMGJBaDBMVXhzOEhXTzJERC1hdHZyYkhTVU96bkdHSkNKWFdTWGNjTTkwR0habzJmcjNyb0RtWW9BaTEyNVFlRGpNMkxYc2hUbzhGbEFTVTRaQ3hrMjlxWGtkUGJRLTFkUTVtZlFrbTJEUDlubXdtRkFuUlJMNzZnY0FtZjZn?oc=5)
 
-### ¿Adiós reducción de la jornada laboral? | Diputados rechazan proyecto para trabajar 48 horas a la semana con un solo día de descanso - El Cronista
-- **Fecha**: 2026-02-27
-- **Resumen**: ¿Adiós reducción de la jornada laboral? | Diputados rechazan proyecto para trabajar 48 horas a la semana con un solo día de descanso  El Cronista
-- [Leer original](https://news.google.com/rss/articles/CBMioAJBVV95cUxOOUQ1ci1odVR1bUFsdFZmTG1JMzF5S1REQWFobmtlUGNNUjk1MjlQbDQ4VllyMVB2WXVBMnFFV3FudXNVOVcyeWIwOWFSSTBISDlJazduMzRYRkNZalByUWNkRlByd01Ja3o0UnA4YTMtb3h2MlFFUmRjSDZiMW10MzFFcGtzM2dnSFItU0ZnRmxORC1JcjhSMVBrSHRkeGJ0MzNYUGxBMUc4XzFJWjZlTEttMTlHanJUb3RWcS1OU3JWSS1DT2dNM0VFZ1Q4NHM4S0pwajh4ZnMwV0V3THdlbDF6MXhIVDVtcHhvWTN1NEt3MkF1ZUxxQWtEdFZPNG1rVEJQVmtzcFpfSVZ2d1dhSVBJZXVZc0U5OHBXWmNkU1fSAaACQVVfeXFMTjlENXItaHVUdW1BbHRWZkxtSTMxeUtUREFhaG5rZVBjTVI5NTI5UGw0OFZZcjFQdll1QTJxRVdxbnVzVTlXMnliMDlhUkkwSEg5SWs3bjM0WEZDWWpQclFjZEZQcndNSWt6NFJwOGEzLW94djJRRVJkY0g2YjFtdDMxRXBrczNnZ0hSLVNGZ0ZsTkQtSXI4UjFQa0h0ZHhidDMzWFBsQTFHOF8xSVo2ZUxLbTE5R2pyVG90VnEtTlNyVkktQ09nTTNFRWdUODRzOEtKcGo4eGZzMFdFd0x3ZWwxejF4SFQ1bXB4b1kzdTRLdzJBdWVMcUFrRHRWTzRta1RCUFZrc3BaX0lWdndXYUlQSWV1WXNFOThwV1pjZFNX?oc=5)
+### Senado aprueba ajustes a la Ley federal del Trabajo - Vértigo Político
+- **Fecha**: 2026-04-10
+- **Resumen**: Senado aprueba ajustes a la Ley federal del Trabajo  Vértigo Político
+- [Leer original](https://news.google.com/rss/articles/CBMioAFBVV95cUxNb2hPbTlkcDdaNVI3R1FhS0ZUUThjeUpIQWRBQ3YyV182WnlMTlBVQ0ZRb2JzZVRMdWcySktNeGhtakx5MktFMG1DSVlBc3Z2QzFUakFPeVR0TTZDQnpuUlBHZTFzWE41M0tnaFBldUVLOE1US2JzTFJBUXFEMVNOVVVuY2Rya3VObmRtblpjVGF4M3ljT2pQTUU3UG5CUWE2?oc=5)
 
-### ¡Ya es constitucional! Jornada laboral de 40 horas alcanza mayoría de congresos - debate.com.mx
-- **Fecha**: 2026-02-26
-- **Resumen**: ¡Ya es constitucional! Jornada laboral de 40 horas alcanza mayoría de congresos  debate.com.mx
-- [Leer original](https://news.google.com/rss/articles/CBMiywFBVV95cUxPbWtxT3NIa1B5Y1hzdVJvNm9FNGFIcUlxZ3Jja29JN1puZXZaNzk1WnkzeW5YVURXVm5BVWdKRmNHUkJzRWh2d01Xdm5XSkp2cS1zZmx2QWFKTktIVElVVDYwV3dFcng3dFNJLXJjclY4Mm1oeGljRE9LWTNmcDItUUo3eHV3SWs2b2xfWkJ4U0x0R0VnZGZreDdSNXFqYVFxNV9nMG9oWS1ieEJVdkRSNnpsNlBOM1FwdFAyVS1zQ3pzQ2hnQ1ljUVJ1ONIB0AFBVV95cUxOZmFQeDNHYXllRnJuYlMza1NFS3hOR09wSE1QWkxIbUVZSlVucGZIdi00YmR0VTNIWDdaLVJmOTU2cmt0dTBKNkRDV0JTSEthVHhSb0hYZTFqVlhpRnBTS1E1UDMyVUV1REpWWEdFcVNJdU9ILU91T2ZUZVhWQTRLRFNOTWlweUJ4WjZpSi0tNDBBU1NsTkhaYThnY0ZSeE41dVRVbW5UZjVqeEtZQlFiMmZicDNULUl0UEdZWTV5b0NwZGlVelhKQWJ5R3VsU0ps?oc=5)
+### Aprueba Pleno del Senado reforma a Ley Federal del Trabajo para reducir la jornada laboral a 40 horas semanales - MiMorelia.com
+- **Fecha**: 2026-04-09
+- **Resumen**: Aprueba Pleno del Senado reforma a Ley Federal del Trabajo para reducir la jornada laboral a 40 horas semanales  MiMorelia.com
+- [Leer original](https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVWM3TlJyRGpEY2RhS3Ywam9mYjZ5d1ZoaUxUMEFyQ1ZXOHM2Q3ZWNWZLNXhMVTIzdVk1UE9yblJxRFRQMVRvVmhacVdJTFVKUlowc1JPanFfVThjWTI0RmNLd1JpQVM2LWkzaEkwUHFJYmNtbFpzMmMtUEpqblgtVmxtR3VlTHBBYUNFVFlZQnFHLXlzQ0pxVDFQZ3I4U0JmWG1Oa0F1WVhoZWlIWnNqbGdDUk8xZkstNEpRLVVra2p3SGJOV1RYeDZDYjJrWUI4T3dYdWpQc0I3SEdpVzI3blJOZ0JvZ9IB8wFBVV95cUxPOEJ6cmpIUXhTcEwtYXZTMFM1ZWJoUTVnUWVtejJwVDFEaTVpeDU1YktMU2FzUEZRRWFoVTVrSVl0aWFnZDIzZHN5c3JYcUdzajJaVV92V0xLdnJPeThaV28xU2JlN0ozUHA1eGxQZHRnQmhqSWFiVmdzNXhZcVpCUjJjMmJzQXNSQThLUk1NRk04UGp3RnhxeE52ZS1KTjdiVTR2eGF4aHFaUHRINXcwQWV1WGxlMjlCc1B6dUVHd0ZmYmdLUk9nODl0U2JrY0VBNWNlbDBTanA1LUdEaEtRM1AzZW9sTWUxUG9mZDR1MjJHUzA?oc=5)
 
-### Improcedente, reforma estatutaria del SPAUAZ; incumple la Ley del Trabajo - La Jornada Zacatecas
-- **Fecha**: 2026-02-28
-- **Resumen**: Improcedente, reforma estatutaria del SPAUAZ; incumple la Ley del Trabajo  La Jornada Zacatecas
-- [Leer original](https://news.google.com/rss/articles/CBMinwFBVV95cUxON1oydWItY2lydUdDLU4yZFJaYXdPaFRtQS1kQ2M0cENyMGk3MlNhSTFObFJINXlaelFMSi1YY1oyZkRDbHZpc2FGSVU3clg4ZF91RzVabHExOGp3SVN5M3lveFlnRGt0NFowcUVHR1hZdUlqVUpzZk1KVFRRYldHWFFaZEVoSzJqYVBNUGFYNFAyNl9iRXE0X0pYckRKdTA?oc=5)
+### Senado de la República aprueba reformas para evitar explotación laboral en el campo y proteger bosques del país - Talla Politica
+- **Fecha**: 2026-04-08
+- **Resumen**: Senado de la República aprueba reformas para evitar explotación laboral en el campo y proteger bosques del país  Talla Politica
+- [Leer original](https://news.google.com/rss/articles/CBMi3gFBVV95cUxNbjFFYUE5NW1XNGczRHpoX0VjYjBIRnRmWF9VQ1VNd3B6QXlDb0F3Z09IVTlUSUZDSWI2SktUZ0Q3Z1VjdkhfeUYtQktFekJReGtGNmZNb3JyRkxQVHJld3JEbjhoUF9fNTVXdnd6S0ZpZDRZMV9aSmVTOEhkaHdwMklyT0xKV3JvdEltM3NqX3F4SlFTQW94UmJPcDZmTVdOajMxd1NZOUpOZ0YtLVRpbi1LMDVoNXFCcHBxbnczZElad2VNNVNoUXlRc09ITDhWeUN6NHZkQU9kOUJWc2c?oc=5)
 
-### Bañuelos destaca reforma laboral que fortalece derechos de artistas y creadores en México - Imagen Zacatecas
-- **Fecha**: 2026-02-26
-- **Resumen**: Bañuelos destaca reforma laboral que fortalece derechos de artistas y creadores en México  Imagen Zacatecas
-- [Leer original](https://news.google.com/rss/articles/CBMixAFBVV95cUxNVTAwcXJvWjgyZlMzSUFYVGc0eFRxY2RYekZkbTg0QUhzMExXWU9od2ZoZ2tjNXJtNjROT1VCc0pNZHRZdTJpclI5MmxSN3N3WkRha01za3lnMzV1MUJfbkNjZk05Nlg2UUxWV0RCRFRSR2ppS0tBM19lTnpVeHNCdzhiemE5RGFEbFhPLWFYSndZQkNmZGEzTXVCR3hzQ0NMTEx5dW96T1lqLTJHLVpwZThBU3p1RXhrUFRsTUdmaEVRRmhW?oc=5)
+### Oficial y confirmado | Reducción de la jornada laboral en México: lo que cambiará a partir del 2027 y las empresas no podrán hacer nada - El Cronista
+- **Fecha**: 2026-04-11
+- **Resumen**: Oficial y confirmado | Reducción de la jornada laboral en México: lo que cambiará a partir del 2027 y las empresas no podrán hacer nada  El Cronista
+- [Leer original](https://news.google.com/rss/articles/CBMiiwJBVV95cUxQX1BTYjJOSFl4eGZwY19oNjJNanVmeDl2NVd6ZkpBODRRaTFaMzdtUlFkdjNidjh5WC1VNXVCR3ItSjM2VC1JUm5Uc3FOYUw1d3huQjFRMTFNbHl3SDdBU2hRSmxUTDJKaU1JRDVUUmVYQWVFa0JXb0tWdlM2NWhHdncxZW5JNzl5TlN2UUZFaWNYWFBseWZfMTZhOU5vTWk5Tnd5NlpBV3dxS3JrclZkZEZ4Wk9LYzFvUTY5WTctdTZTUnlqQ3ZoUUdraFROUHFxSXJqekYtNEt0Wk9VXy1iOUxJOVRfVmJ2Qjk1dnNfWFRMZDBhbklBWDE2bWlxeEdpT3EyX09yZzRIZ1nSAaYCQVVfeXFMUG9CelJUSGJOejRnY1BWSXdlejMtcWJwYkF3bVZFcDl5ODFNR0lrRnl0UFBSMGo5QXh2YVBjSk16OEZSWFdnTjJhV1hJSmZ0WGplMVRpdXJHRDQ4YjItTHd5SkhPNnFiUGpkemxFWjF0Y2Z0emVxalpGRjd5YnpDOG9sNzRRV0tPT2lXR1FLN1FzbDJVY3phX3VGQW9uNUloUHJEcXpYVklSRlllUTlHdnlZaUtON2hHZ0xkOHl4NnRBMmlZdkh0NUIxd1VWblR6MWxmWUhqUElyb18zUUkxMDVkSU9UVmt1Q3BLb1NQQkhBUG5GbGkzb0FUN3BiSG8xcmN3S0JHZmkza3IzZDBhb3k0aDd2eWJBQWF4cHRpU3Z3dS1rYWpn?oc=5)
 
-### ¿Qué pasará con las prestaciones tras la reducción de la jornada laboral? - El Heraldo de México
-- **Fecha**: 2026-02-26
-- **Resumen**: ¿Qué pasará con las prestaciones tras la reducción de la jornada laboral?  El Heraldo de México
-- [Leer original](https://news.google.com/rss/articles/CBMizgFBVV95cUxOeGxDNHgwVDU5YnRzTW1pS1JaNUxXU2ZQbFZlUXdBcVF1YU5yTWpWdzRzWWF1Q1UxZDg1X2F2UVBGbW40enFUWTBFTEJERHdVZWc1VmR0TTI1ajBrX3ZJaThOWVpfUGtUaU9sSlM0cE0yckxWUnFNNDAxaFVyRDlmMG9Gd0VqaEVhMGQ3Qm9SX0Z4bjcwM3J5UWlGY1huZi1aVnI5R2w2TDRxQTN1bHBPcEgtT1VUV2NXVnBQRzd4cmIxQVRJVV9IWXlsV3QzZ9IB0wFBVV95cUxPdjdiSFlkc3hhX29USTVPbFVBX3JsRElZM3FUWmtuZUZkZFVWczdJaXpjUnNfZ2xwc3ZFTmE5YTBxQkgyU25XM0d4aVVPcGpUdkJQT1lrYkRiY1dFU2c4SXc0b0hrbHdlNGhoOUdGcDBxSXdzcDdibTU1TFJQWEdXVXQzaktqektjYWVKSHhPOURVSWk3WTJUNWJVZlJUN1MtdVk3ZEhCLTlUdkxsc1NLTGR6OGxiRVRHZVYxS0h5c2pXS1lOdFdnd0R5R2ZBTEgtYjBB?oc=5)
+### Reducen jornada a 40 horas… pero se mantiene semana de seis días laborales - Vanguardia Industrial
+- **Fecha**: 2026-04-09
+- **Resumen**: Reducen jornada a 40 horas… pero se mantiene semana de seis días laborales  Vanguardia Industrial
+- [Leer original](https://news.google.com/rss/articles/CBMirAFBVV95cUxOQXlmaFFsajFrOW5WZm9oUW54V1dkZmZDUEZCS0hOblg1ZzM0cW1qNWNPYXJjSHItU2UxQ3BMUEFRdC1vYXY4OXVZZGJ2X083VE9TXy00OGJ2VFNBNGVlajlWSWhONk1qQmVSZVQ4UlVxS3FXcV9TMlhNLTBPU1hlLTFkWGYxZXY0aVotemtsR0szeVNkYl9FNjAxelJnRnJDVldnQlJLMU1BNjNn?oc=5)
 
-### ¿Menos trabajo o más horas extra? Las claves polémicas de la nueva reforma laboral en México - Maya Comunicación
-- **Fecha**: 2026-02-27
-- **Resumen**: ¿Menos trabajo o más horas extra? Las claves polémicas de la nueva reforma laboral en México  Maya Comunicación
-- [Leer original](https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWnpWRVVLb2ZvVmZCWkZOZ1NCZEdlTFhYN25aOEhDWHFwR0swanpUME9HNDRGSFJZajEtTnd1Qzh6WmNjOXN4YWRfd2lzaDZodzIzeXBNaDRNNzRObTNkanhXdFMzZXVBRWp0QmRVX3ZKM3RVb183R2lZVXI3SGRPYnNicU1BMjNKUE00NmdINUh6OXY1TjZzei1GVmtWXzNsemxLLWhMeHBVMDlObERETFlzOTMxZlpCY2l0bm9XRnU?oc=5)
+### Aprueba Senado reforma para jornada laboral a 40 Horas - XEVT
+- **Fecha**: 2026-04-09
+- **Resumen**: Aprueba Senado reforma para jornada laboral a 40 Horas  XEVT
+- [Leer original](https://news.google.com/rss/articles/CBMilgFBVV95cUxOUTNwSWxtVGNpSUx4aVkybE1LSk5JakhjSjhiUDdLUXEyTlZzdHgxMnJrdlN1VHpiaVJOQ2NWc3BNajd3VVpZc0hjc2ZjY0RoTVMwS052aVh5U0xyXy1OY2xEd2R2aGU4RHNGaW1WRDEydk1pN3VpWFlXTXFqU2NmUFBEdTg3YjlGZExWMXBJdVVnS2I5NkE?oc=5)
 
-### Reforma de 40 horas en México: cómo impactará la nueva jornada laboral a los trabajadores - MSN
-- **Fecha**: 2026-02-25
-- **Resumen**: Reforma de 40 horas en México: cómo impactará la nueva jornada laboral a los trabajadores  MSN
-- [Leer original](https://news.google.com/rss/articles/CBMi7gFBVV95cUxPTTlTR1RVWnZhbkhzaWdGdlZWeDI5NE1LQzdvUUFVS2hmQ1pzSGp1V3NKa2s2b3BJMkJjcDBXSVZZbGNlQ1R0TUlfUjFhRF9CMERqVGkyQTBoTExHWHJZVU9ST1hEMGgtVVdpLXk3SmVVVWNZb2tqNEVUR3Ffb2tkY3dpUWhXaGVQeVY2bjBRM2lIVTdhMnJ0WldEZEhIRFB2MXI1SGdhNEw3NlB2d0gyRGdYOWxEYjFfUV9DRlFhQ1hfZF9CZHF1Tk1KWTVQRFBMR1hiYzFucGhyUUJHV3FZaUl2LUc1eHU0anlkQ0tn?oc=5)
+### Ratifican en Senado jornada laboral de 40 horas - diario.mx
+- **Fecha**: 2026-04-09
+- **Resumen**: Ratifican en Senado jornada laboral de 40 horas  diario.mx
+- [Leer original](https://news.google.com/rss/articles/CBMioAFBVV95cUxQOXg4bWVxVkg1ZEVLSE80VHpSNEVudEtNdVpTdndMRlR2NUJsUFdQYzFJTlc2SzBEemRidkpqOUJQOG5aQ1N0SGlVU2dhQzBIWHVvM3RwOVZSNTNMRXdPcVF5WDdoaUZfSFlEb19sSWRYRWVFS2xFQzM5bjVzenkzcHZIWDNfX3FqSk91cHY0S3llLTdodVliWmpnMnM0Skd20gGmAUFVX3lxTFBLVlJQTXJwUTRhQ1FMdk9FZEhxS1ZyeDZGNXE3eXRaWGQ1VGx6NWs4QzZPcTBVQThsTWxHZk9PaFVrT2lYUkFUWjBFc2FSVXZ4M2NMenVheXVnTTBFTWljenBhdG10bXMtR0FxQ00tVm1VVXhpOFMxTWdENDVLOXZXUWxVYjRsRUZCQXJITTBOQnJGSzdkdzU2OVJqX2hsM3N5Tzdianc?oc=5)
 
-### Reforma laboral de 40 horas: Las 5 prestaciones que no cambian y que debes seguir exigiendo - Mi bolsillo
-- **Fecha**: 2026-02-25
-- **Resumen**: Reforma laboral de 40 horas: Las 5 prestaciones que no cambian y que debes seguir exigiendo  Mi bolsillo
-- [Leer original](https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTC1oSUJUY0hSYlRxOUJxMHVMV2dKcDBtNzlPN2QwRnFnTmNQQ1A2UDJ0YUU5LU41RHJGX1htMEREMVBlaUM5TFo3MkxfUm5qZmxZX0FRVWRmejJHdzdYRko4YlR2cVktQmxvNnVqS1lXbzdmVnhtc3YzLTc4SmpYUDhJZ0RJUmV5RUxnRWZ0bWhKbGRsR0NvaGxZMTFzRlN4NmhIMjVnOXBUajRobDZNUkM2OVZJOUhQTEpneHNqMXBRMnFZQlVSYmduRjdHVlRmd0UycVhremRpTDQ?oc=5)
+### Senado aprueba jornada laboral de 40 horas en México sin dos días de descanso - Periódico Correo
+- **Fecha**: 2026-04-09
+- **Resumen**: Senado aprueba jornada laboral de 40 horas en México sin dos días de descanso  Periódico Correo
+- [Leer original](https://news.google.com/rss/articles/CBMi2AFBVV95cUxOeU5CTTZNaFM1Tk1uXzRHU2d0aW5HTU12OHhFYUI0c1pTallsV0pGTk9OZWN5NVVtVkQwM09yVE1oeUlJSDhZbW15WnduOFN2TXd4c2I4MHZEakFNSFEwUElRYVNocDNaaGJEclQ5VGtTRTByanlzNUJ5U0EzVzY4TGk2dTN3cERoOFFZSlJvblF6TG1VZ29LckhGX3hwdHVuLTd3N0lNaTFwbS13anoyVVBsQVRGZmVsREIxYzktQU9MVG8ybjFvRTJ6UWF0TkZkb2paRHFMNC3SAd4BQVVfeXFMTWxHQ0o3U0NaUmk5ajlDTzd2eGVZMmJnVVlBZ0FXUjFFLU0xT0d4UGJZczZQU0RCdk5rTHAtdHNfYWtnaDRkMmkxQldzeGNzMFJtemp4Sy11NDhORWxEOXZmRkd2S2pzNzY5bVVjOGkycktsamFDbWdGTFZMdGtXeVdvZXRmaXB4T0RwakZSbGtBUEhWUE94UDdjZW5rZUpPMkQtZFVZc01KLWUxR3VnMWZiLVU2bEFXdGlnalVZOUpvcTJseEpqV0tscUNPMkVaUmkwU0dFWUxuZ3NqbWtn?oc=5)
 
-### ¿Te quieren quitar el tiempo de comida? 5 mentiras que circulan sobre la reforma laboral de las 40 horas - Mi bolsillo
-- **Fecha**: 2026-02-24
-- **Resumen**: ¿Te quieren quitar el tiempo de comida? 5 mentiras que circulan sobre la reforma laboral de las 40 horas  Mi bolsillo
-- [Leer original](https://news.google.com/rss/articles/CBMi6wFBVV95cUxOejVjTERmNzJpcnZQbU93anFlMVBYMnNGeUV3ZlRVOVp2WUtMSEtaYl8wSWV4OE1wN0FaV2gtakVwVTAtckpldG9FQmJmZkppWVVZc0JJQ0tmRS1JWFNQaksyOTZxNFB6SHlkaXpaXzN2LU4yT0xWZ1UyRG5jdGdUZy1PaWJMR0ZmZktJbjgtR0J4bjA4UXM2UG1FN0xpemlrei04VlZFTXpqTFFXYkJnZUhYaHdtMS1RTHhEODRnMXhQOFhRZDBUZnNHYzdRT2JpWUlKZE9NZXEtbkxWNlloenRwTzdJMkhXSy0w?oc=5)
+### Senado aprueba jornada laboral de 40 horas, pero no asegura 2 días obligatorios de descanso - ABCNoticias.mx
+- **Fecha**: 2026-04-09
+- **Resumen**: Senado aprueba jornada laboral de 40 horas, pero no asegura 2 días obligatorios de descanso  ABCNoticias.mx
+- [Leer original](https://news.google.com/rss/articles/CBMi2AFBVV95cUxQV2JUVkY1dFBxaUVrNDNXbm9xR0dlcnpoUFp6TG1Ia2x3amotU3VMYUR1ZGVWbEFFTDFxNFg3cHpVZURUcTBMa28wNEZET2RNM2hTa0RjaDUzWUJwNERuVURrTndxU2JadWxqSFBpb1BlbktkdkR5dU13a19CRVdpSXZyRXpUeWhWYllOTU9iTW5vQU9NM3o5OTVUY09yOHRuSlRaclNXYzdtYUgwdkxQaWtOcjFOSzBkeHZySy1SQVN1a1hlUURXTV9aWEwyMlk5alN6cXU3eUTSAdgBQVVfeXFMUFdiVFZGNXRQcWlFazQzV25vcUdHZXJ6aFBaekxtSGtsd2pqLVN1TGFEdWRlVmxBRUwxcTRYN3B6VWVEVHEwTGtvMDRGRE9kTTNoU2tEY2g1M1lCcDREblVEa053cVNiWnVsakhQaW9QZW5LZHZEeXVNd2tfQkVXaUl2ckV6VHloVmJZTk1PYk1ub0FPTTN6OTk1VGNPcjh0bkpUWnJTV2M3bWFIMHZMUGlrTnIxTkswZHh2ckstUkFTdWtYZVFEV01fWlhMMjJZOWpTenF1N3lE?oc=5)
 
-### Horas extra dobles y triples: ¿Cómo se pagarán con el nuevo tope de la reforma de 40 horas? - Mi bolsillo
-- **Fecha**: 2026-02-24
-- **Resumen**: Horas extra dobles y triples: ¿Cómo se pagarán con el nuevo tope de la reforma de 40 horas?  Mi bolsillo
-- [Leer original](https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeUc1UG8tMEtVTENmRVZZTURMVlphQ19vSURzNUNfSGZlM1lMcEhGM2RjbkVEeTFFV1RjRFJZc09pVVFCVnN6cjFXbWZ2NkZNU0YtbzZ4MHR2SzNIeHhfcE5tT0NKbDQ0dUE4aWxhb0d6VlEzcXdaU3JTZTA3VVNPZU55cGd5cGFyUElwOVl4VjE1UllYX0J0dmdSVnpaQk95S3doNEpqOEFqMXBPR2w4Wk1OemhwTG1HZUl4QWxjRDRhX3FPRDZPWWFxLXowUmNGbWRqUFM5TFI?oc=5)
+### Senado aprueba jornada laboral de 40 horas, pero será gradual hasta 2030 - NNC.MX
+- **Fecha**: 2026-04-09
+- **Resumen**: Senado aprueba jornada laboral de 40 horas, pero será gradual hasta 2030  NNC.MX
+- [Leer original](https://news.google.com/rss/articles/CBMimwFBVV95cUxOZVpPc2RwckRvb0RTTEJveDdQS3JVSDl0Q0hpWGZYOV90TENaenJzZi1GM0d5bXk0RzZOMnJ3ODBRdEZneUtLTGVleHcxQ0RYRlNvRzZvVy16b3JXY21nOThmWVZJQlJtczdPTmdtc2FyajJ4Sy1sX216Skdsc09KbnVYMzFXNi1ZNGo3NG9OTjVZc2oyM2RZdks1Zw?oc=5)
 
-### Reforma laboral 40 horas: aprueban reducción en Baja California - Mi bolsillo
-- **Fecha**: 2026-02-27
-- **Resumen**: Reforma laboral 40 horas: aprueban reducción en Baja California  Mi bolsillo
-- [Leer original](https://news.google.com/rss/articles/CBMitgFBVV95cUxPb1pMeHdBNVNXcUFJd1dyVEtidmpsb1dsamRkbFlJeGxoVTBUSzRWOS1BZHdoVFhmdjZ5RlJUX1lCVzRNODFkTG1TWlJHQlpEbElCaEU5anZGMjhLRFFZX3c4V0ZWRFpfLS12ZE5nMk8tUFVuUmR5ODRGbmN0NzZZRmRIbWZPblNCQk5Lc3VtVTY2VzRCMVJjOXhGOFFZandiYW9pOUNzNHhqTHRjdDJsVlNmeENLUQ?oc=5)
+### Cambian diputados reformas de Sheinbaum por ley federal del trabajo y de derechos de autor; reconocen “falta de pulcritud legislativa por IA” - La Crónica de Hoy
+- **Fecha**: 2026-04-07
+- **Resumen**: Cambian diputados reformas de Sheinbaum por ley federal del trabajo y de derechos de autor; reconocen “falta de pulcritud legislativa por IA”  La Crónica de Hoy
+- [Leer original](https://news.google.com/rss/articles/CBMi4gFBVV95cUxQUTJVbjJKY25MZ3l3bDFtazhEWmNDd1VLV3VJX1EtTWNWd1VFUHUxajZBOThrYTRCVzBGV2JYY1ZRMDNCYUJhUUhDX1gwMHlBQnNXWUR1ZzlDTWxVR1ZMWk9ZcHZYQk9Eakw0ekZxbzVGa2xVUHRaU0dadXBMRWZjU3VhdzBacklYblhaSkNHSS05MENkRVZPU0IxY2k2cjBhLWxLRXFJVEhnUlR2czRPRGpoQlFwcHJsNWJUZGZsbHQ0WnZObXlvYXR2eTAxbnNieGpzVENBYm1wX21MT2ZTM0ZB?oc=5)
 
-### La Reforma A Medias - El Diario de Ciudad Victoria
-- **Fecha**: 2026-02-27
-- **Resumen**: La Reforma A Medias  El Diario de Ciudad Victoria
-- [Leer original](https://news.google.com/rss/articles/CBMiYEFVX3lxTE15TUZSWHZNYUF4MzJJR1hIN0pDUWVnTVJxNG5zRV94QV8tUGt5TG1JZ005enc3c1k3MFJiVVdqR2xVZ3dtUVgxQzVIdkYwZkFVWTY1Z1NKV1drdnhVa09naw?oc=5)
+### Bancada del PAN respalda jornada de 40 horas, pero advierte fallas - Reporte Indigo
+- **Fecha**: 2026-04-09
+- **Resumen**: Bancada del PAN respalda jornada de 40 horas, pero advierte fallas  Reporte Indigo
+- [Leer original](https://news.google.com/rss/articles/CBMiwAFBVV95cUxNS3JOd0ZFZFVvMTBBVU05YVhOMzRncThHRXJ2cDJZSzhEbjctcEUyTF9ycno5d0lLbzFwa3J3Nl94VWhaSHU3Zm9MNWFXRE8wdG5ndEpPMVhnSnNULVZyeVZlcWhILTk2Zjg5RXZ6NGxBbGR3Z1RCR29ZMWE3c1gzTUljcmVBVjFZeGRWeDVLQWdKelVDZDJwSHZjN0xSaUdoQnluYWRJY3dpYkd0bW1lTXotX2ZtSTNTeGJZVnJ5R3DSAcYBQVVfeXFMTkcyRERoUHVzMnFnUmtrNzFJZWFMYi1mMFQtbkFjOVZITmxoYW5iTnlUc015UGxsbm1fLUwwNkNwdXhWYWNzcjV0b212aWlYYkZVLWV1anlZZGJsckpmQ3FwUGFDWHBiV2J4OFd0dThqaWZxVDJiWFU2SE9NZGtQUERkZG5OWm9obWVrdFFfMnIwN2RfYU1mWWVGRVAxNTRndmMwRDlhVlJTYzRlM3lsYi1DQWdSM3pxNUJ3WG1telkyUG5xTnJn?oc=5)
 
-### 5 días de trabajo por 2 de descanso: La otra reforma que podría cambiar tu fin de semana para siempre - Mi bolsillo
-- **Fecha**: 2026-02-24
-- **Resumen**: 5 días de trabajo por 2 de descanso: La otra reforma que podría cambiar tu fin de semana para siempre  Mi bolsillo
-- [Leer original](https://news.google.com/rss/articles/CBMi6AFBVV95cUxNNEI5VWJCa3djVGlLVnBObWU3ekREdERKX24tTUFmSkZ0VkV1Y1hOUkJwMExxZE55OWpMYlJUNThHUkpsMkZka054eTNfdzZETlBsR0NYVHhsUVktaXdfOUgxS25rMDBnMUUtOTVaRnVTa3dFX3kwLWJnNkpSMWdodzlxdHh5RWFVNmJ2THFGZlRTZDk5eS1rSE9peEg4VVRuZWFBYVQxM1NIem9qOHVOUzlOaDhNMDNUUWkwMDVKQWlPblRmakZEUmRsNDVYcUpRTEN1RllhLTJuX2J1aFZTdHN2OUdRQ0hZ?oc=5)
+### 15 mil nuevos contratos colectivos de trabajo tras siete años de la reforma laboral - Amexi
+- **Fecha**: 2026-04-06
+- **Resumen**: 15 mil nuevos contratos colectivos de trabajo tras siete años de la reforma laboral  Amexi
+- [Leer original](https://news.google.com/rss/articles/CBMifEFVX3lxTFBFVnVHY21fMER2UmhrTnV5M0U2R2JrZVF2YmVPRkRiRnluQzBPbGRHWmt0bTkyR3FzZnlqNFotYnZvb2JGdGVwb18yMm9WcVM5VG1lUTEwc0N4OUJMZWRrUUhLaTFXMF8wNTFXQ3NtQ1VrdnNueWhmdWxpRWE?oc=5)
 
-### 40 horas vs. salario digno: Las dos grandes reformas laborales, una avanza y la otra en el limbo - Mi bolsillo
-- **Fecha**: 2026-02-28
-- **Resumen**: 40 horas vs. salario digno: Las dos grandes reformas laborales, una avanza y la otra en el limbo  Mi bolsillo
-- [Leer original](https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZEhkUjVxd00tb1RFZ2JCamNTelByUk5xWTE3Q3E5dGZKb1QzQ0xfLTFFbEVKdUgzVlVlY0FMSFNmYVpGTElUOWMtc2FSZHAwYmVIMTJCaVVtcmhKU1lpSXFZYTZQNnlRbEZ1WlctWGRUTGlSOG9YakRSdWw2am43bVE0TmhraXU2XzN6NTFvbXJBOHZ0U0UtSnBaYU91UUt6V0JzRV9NajZXNlhtZV9PVWh2a3dyZkNTVURSbjc5R09PT0R6NjZNTTBUSkhybXV2N1F0ZlJHVUNiSGwyVVJhdg?oc=5)
+### Senado discutirá esta semana reforma constitucional para que Congreso expida ley contra feminicidios - Milenio
+- **Fecha**: 2026-04-12
+- **Resumen**: Senado discutirá esta semana reforma constitucional para que Congreso expida ley contra feminicidios  Milenio
+- [Leer original](https://news.google.com/rss/articles/CBMihgFBVV95cUxQVm1FSFE4NzA0REN4dmlRaDNvWVhaOThQeTctTWdXU1hZMm1tZ2Z1WWtVM1JEdW9mdnVta2ZMTGJSbGQzV3d2NG1VeWR2R285Z19iUVktM2JxSDBPR3ZTSWQxUkw5Tk9ERGVjOUZ1a3FvWkhVNzVNRF9oS1paTEJPNzl4NDFCd9IBhgFBVV95cUxQR1BaTkRsY3kwa0ZrVXVvdmE3RnZLSVY0djZheGEwdWw2RFBfLVg4UWpEN0o3bHZDcmhQY3pyX08xU2R0YlpLZEtGRjk4MGNSTDVZUXZ0Wmt4aVJYTmViTG1SUzFhQVJyNEU2Tl9BcndTeGl5eF84bVlHdzdhVUJNY1ZWNUFodw?oc=5)
 
-### Puebla es el quinto estado en avalar la jornada de 40 horas: se aplicará en 2030 - Diario Cambio
-- **Fecha**: 2026-02-25
-- **Resumen**: Puebla es el quinto estado en avalar la jornada de 40 horas: se aplicará en 2030  Diario Cambio
-- [Leer original](https://news.google.com/rss/articles/CBMitAFBVV95cUxOUzBMS1NtRVV1Um9xeWhuYThFU3VrRWNqMFlSUi1LQnlNV3hMcElHeGx0enV4aTZSdmMtdGhqeEV1TV94d3dNT2htb3BoZFBGd0xpb2pZZXpOZmZ3aTFnVklLb1pfOFpKTFNMaDE1dXJpWEJOYnpNU2hCWTFUcnc2c0dqQl82QjJtQkswMmE3VjR1OFJXWGFwNjJhZjJEblBMWGV5VUdxQ1V5UmZGdFBQUDdoX1U?oc=5)
+### Sin modificar los días de descanso, Senado aprueba reformas a la Ley Federal del Trabajo - 24 HORAS | El Diario sin Límites
+- **Fecha**: 2026-04-09
+- **Resumen**: Sin modificar los días de descanso, Senado aprueba reformas a la Ley Federal del Trabajo  24 HORAS | El Diario sin Límites
+- [Leer original](https://news.google.com/rss/articles/CBMioAFBVV95cUxQS1ptRmdvTDNsTGlhdXVFOUVoV24xV3dMTW5Ed0NYakZjOEtTZUxKNkxNY0w4cndiUHVwclJEb1FGSlN2N2lVS2x3TkMxb00yREpoZ196eDgxd252Tnp3c1k2NjFlWW1nR1B5ZGpSck9IdEdXc1VuUURneVVKZVlZUDR3MU1wNWNDZjlPQy1KWWstalM1V0VDOXQtVmhYcHp4?oc=5)
+
+### Senado perfila multas por jornada laboral de 40 horas - siete24.mx
+- **Fecha**: 2026-04-08
+- **Resumen**: Senado perfila multas por jornada laboral de 40 horas  siete24.mx
+- [Leer original](https://news.google.com/rss/articles/CBMihwFBVV95cUxQeUlxY3EzNHE3dU1hMHRtQlRkNmJCVTQ4Wk5ybVRRZmZyRDJWY1lqN01zcGFVdFVMVnBHQUROT2R2UXByTkJNMzJBS0lnRDBfUWtndVlYalA1ZW5FaVk0d3QwRzNBNk1TQlZ5QlB6Rk00bzFRVDVPcjJoOUUwUnNYUEZTM21UX1k?oc=5)
+
+### Senado adopta propuesta de Mely Romero para modificar Reforma Laboral y la aprueba en leyes secundarias - vadenuez.info
+- **Fecha**: 2026-04-09
+- **Resumen**: Senado adopta propuesta de Mely Romero para modificar Reforma Laboral y la aprueba en leyes secundarias  vadenuez.info
+- [Leer original](https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSDBSQ0tRYTRqbTlCVDN4NFhnUC1WUFJkTllHeUJZek5qSG1tczdHb3FDSXpQQ0dTVXNCa2tEaHg2eGJydXlDZllnb0hQcjlYNm1uaFRSaVFXbFU0aWZWLUhsQUlhVndNbmg3WkJSSk1jN2hIZGE2UGh5VmlSNzczZ1BoTC1xVTR4QUVDcklsNHhQLVhkV1psdmI0U25GNm5JME9qbkZDSzNINW5rb3U2MGhDc3RhbUFsdHF2ODlWYmgwdXVMc29OTg?oc=5)
+
+### Se aprueban en el Senado reformas para evitar explotación laboral en el campo - Punto MX
+- **Fecha**: 2026-04-10
+- **Resumen**: Se aprueban en el Senado reformas para evitar explotación laboral en el campo  Punto MX
+- [Leer original](https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcVFCZ2hmZThSSFRrNzZnbjl5MFFqdUEzdzlGMTNBN2ZsbjdwS253YVJqZkM1RnFDbDByZVZSYm9yX0JWbnhlamt4TWtROXFUTXBDMEhUYmhOR3owLXZpTlY0RzRQc2ZHeWhUSUYwWlk5dURZNWxrY2Fncjd4RmNyT3BTVXBsS3lZSDdsNVBuYUZUY3N2VmE4M1NEdlNwVkhPOXNrNVFyQkM4QdIBsgFBVV95cUxPVUtlSGRkYU5nRXFyOHhuN25GN1RZM1JOWVZCaE94REV0ZHV5U1N6WmlPUjJNaWJYbDVsZzhvWFpsa1lxUVNiQm9rU1hQdEdSU0dTQ2lKSzZGRWNqOGpkcFdUekx3eWNuOHl2OEdBd2xvZjhDcWdoUzZiSFIzZTkxbHR2QlBPbDV1YU9jOWdLTTZiWVNDM1c3MGF1R0FFQ29aY0YtdHhCWGlON3pxWThQbnln?oc=5)
+
+### Senado aprueba reforma laboral para reducir jornada a 40 horas semanales - Tabasco HOY
+- **Fecha**: 2026-04-09
+- **Resumen**: Senado aprueba reforma laboral para reducir jornada a 40 horas semanales  Tabasco HOY
+- [Leer original](https://news.google.com/rss/articles/CBMiogFBVV95cUxOUUpaZzRlUGtIbWU1TG40MEhIY1JfQ0JkZEd0QTZpenFGclFSOS1vTFowcjZqU1JOMWpSZ3paczNrSDFUU3RWRTBvZDU2dHpNTDJVZVpiSUtQek5qR2k5b3BCV2dYTW52NDV0aDFxOXZaQ2xVeXN2cm5DV2FUNGtnU0NuWjZCQ2lCS3V2Ty1DSkNTZi1uOFJOS2p2cGxpQ0JEaUE?oc=5)
+
+### Senado aprueba ley secundaria por las 40 horas laborales para 2030 sin dos días de descanso - Grupo Animal
+- **Fecha**: 2026-04-09
+- **Resumen**: Senado aprueba ley secundaria por las 40 horas laborales para 2030 sin dos días de descanso  Grupo Animal
+- [Leer original](https://news.google.com/rss/articles/CBMijgFBVV95cUxPRnd3eTQ1M0xlbnMxTUpUQ0NNNlNjUThBRVY0SkRMVF9mdUZoZkZRRTcxOGVUUjh5OUN5RFpCUkVGOW9qV05WandjMXZpQ1NFV2wtTzYzVzVaakFmRUNNOXNZckx3Mlgxd1dfMEpJd1dzTjB4TmlBOGF0dEhhNkFjQkxXMzNnRmZxaWdleVRn?oc=5)
+
+### 9 claves de la reforma a la Ley Federal del Trabajo 2026: Así fijó el Senado la reducción de 48 a 40 horas - MSN
+- **Fecha**: 2026-04-13
+- **Resumen**: 9 claves de la reforma a la Ley Federal del Trabajo 2026: Así fijó el Senado la reducción de 48 a 40 horas  MSN
+- [Leer original](https://news.google.com/rss/articles/CBMihAJBVV95cUxQMkJVUVA4ajhIUHhyQzBWM3g2dWNSc3RxdVRnbE1XYThWeVA1RE5IOUFQSEt0X2xDaGpJUkhWM3ByX0w4UjJmX0ZyQU05SWVMTmM0VXVXejNlcml4WjdnVHJSMHR1MlZxNXBGMng2RkNReEVLbW04dWZWQ0xPeW5kOERQOUpMQ2I3TFRzQlljek5WdzQzWnNOcUVIRTgwd1paZlBZcjVrNTNham9OZnhQN3FEMXZCZWt4WkhMMGZPc1J4UEl5MW4zT2MzdEMwdmdkZnBaZlM0WkQ4ZXVBV3p0YVUwcVBPQnJHTEJQUWFpS1dOWlNuNlZ2LUJRbWtwWlZDUzRqaw?oc=5)
+
+### El Senado avala reforma de las 40 horas; queda a deber 2 días de descanso obligatorio - SinEmbargo
+- **Fecha**: 2026-04-09
+- **Resumen**: El Senado avala reforma de las 40 horas; queda a deber 2 días de descanso obligatorio  SinEmbargo
+- [Leer original](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNWhwRy14T1hBTEdOLS14MHh0djFWRm82VzVMZTNIM1NmdjhRU2lQRS1lRXpLb3pCLXZwSUN4VU5NSVV0T2xIcVZwcmI0UzR6Sm9PZzl1TlBDMFlLdHFZbkZ1Y000RmgtNmRxVHF0U0xmR2ljLTdQZkI5WWpDYi0xWTZjYzlBR1VHa3RlV1Z2cE5yWGNmVWZWUXpxU3lQWVBLajZDQ3lNdjE4Q211WEhIZHptS1ZaaWdBN3ZZ?oc=5)
+
+### Horario de comida en el trabajo: lo que exige la Ley Federal del Trabajo y los riesgos de no cumplir - MSN
+- **Fecha**: 2026-04-10
+- **Resumen**: Horario de comida en el trabajo: lo que exige la Ley Federal del Trabajo y los riesgos de no cumplir  MSN
+- [Leer original](https://news.google.com/rss/articles/CBMi6AFBVV95cUxNTXhUT09OeDdqWV84RVdQZTVFTE5wR1FQOEdpSWF6Tl85SG9nNThyckxNZ0c4dXVYSVNjZGFXeEJzT3JnbU1zZG9pejBKT0R0eXFKNHduYWhyX0tBeTUzTkVyY1dkTUZLa2ttVDE0RmZPcEphM3U2dlV5eE8ya0gxSUg3dXJaQzNYREJlZGxLOWhJRTBmc2daY0VBMDQ0SWZZd3Q1UENuZXJ6SFNobjUycERvb1hwNkllREJLb1dudFN0ekNPNEduLWRGZWNrc0VJRFhiQ1BkSGdlamtJcE11TEhkMndVRFBF?oc=5)
+
+### Reforma laboral sigue su curso; Senado la aprueba por unanimidad - expreso.com.mx
+- **Fecha**: 2026-04-09
+- **Resumen**: Reforma laboral sigue su curso; Senado la aprueba por unanimidad  expreso.com.mx
+- [Leer original](https://news.google.com/rss/articles/CBMiowFBVV95cUxNSmNKc2lvNjdwRkpGZURlbWNVRERPZk45akoxT2J0eVBjWVhWclgyRHpIMzR0QzFkS25nUzJLcUIzcnBzcGJIVzZnVk5OazRLQWN1S1lPdGI2a25aYmYwZDJxM0xUMGdHbUJ6Z1h4eUVOUHkwTUZEVlhDVzFFUzMyRTQ1WmlBM1F5RUdKbzJWZ0tHbzViUGpXbFJWeURCdktBdFBv0gGoAUFVX3lxTE5LdkRBWjk0bk82OEx1bXpWTFZqM2tnOU1YT1J5SFJLQXJ6d3ptaDVvY3k4WXQ5Wk5JMkU5QlpZUEhQbWdETGpCS2NQM2VzREt4WWRlSThEYTZGYmRVbVp3X0lBcGVoMlo0TXo0SlROTlRTWWdCZW16UENBZ1V0b29yVDFXay1yYXdKSDdDbktnU25wMW9tUG9hVVVBQ1JTNXpfZG5hXzlCRg?oc=5)
+
+### La Justicia Federal le quitó la reforma laboral al fuero del Trabajo y le dio aire al Gobierno - Perfil
+- **Fecha**: 2026-04-10
+- **Resumen**: La Justicia Federal le quitó la reforma laboral al fuero del Trabajo y le dio aire al Gobierno  Perfil
+- [Leer original](https://news.google.com/rss/articles/CBMi2AFBVV95cUxOMWRDQ3BGbWc4RVR3UkZFU3Fxb25JaWVENkZ4bndUa2FJUmNodGhYSUktOS16cktBc0ttSXFvZTBqMFhhSlhuN2ZUeDk1XzR5LXk2bWdfUldORUYtbGdvMkVTWWk2QWFCVnFpbDV5R0Vrcy1FUnlJcS13Y2QxZXVzUVJOWXFQUnhJT0xSOTVkcFdYLTdMVDlfSUxrR29ORTlTcXVnUGQ3VXRlNGc4NXJvaFJYQ2Fma3k2aFdGRmpSTmF5OWhfS180a3FGdUpIUmFXb1U0b3A3WlPSAd4BQVVfeXFMUE11ZUVqRHpYTGRHQ2hqZ2Y1bFJkX3dIZWdNdjh2OUFnNWVFR2taZXdBcklySGJUVnBGajFJVUhwWjdIQ1h0eG9DSjQ3aHdOVGRyYlpVQ1Z4ZzlLdzczRmd1QmZDZFRCOTdCeHVoSUhLN0p3YVJJVmtuWW81cXR2bldXSGtaaGs0c3BtOUdBM1VrY0Job1dwMWJRLXhxU2JpX3ZMeHpyZXBEVlQyVzV5dmNZOGlFTjRFZjZsdS12d0R1cWh5empRWlExVXZoQk5kNkIzZXZNRXNfb2dsSHNn?oc=5)
+
+### Reforma laboral y cambios aprobados - Imagen del Golfo
+- **Fecha**: 2026-04-13
+- **Resumen**: Reforma laboral y cambios aprobados  Imagen del Golfo
+- [Leer original](https://news.google.com/rss/articles/CBMikgFBVV95cUxPVVk1MEprQ1duVEZBSkhoWkRLM0NUMkxQa1o3YjRKS0J0RGZxWTVEOENFSzhYbzJUUC1tMFR5czBEakk0Mm9MLWlpbEFHaWl0ODl3U2pRcVhkaDlkcGx1di15V18tajhVRVlaQTlSeVExU0FoY2hockpkLVM0d0gwUFJJaGZIUXZ2eVFGTDlsQXBfUdIBlwFBVV95cUxQMUsyRzFQWVRRRGhRMjYyamhkWE0xa0hFSGxCb3JVUlRlOXA4VkY5bEIyNXJKYzE2UnRoNHdtRHprRmtQWV9GLVF3Q1ZPQW9uYUpOS1hYYVg0VnBMUGRjUVVDeEdPemNGeEF5REh1NTM5ZzhLSE5IQ0REMkZJMVNCb2E5ZXI2emdIMm9SN3doV05VdExkU1NV?oc=5)
+
+### Senado impulsa jornada laboral de 40 horas en México - eltiempomx.com
+- **Fecha**: 2026-04-11
+- **Resumen**: Senado impulsa jornada laboral de 40 horas en México  eltiempomx.com
+- [Leer original](https://news.google.com/rss/articles/CBMimAFBVV95cUxOYzZSa25hRTd3T3JmNzJ3d21kM1puSW9kZ0ZtN3htTTdCeXkxZlVOTlV6b25jUTB4SVVKcjBxRDh5SDg1UWtOZm1NTjNYVTR0aEE5TWlMU0F0dzBPMzEtWGdfQ25IekxuZmRIT0M3cmhHdzkwbWo2MHhQa0xRZ2VpRzBqb2pIT1dudFNZbjVZcTJZRlBFQldzdtIBjAFBVV95cUxQX29UXzFNTGNUenVKZGtUT2pocUZaaUc4c2xFOFlQMW9yR2VhazhzWG1VUDV5d0lCOFROMkRDOGs0UG9hcHNEQWRJb19URXdiWHVVYkJKMHN4Ui1scDZUTVQ4YllfbUY2bEd5WFU2YksyUXNpajduOUdIZGQ5US1abVhzaXFRd0wxdERoRA?oc=5)
+
+### Aprobación unánime de la Reforma Laboral - forte.news
+- **Fecha**: 2026-04-09
+- **Resumen**: Aprobación unánime de la Reforma Laboral  forte.news
+- [Leer original](https://news.google.com/rss/articles/CBMibEFVX3lxTFByODczWnJidllwVDhhRUthQ1FXSXEtS1hzbjJQV2Q2Q1dlbV9uWFhKSS04eVRlR055N3VYTVM0d2NLejdzVV9DUk5kUjR1R0pFRHltdTN4dXBndUR5NmRYRzhHZGJBMG81aXZKMQ?oc=5)
+
+### Reforma laboral avanza en el Senado: México reducirá la jornada a 40 horas semanales con implementación gradual - Por Esto!
+- **Fecha**: 2026-04-09
+- **Resumen**: Reforma laboral avanza en el Senado: México reducirá la jornada a 40 horas semanales con implementación gradual  Por Esto!
+- [Leer original](https://news.google.com/rss/articles/CBMi6wFBVV95cUxNUWhPVGpKbVhyOF96cGxVLURkWnNkMGZ5bkwxY29WakRTWkdYRzZVYW56eWoyYngwR3M5NzRscFpjaUd6czFHWUw2NkMxcGhVS1BOWFZ6WlpJS0ZGNWRHTnU0cm5uU0VUblUzeU55RV9KLTZMQ2d6RWlfMVNRUFliV0ttc29WNVl2alZveFdrSmhhRkRUeDduRHU1Z3RkRjhZYU5IX3ppY1NIWnZmazF0MTlac3pERUplZUFKWTdVdFlfMnp4VHY3UWxwR2tJSGhoNHg5X1kwUGlkT3ZzcEdRbVduWU1GVGxmT0RV0gHwAUFVX3lxTE9tU1ZWaGkyWEdva3gzZHFMX2hyWEJEUWFhcmxnRUw5RUJWcXozalladlhoRkwwUHVuZUxQazhPbDB2SV9Yc3I2UTZ6NE9QN25TTmloZHdmbXY0N3hMLWJORl9VNzdHN1RfLXdoQldGU3lqcDBkVHkwbWpnQ05tVWF5eVdpRU1QN3BwdGlMTUp5OTYweUNwbjVfTUltVVRuc0c0TFZLRFJXNUpVRW05cGd5OGhQb0hNSDFtajVxUEdFMncycTVIM2VNaGRlcWlmN2dCZnYtZEMxQ24weWdMSDdQVjlfWHVNMHpMUnFDRTB4bA?oc=5)
+
+### Proponen en el Senado hacer obligatoria la capacitación laboral en salud mental - mipuntodevista.com.mx
+- **Fecha**: 2026-04-10
+- **Resumen**: Proponen en el Senado hacer obligatoria la capacitación laboral en salud mental  mipuntodevista.com.mx
+- [Leer original](https://news.google.com/rss/articles/CBMitAFBVV95cUxOYVA2RFpkTjdNWHR6YmtDYjVwNlVQenhwUG5PRmxPSGl6bTY4bXJBTGJWUkljUnU0a1BvY1dsTHgyTVFURTF0azlVRUl2dUxUUDIydjN5dEl4d0t0NWU3R1BPc1lPNDZYdzFYenpwZUtYMWNBbjlCNzJiTWF3clBwZ2ljZ2RNbHVFTEFyTWhjSWc1cTBQYWdTVU1Kc0xYUWNTR19UTVgtY2xhaWktd19TVFNhVng?oc=5)
 
