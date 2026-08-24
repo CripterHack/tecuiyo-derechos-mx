@@ -1,194 +1,204 @@
-# 📰 Propuesta de Actualización - 10 de agosto de 2026
+# 📰 Propuesta de Actualización - 24 de agosto de 2026
 
-Se han agregado **38** nuevas noticias.
+Se han agregado **40** nuevas noticias.
 
-### La reforma laboral de México debe ser igual para todas las plataformas de movilidad - DPL News
-- **Fecha**: 2026-08-07
-- **Resumen**: La reforma laboral de México debe ser igual para todas las plataformas de movilidad  DPL News
-- [Leer original](https://news.google.com/rss/articles/CBMickFVX3lxTFBkdzY5NmdydGpBZ0J6UTF4THhTazY2THM4ZE9fRGNJWm9qZGZRSmVrYjBLQ0tQV0N6bWJhWmNOUWR1ZVJ5d2FMQ3V5WU8xbFVvRVhob2UyTnNvSHNESFg2aHR0TXcyenF0R2RmVHBqMEtOZw?oc=5)
+### Reducción de la jornada laboral en México: qué cambia dentro de la empresa - LexLatin
+- **Fecha**: 2026-08-20
+- **Resumen**: Reducción de la jornada laboral en México: qué cambia dentro de la empresa  LexLatin
+- [Leer original](https://news.google.com/rss/articles/CBMijwFBVV95cUxQcnFLX3pYQ25ZcUpSWUxmeU8zSGJ5VURhTkpZOE5uc2ZFVUtwLV94b2ZaQlA3NjVpUXNrNFNNUjRjRTluYW1kaDUtdXpuMjBOWk1kckl4Y05UMjVhSllKZC1YSUljN21kdy12SG9xWXFXMFpiNlYxd0s4XzJxcHliYTBlMEtXU2xEdThCbnlLNA?oc=5)
 
-### Tribuna abierta. La lucha por la reducción de la jornada laboral en México - laizquierdadiario.mx
-- **Fecha**: 2026-08-07
-- **Resumen**: Tribuna abierta. La lucha por la reducción de la jornada laboral en México  laizquierdadiario.mx
-- [Leer original](https://news.google.com/rss/articles/CBMilAFBVV95cUxQZGE1WWVIY0w0Y21TSWV1S2k1bzRoTHFheW41S1FuSnd1ZFBVdzcwRF9oZVNvUG9YajBZOGwza05CX1lCa2ZVeUZPclVJWkdpazU2Z3VwWlZKQWdiMTBrejBTYnBCNEpwa2FyQUhSSU5RejIxUXlWOWJ5QTV0UnlCbFpvRGE4blU4TExwQWlxWlZOVDBY?oc=5)
-
-### A menos de 5 meses, sólo 18% de las empresas está preparada para la reducción de la jornada laboral - El Economista
-- **Fecha**: 2026-08-06
-- **Resumen**: A menos de 5 meses, sólo 18% de las empresas está preparada para la reducción de la jornada laboral  El Economista
-- [Leer original](https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaUEwaWd0OVMwbWZJdHR2dWhvR0kzQWZ1RmFfeU1TbzltYWttbnhVRFJ3OU1lODFrWFBhVjRfWTFBOFBWaUllbU9vTzk3eTlPZWh3SnczMWlEVE9uVWZ1UHE3SEIzX21xbUtVMDhNeVBJa1EzbkZFRGtUdm94cElLNHMyNDlUMU9SLW1pTWNPNEFXZy01Z3Q2V2Z2Qy11eWkwWWhwLWtFcDNmVWxERnQxd29tc052OUZWV21JYXRsemfSAcYBQVVfeXFMT2gzbURpd09XR00yVEtZa1lNTXZMQjNwcVhRLVB2UWdENFVYeDBmUVM0c0RvenJFTnNfckdIbWVBazluOWpIbm9IdDZjUDhaTlVEZTZjNkc2emJWRkpVN1g5UWZfOWtrUUJjUFhkOE1xcWJxYV9HVHo2cVZnOHVFVTZ2dTlXaUdTNHZBeHJtRDcwTGF5Q3JvZXJRQ1BRREVObDJLU1d2TmdsNXpldzd3YXJNekctYnhnUVB4N0d3MHFrZUgyb2RB?oc=5)
-
-### Jornada de 40 horas y salario mínimo: cómo cambia tu pago desde enero de 2027 - Infobae
-- **Fecha**: 2026-08-07
-- **Resumen**: Jornada de 40 horas y salario mínimo: cómo cambia tu pago desde enero de 2027  Infobae
-- [Leer original](https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeGtqc3RoandjS0VKR1VGaUcwSGxlTEdDcUJOS2czTHdmV2lJdHdzR3dncmFkOXFuc0d2SUpHcENFUVJpSk5jQi1kOTY3c1dpRXpUSFE1andid1FJZXZFM3F6VUtJU1dTLUNDWjIzSnlqV2IwbmR4ZklPR0lDZXFIbDh4YTd3T01iWHB5T1dCai1Va0ZHOEdQMTFOdTFoY0V6dGVTX0JaWjJWODFTbW5SWnpYaUFCUEtxMk1V0gHWAUFVX3lxTE5wYjhjVWI5NFZDLXplWGtrTzZBaFBKYmx3S1FmaHBxUjhpcm5WaFJ1T0hCMnRhOWRVQm9jNVpzRUVsTHhGRkxzaWVkOUY3SVRZZURtNGxXNGxrOGtuVWJxTFRublpNMlFIZ2Z6RzIyNTZlLUR4aEI5UkZmOTBBc1MwWl9DMktTSnE5T3MtRmFKTjlTSXNHb1k3MUNQVjNsM2VSa21seXhNMjh6SUJKREMtajJBR3Z5czJMcy1nUEpCR3RYdHA0aGJNWG42NHZwTDJOcmFfSXc?oc=5)
-
-### Diputados plantean cuota de 5 % para contratar a jóvenes sin experiencia laboral formal - Buzos de la noticia
-- **Fecha**: 2026-08-05
-- **Resumen**: Diputados plantean cuota de 5 % para contratar a jóvenes sin experiencia laboral formal  Buzos de la noticia
-- [Leer original](https://news.google.com/rss/articles/CBMitAFBVV95cUxNb0NkYjhPbzJFWW1DdFZVOTMzb0dnd21PeUJTd0dteHFyMWZ0ODVLZXpmZ0VqUjVmeU9XM05HNjFoR1FvYnJmV0RrYWNjWFZiajRKZS1yeWR2Y3NxMXRZTG8tN2JHZzZGN1VoX3BYMTlzcWEwWk5LZ1ZqZVVrTjZlSFZ1bWdqdFdyeWFBaFBENkp3WUdoZng2akI3SUh1bng1MlpCcUlJVjNfTDR3dml6V1F5RVI?oc=5)
-
-### Jornada laboral de 40 horas: entre la incertidumbre de los trabajadores y los riesgos legales que preocupan a las empresas - Reporte Indigo
-- **Fecha**: 2026-08-07
-- **Resumen**: Jornada laboral de 40 horas: entre la incertidumbre de los trabajadores y los riesgos legales que preocupan a las empresas  Reporte Indigo
-- [Leer original](https://news.google.com/rss/articles/CBMiiwJBVV95cUxOdHIta1dnOWo5dU1VakxJQ01KN19fSWY2cjZZSlFpa002LURaR19HMk1tbVVxMG9XT3FOSzlyeER1ZEtpbTRPYjEwTzk4TVBqRDM2TTFCQVFucGdPUXEzSzN6SFdYb0x0U0trenNSeFhLbEROSnkwNTY2azZvYjY1WWw3NkxscDYwWnFmcWEzd2RzcExGbndLUlQ4a210TGh6cWxZcDdkNkczaGR4WVJOUmZwUGxqbk1FVzJRS3IzZHdsdFFsMHVXOXlVOHhqcEhDRWViRlBIOWFyd1cxTUlGVkdaUElkNlFrejlMbGNjNFVxaVQtblZyVEtwNXRKTkloTDhIOUk1b00wWG_SAZACQVVfeXFMT05qdEw5dFJOXzlCTzZxczYzeXlDLWtnNDBGZWpmTXMyeDIwdnJUN3VydElzUEFqNmJsZjYtQVExaXNkNkZRYkhIZFpGN202OTlWdlpVdy01WDRoRnJTLTVNV0dGV3JuZHpmWHVISF9FeGVJOHd3QTVhMG1jWTczU3lBUmtsQ1F1UldYdlhEOWN5d3Y3YVJCZUVjRHVUSFdKZVR4VmZvbjhQNUczbjVKN0NoY1QxWkNhWXk5Q0xWSlRkVHFFY3d1QlljTEtIMEpab1VDbUM5SENVZm1ZaUFKQjZLNG5tZnZXS05qNXBtMGdQRzFXZ25WU055TG9sUFhNVVRuQnVIYkhqcU0yT1R0ang?oc=5)
-
-### La Ley Federal del Trabajo confirmó el descanso obligatorio de 30 minutos mínimos de comida y advirtió que si el trabajador no puede salir de la oficina ese tiempo debe pagarse como jornada laboral - El Imparcial
-- **Fecha**: 2026-08-07
-- **Resumen**: La Ley Federal del Trabajo confirmó el descanso obligatorio de 30 minutos mínimos de comida y advirtió que si el trabajador no puede salir de la oficina ese tiempo debe pagarse como jornada laboral  El Imparcial
-- [Leer original](https://news.google.com/rss/articles/CBMi3gJBVV95cUxNWnVWdFlVZGd1dVJ5cHllMUNjdDlkN2pEMGhzQm5uZEFuZWhHd2t0Z1JCMW5POVplTjJDd3pfYzhmT3VndEdLSG4tX3hNdHJSUHpNbHlteTBTZXF5eVlFbVhaQ1E2Y21RZk91QjRveFdsaU96X28xejh4V20xeDMyejlJRUV3VFB2Mi15Wkd0VzRrQkxsNXN5QXJYeFN2OGk4U3VoeVBhclZ2T3laOWRsYXQ0ZU1BRkVFS0NMM0pMWXBRdUhjM2RXbGwxYjdJWTFoTDBLMU8wc2dJcUEzYTRERTE3NlA1QlpBSFFpb2ZBeHpBOWVCeThHWGdaYS1aNWViUkdFSzZxaV9RWDNEdkpuMzFKZFhyWktUMHVlNFZneVVSU1l0S05PZW9OSzFBOGYzeWZ0MEF6TFVFQm1Kc2U1THBVd1RVSjZlNVpEMmtOMjB0dldXWWIzLXV6dHUxQdIB-AJBVV95cUxOUkN1MkQ3MnNnU0JrZFpvcmd1Sl9fdlV2ZTEya21BREtycjc2N2laZHpKWmU5WEtYU1VuYzhlM2RpbkItc2RVR01GVkNuYXN1SENwcG5RcWZxZlliLWNaVHNpYm42RGt3T3pJM0QxMjZtZTlnTEJSNWx6SWxPVF8xNlBnMnh3T2JhQmJvcklqcjQxd3J6VnlISS00czVSQjhoUzBRMTU1WVR5TDBxSkFaS1NZalhsVlZjSmh5OEtzNkZMejlKNnpvQWFEYkEzSFMxT1htdUdnaF9Cc25PekdMa2pSQ3JjekNFcW91VXFQZ1lnTFNYLU9XTzVxdUxYWEVVcnBZajRVUnF0OFNYS0liRTBrZFFtazJaMXJ1dW1Gem51djFWNEZOWldKVzBlX0V4b0M2T0M1OHQ0SEJTYzM1dEZBLVlWSWFpVVZMM1h4a3VyZnB1QWI0NThoSkdtTXpQQ1ZYV2hBQ2hrWm5fUGhYX1J6Z0FEb1Bt?oc=5)
+### ¿Qué condiciones de trabajo pueden modificarse con la reducción de la jornada laboral? - El Economista
+- **Fecha**: 2026-08-19
+- **Resumen**: ¿Qué condiciones de trabajo pueden modificarse con la reducción de la jornada laboral?  El Economista
+- [Leer original](https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbENIS3NrZjRPYVh6R3Y5Vm14R1ZJSldLQ1V2bW1Uc2dBZDlOUUw0MFIySjczRWdVREdzZ0U3a01URUNoX1BJMVo4UHFkMUNwN2ZvaVFOVkN3MDF5bmpHeVBCRVI2MzVfUWdxYWdXWGNjT2E2M2VWQ3JnZHQ1N0hKQUROdEJTSjg5NlpKRzNCTElGNVpoVXEzSkxqdW5FTE1neDFHMDd0dDVUU0MxblZHMUdIeTB2aWZ6b1ZTTlNraVZHOHPSAcgBQVVfeXFMT3RiZkpPZDZWZHd3VHZrUlowR3BJUVBLVDRZa2dhZUl0TWl1UUpDU2h4eDMtVlU3YWY4Nmo4VGh3a3VoRWFpdWtTN3AxVkhaMjd2Ukx0aUpFeGN1dmhfRnpTYms2MVhhZV9kMG5zWi1JODlEY0ktdFJ2VklYZWJMUl9oSlhlQUVSUUV2anEyTVN4N0d5VmFPdnk5TjNQeERxaFdOZjBQSFphc2hmZVRfZkRFalQ3SG1SeExCS3JZTnRkVjJVRVdrbFA?oc=5)
 
 ### Confirmado | La Cámara de Diputados aprobó el control de asistencia obligatorio para empleados: qué es el nuevo sistema de fichaje y desde cuándo aplica - El Cronista
-- **Fecha**: 2026-08-08
+- **Fecha**: 2026-08-20
 - **Resumen**: Confirmado | La Cámara de Diputados aprobó el control de asistencia obligatorio para empleados: qué es el nuevo sistema de fichaje y desde cuándo aplica  El Cronista
-- [Leer original](https://news.google.com/rss/articles/CBMiugJBVV95cUxNNzE4YlMweENwaHN0WldSNjh4dm53aE1rWkI1MGFUM0FNcFU0VTZlaUlmN0F1YlVVc2IwNHBubEtqM3pKNHY1V3VmNmN1WTR2NGxwN3BCN2Q3dWRlNnJ1MHFTTkxvNzhPYzJMdDhTYTNEV041QmNTNTJDS3RwVWM4VXJEeEhRcEFXY3dtYXFMM0hhU19LQTBROThjY0tQQU9VWF9YOTMzN1o4bG1Vdl83WnZvczJ2TTVSTWw1ZkRNTFgwYTQzWG1iYXE2MTZQNHFYU2huUW9pTmFpeWdlUHdtYXFLUzM0YkhpSkFFQ0JxaWJJMzdjUFVMNm9xcC1mYTZzX2RKcmpsV0w5ejQzR183Sks2dmVDUVFNMGE3UGJ1cDhMWFJuMXg4TDJkWWY1X3JpejNyOGpRekFnUdIBugJBVV95cUxNNzE4YlMweENwaHN0WldSNjh4dm53aE1rWkI1MGFUM0FNcFU0VTZlaUlmN0F1YlVVc2IwNHBubEtqM3pKNHY1V3VmNmN1WTR2NGxwN3BCN2Q3dWRlNnJ1MHFTTkxvNzhPYzJMdDhTYTNEV041QmNTNTJDS3RwVWM4VXJEeEhRcEFXY3dtYXFMM0hhU19LQTBROThjY0tQQU9VWF9YOTMzN1o4bG1Vdl83WnZvczJ2TTVSTWw1ZkRNTFgwYTQzWG1iYXE2MTZQNHFYU2huUW9pTmFpeWdlUHdtYXFLUzM0YkhpSkFFQ0JxaWJJMzdjUFVMNm9xcC1mYTZzX2RKcmpsV0w5ejQzR183Sks2dmVDUVFNMGE3UGJ1cDhMWFJuMXg4TDJkWWY1X3JpejNyOGpRekFnUQ?oc=5)
+- [Leer original](https://news.google.com/rss/articles/CBMinwJBVV95cUxQRnU3LXdkN0tLXzJiQmNlQ1N4d0NEUHFJSlBxUElidGVDbkNmZ3FxQU56SFk2ck5JLVVEbkhNVGtTcThaQUc0MlRxUnZXTHM5aENLa3YtRTJKbElYRW54c0xVZ0tscXRpdjFjVTVCUjA3dGVsUjdUaUJlTllvWW9OMFBjbUtIVERqUlp4b2VXcUlGYWx4VkthYlk4cW5QZG8wYWJDR041MlM1NFVJQ1d0T1hsYlJVQ3U2VFFNVU5jUnZaNnpZNnFJRVl0R0ZmVGRFd1V0MXJXbU92cG5zRGFkU2ZJQUxXcnZZNDBsN2xmcV9GdDFHc1hkNEFIQkx1Ym8waUZsQmdfbVlKNHRJaUtMWVdXOGVCbnpvRGpiSWhDVdIBugJBVV95cUxNNzE4YlMweENwaHN0WldSNjh4dm53aE1rWkI1MGFUM0FNcFU0VTZlaUlmN0F1YlVVc2IwNHBubEtqM3pKNHY1V3VmNmN1WTR2NGxwN3BCN2Q3dWRlNnJ1MHFTTkxvNzhPYzJMdDhTYTNEV041QmNTNTJDS3RwVWM4VXJEeEhRcEFXY3dtYXFMM0hhU19LQTBROThjY0tQQU9VWF9YOTMzN1o4bG1Vdl83WnZvczJ2TTVSTWw1ZkRNTFgwYTQzWG1iYXE2MTZQNHFYU2huUW9pTmFpeWdlUHdtYXFLUzM0YkhpSkFFQ0JxaWJJMzdjUFVMNm9xcC1mYTZzX2RKcmpsV0w5ejQzR183Sks2dmVDUVFNMGE3UGJ1cDhMWFJuMXg4TDJkWWY1X3JpejNyOGpRekFnUQ?oc=5)
 
-### ¿Ya no podrán pedir la carta de antecedentes penales para conseguir trabajo en México? - Récord
-- **Fecha**: 2026-08-07
-- **Resumen**: ¿Ya no podrán pedir la carta de antecedentes penales para conseguir trabajo en México?  Récord
-- [Leer original](https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTmozWVIzeEZrUjJOVEktcVZjY29USlNyc2FLcGM4N3F6RXZEMHQ1VmF3cEJKMHBIRlRuYXRFeWd5dnlZS29BdjlmZ2pCWW9qRlNkV2J1SHF3aWloN3FxTjk4c3VpZHE5a0lHZWh6VTd4NndxY0lkZ2FMMVlMLTg5U1g2TTBQRndadTB3dlVrVU9tVEZ5RS1fU1kzWk1FR01wcHNkeHRWU0lvTzd4bUUza1RacHhtSUxKN3hfU1NFNUNXclY1cVR6VFlLUklKN2haVlhRRGtB?oc=5)
+### La reducción de la jornada laboral a 40 horas en México está cambiando drásticamente las empresas para proteger a los empleados y evitar multas y cárcel, ya que las horas extra involuntarias podrán considerarse explotación laboral bajo la Ley de Trata de - El Imparcial
+- **Fecha**: 2026-08-21
+- **Resumen**: La reducción de la jornada laboral a 40 horas en México está cambiando drásticamente las empresas para proteger a los empleados y evitar multas y cárcel, ya que las horas extra involuntarias podrán considerarse explotación laboral bajo la Ley de Trata de  El Imparcial
+- [Leer original](https://news.google.com/rss/articles/CBMixwNBVV95cUxOR0J2eUNDMUVLa0h5amdaWGJCMndyLXpDSmoteFVqTEdMcVdZTmx6SWRNN1VCTF9tYUpjUVFUZXRYcC1hWjRDeWhGRDh2SjRTcHVmLS12LUhHOGZ3bFpNOC0xVzd2S0dlVzZDV2FmbUFNUnowQlBOTzN2OHZ0QTAtc2tRZnctNjFHSTdLQm9YNmJvc3lhUklSbFM4Z2NVRXVuSVFoU3J2OWVvODJGN3hkb1kyRWlvY0d1SmpJTXZKNzN1aUhPUE9RSnZjMzBROHdUWG9RNG1GTG5UQW5jRUs5bHplR2JTREloa2liUjRTR2xWeHFKdFN2ZGJXcGs1UXhSc2NWbXEyeklWNm95eVB6MmV6bFBrODV1VXdMSXZvQVp1VUgwQ1k1MF9hNm5FVmoyR3dBTXZYblctZ3JsbTFkMVB6d0ZfTXdWcnBDMVdmMm90dDMwaWVUUElkYXJWd2V6UVBCQV8wUUxOdlhkdmZoSDJEQzJjOU1ualF0dW9JUVNZeE5UVUdmVDQtWFR2SnFjenFBd2IxVmdITE52QkRwOGdLUDZ6eTl4YlRiZjhtblN4X244Y2tRNE9mNnJmcHJxdnBGZ1B2c9IB4gNBVV95cUxPZV9GR2YyQ2hhbmJ4ZW1nSHBsdUd1dWRKZERzaGoxSlZGMW9XSU1ickVHaWtTQ2hObXFmYjNTMktpb1FzSy1lMFBQUUhWbnlvWEdBSkZmdkhNd29ncU1kWkdOd0hCQTdBZjE4dVNjSTN2WnNBWHBpR29iWE1vMEg5WnhBb1BvWDEzbjlUZHd3RElyR0NrZFFBWVJjU1NoQVV0cUlHUXFfdk1iVWNZdzV6b0l5cUxKM2o2ZlFoSEhHNmV1WFkwQkxmckNFdmw4VS05THhBeWJIM1E4OTc4eFNMOTBIVkYyalhJVG5JdlZ6RUhqbW9jczkyZjhIYW51OEphUVRYQTl6YUtMR3l2VWM0OGlsYnNNNkVMWUxmcnhQRVlENS1yQUI4NFpJUUV6QUxlU0lkS0lxUWoyMFBsM0hWWlVHbnQyREhJVXFJOHNRQnBURjRob3ZjSjF6cXRobzhWWlZlRUc4aTQ5cDZHRHBkaXdsVm5KSEROdnI0MV9RZmFMWEg1M1E0dGJuMTE3dkI2Y0dSeWd4OTcwa0tfanRvU3E3c0J6QXdHdlpGRGRKRVB5UW5QbjFTcTJ0VEVRVDl1M3FwR1FFRlY1ZUFDSXZLQ0N1ZjNJM25PVHR3akNiQWdvQQ?oc=5)
 
-### Corte avala que patrones garanticen vivienda y alimentación para trabajadores del campo y sus familias - La Jornada
-- **Fecha**: 2026-08-06
-- **Resumen**: Corte avala que patrones garanticen vivienda y alimentación para trabajadores del campo y sus familias  La Jornada
-- [Leer original](https://news.google.com/rss/articles/CBMizgFBVV95cUxNU2VWNFQ3X0hpdHZIMFA3eVBPNlNWckozdGZJTWxxN2hiOU4xYWVwVGJXNVV1ZU9JbUZWdVJWaldjT3c0cThZS2tzZE9qRThmcUVqWWN0endQVlRvYno1VFhFMEprb2k1VUFWd0dZZk1aS1BWRTc5bWVUeVZxdDZfSVhtUjZnSnVYZzFBTEF2NHdQaHYtYjVFM3JlMUFRdUVjVG1uMEI4dHBzcGIyRGtvZ1pSd0lITzFiRkpGSVNDMXFDNUZIUU1jcVFwRnIyZw?oc=5)
+### Registro electrónico jornada laboral: guía - misKuentas
+- **Fecha**: 2026-08-21
+- **Resumen**: Registro electrónico jornada laboral: guía  misKuentas
+- [Leer original](https://news.google.com/rss/articles/CBMilwFBVV95cUxQYjd2Z2JxQ1JwX1J1NjgzNmIzRWpKTUNxaGdJR1dXYW5DTXdJUFNGV2NwTmhXLXZiNjZiVDZBc2RXRTZVT056ejYtZjBWV1c1YVZ5SFctbGczZ2pHdHRnSkFvbzV2cS1kdm94U3BfTXQzQVpIbnhpenJXYXIydGZja0xBZlU1NFlVdDI3cE5tVGJKWElrdElr?oc=5)
 
-### Preocupa aplicación de reforma de 40 horas en jornadas especiales, advierten expertos - El Economista
-- **Fecha**: 2026-08-07
-- **Resumen**: Preocupa aplicación de reforma de 40 horas en jornadas especiales, advierten expertos  El Economista
-- [Leer original](https://news.google.com/rss/articles/CBMi2wFBVV95cUxQOUh2WjdXR1QtMlFoQ1h4M2xxbFprNXFBcG9qblVJSVZPT1JwTktucTYzMjVVTkRXM2pFa2Rhc3EyTUI1MlVMNGRrdjhKUUJvS01kc2wzR3BqWUo3dTB4S0VWS29fVmJQeGZhUGlXZHFIUG9GU2VBLUREVWNlRHpJcTRXT2JlaU9ucUg0TGxsdG5FNXVLMWFpNmV0VkViY2lYTWRNT1NSTmthRXdOVkJ3YzBlM0cwUU9TbHlYanQzVlhqSXYzRTNfaDVRVm1IaUxmTUJUc2EtRzRwWVXSAeABQVVfeXFMT3NDalNFbUhFdkNFeUVfcFFwN2xTMFJZVzFLWmxJMFdTVUVWLWQzRV9SMDNRb29DOHh3aU9FRFNiZWJKbnQtUHlmcFF2YktWbi03RGZEQ1o0bDRCZTJaMEtIN3lPOVl1UEpjYS1nSVRWRS1wMmlfaGJieU5OU2tqMzVkQlpCZ1BjbkJGeEc5cWQzNlYtWV9pSFpXMm1rOUhhYl9fenRrYUpkMGxXY05rdkxkM2lOb2dpT1hFMnFGcm5jY3dNbHJhWWI3WXM0WWk0a3BtNGZadU5PYWQwU1pKU2Y?oc=5)
+### Plantea iniciativa aumentar hasta en 30 días el aguinaldo, conforme al tiempo de antigüedad del trabajador - Hoja de Ruta Digital
+- **Fecha**: 2026-08-17
+- **Resumen**: Plantea iniciativa aumentar hasta en 30 días el aguinaldo, conforme al tiempo de antigüedad del trabajador  Hoja de Ruta Digital
+- [Leer original](https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdS0tSEpFZ0pLZW8wbzk3X19SWXhTSTdEYjBlZHgwd0RCN3JDblRSOTR3Z3pnbnZteWNYRDJyTWR4aTBiVkZMVlVvSVhhaXRTekJ5UXplSEowLUcyR09JUW5Gc1lZS1pnZ2g2b285ajUtYUVqNERzdEx2czhvQmFfWWNQMy02YzFNWndrZzBrZDQxSlJDMDRSZUJwS2NWSGlEM0J0eGl4ZmVnTGlvT0NIbXRBLVhPckNLaVpxaGV4SXF3SHA4elo2eklScEpCS1dw?oc=5)
 
-### Sólo 17.8 % de las empresas está lista para la reducción de la jornada laboral: Kelly - Buzos de la noticia
-- **Fecha**: 2026-08-07
-- **Resumen**: Sólo 17.8 % de las empresas está lista para la reducción de la jornada laboral: Kelly  Buzos de la noticia
-- [Leer original](https://news.google.com/rss/articles/CBMirwFBVV95cUxPR3FicXd5bjJ0NWdwdEc2enYyQThobUhiNTJYN1IxaVFqRXVjTGZaeVZQbE5VUk1hVDF0eldGR2hvMUR4c2NEaU5lOUJsdzVGNlZEaEYzNlBEMmVlc0lWSHRaaWdiVllVa29DWWVSdm53akJpaUtjc1hsMlkxYUwzc190emoydDBMWTJFX1Q1S2Z4WGNZWC1Sa25VV0tvX1prOFcyWndGRkdOeVJiel9v?oc=5)
+### Registro electrónico de la jornada laboral pone en riesgo lo poco que queda de home office - Yahoo
+- **Fecha**: 2026-08-21
+- **Resumen**: Registro electrónico de la jornada laboral pone en riesgo lo poco que queda de home office  Yahoo
+- [Leer original](https://news.google.com/rss/articles/CBMimgFBVV95cUxOSTFWZENPWmhlcEFvTjZoeWhpUUNyd0phRk8wYUVZX1ZHVjYxc24zVjZudXRleS0tU3o5VmRwNG9iWndJV3A4ZFFBcG56RlFrV051NUlFdGt6TE00VVdQbzc4ZHgxUHphZTA4azdocWNhTTV2c0F4aW1xcG9yaWNCR1FPSmpYN0VYcDFzZzZvcWtWalVnMm01MmV3?oc=5)
 
-### Empresas tendrían prohibido exigir la carta de no antecedentes penales al momento de contratar trabajadores o darles un ascenso con este cambio a la Ley Federal del Trabajo que busca acabar con la discriminación laboral - El Imparcial
-- **Fecha**: 2026-08-07
-- **Resumen**: Empresas tendrían prohibido exigir la carta de no antecedentes penales al momento de contratar trabajadores o darles un ascenso con este cambio a la Ley Federal del Trabajo que busca acabar con la discriminación laboral  El Imparcial
-- [Leer original](https://news.google.com/rss/articles/CBMi_wJBVV95cUxPc2pqZVVxYkpMUlpXc3dfQjRtTlV5ajhmYmtHdEQzdHNnXzh0RDN2V0dJQ2JZd3prVDA2dXpFUXZ4RXNvV0J3RkhONlNTRF9qWXZPQV9ZREZzT3k3RGlYZnQxbGZYWVFlYVYwZWhmR3p5eGFsM0JpM0Z5ZGl1MVNFNEs2M3RsVjJDZUtCZ09Wa05nWnNxMWlmVFB0YUx1VVg0U0dIbzNHZURjdEQ3eXBsR3puRTNpVnFObjktUHhwVklrQmNJSGFER1dlMGZCQ0RFaUFpSjBoU3lRbVpkUTlFUFJDSGFHX0tqdFJvRFktRGxQcXl0VlhMNnlCNXNJWEZsR1cyeVZKX21uVDFtYlM1Sl9mdC1CLTJIRjRYUXVaaFBMVVJFeFBqenJxSFJidVdpdjd3MlVGQjdpdUhVODFyTzhnMGMzdXdzWnEwUzNPclF2bFNuTU92OG9SY2xTeE4yOHA4b1UwZ2dYTHZZWEYwTWU5blNqZkViRS12dlRtWdIBmgNBVV95cUxNRXhicWxyN25lclY5SVVhV21mX0Q1ZDBLMDB0WDdETnJqLWhBYVhZaTAwU1Z3d0JkTDZscG5NUnNNN2t5NVEyc1F4QW1wRVVGbkZ6SE5sZElaVDNBX2g0SlZCZFd4VUZrdFdoUmZVTjUybm1LTFQtVUtyUmsxV2lCd0FBckptd1YzZmowQlBzU08tMjF5UDJDVmRVOUUtLU9VZF96XzhzSGRCWF9Dak1sMllTN0pJeVlEeVhDYVhjVHZLM1l0YVlXeE01bm5lN2lqUTJIZWlBQXFXYmFEaU9Mb1FvUG9zQ3pIZU5pX0ROb2lidWZTVkJUZ3VqRzE4c19McXBNSHF1WFdrUjY3elFBSThlRHBVVjdGQlVUU3F5a0lYLTFpYlhkOEFVWmQxaTdLbEw3UmNDSjMxZFhzRVJBUzlTSmt0ckw1cndjc3A5RVhhSlJrSDdacWJ3aDJtTDdRX0lxVWN2Y0lxczdhVHpJYXlHRHY2Y0w3dUZjLTdJWWxMeHhxN1BFLVh0dHdBUmdYOU9sVVkxeTkyUQ?oc=5)
+### Conocen beneficios de la Reforma Laboral - El Mañana de Reynosa
+- **Fecha**: 2026-08-24
+- **Resumen**: Conocen beneficios de la Reforma Laboral  El Mañana de Reynosa
+- [Leer original](https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcDFEeENWRGxJYlRwYWNhbnEyd1JVR09GRlVSdEZuZmVwQ3JOWHdiRjNaWHVNaGhLWXNCeWdNWXRvVkFweE4tUVhBOVlnU0pzN2VFeHYwVExfOGxwVkYxRGlKX3FYYW9VNXRqcW5QSXppRi12dFFtMW9CQ2o0UDR6allBWlJqaC04dzhrNjg3a0RPb01YaEdkejFScWxBZF9lanU3bVpjVVPSAagBQVVfeXFMUHAxRHhDVkRsSWJUcGFjYW5xMndSVUdPRkZVUnRGbmZlcENyTlh3YkYzWlh1TWhoS1lzQnlnTVl0b1ZBcHhOLVFYQTlZZ1NKczdlRXh2MFRMXzhscFZGMURpSl9xWGFvVTV0anFuUEl6aUYtdnRRbTFvQkNqNFA0empZQVpSamgtOHc4azY4N2tET29NWGhHZHoxUnFsQWRfZWp1N21aY1VT?oc=5)
 
-### Diputados de MC proponen multas de hasta 293,275 pesos para empresas que no contraten al menos 5% de jóvenes sin experiencia laboral formal - El Imparcial
-- **Fecha**: 2026-08-05
-- **Resumen**: Diputados de MC proponen multas de hasta 293,275 pesos para empresas que no contraten al menos 5% de jóvenes sin experiencia laboral formal  El Imparcial
-- [Leer original](https://news.google.com/rss/articles/CBMikgJBVV95cUxOem9hWGdoZmlpbkxMb19MdWVLOWNJSnJ5R1J3UVJEUmlsSGxKTHVwOGxrRkN3LWJ4VUJLVEpKb2RVb2hjWFlQWHdwMURFaWxOem05LW1vSDlaZWtGQkl1dC1tcUw2VzAyYURSVTB2bzI5NmJNUzdKWTRKT3BocDV2S2JYYjF5X0NPVUZiOU1Nd2FZekNGQzdCYnhYWU5ELXZJTURSSkVkLXRYU0x5MFVLZHdlMzVmV19iLXA1RG56RVBUekFxcEJ4MzVXMGE1ekkwbWY3WnFILUNlb0V4WU5JbloyLTB0YkFYOXpiUEdZUWhKNk5IX0FJVE5UTGM0bExWUDFiVF9pUEowTk1wazRtNmVR0gGsAkFVX3lxTFBLTGVfNXNRcVJDaTNqeW9PcmpkazZ5N2hya1pWVnV1XzhPYTJsNnVuZ2tBSERnaF96YkpKSXYtR2lkeDFXLXpBSDNHN05Qc21XYkRudDg4Y1c2OEh2cjM2VFF0NjJrRWVOSm15TmVHaVhLTDYzWnptVW13X25UVDRiQlRwN3pBR29KVmJFQTFwYm43Z0ZhZklleTBqUVJzbklfa2haMmpmUW9Mc1pmN2dhcXNrQ3k4WEZpdFpTN0RhVFJ6VXZqTXFfOGNMaERrMmpiNS16VUxFTE14TGNnOFlrNzkycy1Kc2piN210VlZHcjJJV1llTnhKcy1VeGNqemF0bFZTb3hIUmJzSklkZEZxYWpTdXRZSzFjdDdsNGx6R1RqMWhfcnAzb2hRMg?oc=5)
+### Claudia Sheinbaum confirma que la reducción de la jornada laboral llega con aumento del salario y tranquiliza a millones de trabajadores de las 32 entidades federativas - Ambito
+- **Fecha**: 2026-08-18
+- **Resumen**: Claudia Sheinbaum confirma que la reducción de la jornada laboral llega con aumento del salario y tranquiliza a millones de trabajadores de las 32 entidades federativas  Ambito
+- [Leer original](https://news.google.com/rss/articles/CBMiqAJBVV95cUxPVk5YQkZZZ2lBX1FZZHVmYWIyZTY1a01NY0REeEVMSGpCaHVsZmg1aWdLV0ZNNUh3OXUzLXVNNkR6UlZ3clF0OTRPQWhfeTYzeDNaOFU1MWp0WUFYQmlIaTF6SUIzdmk0QnZtWTROanZwdTYwRVZ0aFM3QjdrR2p2M3o2a1VXSEE3NFpuUGI2MGJ2MTJIb1FuSFlsN0NCdUNKakRVYXE4cnV2VDhsNndLbF9zeUdlb2I5WHpLSnZaaklWenVpNk1zU2RyNWdrWkJHNkRlV2JQWUlrNGhRQk15dFM5d0RUMDh0UmtDbGJyQjZMNkVlWi1pSnd6ajlRZVl3UFFnTEE2cUhNVW96SE51ZkdLQTJDTGJIY0Y4Uk01Z2RoNFh3WUE2RNIBrgJBVV95cUxNdWppVzRoOXIwQ01pS0tCOTVERWRBODVaOXZPMmxoekI1WkNnVGpqdVBMR0ZfRWE3dXY1T1lFSU1ST3VPMTdZN3J0dGpXYUFqYVZ4YldXTG1PYUNFTUlFc0ZkYXVqaFktcVhQV2tiUzVfYjJ5OXBTZVhrSm1VS0dtQl9EZUs5RExJYi1UN2pkV0F2bkFiQU53NjE3MnZsak9FcFRybjd3Vkg4TzJPbVY5R085aTFlWDQ5c3JKUk43cDVpNEdZRWttajdpd1FNZHQzT0ZlVW5CSkJYQXJSbzVtMGU5ZVhzZkZXWnRJV0ZfSEhVZGhkYTc4NmJHREYtcFJkWWlra0lZcXNkS0FpMk52blJpQXRERm95NVJWdlI3MUVzYTRMSWs0T0F4QTBndw?oc=5)
 
-### Las empresas ya no podrían despedir a trabajadores por “baja productividad”, “pérdida de confianza”, “recorte de personal” o “reestructuración”, según una iniciativa que busca modificar la Ley Federal del Trabajo y evitar que los patrones oculten ceses labor - El Imparcial
-- **Fecha**: 2026-08-07
-- **Resumen**: Las empresas ya no podrían despedir a trabajadores por “baja productividad”, “pérdida de confianza”, “recorte de personal” o “reestructuración”, según una iniciativa que busca modificar la Ley Federal del Trabajo y evitar que los patrones oculten ceses labor  El Imparcial
-- [Leer original](https://news.google.com/rss/articles/CBMi5gNBVV95cUxPdWpPRG5KYzZlUmpLTmgwLWJoUnl6S0xxemFNNmNzTWZ2TDh4dmxKandQUGlzN2FmX0RfUkpPVXpNamNHR1NkMThveEhtWUJCYlFqRFJXZVB3Sm16M1VoOUhPUGR3ZXdGWDUtbXpndjcyTnhWMjBTWmNVUHBIdDllUlhFaHNLc0lXS01CN1hKM015TWczU0UwNDVIMWhTb0lxU0d6anBfMXpmRjdKdmJEdzQ1MnZKMFlVejBuQ1BXM1dJaHJ3QVZ3SENWQ21zTnozUUFGY1F1YmF2cXR4YVNaLUtXYzlxTzk5Z2hzV0tHVHowM1lRbTlDUjFnMHhfNHY4b01paFVXZ281bDBpWHJaMUswUXZyRjZJVnRFRHNNc1lxREJvUkRaVXR2YnN6UXJsTWxUNDhPODU4WDZqdzE4dXZvelBLejE0R3FLUnhCTV9MaFdGVGhqUXdQa2FrRzFYXzh6YnpHejliWU9KV1M1YlUwMXdyQzJuRDluMkJYVDI1OFhNV3I4NS1idEZGSmNoY0w4MWxrSGw3U2VDclhFRDluV095TEhtUVpOR3ppRnRzczRGQzhDVFY4ZUhNYThwOENRWEJZRWtfMXQ0UWxsLVhtc3J6d1kxZHBkZXM5N1VrdFhKMlHSAYAEQVVfeXFMTUVoVzZDNnpZTlhweENsR1ZBTWh0eTI0ODFkM0RzRklJY2hfZkowQXpxaVkxazNXeWlDR3RROHI5LTh3NVF1NDU2ZE5WMWxtdVBhY0l2aW8yd0dJUkdfOHdhanF5bVhvTVA4TXZRUmZkUzN2SldWQzluQlBXalgyRzduSEtZalQ1emIzZ3cyeTdBaFhMdDg0c0JPNVVJMzNRY0ZrMjV1cGpWckhVMktzal9BNFNUbFRuTk1RS3NHMEh1TG9hdExsWWVkMXQzR2NhX2lTbzY1dzlKZ0daRFRweGZ0VHdHWGtadHVjY181Y2piMVlIOTgyU0xOZTV1SHVDZk5KT3Z3OVR2UHluUjNjMU9OZ2J4UjVlRjhPVW5wQWNqOGRWbzNmdG0wM2FGTkg0MTZGbnVyYTF3bGswNUZFY2RZamZ2VEk3RFhsUXhlYm9XOGl4T1BEOEhPQ1pqS1otV3dLT3d3RGNlRWNpeVFXXzZrZ3MzbXRKOHZNX0Z0Vy1zMmE2b1N3d3lRbE1kZ2F1X0lONktUd2llbmZKZVRyVEZDbER6UkZLN0hiX0ZGLVBfZ2tncTdVd3BhbWUxN2xRSnZiQ21sRkRyRmdfMzg2RlRRQm9vSlhSYlNPajd2WDhvQVBWUmpsUWpITE1IV1dxWHhiY1V3dnF4eWFkekZqVE0?oc=5)
+### México reduce jornada a 40 horas: impacto en costos y automatización - El Ecosistema Startup
+- **Fecha**: 2026-08-19
+- **Resumen**: México reduce jornada a 40 horas: impacto en costos y automatización  El Ecosistema Startup
+- [Leer original](https://news.google.com/rss/articles/CBMinwFBVV95cUxPemt0NkJkdldIVExCaEFCWHlkQkppTWVtR2EzUTh1X3BYYUVxaHd6VXF5WS15dV9lUHA1MGk3SEI5Q3I5ZE9EeG9wVlVhQ2JIYWdkVWVCSHRUQnpBRTFWQTNZVkVhNjZkMndLSjhjaEhpZ3RSeGZRZGo4X0MyRTE0SHI4MWJ0MUlWZUtwX29BNWFhM0VrQ3pwcEZpLWJGcU0?oc=5)
 
-### Jornada de 40 horas y salario mínimo... ¿cómo cambia tu pago a partir de enero de 2027? - vanguardia.com.mx
-- **Fecha**: 2026-08-07
-- **Resumen**: Jornada de 40 horas y salario mínimo... ¿cómo cambia tu pago a partir de enero de 2027?  vanguardia.com.mx
-- [Leer original](https://news.google.com/rss/articles/CBMiywFBVV95cUxPRHJZdDRxdHUyYUxNVHZMVkhWUU9nMnVRMERqVWhYWkxQVk02R0NwVmRKQzF6ZjBwTjdMS3hBS2RGaTl0cl85aExpSHY1QUl3YU5vamlELUxDd1N4S3NwMEhnNnpTLVdnTERBUnk2M3YwbS1CTjhpX25VYVhFRmZ3TjRqZUxYdUtTUGlFWGN3WTM5N2JlN01BQThtTUxpSm1mMnZPZ0FheHV0eUNtbUY4OEhRaml1UzQ0Zk9TUC01ZEJwa2lnd2NtbFhuSQ?oc=5)
+### México aprueba la reducción gradual de la jornada laboral a 40 horas: las empresas tienen hasta junio para prepararse - Notimérica
+- **Fecha**: 2026-08-23
+- **Resumen**: México aprueba la reducción gradual de la jornada laboral a 40 horas: las empresas tienen hasta junio para prepararse  Notimérica
+- [Leer original](https://news.google.com/rss/articles/CBMi5gFBVV95cUxQalh3Uy1ZY1NwcVFiNHVXeUlGOUVJd1Y4NUlCZXZTUDhCSVJFRjNWUkoyNDZ2Y01nMEltVzNXcXg1aTVlRTV5QmJpRlY5TXlvUHdmOXdRNmtGZ1ZmZF90WW1XLU5oSW1NWHNPOHJKZ29scG05d1JBSnpBU1JmdGRQTXYwb1BqdXBBOWx1RUNId0hPSlFsQWJjNWVQVkNCRTlUNjFBRWNtVkhvdUdvdk12Z3hzc0t2YTdKa09TQ3NsQ2hCTW9zTXJlaUxnNWFEOEFPU25VVDdMWXIwQS1nZ0F6eXI4ckcxUQ?oc=5)
 
-### Erradicar el trabajo infantil es clave para la competitividad de México en el T-MEC - El Sol de México
-- **Fecha**: 2026-08-04
-- **Resumen**: Erradicar el trabajo infantil es clave para la competitividad de México en el T-MEC  El Sol de México
-- [Leer original](https://news.google.com/rss/articles/CBMiygFBVV95cUxQaTN6TF9BYmZRSk9sWHU0RzQtYjM4NThwZ2xUbjVhc0xkQ1pndXpBeko4b19CX2xHOS1MQk9IQmQyX2JWQUpQZ0I3SldHZGZGUVlPYk5oMUtyZmZwTjdRVG1qaElZVS11SnFrUk5ROHZhcXJTYzBoaVVoM3MtdHNwZHVPc1dQR0dfT0t4SjNBVlVPbHhydVRFSTRuVC1xX2c1NTJZYTVUZzdudTVRMEgzc0VsdnVKQTJoSzNWTEpTWGk3YWtsYkZ1VmJn?oc=5)
+### Para navidad | Aguinaldo podría pasar de 15 a 30 días sólo para estos trabajadores - Reporte Indigo
+- **Fecha**: 2026-08-18
+- **Resumen**: Para navidad | Aguinaldo podría pasar de 15 a 30 días sólo para estos trabajadores  Reporte Indigo
+- [Leer original](https://news.google.com/rss/articles/CBMinAFBVV95cUxOcVFFNUVKeWM5dkYxZ1FBYlAydHdkTGZ6WHV2Zmd0WEplRy11VzJwZV84V2FFc19rSk9mT184WklFc1lkUlFrWHlURkpabHplTDdseG93dEx6b1J3NFRVQ1lmZHEzZUlST2Y2TjVOcnZWZC1XaUhTamY5YzRoNm1ta1NBa0M5WVJRNWdWUXdwMVk1QU9WeTdaREVnN1rSAaIBQVVfeXFMUEFfekt6YmsyZU93Y0tQTVJicXRYOTRwTVUxbnR4Y2xQS1JXZGpXSzQ5YUNZWk1la3cxS0dfQ0wySnZpcGFIMnlpR2tIQXdEdzlJT1VzVVFndnRVVmJfTjN0SmlRSC00Y0tJSmRoQlVONko5alVnTW5jTXowUHBFMUpURS1yU1hiSkJwbVJ1bFJZLVV5S1QyZHJOZHhrUG1MVm9R?oc=5)
 
-### Ley Silla: empresas enfrentan inspecciones y nuevas obligaciones laborales en 2026 - Metapolítica
-- **Fecha**: 2026-08-03
-- **Resumen**: Ley Silla: empresas enfrentan inspecciones y nuevas obligaciones laborales en 2026  Metapolítica
-- [Leer original](https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNEpMNEtJOGF0VU00YnhPUUk1dGFxQjJ2SEdjd3Z3TzJObzllazFYZkFla0FtdjdzbzhVZm1VZTR2TkdaLW5qOXFHajZfdzBodzZ2MkZHbXg4RW9jRW0xVk5GQTJ3QTVGZEJjdjl2QUVsQzRjQzNWWGNIdVF1SFJfWVA1MlhRdnN0LVdfU0kzSXRYQ2U5cGowZk1VSXZYM2NuQmtkTTItT2ItVG51MlpJU0d4dmFqR1ZkYjUw?oc=5)
+### Proponen limitar las jornadas de médicos residentes y reforzar su protección laboral - El Economista
+- **Fecha**: 2026-08-24
+- **Resumen**: Proponen limitar las jornadas de médicos residentes y reforzar su protección laboral  El Economista
+- [Leer original](https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNnpUdENGcUZEN2lKaW5USzNHLXc2NF95amFlN2RqY0ZWSXNfSmxFWjVENnU2ejJUbndMZ3N5dnI2bU1ReXlfenZ3dTZwc09rVlZ2S244LW5vaEhNdGo3NU1LdUM1d2NCcmJCMmR3aUdHUkxKMXNKbGJTdm5vdnc5SXY3MHMtRVoyVFFGY1B3S1BGcTJYcUliT1dWLTFaTmtkbUlYN1kteDB0bGpwa0loSHNPSGdqeG1Vc2ZocUpMTG9rd1IyOWhUalU3U04wV193ekZLTGQ0d9IB3AFBVV95cUxOTmJ4X01PTnRnV1RRZFcwZDludE1xUDloNmRzVUx6alpNMXZkQzNZTmJUY0NWZWg2MlhyTUpoc3ZvU3A2SlRmaVlaTlZzSkdUc2dyR0FnZFNWUVYxMUtReS01R0tOdXNkS19KRFN0X2ZQa1ZoQ3JHSzNGQUphR01kd3dJNGZhbG5QblMwMDZLYVhHc1NvVEpSTXBmRkc5V2dwQm9BUGh5cXdDNmFnU1lycG5iU3N6T0gxNm44WVZkYlkzS1pPaW9HXzE0bVRWblF4VThmMVdOQ0VJVUFR?oc=5)
 
-### Entrará en vigor la reducción de la jornada laboral en México: los trabajadores trabajarán dos horas menos con aumento de sueldo - El Cronista
-- **Fecha**: 2026-08-05
-- **Resumen**: Entrará en vigor la reducción de la jornada laboral en México: los trabajadores trabajarán dos horas menos con aumento de sueldo  El Cronista
-- [Leer original](https://news.google.com/rss/articles/CBMiigJBVV95cUxPekk1cmRQcy1pQTg5QUFPalh3MjBFY1lQVE5BcFJUV05MRTRzMFU3RmEycHZMcmNtLWNhYXFucWo4Rklud0Fxa0ljbjZ4bWpIbV94V1JRdnJMVHRlMW5tVU5GZktJMGlwbTFjZHZQOUR6c3dPaVE0eThrOHBzU3FpTjROQ2ViRk1XekZKNUdXXzZCY2xNa21xU1E2R3J4a2cwRGd4VUNNMUZFYlJWVXZpZXNIMHhnNDF6YzZYYmZVWTRsTVIzazJiMlV1YVpKVTBSRXF2ZEFPMFd5S1BOeEhhcW5fQmM4cU51N3dvVFI1SzRJV215cFVpVmU5d2JDR1ZBRHFvUVRuT1R3UdIBpAJBVV95cUxOaHk4Zk00bjdOYVdDbUJrbElHV3F2OXJNdG5CMk1rYkpKejN4RHVIMFhKeS1FcjhNcG01MGpRRU5yQ0NMckMwOVV4THUtd1JkQ2RYWXlZRlJESkprYjF5VTlrQng4cVRYUjQtXzFDUFpJT0xGRk5fZWtCcWI4QlkzQnVieTdxVUpNQ09uUjM5cURXQmdkNk4tREFFbjJQY1U0QUR3RUZPa3FjLTJaOXAtTzNzWUl3TE9DVGVRV2tGSG9ia0MwNEprTGpMWlJkVUlDSXhjNVZyOU1XQWM4dU8tM2hoNnlvZXBFNzYxUk02Z0NBYS1SQ3hRaHItb0stMS00cW9jcmotOVNhbnVpckpxRS1mN3BQeVNtbG5xeTFxMmFDdFM1?oc=5)
+### Buscan reformar la LFT para otorgar hasta 10 días pagados por fallecimiento familiar a trabajadores en México - El Imparcial
+- **Fecha**: 2026-08-17
+- **Resumen**: Buscan reformar la LFT para otorgar hasta 10 días pagados por fallecimiento familiar a trabajadores en México  El Imparcial
+- [Leer original](https://news.google.com/rss/articles/CBMi7AFBVV95cUxNb2o3RWZTazBQQkhUU3ZLSEpDT3I3MWVTQ2hwaS12eVgwWkE5ZGVnU3hudmVocGR2ZC1aNUVYRHVueEtueW9BQ216cjUyNmMtaGQ5cFhCRm1kcEIxV0c2ZW1lcmY5R2tmbXlrT09JbDJRaUtXbG1VUGt0T1VsRTdXQnlUVlp3T1p0Z1poc01SZDhTLUliZXYxMlRYSzRiMF80RG9Bb3hwTmJCNnRDdURsZ3p1VENHc1JFMHBiM2NmSjZJWC01VVkxSENvMkZTRGtOV24tVWtsMWxvX0tIRmRUaTBRRi1GNlVnaXJacdIBhwJBVV95cUxOd0NFVzRVUzNNenpPM1Foc2w5T0pWRVg1cWJBSWtnc2pzc1lXTjZjaFlQY1ljX0xsaDFka29HT1BxU1htM3prazFLQk9FbVh3SV8yNnFWdUgxNTZNOVpZeHpQU0NINE0yellZRWFIakl0cGtlVW9taS1CNVA5WlU0cmZtdVNwRUtWaXBxTW9ZX05SazN1NDZwaFVvNWZBN05NcHZ6aEhhWTVYNlpQOUM2OU5BTW8zNXlaMVA3SEtkVDZKTHdLSS10ZTRfNFJyak1fZzdoTDlFNDh2MDM2dWZGbDNhYkdVZHlXcV80c1RtZE10Z3BjdHpFaUp5NnphV3AwVTN2UHNLaw?oc=5)
 
-### ¿Aumentará el aguinaldo en México en 2026? Esta la discusión en el Congreso - Líder Empresarial
-- **Fecha**: 2026-08-04
-- **Resumen**: ¿Aumentará el aguinaldo en México en 2026? Esta la discusión en el Congreso  Líder Empresarial
-- [Leer original](https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSWZYcVFYdkpNN2xKMFIxQjNtbTBvbkgzVlE1M2NFZWRiZG9XMkhoeFp4eDR2X3dlTVFYc19EbWpEeXZmT0R1YXkzOUdSSnZpYTZ6c25Bb2dHaWkybTRBV1ZFR2g4WjJadW1tZE9kOWxGbFRuZGx1eVhvY3FaRVhJMm5kdXhiWnNlN3lJam9PRGxJcUdqNUZTUkdORm0yNTBRaFY5cXg2VDM4Umc?oc=5)
+### Jornada laboral de 40 horas: empresas evalúan más reorganización de turnos que nuevas contrataciones - Yahoo
+- **Fecha**: 2026-08-18
+- **Resumen**: Jornada laboral de 40 horas: empresas evalúan más reorganización de turnos que nuevas contrataciones  Yahoo
+- [Leer original](https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZ1JpNVF6Yi16eGpnVEJLLWREb1k5RWtjZjh3NVVtRG5FSlQ2eWpXbVRwNlVKOUFkMXlmQmxuSFlSdmVkQ242OGQwLURWU1ZudjJXeVhJMVNnWjVRaHB0UFFsM0tVcWJudW4tY1I5dEVocWlpVzRUTWVXTFc3cnp2T2taRy1rYmYt?oc=5)
 
-### Con esta nueva reforma en Veracruz, madres podrán pedir más fácil descansos por lactancia - La Silla Rota
-- **Fecha**: 2026-08-05
-- **Resumen**: Con esta nueva reforma en Veracruz, madres podrán pedir más fácil descansos por lactancia  La Silla Rota
-- [Leer original](https://news.google.com/rss/articles/CBMi4wFBVV95cUxNYndWSzBuc3dRWU10dlMtbDZYZmRzS2JTSnZ3ZmxnQlREdkpRMjhKSE9aYzMzNXpIZnI1WkdULXlCUWNLSWs5aEZjTUwxVWpnSDNIaG1kTjVKZjkzQkZoV0dROHFVdUh2TTl0N0U5dV80Z2o5ZXRDVUV3cEVZNGlUSTk0T0xyblA1aFROdVdhUGR0VWxTbGV1ai0tTU9WdE1KTFNiVDRaZVM2Wk0tekhncHh6Tkt6SktKQm1WYXh0Ny1iMjdjdWR3dWoySmUtOG5NOUFaTDNDWFpiS3VvamJTTy05aw?oc=5)
+### Diputados impulsan ley contra la “pobreza de tiempo” y por el descanso de trabajadores. - Al Contacto
+- **Fecha**: 2026-08-20
+- **Resumen**: Diputados impulsan ley contra la “pobreza de tiempo” y por el descanso de trabajadores.  Al Contacto
+- [Leer original](https://news.google.com/rss/articles/CBMixAFBVV95cUxQRlByc05wWDF2MUFUUS1mcTZGREtHVC1KcmRYWGpQMXk0T1RxbUpyUlhzOURYRzN0YWc0U05yNFh0V0VmZ2dBV1dTWVk5bEVuN0hEOHhDdHQ4dVpucmlSSkxMVWlCSXJfbkJFODlDWWZYMGtXY3VnX05ZS2E4aGNMQkdFeWVKSXlySEpNelBuY2xEaUpyYlBTVXhOaGdydFk1aUNrWUdTTlV0cUNtQVlMd2lENDBqSi01Unk2RjZPOHFNRjJ5?oc=5)
 
-### Proponen prohibir la carta de no antecedentes penales para pedir trabajo en México: ¿Qué dice la iniciativa? - El Imparcial de Oaxaca
-- **Fecha**: 2026-08-07
-- **Resumen**: Proponen prohibir la carta de no antecedentes penales para pedir trabajo en México: ¿Qué dice la iniciativa?  El Imparcial de Oaxaca
-- [Leer original](https://news.google.com/rss/articles/CBMi2gFBVV95cUxNcDVyeUJQTHEzRVc1TFltNWhwaExEN0FROWFCcFFSdnBaQlo4RTl2VHhIeTJnN1dFQmlrelhwSnZLd2EyVERnQ1ZZdW1Cdkk2YWhjd05LRVpOUGE0UEJYYkVucFEzOGNjVEV3TjdGM2YxeklPN1p4UDFHU2pkTHZlWGdmWDBxSW5aYUIzYWVjd2VrQXpFbVBTZ3FvMjBzN2duaEx6R25kYngyNjJmRUhwdzVDaDJ6VzQ3UFRTU0RGMGJLZ0JPbEZJcnRlX2J6bTk3dmx4d0NRdkJudw?oc=5)
+### “CONVENIO SOBRE EL TRABAJO DECENTE EN LA ECONOMÍA DE PLATAFORMAS (CONVENIO 193 OIT). - ContraRéplica
+- **Fecha**: 2026-08-20
+- **Resumen**: “CONVENIO SOBRE EL TRABAJO DECENTE EN LA ECONOMÍA DE PLATAFORMAS (CONVENIO 193 OIT).  ContraRéplica
+- [Leer original](https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc0s1eFg5aksybXF6bjN4WTkzTGZnYXo1MUgwNUNyX1Qyb0FsNmdMaXJQRGpnbWFqQjd3dmFCbzRWOTJOUjFGNGFFX3VrYUoxN1dTX0NzY1k2RnRWdXo0ZmdwTG02ZTNNMTJpT3E4ZUF2WkZsLUt0MEcwNzFDREY2Yi1MS2xhdk5kZFZJV1ltdnR6aGc4bGp2TU10SnFJWDl4U19lVzBBaFF6bzNBTHo0M3loNjdZc25ZWUhTUm45Y2tLLVk?oc=5)
 
-### La Provincia de Buenos Aires volvió a rechazar la reforma laboral y reclamó fortalecer el diálogo social - Enfoque Sindical |
-- **Fecha**: 2026-08-06
-- **Resumen**: La Provincia de Buenos Aires volvió a rechazar la reforma laboral y reclamó fortalecer el diálogo social  Enfoque Sindical |
-- [Leer original](https://news.google.com/rss/articles/CBMivgFBVV95cUxOeWlJTHVDUUhTUllmX0ozMmlLMTVrdmc2dWp5TFMtNFJuQ21vSF9wcjQ4eGVWdTMyWGt6M0txOGE5ejNFMTlMSnMwaWxuaFA2RnFmTTRlRHdOZkFiRUM3U2lrcXFXT1RNWlJvSHFiRF9kd3lEdm1tdWpzSXg1OXBPYzNJV1hia0J3SWpyWmE2RFgwbXhTU2JSNlV6NVFxcjlxTlJ1UlVJbGQyZFFHRXdDU1E5ZGx4V1FrbU8zbEl3?oc=5)
+### Cuál es la gran duda que la reforma laboral aún no resuelve sobre los repartidores - iProfesional
+- **Fecha**: 2026-08-22
+- **Resumen**: Cuál es la gran duda que la reforma laboral aún no resuelve sobre los repartidores  iProfesional
+- [Leer original](https://news.google.com/rss/articles/CBMivAFBVV95cUxPUVVDUV9jbWk3b2JiNGpTbG85bmh3U3dFZm5UdEVBcEgwMkE0MExWMFAxdXJVX0FVTUhNcnV5cGRKZ09Td1Fvb0luWGF3amlhS095NVJpenFCaGNrWE8wdUlGMnIwbW9jaDllWVJlelZWZWZTVzRsV3lubmhONUFHaGJmaE5pQ0gtdEgza3JyU1Q5OXJtU0dxOG5GOFdGQV9NNTQyaktnYlFmQzJRNmhYOGVqYVBET0JXak9NZNIBwgFBVV95cUxQQ0RVVi1KTkZMTEtSMjFpdnI5TWhCVUhuaEM0TUVFODlCSHIwUTBQRWw4cEVoMGNKeDNXd3NqQVk0bU8tVjFHdEVhQjNjRVZUd2lhdkdDRkl4QmFaRk1VbjhwTXIyWjM0ZGZkREs2N2xQME9DUUxBUVd0ZjNqR2RwR3YzUlh3UWhja0pRT3lVRWR4UURHZWJ3emFHMWlUTFFPeUp6Vmhidjk3cktyTnJfZjJDNjNVdXlyeEtQV1FmM1NXUQ?oc=5)
 
-### Reforma laboral: tras el acuerdo Gobierno-CGT, se destrabó la renegociación de unos 800 convenios colectivos de trabajo - Infobae
-- **Fecha**: 2026-08-09
-- **Resumen**: Reforma laboral: tras el acuerdo Gobierno-CGT, se destrabó la renegociación de unos 800 convenios colectivos de trabajo  Infobae
-- [Leer original](https://news.google.com/rss/articles/CBMi9AFBVV95cUxOLVF6am1jRUpXbTVSUDVNRXZFS1g3NHJ2REMzTlA3bUxucXlybE56NFYwV2R1LV9ybm1FQm9fVmJjZGpTY1padDUxdVJOWWZZdnk0UVJyQ0RNN1ZMbzMtcWlYWEhGSThNcS1fcU9LS1h2QXZIQTFyYVRtQ2wxd0JYazQtNlZ2eGgwWmtJMkJmVnNwVjhQb1VsaFVvNWlrOVpGSmowY1pMT0w1dXpJNXJiRzNJVGxhNi1FalZZd1gzQTVKSkJXa3pCaUNmZTVwN0NKczZmLUhCVHFLV08tVVZCZ1VwRUozcHB5YTdETUVjYjhTVlJZ0gGPAkFVX3lxTFAwR21QZFd6MG43UjAxQVpSVWtSV3RDSjEySk51czh1MFNVZE5WdkczVzFtajE1YzdMS0IyR0NZOUtTWk1uSHZqWGxxeERaYmpCMHBjZm9ZTmxHTk9CMUh0TmxwSFI3REZOSFU2YWhodV9pTUIyZlhKNllBM1hVS0dFZ1gwTmFpUjJVdGZoQThoWWpHT1Zob0RBYnpvckt1TWJoR2xueXZhc21odUVrdldTXzJCc2hNLXJ0STBIZjZxSXRBd2NnblBVeERZNFF5MGN2bm5TNzM5MEJaVndpS2pJR2wtelRvakprUXZpZzd2M0swcE9PM3ZtYzNsemZHWkc5SWRrM1REdGlOVk85dDA?oc=5)
+### El juez Mario Fera: “La reforma laboral redujo fuertemente los costos de despido” - Infobae
+- **Fecha**: 2026-08-24
+- **Resumen**: El juez Mario Fera: “La reforma laboral redujo fuertemente los costos de despido”  Infobae
+- [Leer original](https://news.google.com/rss/articles/CBMi2wFBVV95cUxPaFBoMzc1UXRtRUFRZHExUnpjRURfbVBoejVWeHJGMGYxUU9hZm5ObmtndW55VU1aRTA3LTBQdmhPV0V6LWpmOFFydDItcGRPbmNtNlRpUEdnVUhhYnBCWm94VGJVWHdxMjJTM1ZSNHJkbTA2Sml6MFU0UUZ4el9WSVllYmx1ejNTVTNTZDJfUTQ1cV9OcHZKYzRLQm02c2EtRGlFNE1hckhjS0E0WTFDVVc4LTROSzBDZ0hwckNsS1BwTDl4ZmJLWnVPWEd4TkRfdVMwMklFTGNlNDjSAdsBQVVfeXFMT2hQaDM3NVF0bUVBUWRxMVJ6Y0VEX21QaHo1VnhyRjBmMVFPYWZuTm5rZ3VueVVNWkUwNy0wUHZoT1dFei1qZjhRcnQyLXBkT25jbTZUaVBHZ1VIYWJwQlpveFRiVVh3cTIyUzNWUjRyZG0wNkppejBVNFFGeHpfVklZZWJsdXozU1UzU2QyX1E0NXFfTnB2SmM0S0JtNnNhLURpRTRNYXJIY0tBNFkxQ1VXOC00TkswQ2dIcHJDbEtQcEw5eGZiS1p1T1hHeE5EX3VTMDJJRUxjZTQ4?oc=5)
 
-### El Consejo Federal del Trabajo rechazó la reforma laboral: “producción, trabajo y desarrollo” - El Destape
-- **Fecha**: 2026-08-05
-- **Resumen**: El Consejo Federal del Trabajo rechazó la reforma laboral: “producción, trabajo y desarrollo”  El Destape
-- [Leer original](https://news.google.com/rss/articles/CBMixgFBVV95cUxQcXc0Tmk0VU1OMkY4SHcyRDY0OEgwNElQb05yekNYUEFXYTZMVG81akctdjJVT3BnZmJQTHBKWHBzbmk0MlpxelgxWlpFMkF4azhqQVRaZWQ1UUlvaGRUN2N3R2RfQUNlTThvbXhnQkFCYnhlWnZ4X1lwbmYwMlJSWHd2TExtYXZhX2E0MzZMRTlKTFFrWkN6MkRmMmdLOTllbDVXWVFMMUVJZjZWMVFCakxJTTFsWnprcE1HRXdRMzBUaGdzdWfSAdoBQVVfeXFMT3dhM2YwSzg3dnhYcXowUGxRQ2pfVVpVUlE4TERYV2RxVTJQd3ZteG5xS3RRS1V5anREWV9fbUMxaHZoLVRrc0FYVjVPQ1NOWllHdTlUcVBGX1E0bXYtVHowZEhzZ2JRbnNHZWgzWTZwTEhwd2w3NHRUY2ExOWdNQUk1dUdsTk1YemxMQ3dzWHM2U3ZNQ1IxWnlBTHFBd0J0b2NHTWg4OE9fTWFPRTl1UG4ycVM2S01PMXJRVXFFV2xGSzlVRy1xOW5qck5IRGRqT2lVS1JtRHZ6OHc?oc=5)
+### Reforma laboral: los cambios que ya rigen y cómo impactan en empresas y trabajadores - El Cronista
+- **Fecha**: 2026-08-19
+- **Resumen**: Reforma laboral: los cambios que ya rigen y cómo impactan en empresas y trabajadores  El Cronista
+- [Leer original](https://news.google.com/rss/articles/CBMixgFBVV95cUxQMXRFLThXczZKbmJhUXVleTdQd1JvcTJyNHBwSnJzRm1wcW0tNzBHWVNiUjQ3bVBNUkRCZzBJRWg1b2dkeFZGU3oyVDZNY2pxUUVDXzBZc2R2eFlHejFhNXRYZzh2czZySlZ6dmpsRXdscVpXdXBENjFiS1NyLVhxdkhseDB0QVhFZzVOWkxUZWlhZ2NVYy1lYVJpa0VTeDBLSy11dU96OTN4LTl2TnlfYlFHMktiRTBILS1BdjBuMHUwOGlFTnfSAeABQVVfeXFMUDF3Q0xCZWtsZ2JYaDdkOWsxSkV4ZjJRTko3Wkp0ZEYxa0dfbjlTaXFRbTRJVUQtdmwwWDMtS0V1dHRnbnNjNV80d3pTbGhjMmJrQ3FXYWVMTjA2OUhwdUktU0FVYUIxLXFVUVVkRmlpbC1wRmtVNG5iaXFtTnJEV2lWdDNPX2d5VUVmek1HcHEzdFJPZ0NFTEpZUzZ6OVFNZWhrZ19vamJ3N3hjSzZTYl9sQ3NKNlBMZjU3V2hDd0lnWGE5LUhrSGlQdE53UWMtR2w4TGpZUDJIVkt4RVk3bmM?oc=5)
 
-### A pesar de la Ley Bases y la reforma laboral, la totalidad del empleo creado el último año fue informal - Data Gremial
-- **Fecha**: 2026-08-05
-- **Resumen**: A pesar de la Ley Bases y la reforma laboral, la totalidad del empleo creado el último año fue informal  Data Gremial
-- [Leer original](https://news.google.com/rss/articles/CBMi8wFBVV95cUxQLTRpSU1BWmlhbnBqWHZoLW4zTXZTMlJ5YXk0ckJyZ1VRY3dFakxUN25mWWowQ05uRE5WZVNqRTRzY0YwTzVsZ050dnp5aU9tNVVxSkxwU1lfWTFfZTd1aFZEbmk3Rjd1QUpnaGNqNXhXQmFvY3V1SWZ4YjJPUl9uYU1sWXRfaDA0aVdqM1hTZ3NGak1IWmFUU003VldqZkYxRlNqNEVYTTJSWXhtc3lDZWI4bzJmNGVhM3VNR0VqZk1RTlc4VF9lclJtZlZLRU9UUGppMWROSElKbExKRGx1aEZ0QUszZk5nSWIzTDNsNkVMb2c?oc=5)
+### Reforma laboral y resistencia sindical: estado de situación - argentina.indymedia.org
+- **Fecha**: 2026-08-23
+- **Resumen**: Reforma laboral y resistencia sindical: estado de situación  argentina.indymedia.org
+- [Leer original](https://news.google.com/rss/articles/CBMipAFBVV95cUxNdkl1WXhIZ0pZanFfd3U1dXpLVC1ZTkswSVZqYzVicmVfQno5RjRuM1FCbVV5Wk42Z1NSOThRVEl0ZzFDQUROOHR3bTgyQWhxX0haVmJieE96YnljYS1FcXlvSVpXRWRoRVFZNDFFcGhTeHg1X3dzOFRrWnRudnZNZmZiSVhwRVNPdDRpeVVfb2hCbEF1c1dycndZUm1UNmxna1pqQg?oc=5)
 
-### A seis meses de la reforma laboral, un análisis muestra que no se generó empleo sino “todo lo contrario” - Data Gremial
-- **Fecha**: 2026-08-06
-- **Resumen**: A seis meses de la reforma laboral, un análisis muestra que no se generó empleo sino “todo lo contrario”  Data Gremial
-- [Leer original](https://news.google.com/rss/articles/CBMi5AFBVV95cUxNOTdtdXVnWFBCa1poSGEzbjdsbjNIbllxNzh5N1I4UzZkQUd2N0drWGdveWNmbDBBc2YtN3JvSDJzVFNNNHBJa3ZWMmZzVTg4Tm1wNVlkWF8zRDhoWTMyQ3pXcVktTjFNZy1PbFZlTmFKdmxQYlV0VFQwRVJ4RmxPclVfcVQ1V0xOR3J6cS1PM1BuV25GcXRRUnY5aWFzcVNuM1FpSE80RW9FVk1TMFFnclVMaWQwUGtLSXRlQjktTldONnphRzFvRG5fOENpM2FRZC1LNFd1T1BDdTgzOGZndXdoYWU?oc=5)
+### La presunción de existencia del contrato de trabajo tras la reforma laboral: el nuevo artículo 23 de la LCT, ¿presunción o letra muerta? - Abogados.com.ar
+- **Fecha**: 2026-08-21
+- **Resumen**: La presunción de existencia del contrato de trabajo tras la reforma laboral: el nuevo artículo 23 de la LCT, ¿presunción o letra muerta?  Abogados.com.ar
+- [Leer original](https://news.google.com/rss/articles/CBMi9AFBVV95cUxOWUoxN040bXRwR3E0Qk56WWpvbVA3ZHR6R0FWSVBvZTktYUstMTRBazdzcXNabndpcERpejlmQndDYmlOQk9BOHJrRHpfMUNiUzhyZE4xSFY0Vk5Tb2t4eHFodHFwZ0hPRGt5aFpGSlpkZzBEYkJtNDV1bkVZWEVnN1BQdVhmRTFLT0thQkFydzRwSUdnWUN2WGh1SkQydUpRMEdyX3RSWlZnSG45R2VnN1lETlVPZEVLRDVfaGktc0I1bFg2Rl9tcXR4YXN6XzNFSHVqbkVxdnlfd3laYmNTeDJOWXl1TGFBbk1qWFQ2LUZXQUFK?oc=5)
 
-### La Cámara del Trabajo habilita la vigencia de la Reforma Laboral al conceder efecto suspensivo a la apelación del Gobierno - DeGremiales.com
-- **Fecha**: 2026-08-09
-- **Resumen**: La Cámara del Trabajo habilita la vigencia de la Reforma Laboral al conceder efecto suspensivo a la apelación del Gobierno  DeGremiales.com
-- [Leer original](https://news.google.com/rss/articles/CBMi6wFBVV95cUxPX3NiQ1MzNGdUS3FtU0l5U1NUWlgwbGw4eW9UX1g5b2oxNDB2MjJibmJiby0waU5LVFdPX1ZISkg0TWY3M0pDZFU4UUdvcGF4T2F1cExwT00wUTNVR25vdTFGRnRsYnV2aFRmdnRfdjE0b1gwaWhJeVZra0s3NUd5NW84SDVKZU10RUUzYi1GQ2tSaVU1YkRZSUJUUHNXdk5CaXJaVEVwQzlwVUZtb2tyeWRoVnNFcmc0aVJPR2w5clBWMzI1MjZaZkNBTy1tazZNS3I1c1NTOFJDUUQ2RUdwUUJER2RRX201aGxJ?oc=5)
+### Reforma laboral: qué controles exige la ley para evitar responder por las deudas de un contratista - Diario Mendoza
+- **Fecha**: 2026-08-17
+- **Resumen**: Reforma laboral: qué controles exige la ley para evitar responder por las deudas de un contratista  Diario Mendoza
+- [Leer original](https://news.google.com/rss/articles/CBMivgFBVV95cUxPWEt4TjlMdi1nREJVamZjbzNza0Vkd3AzeHE1UThDaHBpMmpWcEpXV1JWSThNWFprZXBOTFVtbDV0QVJWMXNiUG13QTlNX1FQVUR5VUw3QkNGVnFZRXM1S19WUDh0RGR3Q2NuWHhrUVZPWkRvZk9QcTdMaC1OWUtZbGwxa1U5azBISlNPcXJMMzZackdDTnlJaEdhNTdpemV6SkZJdnR1dzBXTUVZUTBzQ2J0N1VXWTlnWXJjQ1dB0gHDAUFVX3lxTE9PU3FRdHFQZDdjTlRvc0Q0Z0V3WXJaNkh0MmU4RVNyY1ZDM2ViZjlpT2JxYnNLbHZHZnpnZmlFSmpyX0VwTFRtcnRvLTVoaFQ1UlQ5WGRkNl9SMWFMSUVYQ0RZWkZ2UjBsQWhLdHRIYy1nYi1fZlU2ay1uNDhXSVJaT1d3N3E0ZEpQeVdDN19pdzlfdEJuNksxVV9YSmdnNmJoUnZkWE1KQjhJVXM5LTlKSktzdUNCN0U2TWdDSDRCZ1NiQQ?oc=5)
 
-### El Gobierno de la provincia de Buenos Aires rechazó formalmente la reforma laboral de Milei y reclamó reuniones presenciales del Consejo Federal del Trabajo - Motor Economico
-- **Fecha**: 2026-08-05
-- **Resumen**: El Gobierno de la provincia de Buenos Aires rechazó formalmente la reforma laboral de Milei y reclamó reuniones presenciales del Consejo Federal del Trabajo  Motor Economico
-- [Leer original](https://news.google.com/rss/articles/CBMilgJBVV95cUxNV1JjQnhFT2psazZ1TzI0UEdaNDRWeEoxRjhIc1h6b2tRdFZYTDFiUjZHYl9BNzM4YVA1UnNfRkt2c19VYlI2ZHp0QkdHQWJWVXpxRHV0REtCZVVqdmw3VE45QlY1X2YyckZsNUdJMWxXR05McmZ6dk80RWNBcGE0WFZGbVhVdnA4UjZtN2ttSzBxalBjSVgwRjFVeld1ZGYya3hJbUhkQUVzdGdqSURfdDJoT1k4MF81cnlkT1NtOFB3STFOR2VfUllFdDltTktYME1uOHVzMHAzekVTem4ySjVBODE0cjFPQ3lUY3phQTIxS0pTMXBvZkVhZy1KaWdyN1kyT0hPN1dycXdUWUprV3EwTTNjUQ?oc=5)
+### Reforma laboral y trabajadores de apps: persiste la discusión sobre si son empleados o independientes - Diario Junio
+- **Fecha**: 2026-08-23
+- **Resumen**: Reforma laboral y trabajadores de apps: persiste la discusión sobre si son empleados o independientes  Diario Junio
+- [Leer original](https://news.google.com/rss/articles/CBMizAFBVV95cUxQTWo4SmF5eDhkOS1aQUxlVkhxN2h4SUFMenIzNVB4RkhwaUpQSnpaU2tHRWh5bjBTWnFuaThFZDI5TlNIOXdCaEV6YlNvdW5zMDZwSlRhZzZlUTVtS2NLNEk1VEVhd2xCRzVPeTRMWDJQbFdza041MzdWQ3ducjZkaHlPb1hwS193T1U5b0ZvRmRLWkhSMUFWcDJpdXpwUEd0bTJwbmg2MzlCblRhNFNKeXN1ZU5LVlJ2bEp5ako3NDA0QjBoSUs4Yk8tYlk?oc=5)
 
-### Empleadas domésticas: qué cambia y que se mantiene tras la reforma laboral - iProfesional
-- **Fecha**: 2026-08-07
-- **Resumen**: Empleadas domésticas: qué cambia y que se mantiene tras la reforma laboral  iProfesional
-- [Leer original](https://news.google.com/rss/articles/CBMimAFBVV95cUxPVzJ0c3JCczJxeU9hX0hMa3U1ZkNMSVBzTlpfNDJnMDd3WnNFdjZYeThYTmpuQThiZWtxTmJGeVYzZ2tkUFA0aUkwSzNNaUZXMmFBcnpMWXJsendmVVo2XzhqeXpNeUxkTXZEUm54VUh5TFh3ZENvUTJ4MnNRTnpIdmZFa0NZaTB4dkdRTHM4OEhpaXR4RWtlNNIBngFBVV95cUxPcmx5QmJYWXNiYTBoWWtVdTQ2VHphUmxfcS1UYm9ZM3JpOGZyQkI5b3Y3OXBzWnVIV2RidnhBMXZ1WEdlTll6cHlSZlJybnNaZTJTUEc4SWZIY01sekZUSTFzZ0lFWlVvWWE1Zy1KWm5ZekdwNzBFWFZlYXJFQ3EwOXAxbkwxeWVpSk5GQ3o2Y0VxeHJxVTJfQTEzMkRvUQ?oc=5)
+### MinTrabajo deroga 11 circulares: esto cambia para trabajadores y plataformas digitales - ENTER.CO
+- **Fecha**: 2026-08-21
+- **Resumen**: MinTrabajo deroga 11 circulares: esto cambia para trabajadores y plataformas digitales  ENTER.CO
+- [Leer original](https://news.google.com/rss/articles/CBMitwFBVV95cUxPZXR5Y1VNUlRQZGx2bGdDR1VOZl9ub1BLcXVmSGQ2aWJ3T1JaaTVmQm1BTEFhS2MyS0Jybk9NNjJwaUEwQ1J1aGRkblhZTW5mcUZkOGFUT2h3VWZlLVNNYUczQVo0NlFqZW03TmxPamxFdmdQVlB6RUNyS1ZtcjFlUFQ4cUowYXFuLXZmOEZFYnVZWXhSalFMdmtmN0tCRW9RT0ZHT0wtRE94NE9iSUgtemVjeEZoYkU?oc=5)
 
-### Kelly Olmos, exministra de Trabajo, sobre la Reforma Laboral: "Es completamente demoledora de los derechos laborales" - El Destape
-- **Fecha**: 2026-08-03
-- **Resumen**: Kelly Olmos, exministra de Trabajo, sobre la Reforma Laboral: "Es completamente demoledora de los derechos laborales"  El Destape
-- [Leer original](https://news.google.com/rss/articles/CBMi1wFBVV95cUxQYWFob0R2RFRqYktPcjcxNXlENk5tVl92QzFKVTBwTWdEMHZWSzU1RjNkNDB4TWtzTExoMkZvMWRlR3FhakRMUkR4b0pKWFc3MXVMdkE2UDF0NnRiT0tNX25OUGJZdXE2NzZjRWdsano0aUlGR3lzYXpiV1Rjcm44a2JWbXZDSGVYU3doeHp1NjlKQVdYeGkzdVd1dmZCQ0hWQmJxM0FldmgzSWtUSm13VTBFQ0JpNTVfbFJqWmZMZUxRRTA0RUhSWUdLc3B3V2h4bHhFSXM0a9IB6wFBVV95cUxNRHRNWTRodnF5Y3Z6a0lWaHRhcER2M3o0bGRwTEVyenVhT1Ayal9aM2RlY2U2QTlHM0l1ZXcwSnVScURQYkdfNHVwbFUxbnRFTDliMlhuZkhyczczdUsxeUhWTUdZOHA4MFJxZEhWaEVkUTlYVFRLZmluaTZya0Mzd1pwNGRsTnNvZXhOQzl4Mlp5VnN6bzBCT29UOEUxVDYwTFdnREdqSjFHNFgwZmJkZmRJN1pyVEEtdW01d3U4OVQ2RmdjSVBDeElMZ0FYRTJJLURwSFZlNGdOY0ZnSmFsZFB3clpYZ1g4SF9V?oc=5)
+### Contratos temporarios, despidos e indemnizaciones: La reforma laboral inquieta a los vitivinícolas, aunque admiten que el principal problema sigue siendo el bolsillo - Bichos de Campo
+- **Fecha**: 2026-08-19
+- **Resumen**: Contratos temporarios, despidos e indemnizaciones: La reforma laboral inquieta a los vitivinícolas, aunque admiten que el principal problema sigue siendo el bolsillo  Bichos de Campo
+- [Leer original](https://news.google.com/rss/articles/CBMimAJBVV95cUxQcW1jOTlrb3NhUjRsRm5JUER1ejdha1JGb1lFOFBTVzhSQUdwbXpsUTdwSTg5cEszM2FjcVp3UXNibGFTaGo5RVlEQkhkUFcyUmo0QTF1QTByTW14ZmJRTlhTNmwza2M3eFE1cFRMM1E1cjJvS2o0bkwtd0xyV3EyZ2gwU1ZrWUVUVHNKWVQtNDFJazlmeVNSdWNJdUpZdGJxZ1JxMXVISk1WNm55alJLZkoyeW1GZTNycVlXZGdFeFUyeUJDeUNKSGV5LUxFWXFWSGNYcmQwc1Z6WHJiYVVnUUZxeUFJdHQ2VjhNLVI4dEUwUnNOSWJmeFFGOUJ6RjFFb2RGRzZaMmQ5UWFFOHMxRjdLUTBLNXVK?oc=5)
 
-### Provincias reclamaron a Nación por el respeto al federalismo y el funcionamiento del Consejo Federal del Trabajo - InfoGremiales
-- **Fecha**: 2026-08-08
-- **Resumen**: Provincias reclamaron a Nación por el respeto al federalismo y el funcionamiento del Consejo Federal del Trabajo  InfoGremiales
-- [Leer original](https://news.google.com/rss/articles/CBMi3wFBVV95cUxPbHR6bDFQTl9LbkNLbWZmMjN2NnBFRl9jU1ZWbEQ5enZGVkJJRW5wTVB1ak9naGJ4ZWFZaXBkcUZ1TzB3OFE2U3RKeEl2OWVLMFhlMWIyX05pbU1ob1N4YTdWTlJ5MFQyVG8zbkhDOWRqVmNRQThaazRuM3RHRlIta28zb2FuV0p6Sy1Pd2NkM3NkMXhSNXp4bVktVkVvaWpzQ0VLSG9kMlhYZEx6ZkNhUF9hU1ZBM0JOR05ERm9nalcycHphcUpoVW1pT3dzeVo0amZYX2xSekw4ZWNzaDNB?oc=5)
+### Proyecto de indemnización a "todo evento": los detalles de la reforma laboral del Gobierno - 24horas
+- **Fecha**: 2026-08-18
+- **Resumen**: Proyecto de indemnización a "todo evento": los detalles de la reforma laboral del Gobierno  24horas
+- [Leer original](https://news.google.com/rss/articles/CBMiugFBVV95cUxNdHk1ZS15NzRVUFVlQlRnVzJsdl90OVJROTlXVjFhaDA0aGJqdE1UcURxR2Y5TlN6S0RnN2lEaHRnR0FHZHhXS0pSY3NvdGY4ZS1EOF9lbEpJX2hDSEdVS3g0dFlQMU9hZHpRVGlHMGtOckoxcEZrRXhMVUFLaFJJMjItZk1uUmM0Umd5bi02NTYyTFRyQjROa29qdXM1NUtHaVBCSi1xcFpsY2tkc2dNWmlyZURpbzBUX2fSAb8BQVVfeXFMTlEwOTdXanQ4dkdPSzdPc3Y1dFI4ZVhsd2dsWVlPdWstanlUS0Q4ODg1eFY4U0oyVUFGU1JGZ0dPSHRfTXNwNXVxQzhQNUY4bHNMOW9OLXBTUUMxZDNlaE1KRmlOUFdzNkJCUEM0b0JpWU4wRHRoZklKazdGQnpGV3JFRDJFcXg0NG0wck9vaUxnc0RPeTQwejQ2dF81WTFkUC1mRkRqOTVNOVRJT3VnNFdSQkk4QTdIQTRKVjQxTEE?oc=5)
 
-### El Gobierno suma otro avance judicial y busca que el fuero Contencioso concentre todas las causas por la Reforma Laboral - DeGremiales.com
-- **Fecha**: 2026-08-09
-- **Resumen**: El Gobierno suma otro avance judicial y busca que el fuero Contencioso concentre todas las causas por la Reforma Laboral  DeGremiales.com
-- [Leer original](https://news.google.com/rss/articles/CBMi6AFBVV95cUxOMi1weDJtSGpzalV6T2xHMDNwaHFsTksyMHV3U2xTUjBjWUNDYVktWDVLWTNjaEZUelZyN2NIMUZCMTcyR3o2TDZMaFN3V29mTXVPN3d2Zk9GZTEzUkFlamRXdkduSEpvaUdXbXhYaEVNODhNRlFQMWtwZ1dESEhkVW9SRHp1YnlzLU85ei16MTNGX3p5c255ZV90WjlMY1RjNTlEUnVnNldGR0o0S2NQS3VnSzF6aUhTdUp2dDBCV0VYMm42YXkySXdUNWJ2TXdxcW1yQjhFbWdpOGVvWlQ4dnR6STNTeGZ0?oc=5)
+### La Justicia laboral frenó parte de la reforma de Milei para trabajadores de dragado y balizamiento y advirtió sobre “desprotección” laboral - DeGremiales.com
+- **Fecha**: 2026-08-20
+- **Resumen**: La Justicia laboral frenó parte de la reforma de Milei para trabajadores de dragado y balizamiento y advirtió sobre “desprotección” laboral  DeGremiales.com
+- [Leer original](https://news.google.com/rss/articles/CBMi_wFBVV95cUxNYU5Iclo2U1hlMzV6V3AwbG5vaklUWWlfNzFkdFFENTI1NmdCNHNxZEhjM1FMUHhqS2U2VFl1M250NXZPbkRJaHpEaklnSnpZREdkeGVDSWFwVkZwc3FUbEE0Z2xqUXotRVB6NzM3MFhPa2tCSzN1WHNkN2xDU0pLUng1Ymd6Q2xxeTZaLWxLWWEtcERTV0ZCc0RfT1hlcnBVZ05CUE1nMUNDVjZuUFg5R0lpQlZKU2I5OFpyWFg2NXdnalRRSk01WTc3dy1PcGJxX3dSQnRMUGNCUl9sODk5RHk3cmRTeWZDSUNoZnFwSnByZFlfVHQ4cXpwU2JzTG8?oc=5)
 
-### Sólo 17.8% de empresas está lista para jornada de 40 horas - eltiempomx.com
-- **Fecha**: 2026-08-06
-- **Resumen**: Sólo 17.8% de empresas está lista para jornada de 40 horas  eltiempomx.com
-- [Leer original](https://news.google.com/rss/articles/CBMingFBVV95cUxOS3JfVkNwdDZMSzJzb1lqSTd2a2hmSFZQaFBtdGdzcmhDY0luOFJ3T1V5bUxCY19yQXpQTkN6ejh3SkxGclhxNTNjb3h3ZExCeWF5UTB6TkxrRDVJbzFYdWFMbm8yYmJ5aENPRnFaZ19TT3g2bTlSVnZqZE5UeEtQZWdRcTdJTjNDQ1JxM1FOUFA2TktNaHd0T09RbWFmZ9IBkgFBVV95cUxPc0ptU1Nsb1BBZE02c3BKVHpDN09FZ1hVa3NTZU9ZYTVKOG9BUHNCeXd5ajNoQm5kNUN0RXl3cDRPUFpwdUlQTHBpYzZVWWN4aHR2Tldfb29oTkRhTGtid2FMRUUwTXgyd2pqSklsbk5tMXhQcDRHWnpVMG9QSDVYeW1DMVBMekV4U0RZZ2FfU1U4dw?oc=5)
+### Gobierno deroga 11 circulares del anterior Mintrabajo: ¿qué cambia para los trabajadores? - El Espectador
+- **Fecha**: 2026-08-21
+- **Resumen**: Gobierno deroga 11 circulares del anterior Mintrabajo: ¿qué cambia para los trabajadores?  El Espectador
+- [Leer original](https://news.google.com/rss/articles/CBMiqwFBVV95cUxONXVaY0k0ZEtsSkZ6Mnpxd210ckc0c3dJY3h4R1UyOUhUUXAySm9mN3ZxRDVuS0xOUklQdVBfY3dpWDY2b3FhbWF6VXQyb2xPd3FqX1VRcDFLM2xvWTllRGVEQU9FdjREMTBXbTdPcVpJVjRpYXNBNFhmMDJ5LVZWNjJKQXZMQzI1eGxGOTFWSGRrdU5sd0tnRXJUUmc5TEx5V185TEhQQ0ZmLUk?oc=5)
 
-### Propone director de startup jornadas de 14 horas mientras México impulsa semana de 40 - Net Noticias
-- **Fecha**: 2026-08-06
-- **Resumen**: Propone director de startup jornadas de 14 horas mientras México impulsa semana de 40  Net Noticias
-- [Leer original](https://news.google.com/rss/articles/CBMitAFBVV95cUxQUXB4MnRYMlZQbEY0NC1jN2pYMkxjWTJRaU5FbFNPb0ZZUWUzNm1hbjNNN1oyQk94OHUxN1BnSk5td0REZUg3dHJxaVdoUzlEUlVaaUMydG1PaDBnY1I2RzBEWEJvY3dXNENLazJGSUJXLXJiS0dyQnM1Njk5MDlLZ1FLTTZlUGk2WktVakdWb2RRSGxqbHU1bDh3RVlWWTJjXzZKWEl0LVYxSkt1Y01hTGRNRGI?oc=5)
+### ¿La IA puede reemplazar trabajadores? Qué dice la ley argentina | 23 de agosto de 2026 - Hoy Día Córdoba
+- **Fecha**: 2026-08-23
+- **Resumen**: ¿La IA puede reemplazar trabajadores? Qué dice la ley argentina | 23 de agosto de 2026  Hoy Día Córdoba
+- [Leer original](https://news.google.com/rss/articles/CBMib0FVX3lxTFAxOHJxZl93UHBkY0x0akZVZERWRnNLWThwU2pIb3FTclJDVlhfZGFuRk1rVXVaN1otZ3BkckpkYTR0djJxS2hyUFNseldHLVdZQXBvOVJiWndXem1WT3N0YWw4WWN1NXFpNV9qM1JPONIBdEFVX3lxTE1FN3FzT0M4YXN2cG40el9HUXFEeEcwUmFkZFNvTzNDMEUwWVBCSE1WOW9xLVhzczBGNXFhWWd6cnVaUl8xTlVLMlZuYm1QNmJFZ1V3UUpEVWpsb3dDcnRRNXpMcFNKbnB2bTRxM2FzVkh3SlRu?oc=5)
 
-### Aguinaldo de 30 días: así va la propuesta para aumentar esta prestación en México en 2026 - Heraldo Binario
-- **Fecha**: 2026-08-05
-- **Resumen**: Aguinaldo de 30 días: así va la propuesta para aumentar esta prestación en México en 2026  Heraldo Binario
-- [Leer original](https://news.google.com/rss/articles/CBMi5gFBVV95cUxQVWFCZWxOd2FMRExRNzdPcjR1OEhfaUNjRllZYWplX2l2NEE3ZS1hTVhoTDROTW44VHlFYlMzOEl5czlROFFoMGlQZmRoalZCS3FVVEFHdVQzaGRXV2VUVmE1eFJvalV1SGJrWUlZY3ozNVBjbjNpTnpPYUlreFhTV3ZMTWFYSWRpSEFuYzlBeFFRc0ZGa1hGZkl5M0o5NWdYdmltRmRvYk5XLUx6Q0d2eW95bW03SjhUSDJJejNzM3RkT1VVaDZBQVR5TWNDLW5uYmZsUUNRdFR3dUh1NEI3dEJCV1c4dw?oc=5)
+### MinTrabajo deroga 11 circulares laborales por inconsistencias jurídicas y de técnica normativa - Caracol Radio
+- **Fecha**: 2026-08-20
+- **Resumen**: MinTrabajo deroga 11 circulares laborales por inconsistencias jurídicas y de técnica normativa  Caracol Radio
+- [Leer original](https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWUotWHVNTkhQV2VQZTNObUtGR1NDY3NqVElsMUluZy1rYjNjTEJ2WVJqa1pTTmpRUW1UZFVXdmg5Q3lNQUlETEV3QlVUSE1TemVwVEM2eG1ZOXhRQ2ExZnd2NHJmU2V4ODJGY2JCdEx5eThUenpSR2dHZncwNjJ6RjhTLTROSFlIRmJPSThaRzlWRmNibmZPbGR4ZHloYlhXNFo2SlRQbFZpOVVzam1JWTdJN1hrT3lEUzRqa3RGRHBMeXJwOTluLdIB3AFBVV95cUxNLVNSTUFkRGlwbDdmQ0RMN2RLRGpRRnZma3dETUZ6ak4wckNnbzNwbVR1UE9LbV9aVlJoQkcwVW9RYTI3MW1qN3Q1bWZ5UWZTRHFTSmpPbURZazZaMWFnbXJWalJHQTJ2aTJhSUg3Tm12dXpCQjVyNFc4ZDMyMGFOMUZJcC01OVloa3hhd2JTYmpjdU1HWEtWMUtjanlkbGk4OGMyY2JIWFFDZmtkcGV2NF9uQjFHNFZrOVdMYm1MNXdlRHpTbUd5enBoOERNQWF3MG9PQmFISGttSkNP?oc=5)
 
-### Aguinaldo de 30 días: ¿cómo va la propuesta para aumentar esta prestación en México en 2026? - Radio Fórmula
-- **Fecha**: 2026-08-07
-- **Resumen**: Aguinaldo de 30 días: ¿cómo va la propuesta para aumentar esta prestación en México en 2026?  Radio Fórmula
-- [Leer original](https://news.google.com/rss/articles/CBMi4wFBVV95cUxQWXZTTVJaTHNjWVRMamtKSlA2aU1CUlZ6T2JBdWFkWDZLLTZjdHJTMFpzZXg0bkhjNnV6RmlSeUgybkRaTmp4UmdFR1p4WXVGRFliU2dLT1ZuanZoZkswZG1KSkV1aTZ0NVpLbkdNR2NDX0dqVFZhQXdCNXlGVVRaMFB3eU9lbUNXaW4wTFhKWWlXRmhKYXdxaUVmLTE5VFZZeVBvd2h1c2o3UGw5NHpac3FlWERTVFVZZURFUU1HcE5sS2ZNbDRrYzZDcy1FNXZBLWxMbUxINjJsNjAyZmxQYloxWdIB6AFBVV95cUxQTFNrdHN6UDhfUHFIZXMxWGNDQ0syLS16V2ZKNm8wM2lmcVV1NXIyZFJfbEJuRWJJb0M3bFoyaExYamlTUXJZNmxvak1lS3dTREpGeGhubVJLbFh1RXlUQ0JEalI1bzNGUndCb3BCYnpZbEdrOHpidjM2YjJlVi1WWG5JZHo3SGF0cG1XRDdKa2hQM2pGTzN4dFNXV3VzQU5jb0VJX2lyN21MZmVUc1l1OUFHTUZaWWJHM3Z3MW9CWDJkdXBXU0lsa2xlcUFPRkV6QUk0SGJWaVMzM1VSQ01wdkdzc0tWWUQ0?oc=5)
+### Cohep impulsa reformas para hacer más efectiva la Ley de Empleo a Tiempo Parcial - Hondudiario
+- **Fecha**: 2026-08-21
+- **Resumen**: Cohep impulsa reformas para hacer más efectiva la Ley de Empleo a Tiempo Parcial  Hondudiario
+- [Leer original](https://news.google.com/rss/articles/CBMivAFBVV95cUxQUHlyNzJyUU9lMnRuU2xGdE9LdHFGQnQ0cnVyekdveF9NazlKUGIzSjZmMERyV2R3OEZGTUtNLU03NHU3MkU5UzVmdDhianJlZU83T3ljYjFsaEc4bjBVaWg2cUhDWDZjd0RoWWxUQVAwUnpRTzlLS3FYTVV2bFY5T3oxVWM4VzNjcDZuWVg1Vzh6bl9tT1pLa1hPR3RScFlPY09ZNFdQSzk3Y0hWWVRlMmRsb1ZIczlPYkwyRQ?oc=5)
 
-### Provincia rechazó la reforma laboral y defendió los derechos de los trabajadores - InfoBaires24
-- **Fecha**: 2026-08-05
-- **Resumen**: Provincia rechazó la reforma laboral y defendió los derechos de los trabajadores  InfoBaires24
-- [Leer original](https://news.google.com/rss/articles/CBMirgFBVV95cUxPWVN6dm1VTTBVdTUzeHJSa3pESmo3NHgtUXZ1QUhPNTdmZV9kcEZfR3lNNnJVS2ZyQmdrd1RGZUpxTzc3SWNJZ21xbHlXb094TklXLWFoeFZ4SlV0RkZ4MjUyeE00UHViOE9BbDJxVlpmbE5NZEQ2eW82R2tSbGJGdnZaR09hdHJuUk55OWdPYm1ubU5FaUM5Wmd1STdlZ1VSajB5dkNhaktBV0phaWc?oc=5)
+### Nuevo revés judicial para la reforma laboral: declaran inconstitucional un artículo clave - DeGremiales.com
+- **Fecha**: 2026-08-24
+- **Resumen**: Nuevo revés judicial para la reforma laboral: declaran inconstitucional un artículo clave  DeGremiales.com
+- [Leer original](https://news.google.com/rss/articles/CBMivgFBVV95cUxPU3FVNHg2Z3JlYlhRSlIzTm9WU293RElYYUV2RU4yRkZtcVFHb1BDUTdKbkRwOEhRRFZtdGREUV84dmh6VzNZQmF4VkM1THBGQU1yMDBlTFNwWTUyRXd6YU1oSXNneTZ0d3I2SC1GM0ZJVmlyQ1V0ajM2TnRpTllxd3duRXplNUxTbW9vMDlsd3Q2NmduRXJXNV90MnIzd21UaE9KS2N3SHNsWlplbU5NRmFQcVFMc3piMGpjR09n?oc=5)
+
+### Abogados laboralistas cuestionan un artículo de la reforma laboral por “licuar” créditos de trabajadores - DeGremiales.com
+- **Fecha**: 2026-08-22
+- **Resumen**: Abogados laboralistas cuestionan un artículo de la reforma laboral por “licuar” créditos de trabajadores  DeGremiales.com
+- [Leer original](https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMXlCRHlySUhyeDYyaHA2V1IySHFNRmtsRVNONzdrY3FpTWIxcDFQaDVIUEV1NElGcGNUM0xYZ2JXMEZ0ZE5PbGtGcUIzV1F1S3VjaFlSX2lVMmU4N21RM3V2eG8tX081amRhVXdSM0dPS3g5SGo3VWVBMl9nMHllLWpZTWN1aS1QMy1JNlNheEdiMnJxZEItd1Vjd1EtOE5Ma0RkZ0x6YnBSTzVrZUFmdk11TWRtZHNqM0dSR0dyalo2WDFPTUZuT3lrc29wM1VC?oc=5)
+
+### Juicios laborales: como impacta la reforma aprobada este año - La Nueva Provincia
+- **Fecha**: 2026-08-22
+- **Resumen**: Juicios laborales: como impacta la reforma aprobada este año  La Nueva Provincia
+- [Leer original](https://news.google.com/rss/articles/CBMitwFBVV95cUxNZTR5UTluSUpfTnBjQk9MVEdBN2RTRU9Db0RYVktTMGhsUWxUdGlfYXNzN3Zud0pONUpkR1NoZ1ZDUUFCeTkzZ0IxdlJjUE9neXoxZmhxQVA5dGhfajJqRHRsdlBXa2NKUFFLN0pra095SGdNckthcGhLal93aTV1MFRQZ2p3TUFJTFhsV0h1QmRSRXRyUG5BSzVEcnFSU2s5d3dNY1hmNnBCSERpUmh3RHdLRnFTQkk?oc=5)
+
+### Nueva ministra de Trabajo tumba reglas para empleadas domésticas y vigilantes: les avisa su plan a trabajadores y jefes - redmas.com.co
+- **Fecha**: 2026-08-21
+- **Resumen**: Nueva ministra de Trabajo tumba reglas para empleadas domésticas y vigilantes: les avisa su plan a trabajadores y jefes  redmas.com.co
+- [Leer original](https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTmVxMS1pUUo2T3dLNFBZZW5kSVVWU3ptdHZjUUxBMkU4bEZxR0lKX1daT2JoaXVwNUROSFdUV0IxLWdLb0FJS1lXc3I2R0tBbk5fQkZobHZJanRRWGF2LVdXcjgzQ2hhSEVUTFJkOEdrOUpCWHdId0N0VjBUZ2xqU0xKdWlYZkx5S1RSbjNWb2FSNnY3SDFacnpDQVJGWmxXWE9fWjZBQ1VudncwRXB3Skl6d1NKVUszckZ5UWZWMFl2U3djTjRDWkRQelM2QlRhOUJ0OVpxVWJ1YXFDNk9kdHJhZU1jOS1vX3FRSEFSTXE3a2d1NHZLSWFiS00?oc=5)
+
+### Sector privado prepara propuesta para modificar Ley de Empleo Parcial al CN - LaPrensa.hn
+- **Fecha**: 2026-08-23
+- **Resumen**: Sector privado prepara propuesta para modificar Ley de Empleo Parcial al CN  LaPrensa.hn
+- [Leer original](https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWjM5S2JOYlMwR1FndFlUMGxDeXNFZktRdzI3V2VGcTZ1TXZmSFZXSXp0RUQ3Sm5vdFU1a2hENEtyVW5qMlFPTTZmQzhVc2V4RWRsY2VscF9aNjZ3dEUwakUzUW5Obnl4Smk4Q2pZWGhGck52VUNrQVBrRi1mQndqQUJJVFlYTkxPcEZ3TXVtUnlBT0x1YXFEOWh6YTNHRmVKWjNXQnBucDQ?oc=5)
+
+### ¿10 días de descanso pagado por luto? Esto plantea la nueva propuesta de reforma a la LFT - Luz Noticias
+- **Fecha**: 2026-08-18
+- **Resumen**: ¿10 días de descanso pagado por luto? Esto plantea la nueva propuesta de reforma a la LFT  Luz Noticias
+- [Leer original](https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeFFlNUF2bnR4cnRxbHZzRnVEZDhmUnQyOXd1alhmZGMyZTk5SGJURzYzZEpVa1owdU9Zc1loMWNDWmFqU2toZGFnblI5TS10VlgzTzJ0bEFQY0RJTEttUS1MZVFVcV8yQTFWYy1TbXp2eDVkVzNsSjNLaS1STTFYZkpORFlDNlF1THplNlBhUDJYek15SXhYLU1KT2RZRTRETVlJOW5NT2JmbTNWaWgyUkdJWVgtcFluSFI3cDZMTHFDX1FBN0ZRMVZtTTVCaS1ZaGV3Y2pB0gHbAUFVX3lxTE82UVZLTU1zVDFucDN3QldHZV9vNUZNMHNRT0lKRHp5cFdvRzhDaWVJSkZiQ0YtVzczZWNKSktDQm9wejRfbHJwMlVySVFFMjlVYnhidml4VXpUemNfZVdueVJCTl81NDN2YmFVUDNHWDB6dGRldGxGNXZWTERQMEtDSDJmOGNFQ1RpdEgzSnVPek5pZE9GU2xXVEFXNHQ5enBJMmw4anlENWFndmk4czVjTXRIdkxESUplcHdYQ0hlNkhlcE53TnVJRW5KdzM2bUlpNHE4SzNONTcxbw?oc=5)
+
+### ¿Es obligatorio el reloj checador?, conoce las multas de la Ley Federal del Trabajo para las empresas - Mi bolsillo
+- **Fecha**: 2026-08-23
+- **Resumen**: ¿Es obligatorio el reloj checador?, conoce las multas de la Ley Federal del Trabajo para las empresas  Mi bolsillo
+- [Leer original](https://news.google.com/rss/articles/CBMi5gFBVV95cUxQYTFCbk5QRlVvMWQ4bGMtSmJSNVNLM0hTZ1JHUVZST0pMQWVvaDJEb3E0Tm1jR2dFTEs3elFpN2VuZ2I5QVE0djdrczlpekV5M1B2bXo1Nmo4a1VYSEl0dWpzSmtlSHRYQkZUMVFyZm5Kclk3RzF0UVlHYzVmbWowaDVlZTZJY3lqTFUzNzN4ZFQ1MXJtaDA0aDlRUEY1VVhiUEJZLWVHT1BLUG5Cdzg3UFNpX1NUc0ZTVWtUYjNKU1JKZzZMSHl5VjBWeUwwQkdkVVJ5eVpsVFpqNTB4NUh1NDc5YVc4UQ?oc=5)
+
+### Juicios laborales: la reforma aprobada este año no logra frenar la litigiosidad en los tribunales - tucumannoticias.com.ar
+- **Fecha**: 2026-08-22
+- **Resumen**: Juicios laborales: la reforma aprobada este año no logra frenar la litigiosidad en los tribunales  tucumannoticias.com.ar
+- [Leer original](https://news.google.com/rss/articles/CBMi1wFBVV95cUxNclBjVjRSVDJGeVh5ZGdVMHZTM2ZTbm5ybDVpMUVDTnlkemlyVXZvc0RXOTNCRVVmRWtFSk53QXQ1RXc5V1FmdmQ4ek5UNEl1dzdJRWpMNTY4ZS1vaC1WRk56Si1KNm1GNUtPWVJyNjdZbXJmNllBTTk5NlJkWW1XVU8zcVRoU1ZwTno4QWRsU2I1TUEzUld1azNMbTVvWE42V3h4QV9pODJLRTd5eF9PMkJQUnFCRW9VY1Vselo3aXFYWU1VRFRKeUlmUi1TVEZaRnJrRzdyYw?oc=5)
 
