@@ -1,244 +1,189 @@
-# 📰 Propuesta de Actualización - 28 de septiembre de 2026
+# 📰 Propuesta de Actualización - 12 de octubre de 2026
 
-Se han agregado **48** nuevas noticias.
+Se han agregado **37** nuevas noticias.
 
-### Reducción de jornada laboral: ¿qué pasará con los turnos nocturnos y mixtos? - El Economista
-- **Fecha**: 2026-09-22
-- **Resumen**: Reducción de jornada laboral: ¿qué pasará con los turnos nocturnos y mixtos?  El Economista
-- [Leer original](https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTk9PblNEeHZCREZwUUVlbm9jMG04VlJ0cUhmMnRCbVROVzFwX3FYX0FSQUwtNktJWGphc1NrTU5mcFRQTnpaMm0tZkxSTGJYY2hCQWRzOVR2Tml3WDdUNG9NbElicmpFanZYQ2gyVlJmOXlBT2h0eFBoeUc1NHRkMkZiMm1mQlAyUDNjaDBQbXdnQ240NTdJMk81MjJhQ1JxSmZLaFo5QTAtUnVUVGIxandxTFk0MHQwUDZ2YXBNNTVkZ9IBxwFBVV95cUxPUFdMMGJYTHpOZW9JUHFfbVl3S0RSUjUyV1ZSNlNWdzU4THRUZTBOakZfWE80ZURCc3RpRkJZOXVPczliZUpsMzQ0TFI1ZHpGdmdOMVJfalhTMlZla1lZeHhJVWUyUFU3bVpndzdtUXdqT2R2V0czeC1wb0NtR2poc0dqSGJ4OGIyUURNRWxhWHFRWnVUU2RuakhDYVprVjhrRnlNNnFsejZsVkpDNDdNQkY3bF8zU19uOVdNcS10ZkJwcWdZQ0V3?oc=5)
+### Monitor laboral: horas extra, vacaciones y criterios para salarios, los temas de septiembre - El Economista
+- **Fecha**: 2026-10-06
+- **Resumen**: Monitor laboral: horas extra, vacaciones y criterios para salarios, los temas de septiembre  El Economista
+- [Leer original](https://news.google.com/rss/articles/CBMi2gFBVV95cUxQYXdrV0dYd05xOVVNbXNmWkNSeFd4bXhGOTM2VTBWcXNCSGxnZDl0QzJKcUtPaVc3dk1lSXF4SGVRNmM3VjNBLUxXRmZLaF9OeUZ5LXhPVU54djRNVkhsUFJGX0hsQnh5ZFFqOVhmSU5WOFk1V3NCVlp3Y19oSDlKOER6T0luNE9RV3ROUkZQSjM4SUpsblNfbnQ1Qzk2V1AyazdJMGhBcVRpc0htUDNzaHNZajdaWGtJbTdKa0dYcG9GRDZ2Y2g1QmpjM1JOQXI4STVISmVfdkVkd9IB3wFBVV95cUxNdkJVeGRValU3TG9TbzdNM0FnbTAzQ2VnTWxXWnp1VmpEeHJCSzNlYnZ1TWhQLVZPY3BUNWdEUWp1N1hIMjhmcThyTFhoVkp6eHBwZkVuQ281RjM1VWdHdXh6bi1ZdThsY1dtMG41MF9UR3c2WDlTQ2hBNUVmSUp0N0dFb2NnUC0zNGNkbG02em9mY3Roa3RJN3BFZFdPUERKTG5mQVBzSy1EdXNnQUlzS3JYOUhOWGRyVUJKaHJKUC03eTVGcjBjOG9mU0JYRl93MndwWlBZRDJuZDZJYThJ?oc=5)
 
-### La jornada laboral baja a 46 horas el 1 de enero de 2027 y no podrán reducir tu sueldo - El Heraldo de México
-- **Fecha**: 2026-09-21
-- **Resumen**: La jornada laboral baja a 46 horas el 1 de enero de 2027 y no podrán reducir tu sueldo  El Heraldo de México
-- [Leer original](https://news.google.com/rss/articles/CBMi2gFBVV95cUxOeGxrMC1uRWZlUEtfU1RhRzQtTUNkM2J1T2x1S3ZjOU4zcTlXUWgtNmhFd2FUdDQ3UHQ1d295VGdHcnAxV3oyay1iU2l1ZWZScXdvS0pOZFZ1ODhRaFE3QjJuZmFQN1lKWU1tbDBPUU9sNzQtUF83NnJTdVh6b2VoOFNOTTl0UEMzQWdCM3Q4enBRTVh2ME9IcjNIU2hfSjl4VGlDZmhsRnlxVm8xOHEwWWV5WFRsQ1F5bXF1bW1HQzNfNldPZ21IempVLTBRQTJiMjBXVFhFMHE2dw?oc=5)
+### Tu jornada será más corta, pero tu empresa tendrá que vigilarla: en enero 2027 ya será obligatorio un registro laboral - Expansión
+- **Fecha**: 2026-10-07
+- **Resumen**: Tu jornada será más corta, pero tu empresa tendrá que vigilarla: en enero 2027 ya será obligatorio un registro laboral  Expansión
+- [Leer original](https://news.google.com/rss/articles/CBMijwFBVV95cUxPS1ZWTzg1TGJqYXZHM3BiZ2NKQUxJMFcycDRmWGFKOWtXRlhQcE1jZ0tMSGRENkpSalZNMkEzODlWRXBvR2pRZ215bGFycFdKRmFsRWtUZF90aUlGWVI0VWxEenBZMkwtUzBaT29icDAzLVNRc1NLaXpqZ0JqRjRTUzR2MXpuOF8xVTBHZ2JHSQ?oc=5)
 
-### La Ley Federal del Trabajo lo confirma: la jornada laboral no podrá superar las 40 horas semanales a partir de 2030 - El Cronista
-- **Fecha**: 2026-09-28
-- **Resumen**: La Ley Federal del Trabajo lo confirma: la jornada laboral no podrá superar las 40 horas semanales a partir de 2030  El Cronista
-- [Leer original](https://news.google.com/rss/articles/CBMi8wFBVV95cUxPc0RIbWh4emlqTGRkOXkxZGtCT1ZvQXZTUE9lajZzM2ZQbjJPcjlHNFV2djd4d0pDU2dsRFdwd1FobzlUUEpuX01iUXR5UzBtYjhqYTAwN19qcmJfTFFtU29WX3NIQm1WSU90YlFuVUZhYWJKX05mWVBadllGLTJoOHdYZkNiWHl3WlkwWlBMYmhBLWZ4bmtHcVE0Zkl3WUFjVEdaZUFWdllLTlRyQ3JYTHVZWTBiN1BvY0pnWHJMTGo2OHN3NTdkbFpNbEVyb211RzRsVndUbkRIT0lmbzItTXZ6QXh4YW5BaEVVRkVGcnJETVnSAY4CQVVfeXFMTS12b1FPMEs3MUFVMnktQkdrVFFIc0JjWmQybWc2NHZNNDRlVnBWeUVkeExuOWpMbm1DSzNLc0VqR3dLYlJaa2tRTmRxRDY3RC1Lb29Nd1M3VERLVkRVZnBkVm82ZHE0eGJsUFdIdlctU2w4Rld2cFhya213QW5IaGpDb1pwc3lSRHVTblBpRURyOEFRajluVlJJc1UwSWdUZ1kxbGhOYzZtOWxwa3VoSU5Yc052b3gxZmJFMlR2NjNuRVg2LU5pWFlVdDd6U0lBVEp6RElFUjlfc1V3S21ZOGlQdW9EeW1oRnJWTUJJYUoxVVZ2TEVaclZkRnU0ZnM1cTBicldHenVSbUpZX29B?oc=5)
+### la reforma laboral obliga a medir el trabajo donde ocurre - Sociedad Noticias
+- **Fecha**: 2026-10-09
+- **Resumen**: la reforma laboral obliga a medir el trabajo donde ocurre  Sociedad Noticias
+- [Leer original](https://news.google.com/rss/articles/CBMioAFBVV95cUxPOTRlSGhLclBfUlpfcldER1hUOURZQTNrMHByamZySjJjTXJoejVSMU9Zb0FLOEJZRzdSSmRUQmNWY0tFeHU4UWo1RjVzd3paZnZrX0Q1V2tIVGc0cml3Y1RCYTlycDhIazFwcHF0YzJDZ25PaEZJQm5MSV9fMnVmQVVUcW96bWgtbTVpc1NXRXJnX3pPR01oV0JFTzBVNUMt?oc=5)
 
-### Jornada de 40 horas: cómo se contarán las horas extra y cómo funcionará el checador - Infobae
-- **Fecha**: 2026-09-28
-- **Resumen**: Jornada de 40 horas: cómo se contarán las horas extra y cómo funcionará el checador  Infobae
-- [Leer original](https://news.google.com/rss/articles/CBMiwwFBVV95cUxOeHRfcVZIRTUyZDRDUlQ0ck5CU3BSSGJVazg4ekpWdHppUW1aZ0N2Mm5vQkZjUWttVVhZNzlteHFoQlo2eFpXa2ppNXJGVElhSnAtbHNER3lRd01Ucm1UUHc3emh5ZzJETDZMQWdXWmhzdUNZdHd0NngwOFdhTWJaMDRORkJTRjVLRnZmWjQwRUVMWTFkMi1QVGZoLWxXaDA4YjFESGpnNUVZcl9TWmZiU0xUVmNUYmpYZlNtb0p4ZHlRYjjSAd4BQVVfeXFMT3ZxWWtjbzNwcU9ucG9NTDloZUo3OWphQjhBQWRITWxUcEJFVG5kRFBiSGt4Q194VHBDamxGbE1wSVdHODVsUEJjQ2o1czBFdW9SaThhejJkUFBMMWw5LWkwTmJWTF9PZGx0RHMxVDkzaGc4ZGRkWW01U2laVGZZdTJPZDY0bmNzTmRvMkxCOW93eFYxZ1hUYUFUMC1IcjJLczc3a2J2ODJyamVOYmVHMWt4eWJKOTZTSDlacXVDSFFINl9rb2hheFNtenRPN215T3lUTEdCUVhrTUZRb0RB?oc=5)
+### El fin del reloj en la puerta: la Reforma Laboral obliga a medir el trabajo donde ocurre - Excélsior
+- **Fecha**: 2026-10-12
+- **Resumen**: El fin del reloj en la puerta: la Reforma Laboral obliga a medir el trabajo donde ocurre  Excélsior
+- [Leer original](https://news.google.com/rss/articles/CBMirAFBVV95cUxNcmpBcUVMTzdhcVBHQjRZbU81LVpObGhIUWdOSjBPRmo2SzZhcnpxaUhnXy1RbVg0UWloa0ctY0FNUWtBdnZLMzhsR3FXc3MzOUxzZk8tNnh2OWJMbTd1WXVFQ3E2MU1qT2ZrdFFkUl82dzhSclhNanRQWUVpUldMUzAzRTVnT2ZPOHNjRE8xV0tyZmVKMXZiUUxQcXg0Q1lYVlFDNmJqYmViQ3I00gGsAUFVX3lxTE1yakFxRUxPN2FxUEdCNFltTzUtWk5saEhRZ05KME9GajZLNmFyenFpSGdfLVFtWDRRaWhrRy1jQU1Ra0F2dkszOGxHcVdzczM5THNmTy02eHY5YkxtN3VZdUVDcTYxTWpPZmt0UWRSXzZ3OFJyWE1qdFBZRWlSV0xTMDNFNWdPZk84c2NETzFXS3JmZUoxdmJRTFBxeDRDWVhWUUM2YmpiZWJDcjQ?oc=5)
 
-### Registro electrónico de la jornada laboral: esto se sabe de la nueva obligación patronal - Yahoo
-- **Fecha**: 2026-09-22
-- **Resumen**: Registro electrónico de la jornada laboral: esto se sabe de la nueva obligación patronal  Yahoo
-- [Leer original](https://news.google.com/rss/articles/CBMimgFBVV95cUxNdzE2ajFTZ21tU1NaWE5QQjAyUU4wY3FGdS1VSHpmOU9fNGtTV2Z4ZVkyZ1JndWpqT3dUVElMTEY4YUhaOFRVSGdFQlJDTU1EN0p4aXFjRm9RVVB5c2tiZmxfUzFSUUpPaXhhUUVFV09IQlpzNExrVkFZemdMcXYtUnVUazFwQ25faDdzVUZvZE1DZndkY3VtdXNB?oc=5)
+### Jornada de 40 horas: ¿las empresas podrán exigirte los mismos objetivos en menos tiempo? - Milenio
+- **Fecha**: 2026-10-06
+- **Resumen**: Jornada de 40 horas: ¿las empresas podrán exigirte los mismos objetivos en menos tiempo?  Milenio
+- [Leer original](https://news.google.com/rss/articles/CBMikgFBVV95cUxPQUlLWFBwWndFcDY1TG5GQ0dseFJIZFZhSm5IRFB6VUlJZXk0aVdKOEFiNFJXZjlVRUQ4Sm9hZzZpN2dkVzZuWGl1Z1Byb054TmhKN3VINncxVjh3azc3U1N4T21Ndy1mY01NMHJqSkdWNmtma0JGRzk4Y2poWWdHUEowWDJQeGI0djJJVVpVWF80QdIBkgFBVV95cUxOWGhXRWlxM1Y0T0MyWG94SFZTNGZmUlpiVWtCZTVnYXdhY2x1a1dMb2g3QnY4MTZ1LUtWaGRmUDlRS01ZR0ZJQUVycE95VEd1OERvYmE1eFlwUlE1X0RXaU91Vmd4Z3dqRnN5Wl8xQndvLXpOSlhPeFBLWDEyTzkxbmc0VXFsdV9HQmE4a1B4azZ0Zw?oc=5)
 
-### ¿Te hacen comer en tu lugar? Ese tiempo podría contar como jornada laboral, según la ley - abcnoticias.mx
-- **Fecha**: 2026-09-27
-- **Resumen**: ¿Te hacen comer en tu lugar? Ese tiempo podría contar como jornada laboral, según la ley  abcnoticias.mx
-- [Leer original](https://news.google.com/rss/articles/CBMi1wFBVV95cUxPd1lDWGZFcnQ5VS1tTXRQOGpNWE1JOU9CSkxyYnlRdFM1cGVjZURJY3VkdlB6SDNublgzX2l3QVJZTF9CaG1lT2J5enBmQV83N3k3Ri11WkhJbEVsbWdTRmw2OHBwZm5NMVpvMXlmbW1GTmdCdHM1WXZwWHhvejdFZXdOdmtnbndJNmNySTVLTmNSaTNFOHA0RmRuMjNhcTNWUDcwbE9ESllhLXlfQzYwc1VXbnBvbmFwT0xDWDYwYnhLSEt6SHJ6OEUtUFNRU3FBTWUyTzJwVQ?oc=5)
+### Reforma de jornada: prestaciones protegidas, beneficios extralegales en un limbo - Yahoo
+- **Fecha**: 2026-10-12
+- **Resumen**: Reforma de jornada: prestaciones protegidas, beneficios extralegales en un limbo  Yahoo
+- [Leer original](https://news.google.com/rss/articles/CBMinwFBVV95cUxQcVQ0U2h6aUx3TlVZbXU0VldnbEhkeHZXSnhPdjctWlJCbnpTUFdBbjdOZmR6THBLN3ZEMTh3ZktjSjY3ZHVlSHNsS2lBUEx0N2dEYWo0OS14aE42YUFETXRLQlpyS2xVQk93QnppMEFxTXJGeUVkb01yaS1kd0FNRUI0Qm53R0djUWtLY21xc2pWakRjYmZOUFFvMF9pX3M?oc=5)
 
-### Reforma a plataformas ¿regresividad contra trabajadores? - Excélsior
-- **Fecha**: 2026-09-25
-- **Resumen**: Reforma a plataformas ¿regresividad contra trabajadores?  Excélsior
-- [Leer original](https://news.google.com/rss/articles/CBMipgFBVV95cUxPVTdyWlcxekJ6TExuWUoxclNUZG11VTN3SkJFRmtWU0tFa3hYU210ZVlXVWs4Nm1Pa1puY1ZYQXFBQS16dUZLbFduNGpsOFRtMkNrdUo3dDdoOGNuUFhSNU5lYndQRUY5Tm5tal9jTW9XN0hDeUtMeWJMVGlGeDNodlFSVVFzTjc5Z1R5ZFNjR1dQUlJmV1dZSjZTdDZsekdfcEpFYnhn0gGrAUFVX3lxTE9kcjNZdjg3V3QzMjE4NlpIVjFGTmpja05UaUxrQzBQNXgzVmpfZEJUS1pIMmFsdGFGSnFoNEVQb3Q0S0ZyOEU5dV8yWGk3c0QzR0lKa2Z5QXpmS2F4TGcwUkw4Y3ctYnhEQ2NLbjNmSzFGTWEzTEZOd0dPOVRvV3RNeXQzYXdaa0g4X09KcXdnSG85ZnJtcjQ0LUVMVldwY2h1VzA4QjhPeU9pbw?oc=5)
+### Ley muerta para trabajadoras del hogar que siguen en la informalidad: 96.6% carece de seguridad social efectiva - Infobae
+- **Fecha**: 2026-10-07
+- **Resumen**: Ley muerta para trabajadoras del hogar que siguen en la informalidad: 96.6% carece de seguridad social efectiva  Infobae
+- [Leer original](https://news.google.com/rss/articles/CBMi5gFBVV95cUxQR3EyMTAtMGJ2NVctYTRwMDQwLW1qcTU0ZVRXbXdzT0Q2aUVHR0E4OUNTekhjbGJpSFZ2NXJFOW1BY1d2aXY5ZFRYbi1jeHg5Y1dBTENPendLenRnQU1SNl84OEVIdkRpWlQwRFBDaWxDaGNEZ0RUZUs2Mk9VMFc4WkVuTFU5SHZLMkUzWWdNTTQ2SnJBVWZtX0ZtTzlrazVNOEVLTkpManNYTVFzUWF5VnNILVFrMHBaeXlRVDA1YjhhNEZUQW5vRFpqdWRpd2VFSWUySUl6eG9GVlZZNDRGbDJzcW8zd9IBgAJBVV95cUxNemV5ZlRQWl8xc0liME91MkVKaTV0eXhXcmlrN3lYQnlCUkllUVNoX2JPR1ZSLTR3VGx3V3RjdE1GV0VhTkhxMi1OTklGWjJFaTlqem5YRVotM1lPOTR5TUtobXJQeDRDSVBJMjRrUmNNSWFldkdFbWJQNFM1SHQzbDJQZkstMENVOUhaREVSNmJnQ0l0RFhNTE5QcldLWUFHTUhNaXlZR0N0cTBHVkhvR2dGR3pjTFZGQkcweHRVMUlreXNmcFpoendZcTFSalRNZUVpeDRIdFA1aEJzeXJCRlRMeW91U0lQc0ZzQV9IdWNtNXlGaFpmaHJsd2NUQkNG?oc=5)
 
-### Informa Sindicato de la Industria Embotelladora sobre Reforma Laboral y jornada de 40 horas a sus trabajadores - vanguardia.com.mx
-- **Fecha**: 2026-09-23
-- **Resumen**: Informa Sindicato de la Industria Embotelladora sobre Reforma Laboral y jornada de 40 horas a sus trabajadores  vanguardia.com.mx
-- [Leer original](https://news.google.com/rss/articles/CBMi-AFBVV95cUxQY0xhODctTkdCLTc0ZFE3LXE1RTF2RXEtXy1XYXo1ZGZfVGRQZjJGZHZwV3VkcVgweFh3MXZTWU1ucHEyWHozaWpERVN6dE50eW91VXNNbE53dk1RWVl1V3MyMTdnM25BQ0cyUks2ZXdITnBpT2VDWmlwSllBNWpEQjdjVW00YzRRaXF6UUNRaDdIVF9EWFM2cU1Pc2YzdEsyUTVyeGtYS0xpLW8wTDJEVE5zUkRTZEJMclQxRklsOTlicWJ4dWhJSFBVSjBXMEV1R01lYnQ1ZzQ4NXo3QVBrZ1RlMVVWWnd2OFRSU2VwcXdvb1ZkdDZvZA?oc=5)
+### Ley Silla en Durango: ¿basta con poner un asiento? Así va su cumplimiento - El Siglo de Durango
+- **Fecha**: 2026-10-11
+- **Resumen**: Ley Silla en Durango: ¿basta con poner un asiento? Así va su cumplimiento  El Siglo de Durango
+- [Leer original](https://news.google.com/rss/articles/CBMivgFBVV95cUxOZDZmeFlvUmlCRHg5SFFUT3VWR3lsYjh5VU5qSVNHX2RTaHZUZk9lQjZNbU9Gb2NnUHZfTDFsZ1dJejBVRDNlWnhvRWJZejdKWS1Dcy1qMndHQ0hwazdQaXRoNU8wdnhUd3lnRmZHUU1SSWdnT3F6M3VyRzZKRUFxRmdreXZvc3VxVUpHd2pRYWk1NmQyenY5REt3STA4aWgweHRoa3lGUnpkb2VwQVRuenFHekZDTzBBa0hMNDB3?oc=5)
 
-### ▶️ El secretario del Trabajo y Previsión Social, Marath Bolaños López, destaca récord de empleo, recuperación salarial y ruta hacia las 40 horas laborales 📺 #LaMañaneraDelPueblo por Milenio Televisión - facebook.com
-- **Fecha**: 2026-09-28
-- **Resumen**: ▶️ El secretario del Trabajo y Previsión Social, Marath Bolaños López, destaca récord de empleo, recuperación salarial y ruta hacia las 40 horas laborales 📺 #LaMañaneraDelPueblo por Milenio Televisión  facebook.com
-- [Leer original](https://news.google.com/rss/articles/CBMigAJBVV95cUxQTm5adkdnNHNIN0NkSkZXUnVPNDByZUxRUlpaNEhWcWVLbWV5Z0RNZkRQMjBaT3A2bFJrQXBiSmNER3JqTjIxNlh0LUFSREVtVUViWU1uOGV1RVY2V0ZGdzlTUlhvLW9MUVRleHRPRGhaLTA1QU92SFc0SUlYNU1IQWUzSzM3dW9qOS03cGNLN2RiRlI5aF8zSHNiTlJVMmpjbnNXQVFwQmp4d1BtS0tMalhwV2dHWjVGNTN5ckNJVng2VXJUR1ZNQ0JFUG1pOVdqOEtrRDA1azlfR0RuYUstemJSN1N4QkxobkxsZVpIWGlCamFJUUJjdVNCTk9CbDZU?oc=5)
+### Cómo se ajustará el sueldo en 2027 con la Jornada laboral de 46 horas - El Informador
+- **Fecha**: 2026-10-11
+- **Resumen**: Cómo se ajustará el sueldo en 2027 con la Jornada laboral de 46 horas  El Informador
+- [Leer original](https://news.google.com/rss/articles/CBMirgFBVV95cUxORnM5Sm0wWnFQdTZzV2hFbXZVcTJvVnpudVJuaG9IS05iZEdxSklZbTIwaGJMOTVRdUhUMUd6MVhoX2JHMURiOUR6djBSSFk2TWRPTzF5VktmOC1GV01DTEFLbXlBbjJobUt6YVJDa21GUnhZcjBfQmlLSHRmTkhXbUIzaXVoSTdsenpzMWFINExfQ1BKQ2d0MW9vbkpEUktCM3dyWEpGQkdzWEN0dmfSAbMBQVVfeXFMTlRfNEU0ZEN6OWh0Y3hLY2dXSVl5bGUyVW1tVlROazhzcDJNS050SVo0SGhfdG14T3NLTEc1ZDFjeTV6dHdLZU1PblhzdmtsaHFFZDByOTZLNmU2Y08yMEdYN0QwazZMcjJKWTVYWnpPTzB2Vlo1Zm10YnJoal9LcWVqa0EwdkRsYldYZDQtdllkUjllVUVWRW9fS1BUaHZLQU1IQzYydm1yYXdab1UtNndJajQ?oc=5)
 
-### Movimiento Ciudadano urge a la STPS reforzar inspecciones ante evasión y simulación de la Ley Silla - El Economista
-- **Fecha**: 2026-09-24
-- **Resumen**: Movimiento Ciudadano urge a la STPS reforzar inspecciones ante evasión y simulación de la Ley Silla  El Economista
-- [Leer original](https://news.google.com/rss/articles/CBMi4wFBVV95cUxQWXNuLUlpX3I3YlFYM2t1TzFfR2JQYm43M19KcTN5RTE1WmU2MWNWUVhkckVVN0RkVVEyRFlMeWN6Zm1od3B5YUhQMGhMbW5MZThOZ2ZBVXd3R3dNRHhGNWVsb2tjWUJLYklNOEJtT3pUMFFnZTJMRU1tdlRlZkJEYWFZa3ZyempwLWJIMHRMQWM3Z0N5X2ZMbEtjNnc3MzMxLTA0Y2drdG5PNXlrdWsta0piLTJpQ3dZYkNlZUxTTm9hRHBkby1yUjM0TzIyTE50TXpoenQ2bWxGM19nUjBaOU4xY9IB6AFBVV95cUxQZmRxWGQyUE5sdHFKSUdZdjBwZk4tdGFXRklobEhHYUV3WVVUQW1nM3c5VTdUQ3NLSHdyeW1RcjNUdURLdExrZXh4LXd2ME9hLWJ1cWVIcXF3ajF5VXRHVXZMc1oxWmFsaEh5TGIwd3lIbkwwYktaWUxfV2NEX2JlMGRiYjJWTUY1ai0xYUJ4M0dpT1Itcmw3dGhqbEVVRGM5TnB2RHB0ZDkwcUpHNjF2ckFaTHdHcFd2dnQxQXVTQjVBc0ZKSFN2NlUzSGNuUndUMmV0YkZybEJYVmtqYjQ1VkF2QlRaR2ZY?oc=5)
+### Perdió Argentina 36 mil empleos formales desde la aprobación de la reforma laboral - El Comentario
+- **Fecha**: 2026-10-06
+- **Resumen**: Perdió Argentina 36 mil empleos formales desde la aprobación de la reforma laboral  El Comentario
+- [Leer original](https://news.google.com/rss/articles/CBMiT0FVX3lxTE1yU1VVa3E5UXRVYlVubEE2Q25EWHZGR1VWVVEzbDNzZGs2M19nc01ialBER3Z0YUwzRVdDOW5QWDZHUmZBUFJUUzVsU3I3M2s?oc=5)
 
-### ¿Por qué BBVA redujo su horario de atención y qué relación tendría con la jornada laboral de 40 horas? - Infobae
-- **Fecha**: 2026-09-23
-- **Resumen**: ¿Por qué BBVA redujo su horario de atención y qué relación tendría con la jornada laboral de 40 horas?  Infobae
-- [Leer original](https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdS1FU29QdFZSYmsxNnpRYnQ4TjdrZGpfa0pLNXJrT3VYVjA4aDhnU19EQWFwQnZiLVJNTUtUdGNUTGUtNkpJcXdoRWtwc196MUlVdDJQenBxR1UxRWRRcWVtdDdkY1ZYTWZYN3VVd2RVNWZBcUFtYTdCS3plR3lHSHdjX2x4Ml82a1VRVWEza24xNW1iNTN4WV9VMVBrZWRCdlNvaUxZRUFVTEdMaE83dUZ5WHNYcWFUZVJ2N2lTclhwMDhEZmdhT1VtampEbkdjZWhZa1dPaURxMlHSAfYBQVVfeXFMT2wwWm5LV1p2dkVPVVNQX2NScjFlcjd2QWxjVkpDdVVyd19nX0hVLWVFaEZ1TUJVcHBkai10dzFzU2tNMmpMbkdMSEtQXzhrM2xvVmNzYWtyRFdHRkdKWEJkZ2xQSGJYWFRGYy1PZHZNSDdMSTRNRWtRUGF2ZS1WMWZBUGNXekhKQTk0YzhqSWdEeEN0a1RQSm5CNUV2Yk1neW9zUEVTRnBJcVNSX3ZRQUhpdE9FdzJ5dEVIbDNaYUQ1ZEppQWR3UkQ0S3duVzN0OWc1ZVc1YzRTSkoxdTMxUDJmWXNhNFlacUlYWng0a3RSYjZDMTJ3?oc=5)
+### ¿Te pueden descontar del sueldo por llegar tarde? Esto dice la Ley Federal del Trabajo - El Imparcial
+- **Fecha**: 2026-10-08
+- **Resumen**: ¿Te pueden descontar del sueldo por llegar tarde? Esto dice la Ley Federal del Trabajo  El Imparcial
+- [Leer original](https://news.google.com/rss/articles/CBMiywFBVV95cUxQbXJ0M0FtYWdaQ0dJVV9lQWFURUVNS2xoTnRJdUZYWHlLU2JYNjNiT1U3NXdwNDk5WHdsVVFfSmVWQk5xOUlpUXZpYTJYWllxWURrb2htNjlRZFljbUtQYVBHMks5a2pta2daYzdpRndYRnhpZDh6OXBaVDQ3ZGs4ek1FeHphdndqSWdnTDlMUzViTVM5SkhfcjRHWHY5Mk96aWp4UHpsb1JRdF8xdXhPYm1jMmk0VV8yN1cxRjRhRFdiVEhua0ZvSGtYd9IB5gFBVV95cUxNckRUOExLdXFrV1IybkNTNHNDaUxzQnpvODZBMHp2OHM4M0p5c18yc1lJc2EtQ0pEc0VBOVJpeExoVHFyQ1Y0UU02TW56UlA5LUczTV9YNHZ2OWdjSG5aX1lCVXl3X1R2WXFYcTFpNzVjWjhhd01za2J4dW1WR0hTZ1oxeG9NTEdsb1hqM0QtbFFHUVg4Nmw4RTFYdE9VRnZ2bUNlRDdPbVZBSEdBVW5pcWlkbHdJUlNWcHRtdWdCelYycmI1VTRwT1pEeHRmU2I2Q0Vmekxoc2Q1VW1NMnRYWVVUSmVWQQ?oc=5)
 
-### ¡Es oficial! La Ley Federal del Trabajo da 30 minutos de comida en jornada continua y, si no puedes salir del centro de trabajo, ese tiempo cuenta como jornada pagada - El Heraldo de México
-- **Fecha**: 2026-09-27
-- **Resumen**: ¡Es oficial! La Ley Federal del Trabajo da 30 minutos de comida en jornada continua y, si no puedes salir del centro de trabajo, ese tiempo cuenta como jornada pagada  El Heraldo de México
-- [Leer original](https://news.google.com/rss/articles/CBMixwJBVV95cUxNRWNRbGdaNnpDZS1NY2NWSkZzWTFpN1RodC1pbldST1RSRy1oVXNwS2pEVGJUWHI5b29hTkxNNVpnbVFTUmszbFlBb2dBQW1TTGdDbUhMUkpReVFScUszc2VJQ3BmSnRvbG92Y3NCLXc3ekx2X0gzSlRZUGdtbEJ4QWZzeGI2V25OZVdvdVo3RjFsQnFEa0R2TWJmR3IwUUhsZlJvZk5PR2RNdW5ab0ZST0pXS0RPVmgxNEpOM2ZmMEVuSkRTRDlvODhfMXNOVXBYRU5BYTh2bU1BVDNQR3RVVTlURXJwdWN0T0g5SWJycTFMOEk0aTdSQUVDaEltNTJ6WVBqczQwU19Za1JIRnE1c0hnS2VEXzlxcE8wcDNnOUFiZzVGODNydkFaWGpFZE5WblN5bXBNeUUxSnBsdmNjdDFRaVdGbVU?oc=5)
+### Reformas de desconexión digital y transparencia salarial se votarán en Comisión del Senado - El Economista
+- **Fecha**: 2026-10-05
+- **Resumen**: Reformas de desconexión digital y transparencia salarial se votarán en Comisión del Senado  El Economista
+- [Leer original](https://news.google.com/rss/articles/CBMi2wFBVV95cUxPM215ek9zVFdpM1otQUNMUXo4c2txV3UzYnJQWnBMMUk1LW5PaEd6bkJZZjJGTUNPWmlwMUdneTNpRHI4aXNNTnFHRkRJVDlVWlhHRnhVWlMweE55TndDSF9VVml1LUVnY0JBS1FTV0RpeXkxNjlHeXZzazgwSDVLYWs4dW8wV3h2Vmd0Zk9IZzhZZ1VYRndVa0tUNXEwdWowRW9RemUzQ21ISGotSGxtcEJLRzl4aXBNZEtVbWd5ODRoaUNWYWVrU0R2WTJhNzFoem0zR0M2OHd3aG_SAeABQVVfeXFMTnNfX0hmM2xVempLM29sWkV2V0NTVkVtSVdlSGRLYWVaVTRETjY0UGVrS3JlTVhsOVVrbzY4TkxXWGJ3OVZOZmJOb0hLVHUyNE1hM2JILVhXbXJPV3JFV1NrRVBBRDBodlRDaE5XOFhfUFc1OV9famppRk1UODFWZlhSYWhDUDdrR2otVmNZNUJfRDNRN04weHVYaTZPZ2RIUldtTEZ2eWx0eW1GYnJMc01wWlNTeVhFQ2FESW1DYTFwQVdWMVloQk45YUtPNGVYOFZZajdndUtRNE4wQnIwMC0?oc=5)
 
-### Reducen la jornada laboral en 2027 en México: bajan las horas semanales sin afectar a tu salario - El Cronista
-- **Fecha**: 2026-09-22
-- **Resumen**: Reducen la jornada laboral en 2027 en México: bajan las horas semanales sin afectar a tu salario  El Cronista
-- [Leer original](https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYzlqOXR1b0tSRnFMUEkzbmptb3JMdklzMEtsYUw2a0l4WXExZVk4em9IZ2loNU0yUmZKOVYzWk51LWIxZDQxbXoxRzJjdjFWNDk1a0liZ0pMUVlwclk5Z0FlSDU4RnBFeFN1R2I2MU93SGE3N2hzNGN2VlVYSWVZRFlHSWlGQzhKZFNJQWtSZ2NreWQ0NmRBdXBxczZjYXJJc0pTcEs3M2VVc1NFRE80a1pvbVdDajdYcTRGOEVORTRuZE14YjdMaDZEd1ZwSHRaTDVZQU5VWU5Ud9IB9AFBVV95cUxOdUhoTmZMVzA1bDFDeFMzWGd0aDg1Zm5IS0ZXQjBHcjBoN3paS29INXZxMHc2MERHSEhMRUtCYlpkUUUtb3BqbkY3UHIxeUN0NE51N0dDMU5rS25yUklXQzVvLVdLYXV3V0hFVkNfN0NYODhaRlBraHZxdkh5eDVPdDNadFAtQ2s5S3Zxbkk0c25nczBEWWp4MmJ0UmlMNjJkcGZPRmxpdmlnWVBYRnY0MllrLTJBR1lQWkRaMURhZEpsd19Ram5PcnVJV09La2JZaU44cldHQVNPbGxuQkw1Y0FUWVFPSHJNN3VyRTlWRWVVQl9v?oc=5)
+### Reforma de jornada plantea un escenario de menor ingreso por tiempo extra: especialistas - El Economista
+- **Fecha**: 2026-10-09
+- **Resumen**: Reforma de jornada plantea un escenario de menor ingreso por tiempo extra: especialistas  El Economista
+- [Leer original](https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZ3ZZUmdsdHlBMkZpT1pYOWlfcWhOa05Jd18tS0U2VUo0cS03NTNEb3BvNS1xbVdmZXktNGo0bWZnblJaeHd5TXV0OVhJU1dQbEd1WjNKdjIzQkwzbGdLY0FWbXdwRDR2ZDJROHZfU2JtbHYzR2ltMjRWbzdsekxvbC1XcDdDZkJ5Sjdva2xzVmg1dWdUUXd3TGJLZzk2d3ctOFI2M01qTldyVUREcmJlVGw2bUtnVlBGWnFlX1VZVGQ0SkxVTUhXanl2MDNlUFRz0gHWAUFVX3lxTFBzWndsdVlUOHF3ZGN1ZHlRdDNzMGIwdDlqd0ZkWFVENm5SanpoaHhTN1ZWb25TUFlURDkwZDlWMXNqQWpONVFyN2dhN1phMG5KN18zOVdtOWsySHRYR0tiZ1oxQUpRTWpPMF9wX3g0c2UtS3lMRWlMaXZJLTBnelZxdnZ6UTM2a3AxbDNfMnBBU09XaGRRRktJaEd6MUN1Mmc2aDlEWWVHQjdSdDdzSnhqZWMxbVZDQjFnZ1V4WGhRSHVIU3kyeHhnLWYxSklxNlNJVEJMa1E?oc=5)
 
-### Registro electrónico y reducción de jornada en México: ¿Qué pasará con el trabajo por objetivos? - El Economista
-- **Fecha**: 2026-09-28
-- **Resumen**: Registro electrónico y reducción de jornada en México: ¿Qué pasará con el trabajo por objetivos?  El Economista
-- [Leer original](https://news.google.com/rss/articles/CBMi1AFBVV95cUxOelNycEdJOHBuVkl3U3Z5OVFfRWl6dWwweTlyT2lmNERoUGw0ZkRyUUVuZkNBMlFtSDBITzhNa05wV0JGSmRhcjd3MlpiZnc5U0RYV3VRR1RkTzJnajE2dW9kUVA3UkdVOEVTYzUzalJIMk5KdXAxSE1ORUdUM1h6YURVeGRldjJpSE85Rmdrb1h2WlcxaXItcWJNSE5yTW9Ka05STEpUV3RhZXBvbzl3UEJuYnRyM25PdlFkNXlOQ0d3cklZQUM4ajdYdDRnTGpIamFkS9IB2gFBVV95cUxQU1NtOS1FM25kU2VwM0pQVzBDTndMUlRLbF9SckNSZi05aTBpUnM4MEtmSFBlZ2RXNmR1VzhnWDVlLWJfSVdKRXJwaWNwc0E5NEdMWXNONl8wZVB1MEk5TGFRUC1nd0ZrUDliUG5hWE5vX2h0N1BDVzJ4OHFWV3JQN3c2OEliMm5CcTlvMlZqeXd0dDdfeDgtRDJ6OVMyRmdVUVN3N3V5YXZJNUM3TzAweWphaktOZ1ZDSnpiTHItSEtrbFpQQ3A3QTF5ME92X1d3R1RxV25oalVjUQ?oc=5)
+### Jornada laboral de 40 horas obligará a empresas a un registro electrónico de horarios o enfrentar multas de hasta $586 mil pesos - Cultura Colectiva
+- **Fecha**: 2026-10-12
+- **Resumen**: Jornada laboral de 40 horas obligará a empresas a un registro electrónico de horarios o enfrentar multas de hasta $586 mil pesos  Cultura Colectiva
+- [Leer original](https://news.google.com/rss/articles/CBMirAFBVV95cUxPYVlBS3hkRDRQUTdaZFd0MDZiaGVWNEZpZGJoZDhIb2RoU0w3VXlJYnpyeDhlem95dUhqSEdzdXhTRGVCYzA2SGZHVHowOXlZQWhNUWsxMUF1UGk5N25LbUV4cXZJazNSVXVWMTZ2SDk5SlZFaTlMMHIxb2pSODlJT0FDUG8tUnJ4SU5PWk1SN2ZaRmszSWV1ejY5UUlDRWtleU90Y0E5WDh5MzRN0gGyAUFVX3lxTE83dlZjdUVQd04zSWQ4VHUtZk9iQlJwaXZwQVpncThxNVNCV3VwYTY3NUlDbGhWcFBFSFlEV0hoLVVoZC1FZ0pNWEtUQTZDZEVjUjlzRE1oUkdsUXJONTljNkJMNmpnVGNmU0N4bUJBaUN1YVJzcVhHTXlwU0hnSkxvVnctMy1CNy03QzFPWHJ5UXNyTjF6a3ZUdDRQb2ZCbkJURmdzaXpmSDhoTHpiV3kyaWc?oc=5)
 
-### Impacto de las horas extras en la carga fiscal y la gestión patronal por la reducción de la jornada laboral - Portal ERP
-- **Fecha**: 2026-09-23
-- **Resumen**: Impacto de las horas extras en la carga fiscal y la gestión patronal por la reducción de la jornada laboral  Portal ERP
-- [Leer original](https://news.google.com/rss/articles/CBMiowFBVV95cUxQNUpUeFZ5dlh5amRRWGxwaFF4VzlfbHRLRFJiTTBwNVRXYW1sNmRkYWtQa3lBSE11QTFfYWNLcW1uTEJjazk1Y3k3ZEdXNVdKc29VX1lwb2FjRXlEUC1icnhBc3BwVmZxbVB4VnBfOUFkMEdsOEcxOUdnb0xsQTdjbWNhaVZ6bHMtZDRLam8xdE5Tem5SeElEVWlHYWViUU4zLUE4?oc=5)
+### Jornada laboral de 40 horas: Guanajuato enfrenta reto de reducir horarios; informalidad complica reforma - Periódico AM
+- **Fecha**: 2026-10-11
+- **Resumen**: Jornada laboral de 40 horas: Guanajuato enfrenta reto de reducir horarios; informalidad complica reforma  Periódico AM
+- [Leer original](https://news.google.com/rss/articles/CBMi7gFBVV95cUxOcWg3WXhrcFBhbnluV3IyM0J4SGRJeXM0bHYxRFJkS0tOZy1uVlVKQ2dKcmtTejNRMzAzVjl2bzBIaFN4eVhQcnJWcTRMSXJFV1E2LTBUeXM3R2xEWGJmSnpTdktkalNtT1FBVkhudGhaNFBpUHhQeDJSeDNFbEZPZ2ZscG9MQ0ZNLUJBZFM2eVpGalc3TTdzaFc5WUhtTER5b3MwNzY4X2g5ZGhoS2dRZEdmcHR3RzVFV3hLQkRDblVob2lpaDV3WERXMDB4T2VaLUdvUTRvWkstTVNJdTI1Q0RYQjIxeGNmTEh4azJR?oc=5)
 
-### Presentan el libro “Derecho procesal del trabajo” de Guillermo Leonardo Sumaya Pérez - Talla Politica
-- **Fecha**: 2026-09-25
-- **Resumen**: Presentan el libro “Derecho procesal del trabajo” de Guillermo Leonardo Sumaya Pérez  Talla Politica
-- [Leer original](https://news.google.com/rss/articles/CBMitwFBVV95cUxNUHk5azgwRW9yb201dGVqd28wajVKRlp3c0tKVlAtUzRrazRIbEtYV3FfWTREbVcyejRLaUdaaXBST1FZMXFTemVfSXBtWFJHQmVXTDRNSG5kdkwwVl8zQ0RDZUVjMG9OM21XMDlRNXRXdmMzcHlTQ196c0dIY3BqamlpQldSeU5WcVVsWWRVcldKclFOekpWc2Q5V3FmelRqQnZMWW41TGxFQ0xBN1NoTkkyWFQ2TjQ?oc=5)
+### Jornada laboral de 46 horas ¿qué pasará con tu salario y prestaciones en 2027? - El Sol de México
+- **Fecha**: 2026-10-06
+- **Resumen**: Jornada laboral de 46 horas ¿qué pasará con tu salario y prestaciones en 2027?  El Sol de México
+- [Leer original](https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUTJUMGFyTFFxcnU2SjdTZzdDREdObmtsU29XbU9fN3p4djQyd2U1Wk1HVXM5dkFIYS1kT3ZETHFzaXRfbTZGQzVyMTNrZVhPWWc3dkdzbXNVS3JZeGJ5T1hSeVVNTnljTXlmYXFXS3B5bkF3RHZSQ0JBek5ET0lqRE52TldaaUFqNjEzWnAyTVZmUUpGUzNPSTZuU29idmY5U3IzQ2FLZUZxa3JmY2RmSzU5dHJVdUVLaWc4dXR4dFc5VllHTWstYkVFcS1FeVNKRzg2cDZhd1JXdw?oc=5)
 
-### Jornada laboral: 18.5% de trabajadores en Querétaro supera las 49 horas - El Sol de México
-- **Fecha**: 2026-09-25
-- **Resumen**: Jornada laboral: 18.5% de trabajadores en Querétaro supera las 49 horas  El Sol de México
-- [Leer original](https://news.google.com/rss/articles/CBMiwgFBVV95cUxOREcyTlRrMEhaOXhTOTF1RElsZ3E3T1V1bkhxS3N2VVRERzVra29HV0xUV2hLN3hIWmMyQ0o3MGlKVEtkT1FsVV9BdExKQ2Eza2thbU5YMU16QUZiVk5SSG1aNUdETXNGdlRZeXh3M29zbTZtYkxNekprXzJOYjF0cVlsYWZqdURzeDBTVXZ4UVdpeHdpRjZoVFZJQm9XMEpROTFodDFpLUlDTlBkNk5GQlJ1RFVYd0NXaUFVZzFIeGw5dw?oc=5)
+### A Siete Años de la Reforma, 96.6% de Trabajadoras del Hogar Sigue en la Informalidad - Diario CAMBIO 22
+- **Fecha**: 2026-10-06
+- **Resumen**: A Siete Años de la Reforma, 96.6% de Trabajadoras del Hogar Sigue en la Informalidad  Diario CAMBIO 22
+- [Leer original](https://news.google.com/rss/articles/CBMirgFBVV95cUxPWmU2UGFDckV0MXRuall4eEFTX1Zsd1lxbTBiOW8yLS1oMmxsV3BhbkRVNk12Mkg3Z0xuMGRJZkM5VTU4SmRWamxtN1FwMTRmandPRVhCSWhqeWxGV1FGS2FCRXdKQ3dtbk53SWh5eFZJMkhDelBoRHFaR1hDNC12bF9zZkJHUnpkd2dVU2xHY2lzQ1VldVptMUZKenMwR0laVFhhSG5tdnF4RUctZFE?oc=5)
 
-### MC pide inspecciones y sanciones por incumplimientos de la Ley Silla - Maya Comunicación
-- **Fecha**: 2026-09-23
-- **Resumen**: MC pide inspecciones y sanciones por incumplimientos de la Ley Silla  Maya Comunicación
-- [Leer original](https://news.google.com/rss/articles/CBMiowFBVV95cUxOc2hTaVNaa0FwVVdoeG5RMVl1QkZ5aXFqVjI1dzNLMkNuaTUwR19pREsxMUVpR2tVYllsMDdteGlmb2dCUng4bW1TcDNHdUJjRjctcHV4S0trY1BCalBHUFRoRmd2bmw3Ym44RzRqdXVNQnlqQWZzZVE3aDJSZlB1MU55aFJXejhsWXFybFFzLUhsQXdwejVQUHVsbHhyTm9XR3Qw?oc=5)
+### STPS: Días inhábiles en 2026 para REPSE, inspección y sanciones - TaxToday México
+- **Fecha**: 2026-10-09
+- **Resumen**: STPS: Días inhábiles en 2026 para REPSE, inspección y sanciones  TaxToday México
+- [Leer original](https://news.google.com/rss/articles/CBMimAFBVV95cUxPaGhuWEhwWC1MS2tWMzlzaUFnM3paN0gxUDBqaW1Hc0Y1Z0xEZ1dNOFZ4QW94WDNEQngzbnNkakNKb2tJVlIxTkFfQjg2RFFGNWwwbFA3ZUNiTC1lLVZnTmdjb0JobUZQVFV4REFxUTBFY19TVUR2Y0xNaHIwdldPR1ZXWFdTNW9vUnB6dUpydFctMEx4WXFKUQ?oc=5)
 
-### Horas extra al doble y triple: así serán los pagos con la reducción de la jornada laboral en México - El Imparcial
-- **Fecha**: 2026-09-24
-- **Resumen**: Horas extra al doble y triple: así serán los pagos con la reducción de la jornada laboral en México  El Imparcial
-- [Leer original](https://news.google.com/rss/articles/CBMi3gFBVV95cUxOeUJabTVYcXFReXlYU2Rkd3htd19zSjBWRXZhak5MUFdmU0dJc3RtWWMwVDZYbFdXWVBnREdBU2U1WjdCRVZlTlI0UDViU1B2WnNBTHZ1LTZzNnRqMmZIajltQkdnM2RDZGIzd2h1RVJoSGp2eGxyTUVnZXVMR05CN0RsWWxOcGZxc0ZVV19OX3E1QVcyYUhoZk5tMHZUZGMzUWNJV1hTSUpHZ1d3MGRPakRDRG1VMk1mLVJBbEhJM0d6ckxETTlCYTA5SHpvX1VPN28yc040WHJGUEp4VXfSAfgBQVVfeXFMUDlsRXRLSTdKUmIta3BPTGN1VlhmeWVIZkNxQ1BDVjYtendBM0ktU2R3QVlaaTV4b0RWS3VqZVR4U19pUkVpR05UTk1qVGVDRU1KNVdvZ2xndHdUSDItTWdpX2ZkaDc0bXEwSXgzLWRNRDF1LTRLUTk4NE1UTnNEUXZpTUc2WEhFYVpreUFEUE5rX3gwN2x0ZzRrOEFMZUUtWE4yMGhNQVc1dGdOZUxycnZvMjhqVldkMzJETldBRTNBYUplMHZjQUxYSU56cWZhbXRzbjJzcGdabkxSdHRDendCV2FWYzRuRGE4cXNRQlFrMHR3TU9aS04?oc=5)
+### Comparecencia del secretario de trabajo inicia discusión sobre reforma laboral: Mariana Benítez - Imagen Radio
+- **Fecha**: 2026-10-06
+- **Resumen**: Comparecencia del secretario de trabajo inicia discusión sobre reforma laboral: Mariana Benítez  Imagen Radio
+- [Leer original](https://news.google.com/rss/articles/CBMiogFBVV95cUxOYkloQk5QbWFnY21qenBmMEtNbGhOZjZURWFCNl94dDQ2dVpIV0tNdkEwdl9BMExHX3hOc2RGbTlZY1Q5czZBR0JLUmtDcExPZmllelZmN0g1T0UwZ29vUXhhOTZJQTA5R1AxNzF3anRuU0dMZ19JVUJjb1JJRmUyUGhJQmY2WllLNUxBNGxnR3pNSDg4LWVpdk5wdFZ5TzgzWWfSAacBQVVfeXFMTklBY3k4YjBVNGpvYmNIbWNQNWlwY0puOUdjTGI5TFc4YUM3UFFnYmNaUXBtbDdKT2xOYVRhOUNWeGpNaHJldEFtSUtUcmlmNXdLRjdMOTdDa1JDYkRBOFJnaWdpNmRfajJqLUNUUVRVRkhaR1JxV2pWSmtKbUZ1NkVUUzJxRWlELVNHaXdLRWNqS2hZakFVSy1fTnEyRDMtelNsVWRaaUU?oc=5)
 
-### Reducción de jornada laboral fue aplazada - Capital CDMX
-- **Fecha**: 2026-09-22
-- **Resumen**: Reducción de jornada laboral fue aplazada  Capital CDMX
-- [Leer original](https://news.google.com/rss/articles/CBMidkFVX3lxTE1DRW91UTRRZjh5NHZvRmdOX2M0Ynd2cWZHLThQdTJLTFFiQXJqTzRUSnFMYWFudXF4cnVOX1NIcmg5NkRINWJKaXlBekxENWJ1d3l4ekN5dm1qMXhBQmZ2bFY0RFdwSnB3WFNRcVRMbHBvcDFmaVE?oc=5)
+### Sólo el 1% de las trabajadoras del hogar en México tiene contrato a pesar de las reformas, alertan - Diario de México
+- **Fecha**: 2026-10-06
+- **Resumen**: Sólo el 1% de las trabajadoras del hogar en México tiene contrato a pesar de las reformas, alertan  Diario de México
+- [Leer original](https://news.google.com/rss/articles/CBMitAFBVV95cUxONkwtN2RKdFJiODdHWGMxcUhEbkMzaEN3OXAzMU80Wk9GWDF5bnBXbXZudUNFeFdCc0JFS2wyWUt3ZDh1Uko4MUItSTNtUnpLTFBsTmI3ektBbjhPaFM2NnVWWE1YZnZ5c3dvOHBlbzRCUGx3ZHV2T19zclZpVXdFOUcweUV3bENucUluZ1p0ZVNrejRjWTdwQzZQTGt3Ry0zOWZfRzBIYWpnM3VDUDEtVVpBMknSAboBQVVfeXFMTm8xWEFKOGtvSEFFa1hxbUlTVnAzRXd1WDU2cEF1cmFiaXRVOEcwZVRjY255TFVfTzJ6VVdoTnFFOXphLVpEZWV3SUlYUlFaLVBtR2FLN1gwMUNRQWlTSGxpV1p2NzJxTF9pNlN6NHpFWFpMb2paMk11N0J6aVZPNmVVcXF6b05BeDlmcmRFbWgxZFJrbFZNSGdqR3k4QjRVRXg4eUR2WHo3WXFJaG5YYlV6Z2Z5QVBLQ21R?oc=5)
 
-### Reducción de jornada laboral obligará a empresas a ajustar contratos, presupuestos y horas extra - El Sol de México
-- **Fecha**: 2026-09-24
-- **Resumen**: Reducción de jornada laboral obligará a empresas a ajustar contratos, presupuestos y horas extra  El Sol de México
-- [Leer original](https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdlp3NVV0QTVBaUZFU0NXanh1NVg5RUlkeXI5TXRVdWV6ek1XR2J3UWREZjQ4NUk2WXJiZEVsbm9mUEVNRXBrZlFGVFFpUFhCZnVzQ2tsdVpFMUtUcTBDQnBmaWYtVmJVanVaQ2ZzM051WjhHYThxc1FpeHR4Y1NNMUlJaElfblJOVUFuYjVlN04zZkZDU3JKSXNoelBrd3lMZGkycDI5ZWtzNUp0NG1tNWtadHhnRWtpQXFfZ2dvOWMtSDZ2NnlFY1F4RGtVTG1Nbk5tUmFja0Jranp2X1dOZFByQWk?oc=5)
+### Más sobre el artículo 55 de la reforma laboral - Derecho en Zapatillas
+- **Fecha**: 2026-10-09
+- **Resumen**: Más sobre el artículo 55 de la reforma laboral  Derecho en Zapatillas
+- [Leer original](https://news.google.com/rss/articles/CBMi1wFBVV95cUxOOUVFNUV2Ty0xcThtWFh5bmRuSU81Q1lUT2dOOTZSUjBLdXQyRzhtX01LWjlTbGVaWFJqTzFLWFdSdldDejRhbUtvaDZlX0VoZDk5UWpHYko0dWM1bDJqMkRmaHlNOWdGckpwdUlsU3VtZGlDSUt5MTdSZTNkc2NCMVhfYnVQRkRndFI2UEVtUTVucGdlNDRjVTJlaW9qV184NjNRU0tMQkpINklJR09qQTQwbER4RVMxdkJ2SXFROEFrQzB1S1FKU043a0hsN0Rfbm1rRE42bw?oc=5)
 
-### Renunciar antes de diciembre no te quita el aguinaldo: así puedes calcular lo que te corresponde - El Imparcial
-- **Fecha**: 2026-09-24
-- **Resumen**: Renunciar antes de diciembre no te quita el aguinaldo: así puedes calcular lo que te corresponde  El Imparcial
-- [Leer original](https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVzF3WUJQV2NRdlctRnBVUFVJWUFVXzVSOHUxLTVPNkRKMndDeVRieXJqdy1MbGlVbkFkSUM0aWhGU3hacEF2MXJPczBrbGZ4QUVMcHBQR2MxTWpsMnhGRFRBX3pQOVUzQW5mandHZmtIREZKa21QVWthUE1nRkhfSkVERVl4YTlfRTJvZlZLaXBRTzJyUmczYUU4eThnMEJzaUVZZjFTSGE2XzFyWk1oQmlQZVlET2VpWUFoZVJ6czkwS0Q5Z0JyXzBzR2dUbTFZZmJJYjhoSGJUUdIB9AFBVV95cUxPbmo4QVJGYkY2UVNzV3p1STRQZENkN3d1RDVaS3ppenZlTENRdFJWNGlIYU1tbzVFRVlCalBoMkZacHRtTzNhMnBTamgxaGRmMmRSb0tsamlOcFBKV0Q3UFdPNWJNLWVHendiZENaQ0FZWkgxUURnOFRYdDJfdTA3UVBqcUVqT1hjay1BbGZYZl8zZlVPY3BnLXFBRDZsZUhEN2pQUFFZQ2tSWGZFSnNSVXAtQ0xtYnFGTkU3VlAtbHJna25kQUlTTFBzVF9JdmlYVmxRLVVtM2JDVnN2bUxKQVpWdVdZejlpV2FLVGVoWkVOUFQt?oc=5)
+### Trabajadoras del hogar en México enfrentan precariedad laboral siete años después de reforma legal - CRprensa.com
+- **Fecha**: 2026-10-07
+- **Resumen**: Trabajadoras del hogar en México enfrentan precariedad laboral siete años después de reforma legal  CRprensa.com
+- [Leer original](https://news.google.com/rss/articles/CBMiywFBVV95cUxOT2dOWGs3a3FrYlhJRnpaU3hTcHRHdlprMjd3OW9yT2YyN3B4NHQ1NkFWOWRlTktPd1QyYnQ5ZXNpS2M0UU10eENkYTgzTWFnelUyNkFqN2pWaGs1d3RaeDlGZmx6TFVnSVJIbDdIbnFXWEFKRWFOZm81bFo0VFFkVk5ka1hmV0Npa2xET0hTYjNBRzVqNXBTaDZZUEZLZjF5NHVmV2RtSmVKcW1XdmNob1MycVdMX1lPZVVxR1d3WW5QN3ZELUFhWHcxYw?oc=5)
 
-### STPS explica cómo funcionará el registro electrónico para la jornada de 40 horas - sdpnoticias
-- **Fecha**: 2026-09-28
-- **Resumen**: STPS explica cómo funcionará el registro electrónico para la jornada de 40 horas  sdpnoticias
-- [Leer original](https://news.google.com/rss/articles/CBMitwFBVV95cUxNTy1YLTlZcFZhb2NBMWFHLXFrQ0dGOFFqWktnTHV4TFF0aFQ0a0x0dkg3WVlEY00tbmItYm9ncEh2N0RwT0hQbVFIUmtrY2hCWGJmVmk0LVZjeW9KRm9jckFQN1lrbDVXcFlvdktGWGR2VGNTMTUtZ1psZGstQWY2UXlHSHY5NUlJSmctalI5bkpQYXBQQzc4SUhreVFYSC1oY1A4NnVsbk5XNklTUjR1X3lkcEp4Q2c?oc=5)
+### Informe asegura que Argentina perdió 36.000 puestos de trabajo tras aprobación de reforma laboral - BioBioChile
+- **Fecha**: 2026-10-07
+- **Resumen**: Informe asegura que Argentina perdió 36.000 puestos de trabajo tras aprobación de reforma laboral  BioBioChile
+- [Leer original](https://news.google.com/rss/articles/CBMijAJBVV95cUxOV3JOV2hKVHRyS01QcjItUG9iRjdFS1Vza1FLLVRwaDBDZDEweWVLS3NGcnZ0cjh4NVFZdHF2emh0T1paZTBSZTFobXZKWWNjamJWZk15WXY3dF9IOUdLN0ZsN2xoNXBHWG9nOU96cGNrNEZVSTFaa1FickVJdEpQY2l6bm5rWkluclNsMnBpbm52YWN6ZDdReE5VWGlpYzV1SXVjNHAyUkZSTTA2ajZnVTc2Z2djSjllVlhkc3lGM2VZQlpCNVBIOFhkQ3VibDYwYUgyVUpQQXVQMDJHYXVfUzIzaEY0VlIyZUhDRmxSSlo0WVpGQkNjRnJZYXhVWXg5ZVM0NUtNek1remtx?oc=5)
 
-### Aguinaldo: cuándo entran en vigor los 40 días - laverdadnoticias.com
-- **Fecha**: 2026-09-22
-- **Resumen**: Aguinaldo: cuándo entran en vigor los 40 días  laverdadnoticias.com
-- [Leer original](https://news.google.com/rss/articles/CBMijgFBVV95cUxQY0V3cG5CQ2k2QjZOU0FSOTJSazMtRkIyNjVPMk02cXBWZTNYcHN1VWtsTURaYjU3UDZac3VqeGV0NjBfY1VybmdwaVJibm4ySDk1SUZ2Z29fUDZTamhEWVZBb1JSSFZaX1NCSGlHdUlhUExHak51YXhnaTM4WENEcXl6RzBZbEpCY2RpR1Nn0gGWAUFVX3lxTE01QWNwaFJuNVRLUVd2bllsREFtVC1sWW94MWpDdTJYUzRIUWRvZkZvcmpQVFJhN3p4Y1BPOWtxS195RmxEYnBhbkc3T0lLUE0xZ25ibnZCUWN0RTBqLXdqN3NhQTlkQzR4ZWp2RnJJQXBzWHh2cVFEa2RrYzRlNV93d2NNdHRidlo0NDVHZDY0V25QSjlXdw?oc=5)
+### La Cámara del Trabajo habilita la vigencia de la Reforma Laboral al conceder efecto suspensivo a la apelación del Gobierno - DeGremiales.com
+- **Fecha**: 2026-10-12
+- **Resumen**: La Cámara del Trabajo habilita la vigencia de la Reforma Laboral al conceder efecto suspensivo a la apelación del Gobierno  DeGremiales.com
+- [Leer original](https://news.google.com/rss/articles/CBMi6wFBVV95cUxPX3NiQ1MzNGdUS3FtU0l5U1NUWlgwbGw4eW9UX1g5b2oxNDB2MjJibmJiby0waU5LVFdPX1ZISkg0TWY3M0pDZFU4UUdvcGF4T2F1cExwT00wUTNVR25vdTFGRnRsYnV2aFRmdnRfdjE0b1gwaWhJeVZra0s3NUd5NW84SDVKZU10RUUzYi1GQ2tSaVU1YkRZSUJUUHNXdk5CaXJaVEVwQzlwVUZtb2tyeWRoVnNFcmc0aVJPR2w5clBWMzI1MjZaZkNBTy1tazZNS3I1c1NTOFJDUUQ2RUdwUUJER2RRX201aGxJ?oc=5)
 
-### ¿Cómo calcular tu aguinaldo proporcional y cuándo debes recibirlo este 2026? - Cadena Politica
-- **Fecha**: 2026-09-26
-- **Resumen**: ¿Cómo calcular tu aguinaldo proporcional y cuándo debes recibirlo este 2026?  Cadena Politica
-- [Leer original](https://news.google.com/rss/articles/CBMiswFBVV95cUxPYW5IcVNfdUMtTE14cFRFT0pza2lCbDk3S0JnN0ZsaVl1WWhnU3RkYVQ1alltZ3BvV1RDRGtxbVRqMFk5eDFMZG5USkRyNmdxVUdkNTZyeXRKdEh0TjZfRXBNYVl5MnVvMjFEUnB1X1JqVk1qVXZlZjUtOEd1bGd4aTBMSnlEQlJaTUhXSDF2SXRFRENsQmFUTjh3TzVRVFRpekk5WnFaVzg2VVU5UC1iTF9ybw?oc=5)
+### Vacaciones 2026: qué cambió para los trabajadores con la reforma laboral y cómo se calcula el pago - El Cronista
+- **Fecha**: 2026-10-07
+- **Resumen**: Vacaciones 2026: qué cambió para los trabajadores con la reforma laboral y cómo se calcula el pago  El Cronista
+- [Leer original](https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNXNmYzFtS1pMdEtwd3p2a1lEOXBieVZjTnQyNGVfb28tZ0l4WWFxdDFzVl9paUFEQmF0S1hyaC02Sl9MUXJvc25JekVIbXcyMXlqd2pydERFZ3BlZ0tVVWhsZzQ3TnZzQzlEOEthR2RUSlY3UDhvZ2Z3alp6T0o2MWlEN1czZENmaWpsWVNGZmFoanVDeEQwMFlYUWV5dkpzTzR3R1NOS2FaSTVWRGZUM3FIaDNkRUhfbjgzNTlFdlZhSGFhZ1dma1lJUnhySTlFN0VUOU01Vi3SAfMBQVVfeXFMT0F5QlEtQWFvWF9LTXc5VWZhMFlsTVRULVJqNko0MXNYMkFYMFhOcGdxaWcxdTU0dS11NTJWZnN5VDJaZmcwNGRxbW1CUkZjdzhydjlDVWRLWmtWbnpVbzhsMldfOFZ4c1BhQU1GVWoxUW5uUXNYLWdQdFM3dmtoVlk0ZExnWV9Hc0JzX3Y1a2ZQWUNycDFqdXNBVlF3aGhfeTQ2Y2NYWjVuOXV3YXlYNWhMZVcwTWJYZ3RGcWNmNVFXWnExZmt0a09QV0tRZHhIa0xGbWFTemNYdk5CeEdySDFDQ1lnUEhIUUVqSVZET0Q2Smdj?oc=5)
 
-### Diputados guatemaltecos impulsan ley para regular derechos de conductores y repartidores de aplicaciones en Guatemala - Infobae
-- **Fecha**: 2026-09-25
-- **Resumen**: Diputados guatemaltecos impulsan ley para regular derechos de conductores y repartidores de aplicaciones en Guatemala  Infobae
-- [Leer original](https://news.google.com/rss/articles/CBMi9gFBVV95cUxQX09tbW10WVJGaVphXzduQ2ROSS05LW12Y1dBdTVHN3dhOEw2ZTRhWDVpdmZjNUZyNmZMOWNQQUgzQXFxU2k0RnYtSDZYdDZ6Q3RRVzNEXzJVM25hVXZYcnlDMy1lbXBQRlRaaDYtbUF6U3RGNWYzQ3BNTk5xRFZCVmxrdENfVXdES1FjSHlZeFluV21tMWhENVQxNTh2eFVVdWFtNHJ5VVBKa0VKX3JJZFJYNXlDWUpmRHdHNllCT1dKNUp3RlRCZVp3VkhCdWR3YXhlSE51NHh3emdna0J1dWdLYllDUU9tOEhSMVgzZ19Od0Q3UlHSAZACQVVfeXFMT01naE9qb0VWd3RYQnNXRFJ2QUhXWWFzbExhNnpWWUxaVHJZYml6cVBCVmNlMmNzblRXY0kxZS1yTnoxd3NvcHZIc2xPc1hZVVJBNnRleUhsMmIxbmlUeWFJNXhsVTc4bDVfNW0xN0ZBY3ctU0E3cjRrMXlVMF9MV1NXemRPR3VSR0VMV3puZHoyUnEzeFh3aGpnd0VFc0xYbXdSRk5VdEpTYjVQOUZwMW1oU3dZTHNSU056aEszQ3QtRWtVZjhadUF2NmVxTlpEd092ZmhtdkcyaExXOG5lWG45MnhlcnFCS04zaGgtNlpfSFBqR242UC1PQ0JOX3N6UHl4cXJFbGRhMlRlVUNRTEk?oc=5)
+### Qué pasará con el aguinaldo de diciembre 2026 tras la implementación de la ley de reforma laboral - Info del Estero
+- **Fecha**: 2026-10-10
+- **Resumen**: Qué pasará con el aguinaldo de diciembre 2026 tras la implementación de la ley de reforma laboral  Info del Estero
+- [Leer original](https://news.google.com/rss/articles/CBMixAFBVV95cUxOYVlwejZYaDBWNUhhbTIyc1JJN2VZVTlMMzhOVzg5TndCR0pHdUZKb0pCMVlTalltcUJxMWFmM05LZEowMGlHZXFST3VNOWtVY2NjSGVwNW9ObjNMTlpwaFZYenZtUHpMUHMwTXk2eU5XVl9hN3cyZjhJdlpiTjUwUXJhSERvWFVzR0FqLTl1akpqemxMbFQwc1l1SEE5SDF6V0ViVGRmT0M3R2J5NkFhUDUxTFFBUmMxcGhpcm13NEhVTkxn?oc=5)
 
-### Conductores acusan a Uber de reportar menores ingresos ante el IMSS; compañía afirma que trabaja en implementación de reforma - sdpnoticias
-- **Fecha**: 2026-09-23
-- **Resumen**: Conductores acusan a Uber de reportar menores ingresos ante el IMSS; compañía afirma que trabaja en implementación de reforma  sdpnoticias
-- [Leer original](https://news.google.com/rss/articles/CBMi9AFBVV95cUxORS1ubEluSUcyMjBrVVpmd2RjNjlJMVgwODBmRnBTZ2JjTFBWeDNNZ1Fzd1ZHQmxXSTR6NkM4cmhhNm9tNUhLeUVPUDBKMHktSFkwRTJyLW82MUxoQjI2cFl3TWdIbGhLclRqdnVST0FNU0Y5Ul93bnNtdFRaSmJLaFdzMHE3b1AtZ3F6NEhJTmNEVDFNN3BJQXFSbWRXV1RISHhsZEVjcXlGNmxFVEFoeVl1OGtDelVjelVOejJXRWV1LVZzSGNsSkM1VE9iSGNZNDh2cUpGOVZ5UDFuWDBrQlF0dlM4WU5JLXZodC1ycDV1WGoy?oc=5)
+### Novedad Editorial: «Dossier de Actualidad – Derecho del Trabajo» - al día | argentina
+- **Fecha**: 2026-10-09
+- **Resumen**: Novedad Editorial: «Dossier de Actualidad – Derecho del Trabajo»  al día | argentina
+- [Leer original](https://news.google.com/rss/articles/CBMitAFBVV95cUxNdWswRTZCUlozSk9RVVF4akR2NGxmcGlVbnBWOXJpT2g3aHZTQ0w5Y29aVmk2SHRtNFA2Z1hXWjh3XzY5bDNtR3NLOWdWUU5QcjVGSks4UVZDU2J6THItWjExblhrdEJhN0d5cXhxRjB0cWV5S3U0NEZ4N09iVUZUVGU5dWNYOGpnM3lsc291Nk1mdEFaNENHNVpieUNNRFJqREVkZjNJeWRUN0Y2OEJsY0NfejTSAboBQVVfeXFMT01VUlZZenZILW1fZmh1NkdIZE10eGNXMHRsa0FyRmxqakFDVTNNT1FKQkZ1QzlnOEVyaTdOaWdISmpJNDU0QzJPME91NlJZem9qWHZCeVFsSGk0TUNmWE8wVnlNd1puMnhNZTg4YnlIUnFuNlBySVExdDJ3alBlbE5HRDVEd2lBYThpZEVKVl9hWDFtbG5IdGRINXdfWTF4QWIzWmFHWHVhNmFWSGNmQndWV3ZLLTdMY1lB?oc=5)
 
-### Sin rechazo la nueva jornada de 40 horas - PressReader
-- **Fecha**: 2026-09-22
-- **Resumen**: Sin rechazo la nueva jornada de 40 horas  PressReader
-- [Leer original](https://news.google.com/rss/articles/CBMihwFBVV95cUxNZGVBbUZzS2RBdHQ5b2xBQVdmOUtHYzM0ZjRNLWQwOVl2czFEQjBBYnQ3MWZrcEZPdWl3dXpGY2xrQXFzZjFGaVhlM0RnaWNGWExEQmplLTZUUFJrSHplS1dzb2tVUmxrandIYVpPYkZZZFhyNmpCUnNhM0tVX3c3RkdxTkFBX2c?oc=5)
+### Reforma laboral: los sorprendentes datos de empleo y empresas en los primeros cuatro meses de vigencia - Gestión Sindical
+- **Fecha**: 2026-10-07
+- **Resumen**: Reforma laboral: los sorprendentes datos de empleo y empresas en los primeros cuatro meses de vigencia  Gestión Sindical
+- [Leer original](https://news.google.com/rss/articles/CBMiuwFBVV95cUxNc0FqdjhWMHhENGF1SlNRRzJJY05EYlZqdUN5RUtyU1F0RG15X052OHdUcFJpek9OdHdVYWFlMEdZc2UyZ1VMT1ZXVHpyQ2VLTlJ3YUtTWmkzS0lIQkxPZU5ZQ2ZRSEdUMk5LWVF4Ty1uVXh6aW9pZndISmpTYmQ0cGhfZmpWSnMxc0ZFUzV6a1duUkdvcG1xSUFBLWh6dmtvSUlfdU50ZGVJQk5uZXhISWxURkh3NGtXSGZr?oc=5)
 
-### "Propuesta de reforma de la jornada laboral incluirá todos los aportes": ministro de Trabajo - La Prensa Gráfica
-- **Fecha**: 2026-09-25
-- **Resumen**: "Propuesta de reforma de la jornada laboral incluirá todos los aportes": ministro de Trabajo  La Prensa Gráfica
-- [Leer original](https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdlYzTEo3WS1EckRRYlEyYlhPUFE4UlctZnlQQ0xYWWxuRXp5Q0FLaHh3ekFmb3BnTFBEU1VwUlU5TEUzZHp2bTBwY1BCNUFSR3djTkV6akVvNnNzLW9EeTU0M05FOWtLZlEtZl8xZmNKUktKRmdzUkkwZUNmWmpSOGZFa0NtMGRRdkxDZGNMeHp6c3Eta2VsUnJia1ZfbXNPeUdCSkFDdG8tNi0wUnBMUWwtbGVGQWEwcGNjd2xOQWJPc2F1bEh6Z19iQ1d4Zlppc2FwSGx4d3Y5SUhIS2xYbWFKUQ?oc=5)
+### Vacaciones 2026: qué cambió con la reforma laboral y cómo se calculan - Elonce.com
+- **Fecha**: 2026-10-06
+- **Resumen**: Vacaciones 2026: qué cambió con la reforma laboral y cómo se calculan  Elonce.com
+- [Leer original](https://news.google.com/rss/articles/CBMipwFBVV95cUxNd2k2dUxGQlhuRW1JcWZQV0NUdm1sN2VyTVRnTGdZNktCdV9pdnk3SHpDc3ZJSjRfdENMRmhJVUNMNkV1S2tmaTNyNUhPQ3U4M0E1X2o5UmhHOExaZWdfRjJLVEJpMXpuQW5rU01VY3YzSkdoUHc4cGRwYVRlbnpMRkRucVF3bjNOT3lZMTh4dUlvd3NxR0EweEJIWFBJNWxmck5vRVE4VdIBoAFBVV95cUxOckxvaE9mNDFrQXIxMFFBcWtOTk9oTFRfblgyV1NLdEhKMkpQRlNSZk83QW0xNGYwNkx5a25mcTR5V0JMMzR0Rm0zem1PV0g1am8wXzEtM1lXLWR2bjYxNTQ5cTlZSVZVbWxtMWF3Mzl0MkxEaDJjeHJQZzl4MmdMLWI5bWlEcmVsRk9YdE1kZlhjZGlqa0VlSEhHRExWSTZh?oc=5)
 
-### La Justicia laboral cuestionó un cambio de la reforma y mantuvo bajo su órbita una demanda contra el ENRE - DeGremiales.com
-- **Fecha**: 2026-09-27
-- **Resumen**: La Justicia laboral cuestionó un cambio de la reforma y mantuvo bajo su órbita una demanda contra el ENRE  DeGremiales.com
-- [Leer original](https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVW9TZ2Q5dFlrUkt3d3FSTnAybnotc1BSYzlUYVFZcGZMa2NMYXA0VXlOXzBZR0swM0dsSWJEQ21leTljRjVJdmI1SjdNTEljME9ITWhsUnNiYWc2MkM3WVJlYVBBQTEyY3NoX3Rqa0dQLW9FbnNQbzVnR2ZIVjYzMll4UkhIQ2VkOXRHX1RMcWlxNy1kUWhPb0djRENHYnU3RFROTmRDMHdVM0tGY1N1ZDZqS2VmYVVuVG9uUHpjUGx2aU1jdlhFRURSNjEtMVcxZ2ZsdQ?oc=5)
+### El Gobierno suma otro avance judicial y busca que el fuero Contencioso concentre todas las causas por la Reforma Laboral - DeGremiales.com
+- **Fecha**: 2026-10-08
+- **Resumen**: El Gobierno suma otro avance judicial y busca que el fuero Contencioso concentre todas las causas por la Reforma Laboral  DeGremiales.com
+- [Leer original](https://news.google.com/rss/articles/CBMi6AFBVV95cUxOMi1weDJtSGpzalV6T2xHMDNwaHFsTksyMHV3U2xTUjBjWUNDYVktWDVLWTNjaEZUelZyN2NIMUZCMTcyR3o2TDZMaFN3V29mTXVPN3d2Zk9GZTEzUkFlamRXdkduSEpvaUdXbXhYaEVNODhNRlFQMWtwZ1dESEhkVW9SRHp1YnlzLU85ei16MTNGX3p5c255ZV90WjlMY1RjNTlEUnVnNldGR0o0S2NQS3VnSzF6aUhTdUp2dDBCV0VYMm42YXkySXdUNWJ2TXdxcW1yQjhFbWdpOGVvWlQ4dnR6STNTeGZ0?oc=5)
 
-### La Justicia laboral frenó parte de la reforma de Milei para trabajadores de dragado y balizamiento y advirtió sobre “desprotección” laboral - DeGremiales.com
-- **Fecha**: 2026-09-22
-- **Resumen**: La Justicia laboral frenó parte de la reforma de Milei para trabajadores de dragado y balizamiento y advirtió sobre “desprotección” laboral  DeGremiales.com
-- [Leer original](https://news.google.com/rss/articles/CBMi_wFBVV95cUxNYU5Iclo2U1hlMzV6V3AwbG5vaklUWWlfNzFkdFFENTI1NmdCNHNxZEhjM1FMUHhqS2U2VFl1M250NXZPbkRJaHpEaklnSnpZREdkeGVDSWFwVkZwc3FUbEE0Z2xqUXotRVB6NzM3MFhPa2tCSzN1WHNkN2xDU0pLUng1Ymd6Q2xxeTZaLWxLWWEtcERTV0ZCc0RfT1hlcnBVZ05CUE1nMUNDVjZuUFg5R0lpQlZKU2I5OFpyWFg2NXdnalRRSk01WTc3dy1PcGJxX3dSQnRMUGNCUl9sODk5RHk3cmRTeWZDSUNoZnFwSnByZFlfVHQ4cXpwU2JzTG8?oc=5)
+### Vacaciones 2026: qué cambió con la reforma laboral y cómo se calculan - Ignacio online
+- **Fecha**: 2026-10-06
+- **Resumen**: Vacaciones 2026: qué cambió con la reforma laboral y cómo se calculan  Ignacio online
+- [Leer original](https://news.google.com/rss/articles/CBMipAFBVV95cUxPdml5MnpJdjBacUhUM05UUnZPSTRjMXBwX0hDV1dNZ0drZ0ZWQnZZRm5PMnoyaU02bmx1cGZXQmljTFZzNFpHTGswc1dZc2ZROTFwcjhPay02WDhVWURValBBUHhzVUVCNnlYU2dObFk0cWI2eEJqYjd6bjlzMDFaZEtvMWM1RUg5UUo4TWRtTmpxbzlOOE96eVJ2WnJCQVF5c2VjVw?oc=5)
 
-### Ministerio del Trabajo acaba la fiesta de los jefes en empresas de Colombia: no tendrán que reponer horas por situación especial - redmas.com.co
-- **Fecha**: 2026-09-25
-- **Resumen**: Ministerio del Trabajo acaba la fiesta de los jefes en empresas de Colombia: no tendrán que reponer horas por situación especial  redmas.com.co
-- [Leer original](https://news.google.com/rss/articles/CBMiiAJBVV95cUxPWEpudFozYXRwdmJEblZUVlNyU2dmcUZlakIxZFYyTURDd0h1cDUxUkZKbHdUMG81SVZzSlQ5eFR3OUdta3pERTFaNGhpcFAwMTlleDgxU1ptNmdITGtILWhNMmtwalBndnB4YTdxUGZ6QUQ3OTFSdzM1eHROb3RNVWJqTWlIWHJSaTdkbndzazNOaWtIa1BqREdmcjZIWVl1QXFDOUk2ekdUTWdUeDRJU3h3Njc3Zk1jRUtNS1d0WjBYelVObkdBWGtLU2xuRi1majVBdy11d3VKY0xpRmsxX19wOGZQbTVxLWJxXzViVEdhcUVER01sS0dWUkg2QkU1empVRFk5NE4?oc=5)
+### ¿Habrá aguinaldo doble este año? Esto se sabe de la reforma laboral en México - Debate
+- **Fecha**: 2026-10-08
+- **Resumen**: ¿Habrá aguinaldo doble este año? Esto se sabe de la reforma laboral en México  Debate
+- [Leer original](https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYlRzaXJ0ZVhNSjE2ajl5NHVYbUV5Q2Zuc0RKWm5kSEYtellGdG90MzhlRnZaU1ZrdnNrMkFqZS02Nlp4YThFWkRfSzBYamhRNlpFOU9xNUJjTGJxWExHRkpCX1pWR2hkVzFVbk5KWGgzSGVUQ0dUTEtFUThOa0Vib2JEc2FqbUQ1azZUZTdRbjZJTVprSkk1NjdyaXk5aDU3aEIxS3VXcE9qTXREZVZCb1R4U0xtMEM1enNqTWY3VWpxVGdaYThObg?oc=5)
 
-### Declaran inconstitucional la reforma que expulsa del fuero laboral los juicios contra el Estado - Litigio Periodismo Judicial
-- **Fecha**: 2026-09-25
-- **Resumen**: Declaran inconstitucional la reforma que expulsa del fuero laboral los juicios contra el Estado  Litigio Periodismo Judicial
-- [Leer original](https://news.google.com/rss/articles/CBMiygFBVV95cUxPbmMzT2tuX28wN2t2SlVEWUs2bjlMSDZfTngtbWp0d00zbWVMMkVsVUYzcEpVVGt3M3JoRDl2cHRwdWdJNnRqMi1WYzJFZ2k4SEY2LUR1TEhjRFJzVXNaakZjOUtwRkdjeTNfQm0tc1RtNHRNVmNfT1cxRTVvOWxCMkJIMGNvWGRVeTRzX0ROME9WWmRfSjFFWnVDVlFfSVpqRG05RXlpck9lZnF1c0JWY3p0WVBRa3hpd3Zoak5PdkZzYmlLSS10dzVn?oc=5)
+### Vacaciones dignas en México: cuántos días te corresponden desde tu primer año, según LFT - Mi bolsillo
+- **Fecha**: 2026-10-08
+- **Resumen**: Vacaciones dignas en México: cuántos días te corresponden desde tu primer año, según LFT  Mi bolsillo
+- [Leer original](https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdWVHazVMeVhHT3dfcExZUlBULXZfN00tNmdMR19YNzlLYmYzX0VXajNRd1g3ZTdEZk9MaWcyYnJKM3hrRmxJbnNERml3ZkxZc1lOa2wwQjVHcmR6N1ZzbFZqMW5tYlQtaVZhd2VLdjZjb2NNdVdUOUkyM3BBWm82QkxQNUhEOUFSZ3gxeXJVWjc1TVcwM1d5UnBrZWtaN0Roal9KME45a19fWmRkZ3lCMlN5dGJRaVI1SzdBbVlUZVg5ZUVwM3pFTzBjRTNSMXoycEFhQ2x3?oc=5)
 
-### Revés para la reforma laboral: declararon inconstitucional excluir del fuero del Trabajo los juicios contra el Estado - Mundo Gremial
-- **Fecha**: 2026-09-26
-- **Resumen**: Revés para la reforma laboral: declararon inconstitucional excluir del fuero del Trabajo los juicios contra el Estado  Mundo Gremial
-- [Leer original](https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZVktNjNtbDI5ZF9qUGJOUmJHcW5nMTlUVVFCSGNhYjlxYVJiS2t0Zl9nQ3loRUVhM3ExZjAtbmdnYjF1VGdsTjc1bFNHaDJHYi1LQzQwT05DNngwVlhpREpwVk5VZFNxTk9XZEFHOTlwcjZwR01UVDZ6OUxzTm1lQXo1VjZjR1V3dU9OVHNHaVVPdnJVR0oyWjhBUUxfS2dMQjlTNjVCbWxwNlU2Vl9SellMR0stUUNkUTdwMjBISjlYdTRXNkxhTmNRMjhFTXU1ZFh6emtZR28tUQ?oc=5)
+### Reducción de la jornada laboral en México: Sectores y empresas más afectados rumbo a 2027 - Mi bolsillo
+- **Fecha**: 2026-10-07
+- **Resumen**: Reducción de la jornada laboral en México: Sectores y empresas más afectados rumbo a 2027  Mi bolsillo
+- [Leer original](https://news.google.com/rss/articles/CBMi2AFBVV95cUxPTHEtbGlELVpESVZFZVhnMThRdUdGMWN4cUUwX2ZFNE13aXV3Z0pqUE1vcXRzTThLRFlBRnEwWERWZmliVDlMc3JVNHBOSDBhYnhEOXNiemNrdjZXT19GTjRKY29nMXdJYk1LZGJzN2lHeXhkem05Q0wxYTZDYng3YjFNRlMtQVktN3NFVlhnbUlJRzVGczNSbnZsYWtGRzFfWGU5VHpTZ0poVmgzWXlrb2cyb0xIdjIwOHVtY1poeG5qVnVFTzh0U0tGam04bHNZSVVublNOR2k?oc=5)
 
-### Cuatro reglas de la Ley Federal del Trabajo que no favorecen a los trabajadores en México - Mi bolsillo
-- **Fecha**: 2026-09-23
-- **Resumen**: Cuatro reglas de la Ley Federal del Trabajo que no favorecen a los trabajadores en México  Mi bolsillo
-- [Leer original](https://news.google.com/rss/articles/CBMi2gFBVV95cUxOTG9zWjJ4UGhoVElScGpQSW8tZGU2a2paNlNXQXVTU1hLVGFzYVhMdWJPWkpuSEdRYjhrQmNFNWxnc1BFOU5Uc2FySWx2b0RuUW9hVndhMnFtbVZpbU5JZTM1aWs3X014YU9pWVhpc21TYURkN2djYi1JSEV4dFh4SW1YZlc4Ni1nX1IyS2hMNWtwWVFtU2cxRXcxWXE2bUZIODRhemtMeWM2VDJZc2xoU3pSclpIcU9yV25CbldMU0pxSmZJc2JoMmRtN2o3YXZjRkY1UzB2a1o4Zw?oc=5)
+### Renuncia o despido antes de diciembre: la parte de aguinaldo que debe incluir tu finiquito - Mi bolsillo
+- **Fecha**: 2026-10-10
+- **Resumen**: Renuncia o despido antes de diciembre: la parte de aguinaldo que debe incluir tu finiquito  Mi bolsillo
+- [Leer original](https://news.google.com/rss/articles/CBMi2gFBVV95cUxPbWplSU1NQXpnVHlnanMtM3VxaWRZejliOGlSMEpVdzVGMk02dFpDQWhjVUlmSEMyblZBTWtjS1ZndGNsS3hDYWVMUDVyVlQ5ZXBqUFUteE1aRkxjb3hwdjRTTUUxb0w5UnpRcEF4eWNkXzRsc0pBSmd4R0FuQ0xqYXZ6SnlqcEYxVnZNdlpFMmhIeWk2SWZEeHItTWcwQlZjd3V3cEZZRldLMzNPY01MSktZVGE3aWo3SkV6RTBvcVo4MjUwWlhvUEhmUlNHaW9EQ25SSlplbnJ1QQ?oc=5)
 
-### Es tu derecho: ¿Cómo queda la hora de comida con la reducción de la jornada laboral en México? - Mi bolsillo
-- **Fecha**: 2026-09-25
-- **Resumen**: Es tu derecho: ¿Cómo queda la hora de comida con la reducción de la jornada laboral en México?  Mi bolsillo
-- [Leer original](https://news.google.com/rss/articles/CBMi3AFBVV95cUxOM1RLS1dxYmxsWmV6Vm9NSVAyUkF6MjRsRHJrYndnZWhLX2VzN1o1ZllObDdxTEU2dndqODVEYVEwbXVzelZmTENlam9xblJDOWoyM3B6MkRlOVh4dm4yU2t6TUN0Tmc5SjhDb01hdnFmRVdnUzZNUWNZZnlDU3JoRzRTbGdQMHQ0TnFmbUcycmZyOEtESDh5aExYTE4wbnZRQ25NRTlCWkx2SXMwbFVEVF8zY1pfb2N0SjdBUUc0cWNXckVZMU93dGtSbjNiLUp6Z2FpX0VKa0hWYlNf?oc=5)
+### Informalidad en el trabajo del hogar representaría una fuga de 56 mil mdp al año - Reporte Indigo
+- **Fecha**: 2026-10-07
+- **Resumen**: Informalidad en el trabajo del hogar representaría una fuga de 56 mil mdp al año  Reporte Indigo
+- [Leer original](https://news.google.com/rss/articles/CBMi0AFBVV95cUxORmZBQl9Lc281dU1sYXFBLWVQdS1ydDJITV9GcEc4TUoyejIzVERRamhqSk42X1gxcEgtb1lhb3ctNjNoem00bWk2dE9zSGwyWmYyUWtpM09OdUJFSzIwODZLN0F3OW1QLUptdzVYeWVDdm9TMkVvOVhMa1E2bk94QU9ER3NmZnBCcGkwZUxkTEtHeVRGcEtQUVRud2tkWjBSSldUbXQxWFhFWmNyNkF4WnVHM0hqcG5kZnlOTFNxaGVoeTFwbllUM1RHWlVrZnlQ?oc=5)
 
-### Jornada de 40 horas obligará a dar dos días de descanso, pero ¿Bajará el salario? STPS lo aclara - debate.com.mx
-- **Fecha**: 2026-09-28
-- **Resumen**: Jornada de 40 horas obligará a dar dos días de descanso, pero ¿Bajará el salario? STPS lo aclara  debate.com.mx
-- [Leer original](https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWWRxeDNLRUE0MDJCTzFLUHk5ZDhtZGV0OHVNZkFiaGRTMm54d1NGY1BwLWxkVVNiSjV3NW1JeUstVm9VTS1nNDlCN01NOGwyaFhkdzd2Z3J4T3BxbGg3VTAxd3B5OFVXOXVaQk1LQWc5S0tlY3hRS0pXcV9nc0RvQU1Ob29nQjkzQXBHTmhONHdJZGFZT1c1bC1OZzhGUkw1ZHFXSklGS0Z5SkhBYnc4ZmJmZFBJSnpvdko5SzJ1aHNlcERscXBEcW1JSl8zV1BfUFRyampQeDduNWJrRk1aTQ?oc=5)
-
-### Jornada laboral en México: Tipos, horarios y pago de horas extra según la LFT - Mi bolsillo
-- **Fecha**: 2026-09-26
-- **Resumen**: Jornada laboral en México: Tipos, horarios y pago de horas extra según la LFT  Mi bolsillo
-- [Leer original](https://news.google.com/rss/articles/CBMixwFBVV95cUxNVEVTa25MWkZvQTM0VHBEYTR6a2ZyaXdaeTRWSWM0MkFJNk02MnZWUWhmeG14YmdfaUJkUkRXdjNWcjM2UFZxTWtUZUI4SC1zdWltMjl0MlNndXk5amxGV3B4cVBqU0U5N0R1d2hkNktEbUZCX0ZZQ1dMU1FtcFJZYkpMZnVjSV82c1JmbzBuR3ZHMzRydGdnOHZNYWVxMjc0SFQ0bzZ3QU0yVldDTmhWZHFXbjBzVkkxaTRyaFNRdE8tam9aOFJR?oc=5)
-
-### ¿Aumentará el aguinaldo en 2026? Esto establece la Ley Federal del Trabajo - Por Esto!
-- **Fecha**: 2026-09-26
-- **Resumen**: ¿Aumentará el aguinaldo en 2026? Esto establece la Ley Federal del Trabajo  Por Esto!
-- [Leer original](https://news.google.com/rss/articles/CBMixAFBVV95cUxQb01Xam8tVlNRbnVHMWZLSHlnMTJ6Tjh1TDdZX2hBN3lIOExCSEhCaWxCX1RSbXhyVnI5d2J5cUtscXYyaWJheGZUc0tMajZ4X3RoWDBOdTZ0d18zd1M5amk4Zjh6bGdnOVFrWU51czFwS29DLU1PY3lrd2dZOXhzY1JaN1V3ZUU4VG81cF84SWMtcTQ1aG1yRnQ5UXdOdFZlZjhWbndrTUowNXZfVGJLMkpjU3VvQ2pjQTRCNmRXRE1kbkQw0gHKAUFVX3lxTFBrOFhHUXlzcWdyYXZuVGpCSkdEREttTjU1YUpyUUhDQ3pYTXo4T1JqZ2VIZzYxb1dzTFpkNGw1N2ZZSVVBQ1VNMmRZZjdPNWNKT3VsQzBHMjJLWmNvOTNPTlZjR0FLV2g5bkYxMkFfRE1ra1VaZnQzN3c2ajlEbUZMaFo3YURmekY3OS04TGlySWU3TEFLeS1IX1JrM1lfUUthaU1ndUtnT002aDN0OV9HTm1qYUJobmlIdTlRemZPLU01VURBWnNBUFE?oc=5)
-
-### Proponen reforma a la Ley Federal del Trabajo para otorgar días de incapacidad por fallecimiento de mascotas - Mi bolsillo
-- **Fecha**: 2026-09-22
-- **Resumen**: Proponen reforma a la Ley Federal del Trabajo para otorgar días de incapacidad por fallecimiento de mascotas  Mi bolsillo
-- [Leer original](https://news.google.com/rss/articles/CBMi9gFBVV95cUxQbFExbGJueDd0dEhXbGR5Y3U2dkwySk9XUWFVYTZRQWNMSjRtQjVjZHR5Si1QaWhfRDE0a3hfNFU4S01VM2EyeG9TYW5rTC0yMHdGWHFPcUVPQ1JHSmF0S3pZbDd4ZzlvejNoOHBOQ1JEVUhVaGJlTEZOWEJ5YlRTb201R0otMUc3WjVuUUFlaEMxUDlfTHMxekstOTJ5dGlmTHFoVVp0MkxnMXR5MmZfd3lBVUJ4dFlzcFZULTQzVHhUR29hLXJHZWJDSWYwYmJjZHhBaEp2eThHVHZDYm02ak0tRDQzcm9Mc293aUxEbkNOMkdvOEE?oc=5)
-
-### Horas extra al doble y al triple: así calcularás tu sueldo con la nueva jornada laboral en México - debate.com.mx
-- **Fecha**: 2026-09-24
-- **Resumen**: Horas extra al doble y al triple: así calcularás tu sueldo con la nueva jornada laboral en México  debate.com.mx
-- [Leer original](https://news.google.com/rss/articles/CBMi5AFBVV95cUxQNkwzdThWZzF3djFqRzNzc2czRXY0SHFQTUNWUVpZYTFqZnlGeGNYR2IzY01DWkYyUzVPUXFEVUVJZnJYVjQ2TFZwclVMOEt4a3h1Q3RCM3hJX3VqSlRKNmY2ekN3eUluY3I3SjRrRDQ4NkhfWkpLaFJTY2FQSm5EejlVb0dlS3Z0M2Z6SkYwU2QwYndaSXZUTG53UVpfY1ZERFhzalA3aU1xSmxVNEN5aWlLZ0tQMlhnN3JhbkYxOFAyVUFrRWtaN3oxeVFNT0g2S01ydjdwVWFwS2lEQndJeTlhZkY?oc=5)
-
-### ¿Habrá pago de 30 días de aguinaldo este año?, esto es lo que se sabe de la reforma en el Congreso - Mi bolsillo
-- **Fecha**: 2026-09-26
-- **Resumen**: ¿Habrá pago de 30 días de aguinaldo este año?, esto es lo que se sabe de la reforma en el Congreso  Mi bolsillo
-- [Leer original](https://news.google.com/rss/articles/CBMi4gFBVV95cUxOMElDUTc4MU1NOGtWdDVxLUUtMndFY0pLVVdsMWVwV01ybGpaZi1wZm5JdEN0WEtkV0VXWkF2Y28xaElQMFdYYmNUYS15Q3ZIRDdtVXEzXzFkYi01X2I3MGxrdm9leVBaYnhoM0hWcjhFYkVuT0Q5aFJSdVBKdDRMRDdUWVVyODZhMDNrYTFBeUxqMjhremdiNjR4ZEV2X3U0eFFqMVVSRlJzaF9ZcDhvaEZBd2RjS01CRXVyOVVXNGl4QkhWeWQ0c0Y1QTlsN2V2SlNsU0dZTVRJaktWMGtIdUd3?oc=5)
-
-### Rotación laboral: qué se sabe de los turnos nocturnos y mixtos en 2027 con la reducción de jornada laboral - Mi bolsillo
-- **Fecha**: 2026-09-25
-- **Resumen**: Rotación laboral: qué se sabe de los turnos nocturnos y mixtos en 2027 con la reducción de jornada laboral  Mi bolsillo
-- [Leer original](https://news.google.com/rss/articles/CBMi7wFBVV95cUxPcGlIYXhMSl9WTHVvWGpxYUhpUlBQVU1OSEtxOG1CZGk2QWEyWUFLdDRvazhkWVE1T0xNbm9RTjEwVE9UNUNEOFBKTWcyNDJjcTQ0RFYyaHUtQ01XUlNmWkI2TWdwUFBTNzlZMVFPQmRVYWdBWmlzbnNqd3RYTzdTVHRCbFBwSnZSbEg2dXFrbkppR1N0WnVxUWpKOGg5OWgtNnRJMHhXWmQ3eV9ycjUyZUhtMjJZYVFIenAza0kxTzItc1J2bEJGVXp4dFFzczl6cy1qSjdQN2VBX3lzRGJMNTE5ajZCQWhYOWVHU3BOdw?oc=5)
-
-### Secretaría de Trabajo de Sinaloa inspecciona 12 negocios por incumplir la Ley Silla - sinaloahoy.com.mx
-- **Fecha**: 2026-09-24
-- **Resumen**: Secretaría de Trabajo de Sinaloa inspecciona 12 negocios por incumplir la Ley Silla  sinaloahoy.com.mx
-- [Leer original](https://news.google.com/rss/articles/CBMivgFBVV95cUxNMXgyYUdGeV9rSF9ZZHJQVlhTMHZzM3hMdFo4dWVSMDM0eW55OWhPMEVNX3EtQU5uMlpaZ0JoUWM4R0ZBNzllS3oxS0tCMnRjcUwxUUd2algtdVdNUFNiOHh5UXFhcUNCYnJaSU5FV2JXZW05X1hYTlBXU0VsRmNvUjRfWU90WjVyMWhNQVFhaktSWlprWnhUVUpkMnRoVDVtT0VIYm5CZnFFUDA4b2hiR3YxcEoyZWE1NjlYMmNR?oc=5)
-
-### De 48 a 40 horas sin bajar tu sueldo: así se aplicará la reducción laboral según la STPS - Mi bolsillo
-- **Fecha**: 2026-09-27
-- **Resumen**: De 48 a 40 horas sin bajar tu sueldo: así se aplicará la reducción laboral según la STPS  Mi bolsillo
-- [Leer original](https://news.google.com/rss/articles/CBMi1wFBVV95cUxPRnFhM0QzaktiNlZtcWJPbDVLQzl4WHVwODVBRG5Id2tYaG9MSzQ3RWlsQUFKT3JhejB3NUpDMXlsSjdHdHZ5R0JfaUQxZnR6VEd2bEh2b1F0VS00bC1XbU9TZUZFRE44QXpNc2lXa2NsQkdpNG9YaUVyZ1pDcHdfYy1WZW5kd2NoanR2VmR0V09vQW9JOXVTZUdyQ0VnX09zRkNCemFmT29SRkJSNFF3NlZXcnBidWx0all6N1JKd0h2bG5tamsyMVlwMVhIUzFsNk50d0J3TQ?oc=5)
-
-### Aguinaldo 2026: ¿Cuánto te toca si no cumpliste el año completo de trabajo? - Mi bolsillo
-- **Fecha**: 2026-09-24
-- **Resumen**: Aguinaldo 2026: ¿Cuánto te toca si no cumpliste el año completo de trabajo?  Mi bolsillo
-- [Leer original](https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMGxNTTZJZlZ0bV84cnZ3UEFwbWlLaGFjYUtBQXdOc040ZEJ1czlKMWVieFc1YVZkOFFJUWl2QVhwdl81Q25wc1NWTUw3Nkt4RzVwRGdIYmJJdWVCdzVfR1A0WDBVdmVBSVFDaFZodlR1aVA3VkVsUDhWUkxmZGVSU2lIV3cyc3NjVWlBZTRLQXFiN3lhbVgxa245ZHo5dzdDdGMxUTJEVktrbkdNeExMeV8zUXNQS3c4QTJjMk1za1NDODQ?oc=5)
-
-### Informa CTM sobre la reducción de jornadas - monclova.com
-- **Fecha**: 2026-09-24
-- **Resumen**: Informa CTM sobre la reducción de jornadas  monclova.com
-- [Leer original](https://news.google.com/rss/articles/CBMifEFVX3lxTFB4XzdSUnFUTC1hNWFPT1lWeHBCMzJ4ZUlkU3RBYzZ0Z3QwRXpSTVEyLXdobG9yNWZjUkpFTU5HeTd0WDg4T2t5VUpMam9MUHhvWnBxeW5reTRPcGc0cC1wUVJ4RTZxaGFjQWZ0ODNDcURCU0FwYkZGaWRWNS0?oc=5)
-
-### Prepara sindicato embotellador a agremiados ante reducción de jornada laboral a 40 horas - monclova.com
-- **Fecha**: 2026-09-23
-- **Resumen**: Prepara sindicato embotellador a agremiados ante reducción de jornada laboral a 40 horas  monclova.com
-- [Leer original](https://news.google.com/rss/articles/CBMiugFBVV95cUxOQng2Skg0WVBwdnZ4OUk5ajN0TGJmc0FJWWFQa1p0S1ZqQ0pQZHVEY3Rnb01QZE9RSWo4VXZJYmVtcEVTSFVkdDZiR0xBYTU0elowREpFaTRWNExOeUV1aEs3cHlEbF9xaEZkR1JXQnlMZURaX0pRWUtnTWZvLVNQcm9fSFBzUzhrQlhGLTZvRXppaWxDNExJb2VEUnhTR0hfYU9tSjN6eE9rOFJ3aUQzTWhpS2F2Qk5qY1E?oc=5)
+### Otro fracaso del presidemente Milei: la reforma laboral destruyó empleos registrados y disparó la informalidad - Agencia NOVA
+- **Fecha**: 2026-10-12
+- **Resumen**: Otro fracaso del presidemente Milei: la reforma laboral destruyó empleos registrados y disparó la informalidad  Agencia NOVA
+- [Leer original](https://news.google.com/rss/articles/CBMifkFVX3lxTE4zMklLN3VLQ3FFSzg1SmJtQkZCRXVncVFGaU8xaUlfalpyTjVFZ21SX2FBaGdYR2ZCVkFQM21DS0hkMFNGMDNQbk1PZ094di12c1BmNlNsMDdUMy00SDA5a000U1JvUnBVaENpZ3hSS0pLN1NNNGg4bzlIbllCdw?oc=5)
 
