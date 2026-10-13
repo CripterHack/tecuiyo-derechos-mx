@@ -8,6 +8,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Navigation } from "@/components/Navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { findArticleByReference, OFFICIAL_LFT_URL } from "@/data/articleDetails";
 
 const Biblioteca = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -154,7 +155,7 @@ const Biblioteca = () => {
       descripcion: "Texto oficial publicado por la Cámara de Diputados; consulta allí las reformas y la versión disponible",
       tipo: "Ley",
       fecha: "Fuente oficial",
-      enlace: "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf"
+      enlace: OFFICIAL_LFT_URL
     },
     {
       titulo: "Constitución Política - Artículo 123",
@@ -298,50 +299,69 @@ const Biblioteca = () => {
                     </h2>
                     
                     <div className="grid gap-6">
-                      {categoria.articulos.map((articulo, index) => (
-                        <Card key={index} className="legal-card">
-                          <CardHeader>
-                            <div className="flex items-start justify-between">
-                              <div className="flex-1">
-                                <div className="flex items-center gap-2 mb-2">
-                                  <Badge className="lft-badge">{articulo.numero}</Badge>
-                                  <Badge variant="outline" className="text-xs">LFT</Badge>
+                      {categoria.articulos.map((articulo, index) => {
+                        const articleDetail = findArticleByReference(articulo.numero);
+                        return (
+                          <Card key={index} className="legal-card">
+                            <CardHeader>
+                              <div className="flex items-start justify-between">
+                                <div className="flex-1">
+                                  <div className="flex items-center gap-2 mb-2">
+                                    <Badge className="lft-badge">{articulo.numero}</Badge>
+                                    <Badge variant="outline" className="text-xs">LFT</Badge>
+                                  </div>
+                                  <CardTitle className="text-lg">{articulo.titulo}</CardTitle>
                                 </div>
-                                <CardTitle className="text-lg">{articulo.titulo}</CardTitle>
                               </div>
-                            </div>
-                          </CardHeader>
-                          
-                          <CardContent>
-                            <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
-                              {articulo.contenido}
-                            </p>
-                            
-                            <div className="flex flex-wrap gap-1 mb-4">
-                              {articulo.temas.map(tema => (
-                                <Badge key={tema} variant="outline" className="text-xs">
-                                  {tema}
-                                </Badge>
-                              ))}
-                            </div>
-                            
-                            <div className="flex gap-2">
-                              <Link to={`/biblioteca/art${articulo.numero.replace(/[^0-9]/g, '')}`}>
-                                <Button variant="outline" size="sm">
-                                  <BookOpen className="mr-2 h-3 w-3" />
-                                  Leer resumen
-                                </Button>
-                              </Link>
-                              <Button variant="ghost" size="sm" asChild>
-                                <a href="https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf" target="_blank" rel="noopener noreferrer">
-                                  <ExternalLink className="mr-2 h-3 w-3" />
-                                  Consultar LFT oficial
-                                </a>
-                              </Button>
-                            </div>
-                          </CardContent>
-                        </Card>
-                      ))}
+                            </CardHeader>
+
+                            <CardContent>
+                              <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
+                                {articulo.contenido}
+                              </p>
+
+                              <div className="flex flex-wrap gap-1 mb-4">
+                                {articulo.temas.map(tema => (
+                                  <Badge key={tema} variant="outline" className="text-xs">
+                                    {tema}
+                                  </Badge>
+                                ))}
+                              </div>
+
+                              <div className="flex gap-2">
+                                {articleDetail ? (
+                                  <Button variant="outline" size="sm" asChild>
+                                    <Link to={`/biblioteca/${articleDetail.id}`}>
+                                      <BookOpen className="mr-2 h-3 w-3" />
+                                      Leer resumen
+                                    </Link>
+                                  </Button>
+                                ) : (
+                                  <Button variant="outline" size="sm" asChild>
+                                    <a href={OFFICIAL_LFT_URL} target="_blank" rel="noopener noreferrer">
+                                      <ExternalLink className="mr-2 h-3 w-3" />
+                                      Consultar {articulo.numero.replace("Art.", "art.")} en LFT oficial
+                                    </a>
+                                  </Button>
+                                )}
+                                {articleDetail && (
+                                  <Button variant="ghost" size="sm" asChild>
+                                    <a href={OFFICIAL_LFT_URL} target="_blank" rel="noopener noreferrer">
+                                      <ExternalLink className="mr-2 h-3 w-3" />
+                                      Consultar LFT oficial
+                                    </a>
+                                  </Button>
+                                )}
+                              </div>
+                              {!articleDetail && (
+                                <p className="text-xs text-muted-foreground mt-3">
+                                  Sin resumen local. El enlace abre el PDF completo de la LFT para que busques el artículo indicado.
+                                </p>
+                              )}
+                            </CardContent>
+                          </Card>
+                        );
+                      })}
                     </div>
                   </div>
                 ))}
@@ -413,7 +433,7 @@ const Biblioteca = () => {
             Antes de tomar decisiones sobre tu caso, consulta el texto oficial y busca orientación especializada.
           </p>
           <Button variant="outline" asChild>
-            <a href="https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf" target="_blank" rel="noopener noreferrer">
+            <a href={OFFICIAL_LFT_URL} target="_blank" rel="noopener noreferrer">
               <ExternalLink className="mr-2 h-4 w-4" />
               Consultar LFT oficial
             </a>

@@ -5,20 +5,22 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.4+-blue.svg)
 
-**Tecuiyo** es una plataforma digital de código abierto que democratiza el acceso a la información sobre derechos laborales en México. Nuestro objetivo es empoderar a trabajadores, empleadores y profesionales del derecho con herramientas precisas y actualizadas basadas en la Ley Federal del Trabajo (LFT).
+**Tecuiyo** es una plataforma educativa de código abierto sobre derechos laborales en México. Ofrece recursos gratuitos para consultar, comparar con fuentes oficiales y preparar una consulta. El contenido sigue en revisión editorial; las herramientas no sustituyen asesoría jurídica personalizada.
 
 ## 🌟 Características Principales
 
-- **📚 Biblioteca Jurídica Completa**: Acceso a artículos completos de la LFT con explicaciones claras
+- **📚 Biblioteca educativa**: Selección de artículos, resúmenes en revisión y acceso al texto oficial de la LFT
 - **🔍 Buscador Inteligente**: Encuentra respuestas a situaciones laborales específicas
-- **🧮 Calculadora Legal**: Herramientas de cálculo para finiquitos, vacaciones, aguinaldos y más
-- **📑 Formularios Automatizados**: Genera documentos legales de forma rápida y precisa
+- **🧮 Estimación parcial**: Aguinaldo, vacaciones proporcionales del ciclo en curso y prima vacacional, con datos y supuestos visibles; no determina un finiquito completo
+- **📑 Documentos educativos**: Dos solicitudes reales en texto para constancia de trabajo y desglose de finiquito; seis recursos en preparación
 - **📖 Guías Prácticas**: Tutoriales paso a paso para procesos laborales comunes
-- **🎯 Casos de Estudio**: Ejemplos reales y análisis de situaciones laborales
-- **📞 Directorio Especializado**: Contactos de profesionales en derecho laboral
+- **🎯 Casos de estudio**: Escenarios educativos con montos y resultados ilustrativos
+- **📞 Directorio**: Recursos de autoridades para buscar orientación laboral; confirmar competencia y datos en sus fuentes oficiales
 - **🌙 Modo Oscuro**: Interfaz adaptable para mejor experiencia de usuario
-- **📱 Diseño Responsivo**: Funciona perfectamente en desktop, tablet y móvil
-- **♿ Accesible**: Cumple con estándares de accesibilidad web
+- **📱 Diseño adaptable**: Interfaz para distintas pantallas, abierta a mejoras de usabilidad
+- **♿ Accesibilidad**: Controles y etiquetas para teclado y tecnologías de asistencia; revisión integral pendiente
+- **❤️ Apoyo voluntario**: Página `/apoyar` con PayPal y GitHub Sponsors externos, manteniendo acceso gratuito
+- **✉️ Contacto estático**: Correo visible, enlace `mailto:` y copia de dirección; no simula envío desde el sitio
 
 ## 🚀 Demo en Vivo
 
@@ -107,20 +109,20 @@ Para más detalles sobre la arquitectura, consulta [ARCHITECTURE.md](./docs/ARCH
 
 ### Para Trabajadores
 - Consultar derechos laborales específicos
-- Calcular prestaciones y finiquitos
-- Generar cartas de renuncia y otros documentos
+- Estimar tres prestaciones proporcionales y revisar conceptos excluidos con una persona asesora
+- Preparar solicitudes educativas de información, sin formatos de renuncia o demanda listos para firmar
 - Entender procesos legales laborales
 
 ### Para Empleadores
 - Verificar obligaciones legales
-- Calcular nóminas y prestaciones
+- Revisar estimaciones parciales de prestaciones
 - Consultar procedimientos de contratación y despido
-- Acceder a formularios oficiales
+- Consultar ejemplos educativos y acudir a la autoridad para formatos oficiales
 
 ### Para Abogados Laboralistas
 - Referencia rápida de artículos de la LFT
 - Herramientas de cálculo para casos
-- Plantillas de documentos legales
+- Ejemplos de solicitudes educativas
 - Casos de estudio para análisis
 
 ## 🤝 Contribuir
@@ -178,12 +180,13 @@ Tecuiyo ha sido posible gracias a:
 
 ## 🛣️ Roadmap
 
-- [ ] API REST para integraciones
-- [ ] Aplicación móvil nativa
-- [ ] Sistema de notificaciones legales
-- [ ] Integración con sistemas de nómina
-- [ ] Versiones en otros idiomas
-- [ ] Módulo de capacitación interactiva
+- [ ] Unificar artículos y revisar fuentes, atribuciones y directorio ([#64](https://github.com/CripterHack/tecuiyo-derechos-mx/issues/64))
+- [ ] Validar aportaciones reales y una propuesta sostenible de mantenimiento ([#65](https://github.com/CripterHack/tecuiyo-derechos-mx/issues/65))
+- [ ] Resolver alertas restantes de dependencias ([#62](https://github.com/CripterHack/tecuiyo-derechos-mx/issues/62))
+- [ ] Revisar accesibilidad, rendimiento y metadatos por ruta
+- [ ] Validar jurídicamente los avisos de privacidad y términos con el responsable
+
+El proyecto mantiene GitHub Pages como hosting estático. Un formulario alojado, pagos o suscripciones deben usar proveedores externos realmente configurados; una API propia, cuentas o almacenamiento de casos requerirían otra arquitectura. Consulta el [informe red team y el plan de sostenibilidad](./docs/RED_TEAM_2026-10.md) para el alcance, la evidencia y las limitaciones actuales.
 
 ---
 

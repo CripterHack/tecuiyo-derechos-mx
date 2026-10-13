@@ -1,9 +1,11 @@
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { createRequire } from "node:module";
+import { fileURLToPath } from "node:url";
 import test from "node:test";
 import postcss from "postcss";
 import tailwindcss from "tailwindcss";
+import loadConfig from "tailwindcss/loadConfig.js";
 import typography from "@tailwindcss/typography";
 
 const require = createRequire(import.meta.url);
@@ -38,6 +40,33 @@ test("Los tres consumidores CSS resuelven un parser corregido", () => {
     const consumerRequire = createRequire(entrypoint);
     const parserPackage = consumerRequire("postcss-selector-parser/package.json");
     assertPatchedVersion(parserPackage.version, consumer);
+  }
+});
+
+test("La configuración real aplica Typography al contenido legal y al modo oscuro", async () => {
+  const config = loadConfig(fileURLToPath(new URL("../tailwind.config.ts", import.meta.url)));
+  const result = await postcss([tailwindcss({
+    ...config,
+    content: [{
+      raw: '<article class="prose prose-sm max-w-none dark:prose-invert"><h3>Derechos laborales</h3><ul><li>Información orientativa</li></ul><blockquote>Consulta la fuente oficial.</blockquote></article>',
+      extension: "html",
+    }],
+  })]).process("@tailwind components; @tailwind utilities;", { from: undefined });
+  const rules = [];
+  result.root.walkRules(rule => rules.push(rule));
+  const proseScope = ':not(:where([class~="not-prose"],[class~="not-prose"] *))';
+  const expectations = [
+    [`.prose :where(h3)${proseScope}`, "font-weight", "600"],
+    [`.prose :where(ul)${proseScope}`, "list-style-type", "disc"],
+    [`.prose :where(blockquote)${proseScope}`, "font-style", "italic"],
+    [".dark\\:prose-invert:is(.dark *)", "--tw-prose-body", "var(--tw-prose-invert-body)"],
+  ];
+  for (const [selector, property, value] of expectations) {
+    const rule = rules.find(candidate => candidate.selector === selector);
+    assert.ok(rule, `La configuración de aplicación no genera ${selector}`);
+    const declaration = rule.nodes.find(node => node.type === "decl" && node.prop === property);
+    assert.ok(declaration, `Falta ${property} en ${selector}`);
+    assert.equal(declaration.value, value, `${selector}: ${property}`);
   }
 });
 

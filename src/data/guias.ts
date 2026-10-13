@@ -111,7 +111,7 @@ export const guiasPrincipales: Guia[] = [
         titulo: "Solicita asesoría y revisa los plazos",
         descripcion: "Identifica la autoridad competente y si corresponde solicitar conciliación prejudicial antes de demandar",
         tiempo: "1-2 horas",
-        documentos: ["Demanda laboral", "Documentos de soporte", "Identificación"],
+        documentos: ["Documentos que solicite la autoridad o asesoría", "Documentos de soporte", "Identificación"],
         // Arts. 518 y 521 LFT: plazo de separación y efecto de la solicitud de conciliación.
         tips: ["La acción por separación prescribe en 2 meses desde el día siguiente al despido", "La solicitud de conciliación suspende el plazo; su reanudación se rige por el artículo 521. Busca asesoría gratuita cuanto antes"]
       },
@@ -152,8 +152,8 @@ export const guiasPrincipales: Guia[] = [
       "Documenta tus horas de trabajo",
       "Calcula el pago correcto de horas extra",
       "Solicita el pago por escrito al patrón",
-      "Presenta queja ante la STPS",
-      "Demanda laboral si es necesario",
+      "Consulta la autoridad competente y la vía para reclamar pagos",
+      "Valora las vías de reclamación con asesoría",
       "Seguimiento del proceso"
     ],
     contenidoCompleto: `
@@ -196,20 +196,20 @@ export const guiasPrincipales: Guia[] = [
         descripcion: "Presenta solicitud formal a tu empleador",
         tiempo: "15 min",
         documentos: ["Carta solicitud", "Cálculo detallado", "Evidencias de horas extra"],
-        tips: ["Entrega con acuse de recibo", "Da 10 días para respuesta"]
+        tips: ["Conserva constancia de tu solicitud si puedes hacerlo", "Busca orientación sobre la vía, autoridad y plazos aplicables a tu caso"]
       },
       {
         numero: 4,
-        titulo: "Presenta queja ante STPS",
-        descripcion: "Si no hay respuesta, acude a la Secretaría del Trabajo",
+        titulo: "Consulta la autoridad competente y la vía para reclamar pagos",
+        descripcion: "Busca orientación sobre la vía y los plazos aplicables; consultar opciones de inspección laboral no sustituye la revisión de una reclamación de pagos",
         tiempo: "1 hora",
-        documentos: ["Queja por escrito", "Evidencias", "Identificación"],
-        tips: ["Es gratuito", "Puede resolver sin llegar a juicio"]
+        documentos: ["Documentos que solicite la autoridad o asesoría", "Evidencias", "Identificación"],
+        tips: ["Confirma qué autoridad puede atender tu solicitud", "La inspección y la reclamación de pagos pueden tener vías distintas; solicita orientación"]
       },
       {
         numero: 5,
-        titulo: "Considera demanda laboral",
-        descripcion: "Si STPS no resuelve, presenta demanda formal",
+        titulo: "Valora las vías de reclamación con asesoría",
+        descripcion: "Consulta las opciones aplicables para reclamar los pagos; no des por hecho que primero debe resolverse una queja de inspección",
         tiempo: "2-3 horas",
         tips: ["Busca asesoría legal", "Incluye todas las horas extra adeudadas"]
       },
@@ -329,10 +329,10 @@ export const guiasPrincipales: Guia[] = [
       "Identifica tipos de acoso laboral",
       "Documenta todos los incidentes",
       "Busca testigos y evidencias",
-      "Reporta internamente primero",
-      "Presenta queja ante STPS",
-      "Solicita medidas preventivas",
-      "Considera demanda laboral",
+      "Valora los canales de apoyo disponibles",
+      "Consulta orientación laboral",
+      "Consulta opciones de protección",
+      "Valora las vías de reclamación",
       "Busca apoyo psicológico",
       "Protege tu empleo",
       "Seguimiento del caso"
@@ -383,33 +383,33 @@ export const guiasPrincipales: Guia[] = [
       },
       {
         numero: 4,
-        titulo: "Reporta internamente primero",
-        descripcion: "Presenta queja formal ante recursos humanos o tu supervisor",
+        titulo: "Valora los canales de apoyo disponibles",
+        descripcion: "Un reporte interno puede ser una opción si es seguro para ti; no implica agotar ese canal antes de pedir ayuda externa",
         tiempo: "1 hora",
         documentos: ["Queja por escrito", "Evidencias recopiladas"],
-        tips: ["Entrega con acuse de recibo", "Solicita investigación formal"]
+        tips: ["Valora tu seguridad y documenta lo que puedas sin exponerte", "Busca orientación sobre la vía, autoridad y plazos aplicables a tu caso"]
       },
       {
         numero: 5,
-        titulo: "Presenta queja ante STPS",
-        descripcion: "Si no hay respuesta interna, acude a la autoridad laboral",
+        titulo: "Consulta orientación laboral",
+        descripcion: "Busca ayuda para identificar la autoridad y la vía aplicables sin asumir que debas esperar una respuesta interna",
         tiempo: "2-3 horas",
-        documentos: ["Queja formal", "Evidencias", "Identificación"],
-        tips: ["Es gratuito", "Pueden ordenar inspección"]
+        documentos: ["Documentos que solicite la autoridad o asesoría", "Evidencias", "Identificación"],
+        tips: ["Consulta los canales de orientación disponibles", "Confirma si una solicitud de inspección es adecuada para tu situación"]
       },
       {
         numero: 6,
-        titulo: "Solicita medidas preventivas",
-        descripcion: "Pide a la autoridad que ordene cesar el acoso inmediatamente",
+        titulo: "Consulta opciones de protección",
+        descripcion: "Solicita orientación sobre las opciones para proteger tu seguridad; su procedencia y alcance dependen de la situación",
         tiempo: "30 min",
-        tips: ["Solicita cambio de área", "Pide medidas de protección"]
+        tips: ["Valora tu seguridad antes de realizar una gestión", "Consulta las opciones de protección con una persona o institución de apoyo"]
       },
       {
         numero: 7,
-        titulo: "Considera demanda laboral",
-        descripcion: "Si el acoso continúa, presenta demanda por daño moral",
+        titulo: "Valora las vías de reclamación",
+        descripcion: "Busca orientación sobre las posibles vías de reclamación, sus requisitos y los plazos aplicables a tu caso",
         tiempo: "Variable",
-        tips: ["Busca asesoría legal especializada", "Incluye daño psicológico"]
+        tips: ["Busca asesoría legal especializada", "Conserva los documentos disponibles sin exponerte a nuevos riesgos"]
       },
       {
         numero: 8,

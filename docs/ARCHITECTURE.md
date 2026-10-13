@@ -66,10 +66,13 @@ La aplicación consume principalmente datos estáticos definidos en `src/data/`.
 El enrutamiento es declarativo en `App.tsx`.
 * Las rutas son planas para facilitar la lectura.
 * Se usa un layout implícito (Header + Content + Footer) en `App.tsx`.
+* Las páginas se cargan bajo demanda con `lazy` y `Suspense`. Un límite de errores por ruta ofrece recarga y enlaces oficiales si falla un módulo; el footer conserva la navegación.
+* La disponibilidad de resúmenes y sus enlaces relacionados se obtiene de `src/data/articleDetails.ts`. Una referencia sin resumen conduce a la LFT oficial sin generar contenido ficticio.
 
 ### Estilos y Tema
 * **Tailwind CSS** es la única fuente de verdad para estilos.
 * Evitamos archivos `.css` separados (excepto `index.css` para directivas globales).
+* Typography da formato a los bloques legales que ya usan `prose` y `dark:prose-invert`; las pruebas CSS compilan la configuración real.
 * **Modo Oscuro:** Soportado nativamente vía clases de Tailwind y `next-themes` (o gestión manual de clases).
 
 ---

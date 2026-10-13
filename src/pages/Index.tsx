@@ -7,7 +7,7 @@ import { NewsFeed } from "@/components/NewsFeed";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background" role="main" id="main-content">
+    <div className="min-h-screen bg-background" role="main">
       <Navigation />
       {/* Header Hero */}
       <header className="relative animated-gradient py-20 px-4 overflow-hidden" role="banner">

@@ -23,6 +23,10 @@ Esta es una revisión manual de código, contenido y flujos, con pruebas locales
 | P2 | Aviso enumera datos/newsletter/salvaguardas no demostrados; términos contradicen MIT | Operación y licencia ambiguas | Describir operación existente y distinguir servicios externos; validación jurídica pendiente |
 | P2 | Esquemas de noticias admiten protocolos no web, credenciales y fechas inválidas | Datos externos insuficientemente validados | Esquema compartido para navegador, investigación y validación de datos |
 | P2 | Permisos Pages/OIDC globales en CI; watchdog agrega cualquier cambio | Privilegios y alcance de escritura excesivos | Permisos por job, checkout sin credenciales persistidas y allowlist de noticias |
+| P2 | App importa todas las páginas desde el inicio | Descarga inicial de recursos que no se van a consultar | Carga por ruta con estado accesible y recuperación de módulos fallidos |
+| P2 | Bloques legales usan `prose` sin registrar Typography | Jerarquía, listas y citas sin el formato previsto | Activar el plugin ya instalado y probar la configuración real |
+
+La continuación también resuelve referencias internas de biblioteca y relacionados: la disponibilidad se deriva de los 20 resúmenes reales de `articleDetails.ts`, no de una lista duplicada de IDs. Las 16 referencias sin resumen abren el PDF oficial con una etiqueta que explica el alcance. La extracción conserva los textos existentes y no los certifica como revisados. Las guías muestran consejos, documentos sugeridos y tiempos orientativos; el acceso a los pasos es un enlace real y no guarda progreso. Se retiraron plazos sin fuente y órdenes procesales universales antes de hacer visibles esas notas.
 
 El esquema permisivo de noticias es una debilidad de validación, no prueba de un XSS explotable en producción. React, DOMPurify y la política de contenido reducen exposición; las noticias actuales revisadas usan HTTPS. No se encontró una credencial en el código inspeccionado. Estas observaciones no prueban ausencia de secretos o vulnerabilidades fuera del alcance revisado.
 
@@ -71,13 +75,14 @@ No se incorporó analítica nueva. Si se desea medir clics o visitas, elegir her
 
 Entorno local: Node 24.19.0, npm 11.9.0. La instalación limpia con `npm ci` completó sin cambiar el lockfile. Pasaron:
 
-- 106 pruebas Vitest en ocho archivos: 42 de cálculo, 24 de documentos, seis de contacto, cuatro existentes de noticias y 30 de rutas/esquema/RSS.
-- Cinco pruebas Node de dependencias y compatibilidad CSS.
+- 124 pruebas Vitest en once archivos: 42 de cálculo, 24 de documentos, seis de contacto, cuatro existentes de noticias, 30 de rutas/esquema/RSS, cinco de carga de páginas, tres de integridad de biblioteca y diez de lectura de guías.
+- Seis pruebas Node de dependencias y compatibilidad CSS, incluida la compilación con la configuración real de Typography.
 - ESLint, comprobación real de TypeScript y validación de las 50 noticias activas. Las 555 archivadas cumplen el mismo esquema.
-- Build de producción: JS 716.18 kB (gzip 206.80 kB). Continúa la advertencia de bundle mayor a 500 kB; no se ocultó.
+- Build final: bundle de entrada JS 335.37 kB (gzip 108.80 kB), frente a 716.18 kB (gzip 206.80 kB) de la primera revisión del PR. Las páginas y dependencias compartidas descargan sus chunks adicionales al usarse. Hay 19 chunks de página y ninguno supera 500 kB; desaparece la advertencia sin cambiar el límite.
+- CSS final 111.59 kB (gzip 16.93 kB). Activar Typography añade estilos a los bloques `prose` existentes: jerarquía, listas, citas y modo oscuro. Es un cambio visual previsto, distinto del override del parser del PR #61, que conservó el CSS anterior.
 - Revisión de espacios preservando finales de línea CRLF existentes. Los casos de calendario también se verificaron con zona `America/Mexico_City`.
 
-Las pruebas verifican generación de contenido y llamadas a descarga/portapapeles/impresión, no el guardado físico, recepción del correo o ejecución de un pago. No se enviaron correos ni se procesaron aportaciones. El PR no publica estos cambios en producción hasta fusionarse en `main` y completar Actions.
+Las pruebas verifican generación de contenido y llamadas a descarga/portapapeles/impresión, no el guardado físico, recepción del correo o ejecución de un pago. La recuperación de módulos se probó mediante un rechazo simulado; no recupera un archivo de entrada que nunca se descargó. No se comprobó la caché pública ni se hizo una revisión visual exhaustiva de Typography. No se enviaron correos ni se procesaron aportaciones. El PR no publica estos cambios en producción hasta fusionarse en `main` y completar Actions.
 
 ## Seguimiento
 
@@ -86,4 +91,4 @@ Las pruebas verifican generación de contenido y llamadas a descarga/portapapele
 - [#65: validar sostenibilidad y aportaciones reales](https://github.com/CripterHack/tecuiyo-derechos-mx/issues/65).
 - [#62: alertas restantes de dependencias](https://github.com/CripterHack/tecuiyo-derechos-mx/issues/62).
 
-Otros pendientes: rendimiento del bundle, accesibilidad de los flujos completos, metadatos por ruta/SEO y validación jurídica de privacidad/términos. No deben presentarse como resueltos por esta entrega.
+Otros pendientes: mediciones de rendimiento con navegadores reales, accesibilidad de los flujos completos, metadatos por ruta/SEO y validación jurídica de privacidad/términos. No deben presentarse como resueltos por esta entrega.
