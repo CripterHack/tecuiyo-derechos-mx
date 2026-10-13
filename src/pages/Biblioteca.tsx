@@ -39,7 +39,7 @@ const Biblioteca = () => {
         {
           numero: "Art. 25",
           titulo: "Contenido del contrato de trabajo",
-          contenido: "El escrito en que consten las condiciones de trabajo deberá contener los datos del trabajador y patrón, tipo de relación laboral, servicios a prestar, lugar de trabajo, duración de jornada, forma y monto del salario...",
+          contenido: "Condiciones escritas y beneficiarios.",
           temas: ["contrato", "contenido", "elementos", "datos personales"]
         }
       ]
@@ -55,9 +55,9 @@ const Biblioteca = () => {
         },
         {
           numero: "Art. 85",
-          titulo: "Salario igual por trabajo igual",
-          contenido: "A trabajo igual, desempeñado en puesto, jornada y condiciones de eficiencia también iguales, debe corresponder salario igual.",
-          temas: ["igualdad salarial", "no discriminación", "trabajo igual"]
+          titulo: "Salario remunerador y mínimo",
+          contenido: "Salario remunerador y nunca inferior al mínimo.",
+          temas: ["salario remunerador", "salario mínimo", "unidad de obra"]
         },
         {
           numero: "Art. 90",
@@ -79,13 +79,13 @@ const Biblioteca = () => {
         {
           numero: "Art. 61",
           titulo: "Tipos de jornada",
-          contenido: "La duración máxima de la jornada será: ocho horas la diurna, siete la nocturna y siete horas y media la mixta.",
+          contenido: "Duración y clasificación de jornadas.",
           temas: ["duración máxima", "jornada diurna", "jornada nocturna", "jornada mixta"]
         },
         {
           numero: "Art. 66",
           titulo: "Tiempo extraordinario",
-          contenido: "Podrá también prolongarse la jornada de trabajo por circunstancias extraordinarias, sin exceder nunca de tres horas diarias ni de tres veces en una semana.",
+          contenido: "Pago doble por circunstancias extraordinarias; consulta los límites y la transición anual de la reforma de 2026.",
           temas: ["horas extra", "tiempo extraordinario", "límites"]
         }
       ]

@@ -68,6 +68,7 @@ El enrutamiento es declarativo en `App.tsx`.
 * Se usa un layout implícito (Header + Content + Footer) en `App.tsx`.
 * Las páginas se cargan bajo demanda con `lazy` y `Suspense`. Un límite de errores por ruta ofrece recarga y enlaces oficiales si falla un módulo; el footer conserva la navegación.
 * La disponibilidad de resúmenes y sus enlaces relacionados se obtiene de `src/data/articleDetails.ts`. Una referencia sin resumen conduce a la LFT oficial sin generar contenido ficticio.
+* El build genera HTML con metadatos para las 60 rutas disponibles, un sitemap y un manifiesto compartido con `RouteMetadata`. El contenido completo se renderiza con React. Las rutas desconocidas usan `noindex`; consulta [STATIC_DISCOVERY_2026-10.md](STATIC_DISCOVERY_2026-10.md) para las comprobaciones y límites.
 
 ### Estilos y Tema
 * **Tailwind CSS** es la única fuente de verdad para estilos.

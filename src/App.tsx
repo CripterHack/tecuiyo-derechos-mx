@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Link, Routes, Route, useLocation } from "react-router-dom";
 import Footer from "@/components/Footer";
+import RouteMetadata from "@/components/RouteMetadata";
 
 const Index = lazy(() => import("@/pages/Index"));
 const Calculadora = lazy(() => import("@/pages/Calculadora"));
@@ -124,6 +125,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <RouteMetadata />
         <div className="min-h-screen flex flex-col">
           <div id="main-content" tabIndex={-1} className="flex-1">
             <PageRoutes />

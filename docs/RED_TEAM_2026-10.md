@@ -2,6 +2,8 @@
 
 Fecha: 13 de octubre de 2026. Base revisada: `main` en `4d89a095133fc641ed2637731bf62d0507581317`. Hosting: GitHub Pages, dominio `tecuiyo.izignamx.com`. La reparación de CI del PR #61 ya se fusionó y desplegó; esta revisión produce una propuesta nueva hacia `main`.
 
+Actualización de publicación: el PR #66 fue fusionado en `6fe21375c6d58fbff2f44732c6c1c60086fcc1a6` y Pages confirmó ese despliegue el 13-10-2026 a las 16:29:56 UTC, mediante la ejecución 38430849060. La verificación y el despliegue fueron exitosos. El relato de preparación posterior conserva la evidencia previa a ese merge; no significa que el PR siga abierto.
+
 ## Resultado
 
 Los mayores obstáculos encontrados son respuestas y acciones que aparentan estar completas sin serlo. Una invitación a aportar necesita utilidad comprobable, claridad sobre quién mantiene el proyecto y recursos que se puedan compartir. La ausencia histórica de aportaciones no permite atribuir una causa sin datos de tráfico, difusión y pagos.
@@ -82,7 +84,7 @@ Entorno local: Node 24.19.0, npm 11.9.0. La instalación limpia con `npm ci` com
 - CSS final 111.59 kB (gzip 16.93 kB). Activar Typography añade estilos a los bloques `prose` existentes: jerarquía, listas, citas y modo oscuro. Es un cambio visual previsto, distinto del override del parser del PR #61, que conservó el CSS anterior.
 - Revisión de espacios preservando finales de línea CRLF existentes. Los casos de calendario también se verificaron con zona `America/Mexico_City`.
 
-Las pruebas verifican generación de contenido y llamadas a descarga/portapapeles/impresión, no el guardado físico, recepción del correo o ejecución de un pago. La recuperación de módulos se probó mediante un rechazo simulado; no recupera un archivo de entrada que nunca se descargó. No se comprobó la caché pública ni se hizo una revisión visual exhaustiva de Typography. No se enviaron correos ni se procesaron aportaciones. El PR no publica estos cambios en producción hasta fusionarse en `main` y completar Actions.
+Las pruebas verifican generación de contenido y llamadas a descarga/portapapeles/impresión, no el guardado físico, recepción del correo o ejecución de un pago. La recuperación de módulos se probó mediante un rechazo simulado; no recupera un archivo de entrada que nunca se descargó. No se comprobó la caché pública ni se hizo una revisión visual exhaustiva de Typography. No se enviaron correos ni se procesaron aportaciones. El despliegue de este bloque ya fue confirmado según la actualización de publicación del encabezado.
 
 ## Seguimiento
 

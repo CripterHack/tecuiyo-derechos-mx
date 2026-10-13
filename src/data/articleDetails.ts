@@ -9,11 +9,14 @@ export interface ArticleDetail {
   vigencia: string;
   fechaReforma?: string;
   fechaRevision?: string;
+  sourceUrl?: string;
+  textKind?: "educational-summary";
 }
 
 export const OFFICIAL_LFT_URL = "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf";
+export const WORKING_HOURS_DECREE_URL = "https://dof.gob.mx/nota_detalle_popup.php?codigo=5786537";
 
-// Selección educativa existente; esta extracción no cambia su contenido editorial.
+// Sólo las entradas con fechaRevision han recibido la revisión editorial indicada.
 const ARTICLE_DETAILS: ArticleDetail[] = [
   // Relación de Trabajo
   {
@@ -80,26 +83,16 @@ const ARTICLE_DETAILS: ArticleDetail[] = [
     titulo: "Condiciones de trabajo por escrito",
     categoria: "Relaciones Individuales",
     contenido: `
-      <h3>Artículo 24</h3>
-      <p>Las condiciones de trabajo deben hacerse constar por escrito cuando no existan contratos colectivos aplicables. Se harán dos ejemplares, por lo menos, de los cuales quedará uno en poder de cada parte.</p>
+      <p>Resumen educativo: sin contrato colectivo aplicable, condiciones escritas en al menos dos ejemplares, uno por parte.</p>
     `,
     explicacion: `
-      <h3>Explicación práctica</h3>
-      <p>Establece la obligación de documentar por escrito las condiciones de trabajo cuando no hay contrato colectivo.</p>
-
-      <h3>Requisitos importantes</h3>
-      <ul>
-        <li><strong>Por duplicado:</strong> Una copia para cada parte</li>
-        <li><strong>Obligatorio:</strong> Es responsabilidad del patrón proporcionarlo</li>
-        <li><strong>Protección:</strong> Evita conflictos sobre las condiciones pactadas</li>
-      </ul>
-
-      <h3>¿Qué pasa si no hay contrato escrito?</h3>
-      <p>Según el artículo 26, se presumen ciertas las afirmaciones del trabajador sobre las condiciones de trabajo.</p>
+      <p>Artículo 26: derechos conservados; omisión imputable al empleador.</p>
     `,
     relacionados: ["Art. 25", "Art. 26", "Art. 132"],
     vigencia: "Vigente",
-    fechaReforma: "1970-05-01"
+    fechaRevision: "2026-10-13",
+    sourceUrl: OFFICIAL_LFT_URL,
+    textKind: "educational-summary"
   },
   {
     id: "art25",
@@ -107,37 +100,16 @@ const ARTICLE_DETAILS: ArticleDetail[] = [
     titulo: "Contenido del contrato de trabajo",
     categoria: "Relaciones Individuales",
     contenido: `
-      <h3>Artículo 25</h3>
-      <p>El escrito en que consten las condiciones de trabajo deberá contener:</p>
-      <ol>
-        <li>Nombre, nacionalidad, edad, sexo, estado civil, Clave Única de Registro de Población, Registro Federal de Contribuyentes y domicilio del trabajador y del patrón;</li>
-        <li>Si la relación de trabajo es para obra o tiempo determinado, por temporada, de capacitación inicial o por tiempo indeterminado y, en su caso, si está sujeta a un periodo de prueba;</li>
-        <li>El servicio o servicios que deban prestarse, los que se determinarán con la mayor precisión posible;</li>
-        <li>El lugar o los lugares donde deba prestarse el trabajo;</li>
-        <li>La duración de la jornada;</li>
-        <li>La forma y el monto del salario;</li>
-        <li>El día y el lugar de pago del salario;</li>
-        <li>La indicación de que el trabajador será capacitado o adiestrado en los términos de los planes y programas establecidos o que se establezcan en la empresa, conforme a lo dispuesto en esta Ley; y</li>
-        <li>Otras condiciones de trabajo, tales como días de descanso, vacaciones y demás que convengan el trabajador y el patrón.</li>
-      </ol>
+      <p>Resumen educativo: condiciones escritas. Fracción X: beneficiarios para montos pendientes o generados por fallecimiento o desaparición delictiva.</p>
     `,
     explicacion: `
-      <h3>Explicación práctica</h3>
-      <p>Este artículo establece los elementos mínimos que debe contener todo contrato de trabajo por escrito. Es fundamental para establecer claramente los derechos y obligaciones de ambas partes.</p>
-
-      <h3>Importancia práctica</h3>
-      <ul>
-        <li><strong>Certeza jurídica:</strong> Define claramente las condiciones laborales</li>
-        <li><strong>Prevención de conflictos:</strong> Evita malentendidos futuros</li>
-        <li><strong>Referencia legal:</strong> Sirve como prueba en caso de disputas</li>
-      </ul>
-
-      <h3>Consecuencias de no cumplir</h3>
-      <p>Si el patrón no proporciona las condiciones por escrito, se presumen ciertas las afirmaciones del trabajador sobre las condiciones de trabajo.</p>
+      <p>Artículo 26: derechos conservados aunque falte el escrito. Requisitos completos en la fuente.</p>
     `,
     relacionados: ["Art. 24", "Art. 26", "Art. 47"],
     vigencia: "Vigente",
-    fechaReforma: "2019-05-01"
+    fechaRevision: "2026-10-13",
+    sourceUrl: OFFICIAL_LFT_URL,
+    textKind: "educational-summary"
   },
   // Salarios
   {
@@ -170,30 +142,19 @@ const ARTICLE_DETAILS: ArticleDetail[] = [
   {
     id: "art85",
     numero: "85",
-    titulo: "Salario igual por trabajo igual",
+    titulo: "Salario remunerador y mínimo",
     categoria: "Salarios",
     contenido: `
-      <h3>Artículo 85</h3>
-      <p>A trabajo igual, desempeñado en puesto, jornada y condiciones de eficiencia también iguales, debe corresponder salario igual.</p>
+      <p>Resumen educativo: salario remunerador, nunca inferior al mínimo, según cantidad y calidad del trabajo.</p>
     `,
     explicacion: `
-      <h3>Explicación práctica</h3>
-      <p>Establece el principio fundamental de no discriminación salarial: misma paga para mismo trabajo.</p>
-
-      <h3>Elementos que deben ser iguales</h3>
-      <ul>
-        <li><strong>Trabajo:</strong> Mismas funciones y responsabilidades</li>
-        <li><strong>Puesto:</strong> Mismo nivel jerárquico</li>
-        <li><strong>Jornada:</strong> Misma duración y horario</li>
-        <li><strong>Eficiencia:</strong> Mismo rendimiento y calidad</li>
-      </ul>
-
-      <h3>Protección contra discriminación</h3>
-      <p>Impide diferencias salariales por género, edad, origen, religión u otras características personales.</p>
+      <p>Por unidad de obra, ocho horas de trabajo normal deben producir al menos el salario mínimo.</p>
     `,
-    relacionados: ["Art. 82", "Art. 86", "Art. 123"],
+    relacionados: ["Art. 82", "Art. 83", "Art. 86"],
     vigencia: "Vigente",
-    fechaReforma: "1970-05-01"
+    fechaRevision: "2026-10-13",
+    sourceUrl: OFFICIAL_LFT_URL,
+    textKind: "educational-summary"
   },
   {
     id: "art90",
@@ -259,29 +220,16 @@ const ARTICLE_DETAILS: ArticleDetail[] = [
     titulo: "Tipos de jornada",
     categoria: "Jornada de Trabajo",
     contenido: `
-      <h3>Artículo 61</h3>
-      <p>La duración máxima de la jornada será: ocho horas la diurna, siete la nocturna y siete horas y media la mixta.</p>
+      <p>Resumen educativo: 8 horas diurnas, 7 nocturnas, 7.5 mixtas por día.</p>
     `,
     explicacion: `
-      <h3>Explicación práctica</h3>
-      <p>Establece los límites máximos de duración para cada tipo de jornada laboral.</p>
-
-      <h3>Tipos de jornada</h3>
-      <ul>
-        <li><strong>Diurna:</strong> Entre 6:00 y 20:00 hrs - Máximo 8 horas</li>
-        <li><strong>Nocturna:</strong> Entre 20:00 y 6:00 hrs - Máximo 7 horas</li>
-        <li><strong>Mixta:</strong> Períodos diurnos y nocturnos - Máximo 7.5 horas</li>
-      </ul>
-
-      <h3>Jornada mixta</h3>
-      <p>Se considera mixta cuando incluye más de 3.5 horas del período nocturno.</p>
-
-      <h3>Protección del trabajador</h3>
-      <p>La jornada nocturna es más corta debido al mayor desgaste físico y mental.</p>
+      <p>Artículo 60: mixta combina día y noche, con menos de 3.5 horas nocturnas; con 3.5 o más es nocturna.</p>
     `,
     relacionados: ["Art. 58", "Art. 60", "Art. 66"],
     vigencia: "Vigente",
-    fechaReforma: "1970-05-01"
+    fechaRevision: "2026-10-13",
+    sourceUrl: OFFICIAL_LFT_URL,
+    textKind: "educational-summary"
   },
   {
     id: "art66",
@@ -290,28 +238,27 @@ const ARTICLE_DETAILS: ArticleDetail[] = [
     categoria: "Jornada de Trabajo",
     contenido: `
       <h3>Artículo 66</h3>
-      <p>Podrá también prolongarse la jornada de trabajo por circunstancias extraordinarias, sin exceder nunca de tres horas diarias ni de tres veces en una semana.</p>
+      <p>Resumen educativo: por circunstancias extraordinarias, el pago es doble. La distribución permite hasta 4 horas diarias en un máximo de 4 días semanales. El tope semanal aumenta gradualmente:</p>
+      <table>
+        <thead><tr><th>Año</th><th>Tope semanal de horas extraordinarias</th></tr></thead>
+        <tbody>
+          <tr><td>2026</td><td>9</td></tr>
+          <tr><td>2027</td><td>9</td></tr>
+          <tr><td>2028</td><td>10</td></tr>
+          <tr><td>2029</td><td>11</td></tr>
+          <tr><td>2030</td><td>12</td></tr>
+        </tbody>
+      </table>
     `,
     explicacion: `
-      <h3>Explicación práctica</h3>
-      <p>Regula las horas extraordinarias estableciendo límites estrictos para proteger al trabajador.</p>
-
-      <h3>Límites de horas extra</h3>
-      <ul>
-        <li><strong>Máximo diario:</strong> 3 horas extras por día</li>
-        <li><strong>Máximo semanal:</strong> 3 días con horas extra</li>
-        <li><strong>Total semanal:</strong> Máximo 9 horas extras</li>
-      </ul>
-
-      <h3>Circunstancias extraordinarias</h3>
-      <p>Deben ser situaciones excepcionales, no la regla general de trabajo.</p>
-
-      <h3>Pago de horas extra</h3>
-      <p>Las primeras 9 horas se pagan al 200%, las siguientes al 300% (Art. 67).</p>
+      <h3>Transición de la reforma de 2026</h3>
+      <p>El tope es 9 horas en 2026 y 2027; 12 se alcanzan en 2030. El artículo 68 regula el exceso y otros límites. Consulta el decreto del 1 de mayo de 2026 y sus transitorios.</p>
     `,
     relacionados: ["Art. 67", "Art. 68", "Art. 58"],
     vigencia: "Vigente",
-    fechaReforma: "1970-05-01"
+    fechaRevision: "2026-10-13",
+    sourceUrl: WORKING_HOURS_DECREE_URL,
+    textKind: "educational-summary"
   },
   // Vacaciones
   {
@@ -531,29 +478,19 @@ const ARTICLE_DETAILS: ArticleDetail[] = [
   {
     id: "art67",
     numero: "67",
-    titulo: "Pago de tiempo extraordinario",
+    titulo: "Retribución por siniestro o riesgo inminente",
     categoria: "Jornada de Trabajo",
     contenido: `
-      <h3>Artículo 67</h3>
-      <p>Las horas de trabajo a que se refiere el artículo 66, se pagarán con un ciento por ciento más del salario que corresponda a las horas de la jornada.</p>
+      <p>Resumen educativo: para las horas del artículo 65, sobre siniestro o riesgo inminente, la retribución es igual a la hora ordinaria.</p>
     `,
     explicacion: `
-      <h3>Explicación práctica</h3>
-      <p>Establece cómo se debe pagar el tiempo extraordinario: al doble del salario normal.</p>
-
-      <h3>Cálculo del pago</h3>
-      <ul>
-        <li><strong>Primeras 9 horas extras semanales:</strong> Se pagan al 200% (doble)</li>
-        <li><strong>Ejemplo:</strong> Si ganas $100/hora normal, las horas extra se pagan a $200/hora</li>
-        <li><strong>Base legal:</strong> "Ciento por ciento más" significa el doble</li>
-      </ul>
-
-      <h3>Límites importantes</h3>
-      <p>Solo aplica a las primeras 9 horas extra semanales. Las excedentes se pagan al triple según el artículo 68.</p>
+      <p>Supuesto distinto al tiempo extraordinario del 66.</p>
     `,
-    relacionados: ["Art. 66", "Art. 68", "Art. 58"],
+    relacionados: ["Art. 65", "Art. 66", "Art. 68"],
     vigencia: "Vigente",
-    fechaReforma: "1970-05-01"
+    fechaRevision: "2026-10-13",
+    sourceUrl: OFFICIAL_LFT_URL,
+    textKind: "educational-summary"
   },
   {
     id: "art68",
@@ -562,25 +499,17 @@ const ARTICLE_DETAILS: ArticleDetail[] = [
     categoria: "Jornada de Trabajo",
     contenido: `
       <h3>Artículo 68</h3>
-      <p>El trabajo que exceda de nueve horas a la semana, obligará al patrón a pagar al trabajador el tiempo excedente con un doscientos por ciento más del salario que corresponda a las horas de la jornada.</p>
+      <p>Resumen educativo: superar el umbral aplicable del artículo 66 implica pago triple. El exceso no puede ser mayor de 4 horas por semana; la suma ordinaria y extraordinaria no puede superar 12 horas en un día.</p>
     `,
     explicacion: `
       <h3>Explicación práctica</h3>
-      <p>Regula el pago cuando se exceden las 9 horas extras semanales permitidas.</p>
-
-      <h3>Pago extraordinario</h3>
-      <ul>
-        <li><strong>Horas 1-9 extra:</strong> Al 200% (doble)</li>
-        <li><strong>Horas 10+ extra:</strong> Al 300% (triple)</li>
-        <li><strong>Ejemplo:</strong> Si ganas $100/hora, de la hora 10 en adelante ganas $300/hora</li>
-      </ul>
-
-      <h3>Protección al trabajador</h3>
-      <p>El alto costo busca desincentivar el abuso de horas extras y proteger la salud del trabajador.</p>
+      <p>Las personas trabajadoras no están obligadas a trabajar más de lo permitido. El umbral cambia con la transición anual del artículo 66; el recargo no autoriza jornadas ilimitadas.</p>
     `,
     relacionados: ["Art. 66", "Art. 67", "Art. 58"],
     vigencia: "Vigente",
-    fechaReforma: "1970-05-01"
+    fechaRevision: "2026-10-13",
+    sourceUrl: WORKING_HOURS_DECREE_URL,
+    textKind: "educational-summary"
   },
   {
     id: "art81",
