@@ -150,60 +150,61 @@ export const articulosLFT: ArticuloLFT[] = [
     fechaActualizacion: "2023-02-23"
   },
 
+  // Resúmenes revisados de los arts. 76–81: https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf
   // Vacaciones
   {
     numero: "Art. 76",
     titulo: "Derecho a vacaciones",
-    contenido: "Los trabajadores que tengan más de un año de servicios disfrutarán de un período anual de vacaciones pagadas...",
-    contenidoCompleto: "Los trabajadores que tengan más de un año de servicios disfrutarán de un período anual de vacaciones pagadas, que en ningún caso podrá ser inferior a seis días laborables, y que aumentará en dos días laborables, hasta llegar a doce, por cada año subsecuente de servicios.\n\nDespués del cuarto año, el período de vacaciones aumentará en dos días por cada cinco de servicios.",
-    temas: ["vacaciones", "derecho", "período anual", "seis días", "incremento"],
+    contenido: "El período anual de vacaciones pagadas parte de un mínimo de 12 días laborables y aumenta con la antigüedad.",
+    contenidoCompleto: "Resumen educativo: al completar el primer año corresponden al menos 12 días laborables de vacaciones pagadas. El mínimo aumenta a 14, 16, 18 y 20 días en los años segundo, tercero, cuarto y quinto.\n\nDel sexto al décimo año corresponden 22 días; del undécimo al decimoquinto, 24. Después, el mínimo aumenta dos días por cada cinco años de servicio. El contrato puede otorgar condiciones más favorables.",
+    temas: ["vacaciones", "derecho", "período anual", "doce días", "incremento"],
     categoria: "vacaciones",
-    fechaActualizacion: "2023-02-23"
+    fechaActualizacion: "2026-10-13"
   },
   {
     numero: "Art. 77",
-    titulo: "Vacaciones fraccionadas",
-    contenido: "Los trabajadores que tengan más de un año de servicios podrán dividir el período de vacaciones cuando así convenga a sus intereses...",
-    contenidoCompleto: "Los trabajadores que tengan más de un año de servicios podrán dividir el período de vacaciones cuando así convenga a sus intereses, siempre que disfruten en forma continua de seis días laborables en cada caso.\n\nLos menores de edad disfrutarán de un período anual de vacaciones pagadas de dieciocho días laborables, por lo menos.",
-    temas: ["fraccionamiento", "seis días continuos", "menores", "dieciocho días"],
+    titulo: "Vacaciones en trabajo discontinuo o de temporada",
+    contenido: "En los servicios discontinuos o de temporada, las vacaciones se calculan proporcionalmente a los días trabajados en el año.",
+    contenidoCompleto: "Resumen educativo: las personas que prestan servicios discontinuos o de temporada conservan el derecho a vacaciones. La duración se determina en proporción a los días de trabajo durante el año.",
+    temas: ["proporcional", "temporada", "servicios discontinuos", "días trabajados"],
     categoria: "vacaciones",
-    fechaActualizacion: "2023-02-23"
+    fechaActualizacion: "2026-10-13"
   },
   {
     numero: "Art. 78",
-    titulo: "Época de vacaciones",
-    contenido: "Las vacaciones deberán concederse a los trabajadores dentro de los seis meses siguientes al cumplimiento del año de servicios...",
-    contenidoCompleto: "Las vacaciones deberán concederse a los trabajadores dentro de los seis meses siguientes al cumplimiento del año de servicios. Los patrones entregarán anualmente a sus trabajadores una constancia que contenga su antigüedad y de acuerdo con ella el período de vacaciones que les corresponda y la fecha en que deberán disfrutarlo.",
-    temas: ["época", "seis meses", "año de servicios", "constancia", "antigüedad"],
+    titulo: "Disfrute continuo y distribución de vacaciones",
+    contenido: "El descanso comprende al menos 12 días continuos; la persona trabajadora puede decidir distribuir el período según sus necesidades.",
+    contenidoCompleto: "Resumen educativo: del período que corresponda conforme al artículo 76, deben poder disfrutarse por lo menos 12 días continuos. La persona trabajadora puede optar por distribuir ese período en la forma y tiempo que requiera.",
+    temas: ["disfrute", "doce días continuos", "distribución", "decisión del trabajador"],
     categoria: "vacaciones",
-    fechaActualizacion: "2023-02-23"
+    fechaActualizacion: "2026-10-13"
   },
   {
     numero: "Art. 79",
-    titulo: "Duración de vacaciones",
-    contenido: "La duración de las vacaciones se aumentará en dos días laborables, hasta llegar a doce, por cada año subsecuente de servicios.",
-    contenidoCompleto: "La duración de las vacaciones se aumentará en dos días laborables, hasta llegar a doce, por cada año subsecuente de servicios.\n\nDespués del cuarto año, el período de vacaciones aumentará en dos días por cada cinco de servicios.",
-    temas: ["duración", "incremento", "días laborables", "cuarto año", "cinco años"],
+    titulo: "Prohibición de sustituir vacaciones por dinero",
+    contenido: "Las vacaciones no se sustituyen por dinero; al terminar antes del año de servicios corresponde la remuneración proporcional.",
+    contenidoCompleto: "Resumen educativo: durante la relación laboral las vacaciones no pueden sustituirse por una remuneración. Si la relación termina antes de completar el año de servicios, corresponde un pago proporcional al tiempo trabajado.",
+    temas: ["compensación", "descanso", "terminación", "proporcional"],
     categoria: "vacaciones",
-    fechaActualizacion: "2023-02-23"
+    fechaActualizacion: "2026-10-13"
   },
   {
     numero: "Art. 80",
     titulo: "Prima vacacional",
-    contenido: "Los trabajadores tendrán derecho a una prima no menor de veinticinco por ciento sobre los salarios que les correspondan durante el período de vacaciones.",
-    contenidoCompleto: "Los trabajadores tendrán derecho a una prima no menor de veinticinco por ciento sobre los salarios que les correspondan durante el período de vacaciones.",
+    contenido: "La prima vacacional es al menos el 25% del salario correspondiente a los días de vacaciones.",
+    contenidoCompleto: "Resumen educativo: además del salario del período de vacaciones, corresponde una prima de al menos el 25% de ese salario. Un contrato puede establecer un porcentaje mayor.",
     temas: ["prima vacacional", "25%", "salario vacaciones"],
     categoria: "vacaciones",
-    fechaActualizacion: "2023-02-23"
+    fechaActualizacion: "2026-10-13"
   },
   {
     numero: "Art. 81",
-    titulo: "Compensación por vacaciones no disfrutadas",
-    contenido: "Las vacaciones no podrán compensarse con una remuneración. Si la relación de trabajo termina antes de que se cumpla el año de servicios...",
-    contenidoCompleto: "Las vacaciones no podrán compensarse con una remuneración. Si la relación de trabajo termina antes de que se cumpla el año de servicios, el trabajador tendrá derecho a una remuneración proporcional al tiempo de servicios prestados.",
-    temas: ["compensación", "no remuneración", "terminación", "proporcional"],
+    titulo: "Plazo y constancia de vacaciones",
+    contenido: "Las vacaciones se conceden dentro de los seis meses posteriores al aniversario laboral y se documentan en una constancia anual.",
+    contenidoCompleto: "Resumen educativo: el empleador debe conceder las vacaciones dentro de los seis meses posteriores al cumplimiento del año de servicios. Cada año debe entregar una constancia que indique la antigüedad, el período correspondiente y la fecha de disfrute.",
+    temas: ["seis meses", "constancia", "antigüedad", "fecha de disfrute"],
     categoria: "vacaciones",
-    fechaActualizacion: "2023-02-23"
+    fechaActualizacion: "2026-10-13"
   },
 
   // Aguinaldo
@@ -222,19 +223,19 @@ export const articulosLFT: ArticuloLFT[] = [
     numero: "Art. 47",
     titulo: "Causas de rescisión sin responsabilidad para el patrón",
     contenido: "Son causas de rescisión de la relación de trabajo, sin responsabilidad para el patrón...",
-    contenidoCompleto: "Son causas de rescisión de la relación de trabajo, sin responsabilidad para el patrón:\n\nI. Engañarlo el trabajador o en su caso, el sindicato que lo hubiere propuesto o recomendado con certificados falsos o referencias en los que se atribuyan al trabajador capacidad, aptitudes o facultades de que carezca. Esta causa de rescisión dejará de tener efecto después de treinta días de prestar sus servicios el trabajador;\n\nII. Incurrir el trabajador, durante sus labores, en faltas de probidad u honradez, en actos de violencia, amagos, injurias o malos tratamientos en contra del patrón, sus familiares o del personal directivo o administrativo de la empresa o establecimiento, salvo que medie provocación o que obre en defensa propia;\n\nIII. Faltar el trabajador a sus labores sin causa justificada o sin permiso del patrón;\n\nIV. Desobedecer el trabajador al patrón o a sus representantes, sin causa justificada, siempre que se trate del trabajo contratado;\n\nV. Destruir intencionalmente o por negligencia que no sea leve, edificios, obras, maquinaria, instrumentos, materias primas y demás objetos relacionados con el trabajo;\n\nVI. Comprometer el trabajador, por su imprudencia o descuido inexcusable, la seguridad del establecimiento o de las personas que se encuentren en él;\n\nVII. Faltar el trabajador a sus labores por más de tres días consecutivos sin causa justificada;\n\nVIII. Desobedecer el trabajador las medidas preventivas o los procedimientos para evitar accidentes o enfermedades;\n\nIX. Concurrir el trabajador a sus labores en estado de embriaguez o bajo la influencia de algún narcótico o droga enervante, salvo que, en este último caso, exista prescripción médica. Antes de iniciar su servicio, el trabajador deberá poner el hecho en conocimiento del patrón y presentar la prescripción suscrita por el médico;\n\nX. La sentencia ejecutoriada que imponga al trabajador una pena de prisión, que le impida el cumplimiento de la relación de trabajo;\n\nXI. Las análogas a las establecidas en las fracciones anteriores, de igual manera graves y de consecuencias semejantes en lo que al trabajo se refiere.\n\nEl patrón deberá dar al trabajador aviso escrito de la fecha y causa o causas de la rescisión.\n\nEl aviso deberá hacerse del conocimiento del trabajador, y en caso de que éste se negare a recibirlo, el patrón dentro de los cinco días siguientes a la fecha de la rescisión, deberá hacerlo del conocimiento de la Junta respectiva, proporcionando a ésta el domicilio que tenga registrado y solicitando su notificación al trabajador.\n\nLa falta del aviso al trabajador o a la Junta, por sí sola, bastará para considerar que el despido fue injustificado.",
+    contenidoCompleto: "Resumen educativo: el artículo 47 establece causas de rescisión sin responsabilidad para el empleador y regula el aviso correspondiente. La causa debe revisarse junto con sus requisitos y las pruebas. La falta de aviso requiere examinar las circunstancias del caso; no basta este resumen para concluir que un despido es justificado o injustificado.",
     temas: ["rescisión", "causas justificadas", "patrón", "aviso", "despido"],
     categoria: "terminacion",
-    fechaActualizacion: "2023-02-23"
+    fechaActualizacion: "2026-10-13"
   },
   {
     numero: "Art. 48",
     titulo: "Derechos del trabajador despedido",
-    contenido: "El trabajador podrá solicitar ante la Junta de Conciliación y Arbitraje, a su elección, que se le reinstale en el trabajo que desempeñaba...",
-    contenidoCompleto: "El trabajador podrá solicitar ante la Junta de Conciliación y Arbitraje, a su elección, que se le reinstale en el trabajo que desempeñaba, o que se le indemnice con el importe de tres meses de salario.\n\nSi en el juicio correspondiente no comprueba el patrón la causa de la rescisión, el trabajador tendrá derecho, además, cualquiera que hubiese sido la acción intentada, a que se le paguen los salarios vencidos desde la fecha del despido hasta que se cumplimente el laudo.",
+    contenido: "Ante un despido injustificado puede solicitarse reinstalación o indemnización, conforme a los requisitos y procedimientos aplicables.",
+    contenidoCompleto: "Resumen educativo: ante un despido injustificado, la persona trabajadora puede solicitar reinstalación o una indemnización de tres meses de salario, conforme a los requisitos aplicables. Los salarios vencidos y otras cantidades dependen del supuesto legal, sus límites y la resolución. Solicita asesoría cuanto antes para revisar los plazos y la autoridad competente.",
     temas: ["despido", "reinstalación", "indemnización", "elección", "salarios vencidos"],
     categoria: "terminacion",
-    fechaActualizacion: "2023-02-23"
+    fechaActualizacion: "2026-10-13"
   },
   {
     numero: "Art. 49",
@@ -247,12 +248,12 @@ export const articulosLFT: ArticuloLFT[] = [
   },
   {
     numero: "Art. 50",
-    titulo: "Indemnización por despido injustificado",
-    contenido: "Las indemnizaciones a que se refiere el artículo anterior consistirán: I. Si la relación de trabajo fuere por tiempo determinado menor de un año...",
-    contenidoCompleto: "Las indemnizaciones a que se refiere el artículo anterior consistirán:\n\nI. Si la relación de trabajo fuere por tiempo determinado menor de un año, en una cantidad igual al importe de los salarios de la mitad del tiempo de servicios prestados; si excediera de un año, en una cantidad igual al importe de los salarios de seis meses por el primer año y de veinte días por cada uno de los años siguientes en que hubiese prestado sus servicios;\n\nII. Si la relación de trabajo fuere por tiempo indeterminado, la indemnización consistirá en veinte días de salario por cada uno de los años de servicios prestados; y\n\nIII. Además de las indemnizaciones a que se refieren las fracciones anteriores, en el importe de tres meses de salario y en el de los salarios vencidos desde la fecha del despido hasta que se paguen las indemnizaciones.",
+    titulo: "Indemnizaciones en los supuestos del artículo 49",
+    contenido: "Los conceptos y montos se determinan según el supuesto jurídico, el tipo de relación laboral y la duración del servicio.",
+    contenidoCompleto: "Resumen educativo: el artículo 50 regula las indemnizaciones a las que remite el artículo 49. Los conceptos y la fórmula dependen del supuesto jurídico, del tipo de relación laboral y del tiempo de servicios. Los 20 días por año no se suman automáticamente en todo despido; consulta el texto oficial y solicita asesoría para identificar las indemnizaciones y salarios vencidos que procedan.",
     temas: ["indemnización", "despido injustificado", "3 meses", "20 días", "tiempo determinado"],
     categoria: "terminacion",
-    fechaActualizacion: "2023-02-23"
+    fechaActualizacion: "2026-10-13"
   },
 
   // Descansos
@@ -278,10 +279,10 @@ export const articulosLFT: ArticuloLFT[] = [
     numero: "Art. 74",
     titulo: "Días de descanso obligatorio",
     contenido: "Son días de descanso obligatorio: I. El 1o. de enero; II. El primer lunes de febrero en conmemoración del 5 de febrero...",
-    contenidoCompleto: "Son días de descanso obligatorio:\n\nI. El 1o. de enero;\n\nII. El primer lunes de febrero en conmemoración del 5 de febrero;\n\nIII. El tercer lunes de marzo en conmemoración del 21 de marzo;\n\nIV. El 1o. de mayo;\n\nV. El 16 de septiembre;\n\nVI. El tercer lunes de noviembre en conmemoración del 20 de noviembre;\n\nVII. El 1o. de diciembre de cada seis años, cuando corresponda a la transmisión del Poder Ejecutivo Federal;\n\nVIII. El 25 de diciembre, y\n\nIX. El que determinen las leyes federales y locales electorales, en el caso de elecciones ordinarias, para efectuar la jornada electoral.",
+    contenidoCompleto: "Resumen educativo: los descansos obligatorios comprenden el 1 de enero; el primer lunes de febrero; el tercer lunes de marzo; el 1 de mayo; el 16 de septiembre; el tercer lunes de noviembre; el 1 de octubre cada seis años cuando se transmite el Poder Ejecutivo Federal; el 25 de diciembre, y la jornada electoral ordinaria que determinen las leyes aplicables.",
     temas: ["descanso obligatorio", "días feriados", "fechas cívicas"],
     categoria: "descansos",
-    fechaActualizacion: "2023-02-23"
+    fechaActualizacion: "2026-10-13"
   },
   {
     numero: "Art. 75",

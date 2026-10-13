@@ -27,8 +27,8 @@ export interface Guia {
 export const guiasPrincipales: Guia[] = [
   {
     id: "1",
-    titulo: "Guía completa del despido injustificado",
-    descripcion: "Todo lo que necesitas saber si te despidieron sin causa justificada",
+    titulo: "Guía del despido injustificado",
+    descripcion: "Pasos básicos para orientarte si te despidieron sin causa justificada",
     duracion: "15 min",
     pasos: 8,
     dificultad: "Básico",
@@ -38,9 +38,9 @@ export const guiasPrincipales: Guia[] = [
     contenido: [
       "Identifica si tu despido fue justificado",
       "Conoce tus opciones: reinstalación vs indemnización",
-      "Calcula tu indemnización",
+      "Revisa prestaciones y bases del cálculo",
       "Reúne la documentación necesaria",
-      "Presenta tu demanda ante la autoridad",
+      "Solicita asesoría y revisa los plazos",
       "Proceso de conciliación",
       "Juicio laboral si es necesario",
       "Ejecución del laudo"
@@ -69,9 +69,8 @@ export const guiasPrincipales: Guia[] = [
       <p>Si optas por la indemnización, tienes derecho a:</p>
       <ul>
         <li>3 meses de salario (indemnización constitucional)</li>
-        <li>20 días de salario por cada año trabajado</li>
-        <li>Salarios vencidos desde el despido hasta que se dicte laudo</li>
-        <li>Prima de antigüedad (si tienes más de 15 años)</li>
+        <li>Otras indemnizaciones y salarios vencidos, cuando procedan: dependen del supuesto legal y de la resolución; solicita asesoría para tu caso</li>
+        <li>Prima de antigüedad para trabajadores de planta separados, sin exigir 15 años en caso de despido</li>
         <li>Prestaciones pendientes (vacaciones, aguinaldo, etc.)</li>
       </ul>
     `,
@@ -82,7 +81,7 @@ export const guiasPrincipales: Guia[] = [
         descripcion: "Verifica si el motivo del despido está contemplado en el artículo 47 de la LFT",
         tiempo: "5 min",
         documentos: ["Carta de despido", "Reglamento interno"],
-        tips: ["Si no te dieron carta de despido, el despido es injustificado", "Revisa si siguieron el procedimiento correcto"]
+        tips: ["La falta de aviso requiere revisar las circunstancias y las pruebas", "Revisa si siguieron el procedimiento correcto"]
       },
       {
         numero: 2,
@@ -93,11 +92,11 @@ export const guiasPrincipales: Guia[] = [
       },
       {
         numero: 3,
-        titulo: "Calcula tu indemnización",
-        descripcion: "Determina el monto exacto que te corresponde según la ley",
+        titulo: "Revisa prestaciones y bases del cálculo",
+        descripcion: "Identifica las prestaciones pendientes y solicita orientación para determinar las indemnizaciones que procedan",
         tiempo: "15 min",
         documentos: ["Recibos de nómina", "Contrato de trabajo"],
-        tips: ["Usa nuestra calculadora laboral", "Incluye todas las prestaciones pendientes"]
+        tips: ["La calculadora sólo estima aguinaldo, vacaciones y prima vacacional proporcionales; consulta las indemnizaciones por separado", "Revisa todas las prestaciones pendientes con asesoría"]
       },
       {
         numero: 4,
@@ -109,11 +108,12 @@ export const guiasPrincipales: Guia[] = [
       },
       {
         numero: 5,
-        titulo: "Presenta tu demanda ante la autoridad",
-        descripcion: "Acude al Centro de Conciliación Laboral o Junta de Conciliación",
+        titulo: "Solicita asesoría y revisa los plazos",
+        descripcion: "Identifica la autoridad competente y si corresponde solicitar conciliación prejudicial antes de demandar",
         tiempo: "1-2 horas",
-        documentos: ["Demanda laboral", "Documentos de soporte", "Identificación"],
-        tips: ["Tienes 1 año para demandar", "Busca asesoría gratuita"]
+        documentos: ["Documentos que solicite la autoridad o asesoría", "Documentos de soporte", "Identificación"],
+        // Arts. 518 y 521 LFT: plazo de separación y efecto de la solicitud de conciliación.
+        tips: ["La acción por separación prescribe en 2 meses desde el día siguiente al despido", "La solicitud de conciliación suspende el plazo; su reanudación se rige por el artículo 521. Busca asesoría gratuita cuanto antes"]
       },
       {
         numero: 6,
@@ -152,8 +152,8 @@ export const guiasPrincipales: Guia[] = [
       "Documenta tus horas de trabajo",
       "Calcula el pago correcto de horas extra",
       "Solicita el pago por escrito al patrón",
-      "Presenta queja ante la STPS",
-      "Demanda laboral si es necesario",
+      "Consulta la autoridad competente y la vía para reclamar pagos",
+      "Valora las vías de reclamación con asesoría",
       "Seguimiento del proceso"
     ],
     contenidoCompleto: `
@@ -196,20 +196,20 @@ export const guiasPrincipales: Guia[] = [
         descripcion: "Presenta solicitud formal a tu empleador",
         tiempo: "15 min",
         documentos: ["Carta solicitud", "Cálculo detallado", "Evidencias de horas extra"],
-        tips: ["Entrega con acuse de recibo", "Da 10 días para respuesta"]
+        tips: ["Conserva constancia de tu solicitud si puedes hacerlo", "Busca orientación sobre la vía, autoridad y plazos aplicables a tu caso"]
       },
       {
         numero: 4,
-        titulo: "Presenta queja ante STPS",
-        descripcion: "Si no hay respuesta, acude a la Secretaría del Trabajo",
+        titulo: "Consulta la autoridad competente y la vía para reclamar pagos",
+        descripcion: "Busca orientación sobre la vía y los plazos aplicables; consultar opciones de inspección laboral no sustituye la revisión de una reclamación de pagos",
         tiempo: "1 hora",
-        documentos: ["Queja por escrito", "Evidencias", "Identificación"],
-        tips: ["Es gratuito", "Puede resolver sin llegar a juicio"]
+        documentos: ["Documentos que solicite la autoridad o asesoría", "Evidencias", "Identificación"],
+        tips: ["Confirma qué autoridad puede atender tu solicitud", "La inspección y la reclamación de pagos pueden tener vías distintas; solicita orientación"]
       },
       {
         numero: 5,
-        titulo: "Considera demanda laboral",
-        descripcion: "Si STPS no resuelve, presenta demanda formal",
+        titulo: "Valora las vías de reclamación con asesoría",
+        descripcion: "Consulta las opciones aplicables para reclamar los pagos; no des por hecho que primero debe resolverse una queja de inspección",
         tiempo: "2-3 horas",
         tips: ["Busca asesoría legal", "Incluye todas las horas extra adeudadas"]
       },
@@ -273,7 +273,7 @@ export const guiasPrincipales: Guia[] = [
         descripcion: "Determina los días de vacaciones ganados pero no disfrutados",
         tiempo: "15 min",
         documentos: ["Registro de vacaciones", "Contrato de trabajo"],
-        tips: ["6 días mínimo el primer año", "Aumenta con la antigüedad"]
+        tips: ["12 días mínimo al completar el primer año", "Aumenta con la antigüedad"]
       },
       {
         numero: 3,
@@ -293,9 +293,10 @@ export const guiasPrincipales: Guia[] = [
       {
         numero: 5,
         titulo: "Verifica prima de antigüedad",
-        descripcion: "12 días de salario por cada año trabajado (si tienes más de 15 años)",
+        descripcion: "Para trabajadores de planta: 12 días por año; en renuncia voluntaria se requieren al menos 15 años, en despido no",
         tiempo: "10 min",
-        tips: ["Solo si tienes 15 años o más", "Se calcula sobre salario mínimo o el tuyo si es menor"]
+        // Arts. 162, 485 y 486 LFT: requisitos y límites de la base salarial.
+        tips: ["Distingue renuncia voluntaria, separación justificada y despido, justificado o injustificado", "La base tiene piso de un salario mínimo y tope de dos salarios mínimos de la región; solicita asesoría para determinar el aplicable"]
       },
       {
         numero: 6,
@@ -303,7 +304,7 @@ export const guiasPrincipales: Guia[] = [
         descripcion: "Suma todos los conceptos y verifica que coincida con el finiquito",
         tiempo: "20 min",
         documentos: ["Calculadora", "Recibos de nómina"],
-        tips: ["Usa nuestra calculadora", "Compara concepto por concepto"]
+        tips: ["La calculadora sólo estima aguinaldo, vacaciones y prima vacacional proporcionales; no calcula un finiquito completo", "Compara concepto por concepto y solicita revisión de los demás conceptos"]
       },
       {
         numero: 7,
@@ -328,10 +329,10 @@ export const guiasPrincipales: Guia[] = [
       "Identifica tipos de acoso laboral",
       "Documenta todos los incidentes",
       "Busca testigos y evidencias",
-      "Reporta internamente primero",
-      "Presenta queja ante STPS",
-      "Solicita medidas preventivas",
-      "Considera demanda laboral",
+      "Valora los canales de apoyo disponibles",
+      "Consulta orientación laboral",
+      "Consulta opciones de protección",
+      "Valora las vías de reclamación",
       "Busca apoyo psicológico",
       "Protege tu empleo",
       "Seguimiento del caso"
@@ -382,33 +383,33 @@ export const guiasPrincipales: Guia[] = [
       },
       {
         numero: 4,
-        titulo: "Reporta internamente primero",
-        descripcion: "Presenta queja formal ante recursos humanos o tu supervisor",
+        titulo: "Valora los canales de apoyo disponibles",
+        descripcion: "Un reporte interno puede ser una opción si es seguro para ti; no implica agotar ese canal antes de pedir ayuda externa",
         tiempo: "1 hora",
         documentos: ["Queja por escrito", "Evidencias recopiladas"],
-        tips: ["Entrega con acuse de recibo", "Solicita investigación formal"]
+        tips: ["Valora tu seguridad y documenta lo que puedas sin exponerte", "Busca orientación sobre la vía, autoridad y plazos aplicables a tu caso"]
       },
       {
         numero: 5,
-        titulo: "Presenta queja ante STPS",
-        descripcion: "Si no hay respuesta interna, acude a la autoridad laboral",
+        titulo: "Consulta orientación laboral",
+        descripcion: "Busca ayuda para identificar la autoridad y la vía aplicables sin asumir que debas esperar una respuesta interna",
         tiempo: "2-3 horas",
-        documentos: ["Queja formal", "Evidencias", "Identificación"],
-        tips: ["Es gratuito", "Pueden ordenar inspección"]
+        documentos: ["Documentos que solicite la autoridad o asesoría", "Evidencias", "Identificación"],
+        tips: ["Consulta los canales de orientación disponibles", "Confirma si una solicitud de inspección es adecuada para tu situación"]
       },
       {
         numero: 6,
-        titulo: "Solicita medidas preventivas",
-        descripcion: "Pide a la autoridad que ordene cesar el acoso inmediatamente",
+        titulo: "Consulta opciones de protección",
+        descripcion: "Solicita orientación sobre las opciones para proteger tu seguridad; su procedencia y alcance dependen de la situación",
         tiempo: "30 min",
-        tips: ["Solicita cambio de área", "Pide medidas de protección"]
+        tips: ["Valora tu seguridad antes de realizar una gestión", "Consulta las opciones de protección con una persona o institución de apoyo"]
       },
       {
         numero: 7,
-        titulo: "Considera demanda laboral",
-        descripcion: "Si el acoso continúa, presenta demanda por daño moral",
+        titulo: "Valora las vías de reclamación",
+        descripcion: "Busca orientación sobre las posibles vías de reclamación, sus requisitos y los plazos aplicables a tu caso",
         tiempo: "Variable",
-        tips: ["Busca asesoría legal especializada", "Incluye daño psicológico"]
+        tips: ["Busca asesoría legal especializada", "Conserva los documentos disponibles sin exponerte a nuevos riesgos"]
       },
       {
         numero: 8,
@@ -512,12 +513,12 @@ export const guiasPrincipales: Guia[] = [
   {
     id: "6",
     titulo: "Vacaciones: cálculo y derechos",
-    descripcion: "Todo sobre tus vacaciones y prima vacacional",
+    descripcion: "Orientación sobre tus vacaciones y prima vacacional",
     duracion: "10 min",
     pasos: 6,
     dificultad: "Básico",
     categoria: "Prestaciones",
-    articulosLFT: ["Art. 76", "Art. 78", "Art. 79", "Art. 80"],
+    articulosLFT: ["Art. 76", "Art. 78", "Art. 79", "Art. 80", "Art. 81"],
     completado: false,
     contenido: [
       "Calcula tus días de vacaciones",
@@ -534,12 +535,17 @@ export const guiasPrincipales: Guia[] = [
       <h2>Duración de las vacaciones</h2>
       <p>La duración mínima es:</p>
       <ul>
-        <li>Primer año: 6 días laborables</li>
-        <li>Segundo año: 8 días laborables</li>
-        <li>Tercer año: 10 días laborables</li>
-        <li>Cuarto año: 12 días laborables</li>
-        <li>Del quinto en adelante: Se incrementan 2 días cada 5 años</li>
+        <li>Primer año: 12 días laborables</li>
+        <li>Segundo año: 14 días laborables</li>
+        <li>Tercer año: 16 días laborables</li>
+        <li>Cuarto año: 18 días laborables</li>
+        <li>Quinto año: 20 días laborables</li>
+        <li>Del sexto al décimo año: 22 días laborables</li>
+        <li>Del undécimo al decimoquinto año: 24 días laborables; después aumentan 2 días por cada 5 años de servicio</li>
       </ul>
+
+      <h2>Disfrute y programación</h2>
+      <p>El artículo 78 contempla al menos 12 días continuos, con la opción de la persona trabajadora de distribuir el período según sus necesidades. El empleador debe conceder las vacaciones dentro de los 6 meses posteriores al aniversario laboral y entregar la constancia anual prevista en el artículo 81.</p>
       
       <h2>Prima vacacional</h2>
       <p>Además de los días de descanso, tienes derecho a una prima vacacional equivalente a por lo menos el 25% del salario correspondiente a los días de vacaciones.</p>
@@ -551,14 +557,14 @@ export const guiasPrincipales: Guia[] = [
         descripcion: "Determina cuántos días te corresponden según tu antigüedad",
         tiempo: "5 min",
         documentos: ["Contrato de trabajo", "Comprobante de antigüedad"],
-        tips: ["Mínimo 6 días el primer año", "Aumenta con la antigüedad"]
+        tips: ["Mínimo 12 días al completar el primer año", "Aumenta con la antigüedad"]
       },
       {
         numero: 2,
         titulo: "Conoce el incremento por antigüedad",
         descripcion: "Entiende cómo aumentan tus vacaciones con los años trabajados",
         tiempo: "10 min",
-        tips: ["Cada 5 años se incrementan 2 días", "El contrato puede otorgar más días"]
+        tips: ["Del segundo al quinto año aumentan 2 días cada año; a partir del sexto, por cada 5 años de servicio", "El contrato puede otorgar más días"]
       },
       {
         numero: 3,

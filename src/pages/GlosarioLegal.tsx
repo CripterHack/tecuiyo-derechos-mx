@@ -22,7 +22,7 @@ const GlosarioLegal = () => {
       categoria: "Relación Laboral",
       definicion: "Tiempo transcurrido desde el inicio de la relación de trabajo, base para el cálculo de diversas prestaciones.",
       articulo: "Artículo 158 LFT",
-      ejemplo: "Un trabajador con 5 años de antigüedad tiene derecho a 12 días de vacaciones."
+      ejemplo: "Al completar 5 años de antigüedad corresponden al menos 20 días laborables de vacaciones."
     },
     {
       termino: "Capacitación",
@@ -69,9 +69,9 @@ const GlosarioLegal = () => {
     {
       termino: "Indemnización",
       categoria: "Terminación",
-      definicion: "Cantidad que debe pagarse al trabajador por despido injustificado, equivalente a 3 meses de salario más 20 días por año trabajado.",
-      articulo: "Artículo 50 LFT",
-      ejemplo: "Un trabajador con 3 años de antigüedad y $300 diarios de salario recibiría $45,000 pesos de indemnización."
+      definicion: "Compensación que puede corresponder al terminar la relación laboral; sus conceptos y monto dependen del supuesto legal aplicable.",
+      articulo: "Artículos 48 a 50 LFT",
+      ejemplo: "Los 20 días por año no se suman automáticamente en todo despido. Solicita asesoría para identificar las indemnizaciones que procedan."
     },
     {
       termino: "Jornada de Trabajo",
@@ -85,7 +85,7 @@ const GlosarioLegal = () => {
       categoria: "Terminación",
       definicion: "Pago total de prestaciones al trabajador por terminación de la relación laboral.",
       articulo: "Artículos 50 y 162 LFT",
-      ejemplo: "La liquidación incluye indemnización, prima de antigüedad, vacaciones y aguinaldo proporcional."
+      ejemplo: "Al terminar la relación deben revisarse las prestaciones pendientes y las indemnizaciones o prima de antigüedad que procedan según el caso."
     },
     {
       termino: "Maternidad",
@@ -104,14 +104,14 @@ const GlosarioLegal = () => {
     {
       termino: "Prima de Antigüedad",
       categoria: "Prestaciones",
-      definicion: "Prestación equivalente a 12 días de salario por cada año de servicio, pagadera en ciertos casos de terminación.",
+      definicion: "Para trabajadores de planta: 12 días por año de servicio, con base salarial limitada por los artículos 485 y 486; en renuncia voluntaria exige al menos 15 años, en despido no.",
       articulo: "Artículo 162 LFT",
-      ejemplo: "Un trabajador con 10 años de servicio tiene derecho a 120 días de salario como prima de antigüedad."
+      ejemplo: "Un trabajador de planta despedido con 10 años de servicio puede reclamar 120 días con la base salarial aplicable; una renuncia voluntaria con esa antigüedad no cumple el requisito de 15 años."
     },
     {
       termino: "Prima Vacacional",
       categoria: "Prestaciones",
-      definicion: "Prestación equivalente al 25% del salario correspondiente al período de vacaciones.",
+      definicion: "Prestación equivalente a por lo menos el 25% del salario correspondiente al período de vacaciones.",
       articulo: "Artículo 80 LFT",
       ejemplo: "Si las vacaciones son de $3,000 pesos, la prima vacacional será de $750 pesos."
     },
@@ -146,9 +146,9 @@ const GlosarioLegal = () => {
     {
       termino: "Subcontratación",
       categoria: "Relación Laboral",
-      definicion: "Régimen especial donde se permite que una empresa contrate servicios especializados de otra.",
-      articulo: "Artículo 15-A LFT",
-      ejemplo: "La subcontratación solo es válida para servicios especializados no relacionados con el objeto principal de la empresa."
+      definicion: "La subcontratación de personal está prohibida. Los servicios u obras especializados tienen requisitos específicos, entre ellos el registro correspondiente.",
+      articulo: "Artículos 12 a 15 LFT",
+      ejemplo: "Los servicios especializados no deben formar parte del objeto social ni de la actividad económica preponderante de la beneficiaria, y el contratista debe contar con el registro previsto por la ley."
     },
     {
       termino: "Terminación",
@@ -162,7 +162,7 @@ const GlosarioLegal = () => {
       categoria: "Prestaciones",
       definicion: "Derecho del trabajador a un período de descanso anual con goce de sueldo.",
       articulo: "Artículo 76 LFT",
-      ejemplo: "Un trabajador con un año de antigüedad tiene derecho a 6 días de vacaciones."
+      ejemplo: "Al completar el primer año corresponden al menos 12 días laborables de vacaciones."
     }
   ];
 

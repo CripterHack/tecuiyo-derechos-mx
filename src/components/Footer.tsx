@@ -15,7 +15,7 @@ const Footer = () => {
             <h3 className="font-semibold mb-4">Herramientas</h3>
             <nav aria-label="Enlaces de herramientas">
               <ul className="space-y-2 text-sm">
-                <li><Link to="/calculadora" className="link-underline hover:text-accent">Calculadora de liquidación</Link></li>
+                <li><Link to="/calculadora" className="link-underline hover:text-accent">Estimación de prestaciones</Link></li>
                 <li><Link to="/formularios" className="link-underline hover:text-accent">Formularios legales</Link></li>
                 <li><Link to="/buscador" className="link-underline hover:text-accent">Buscador legal</Link></li>
                 <li><Link to="/directorio" className="link-underline hover:text-accent">Directorio de autoridades</Link></li>
@@ -37,19 +37,21 @@ const Footer = () => {
               <li><Link to="/aviso-privacidad" className="link-underline hover:text-accent">Aviso de privacidad</Link></li>
               <li><Link to="/terminos-uso" className="link-underline hover:text-accent">Términos de uso</Link></li>
               <li><Link to="/contacto" className="link-underline hover:text-accent">Contacto</Link></li>
+              <li><Link to="/apoyar" className="link-underline hover:text-accent">Apoyar Tecuiyo</Link></li>
+              <li><Link to="/codigo-abierto" className="link-underline hover:text-accent">Código abierto</Link></li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center text-sm text-primary-foreground/80">
           <p>
-            © 2025 Tecuiyo. <a href="https://github.com/sponsors/CripterHack">Edgar Zorrilla</a>. • 
-            Información basada en la Ley Federal del Trabajo vigente • 
-            <a href="https://www.dof.gob.mx/" className="link-underline hover:text-accent ml-1">
-              Fuentes oficiales DOF
+            © {new Date().getFullYear()} Tecuiyo. Edgar Zorrilla. •
+            Información educativa en revisión •
+            <a href="https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf" className="link-underline hover:text-accent ml-1">
+              Consultar la LFT oficial
             </a>
             <br/>
-            <a href="https://github.com/sponsors/CripterHack">Apoya este proyecto hecho con amor y pasión por crear un mundo mejor y más justo ❤️</a>
+            <Link to="/apoyar" className="link-underline hover:text-accent">¿Te fue útil? Puedes apoyar su mantenimiento con una aportación voluntaria.</Link>
           </p>
         </div>
       </div>

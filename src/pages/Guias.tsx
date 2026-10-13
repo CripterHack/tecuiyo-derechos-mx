@@ -202,7 +202,7 @@ const Guias = () => {
               <CardContent>
                 <p className="text-sm text-muted-foreground">
                   Cada guía está dividida en pasos claros y fáciles de seguir, 
-                  con ejemplos prácticos y plantillas descargables.
+                  con explicaciones y recomendaciones para preparar tu consulta.
                 </p>
               </CardContent>
             </Card>
@@ -212,12 +212,12 @@ const Guias = () => {
                 <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                   <FileText className="h-6 w-6 text-accent-foreground" />
                 </div>
-                <CardTitle className="text-lg">Documentos incluidos</CardTitle>
+                <CardTitle className="text-lg">Documentos sugeridos</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground">
-                  Cada guía incluye plantillas de cartas, formatos oficiales 
-                  y listas de verificación para facilitar tus trámites.
+                  Los pasos indican qué documentos conviene reunir. Consulta los requisitos
+                  y formatos de la autoridad que atienda tu trámite.
                 </p>
               </CardContent>
             </Card>
@@ -227,12 +227,12 @@ const Guias = () => {
                 <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                   <CheckCircle className="h-6 w-6 text-secondary" />
                 </div>
-                <CardTitle className="text-lg">Progreso guardado</CardTitle>
+                <CardTitle className="text-lg">Consulta a tu ritmo</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground">
-                  Tu progreso se guarda automáticamente. Puedes pausar 
-                  y continuar las guías cuando tengas tiempo.
+                  Puedes volver a leer las guías cuando lo necesites. Actualmente
+                  no se guarda el progreso de lectura.
                 </p>
               </CardContent>
             </Card>

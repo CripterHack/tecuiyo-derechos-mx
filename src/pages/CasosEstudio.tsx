@@ -157,7 +157,7 @@ const CasosEstudio = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background to-secondary/20">
       {/* Header */}
-      <header className="bg-white/80 backdrop-blur-sm border-b border-border/50 sticky top-0 z-50">
+      <header className="bg-background/80 backdrop-blur-sm border-b border-border/50 sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <Link to="/">
             <Button variant="ghost" size="sm" className="gap-2">
@@ -178,8 +178,8 @@ const CasosEstudio = () => {
             </h1>
           </div>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Análisis detallados de casos reales del derecho laboral mexicano. 
-            Aprende de situaciones prácticas y sus resoluciones jurídicas.
+            Escenarios educativos del derecho laboral mexicano, sin expedientes verificables publicados.
+            Los nombres, montos y resultados son ilustrativos; no representan casos atendidos por Tecuiyo.
           </p>
         </div>
 
@@ -189,21 +189,21 @@ const CasosEstudio = () => {
             <CardContent className="p-6 text-center">
               <FileText className="h-8 w-8 text-primary mx-auto mb-2" />
               <div className="text-2xl font-bold">{casos.length}</div>
-              <div className="text-sm text-muted-foreground">Casos Analizados</div>
+              <div className="text-sm text-muted-foreground">Escenarios educativos</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-6 text-center">
               <Scale className="h-8 w-8 text-accent mx-auto mb-2" />
-              <div className="text-2xl font-bold">95%</div>
-              <div className="text-sm text-muted-foreground">Casos Exitosos</div>
+              <div className="text-lg font-bold">Orientativos</div>
+              <div className="text-sm text-muted-foreground">Sin garantía de resultado</div>
             </CardContent>
           </Card>
           <Card>
             <CardContent className="p-6 text-center">
               <User className="h-8 w-8 text-secondary mx-auto mb-2" />
-              <div className="text-2xl font-bold">500+</div>
-              <div className="text-sm text-muted-foreground">Trabajadores Beneficiados</div>
+              <div className="text-lg font-bold">Acceso gratuito</div>
+              <div className="text-sm text-muted-foreground">Para aprender y contrastar fuentes</div>
             </CardContent>
           </Card>
         </div>

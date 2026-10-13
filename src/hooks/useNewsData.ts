@@ -1,16 +1,9 @@
 
 import { useState, useEffect } from 'react';
 import { z } from 'zod';
+import { NewsItemSchema } from '@/data/news-schema.js';
 
-// Define the schema here (or export from a shared types file)
-export const NewsItemSchema = z.object({
-  id: z.string(),
-  title: z.string(),
-  date: z.string(),
-  summary: z.string(),
-  link: z.string().url(),
-  source: z.string(),
-});
+export { NewsItemSchema };
 
 export type NewsItem = z.infer<typeof NewsItemSchema>;
 

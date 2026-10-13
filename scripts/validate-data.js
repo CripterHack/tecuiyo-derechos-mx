@@ -3,21 +3,12 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { z } from 'zod';
+import { NewsItemSchema } from '../src/data/news-schema.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const DATA_FILE = path.join(__dirname, '../public/data/news.json');
-
-// Schema definition (must match useNewsData.ts and research-updates.js)
-const NewsItemSchema = z.object({
-  id: z.string(),
-  title: z.string().min(5),
-  date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
-  summary: z.string().min(10),
-  link: z.string().url(),
-  source: z.string().min(2),
-});
 
 const NewsArraySchema = z.array(NewsItemSchema);
 

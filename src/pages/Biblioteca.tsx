@@ -8,6 +8,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Navigation } from "@/components/Navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { findArticleByReference, OFFICIAL_LFT_URL } from "@/data/articleDetails";
 
 const Biblioteca = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -95,14 +96,14 @@ const Biblioteca = () => {
         {
           numero: "Art. 76",
           titulo: "Derecho a vacaciones",
-          contenido: "Los trabajadores que tengan más de un año de servicios disfrutarán de un período anual de vacaciones pagadas...",
+          contenido: "El mínimo anual de vacaciones pagadas es de 12 días laborables al completar el primer año y aumenta con la antigüedad.",
           temas: ["vacaciones", "derecho", "período anual"]
         },
         {
           numero: "Art. 79",
-          titulo: "Duración de vacaciones",
-          contenido: "La duración de las vacaciones se aumentará en dos días laborables, hasta llegar a doce, por cada año subsecuente de servicios.",
-          temas: ["duración", "incremento", "días laborables"]
+          titulo: "Prohibición de sustituir vacaciones por dinero",
+          contenido: "Durante la relación laboral el pago no sustituye las vacaciones; al terminar antes del año de servicios corresponde la remuneración proporcional.",
+          temas: ["descanso", "terminación", "proporcional"]
         },
         {
           numero: "Art. 80",
@@ -135,13 +136,13 @@ const Biblioteca = () => {
         {
           numero: "Art. 48",
           titulo: "Derechos del trabajador despedido",
-          contenido: "El trabajador podrá solicitar ante la Junta de Conciliación y Arbitraje, a su elección, que se le reinstale en el trabajo que desempeñaba...",
+          contenido: "Ante un despido injustificado puede solicitarse reinstalación o indemnización, conforme a los requisitos y procedimientos aplicables.",
           temas: ["despido", "reinstalación", "indemnización", "elección"]
         },
         {
           numero: "Art. 50",
-          titulo: "Indemnización por despido injustificado",
-          contenido: "Las indemnizaciones a que se refiere el artículo anterior consistirán: I. Si la relación de trabajo fuere por tiempo determinado menor de un año...",
+          titulo: "Indemnizaciones en los supuestos del artículo 49",
+          contenido: "Los conceptos y montos dependen del supuesto jurídico, del tipo de relación laboral y de su duración; no se suman automáticamente en todo despido.",
           temas: ["indemnización", "despido injustificado", "3 meses"]
         }
       ]
@@ -151,10 +152,10 @@ const Biblioteca = () => {
   const documentosComplementarios = [
     {
       titulo: "Ley Federal del Trabajo (Texto completo)",
-      descripcion: "Versión actualizada de la LFT publicada en el DOF",
+      descripcion: "Texto oficial publicado por la Cámara de Diputados; consulta allí las reformas y la versión disponible",
       tipo: "Ley",
-      fecha: "2023",
-      enlace: "https://www.diputados.gob.mx/LeyesBiblio/pdf/125_230223.pdf"
+      fecha: "Fuente oficial",
+      enlace: OFFICIAL_LFT_URL
     },
     {
       titulo: "Constitución Política - Artículo 123",
@@ -164,17 +165,17 @@ const Biblioteca = () => {
       enlace: "https://www.diputados.gob.mx/LeyesBiblio/pdf/CPEUM.pdf"
     },
     {
-      titulo: "Reglamento de la LFT en materia de inspección",
-      descripcion: "Normativa sobre inspección del trabajo y sanciones",
-      tipo: "Reglamento",
-      fecha: "2023",
+      titulo: "Diario Oficial de la Federación",
+      descripcion: "Portal para consultar publicaciones y reformas; este enlace abre el portal, no un reglamento específico",
+      tipo: "Portal",
+      fecha: "Fuente oficial",
       enlace: "https://www.dof.gob.mx/"
     },
     {
-      titulo: "Tablas de salarios mínimos vigentes",
-      descripcion: "Salarios mínimos actualizados por zona geográfica",
+      titulo: "Comisión Nacional de los Salarios Mínimos",
+      descripcion: "Consulta las resoluciones y salarios mínimos aplicables en el portal de CONASAMI",
       tipo: "Tabla",
-      fecha: "2024",
+      fecha: "Fuente oficial",
       enlace: "https://www.gob.mx/conasami"
     }
   ];
@@ -242,7 +243,7 @@ const Biblioteca = () => {
             <BookOpen className="h-8 w-8" />
             <div>
               <h1 className="text-3xl font-bold">Biblioteca Legal</h1>
-              <p className="text-primary-foreground/80">Acceso completo a la Ley Federal del Trabajo y normativas laborales</p>
+              <p className="text-primary-foreground/80">Selección educativa de temas laborales y enlaces a fuentes oficiales</p>
             </div>
           </div>
         </div>
@@ -298,50 +299,69 @@ const Biblioteca = () => {
                     </h2>
                     
                     <div className="grid gap-6">
-                      {categoria.articulos.map((articulo, index) => (
-                        <Card key={index} className="legal-card">
-                          <CardHeader>
-                            <div className="flex items-start justify-between">
-                              <div className="flex-1">
-                                <div className="flex items-center gap-2 mb-2">
-                                  <Badge className="lft-badge">{articulo.numero}</Badge>
-                                  <Badge variant="outline" className="text-xs">LFT</Badge>
+                      {categoria.articulos.map((articulo, index) => {
+                        const articleDetail = findArticleByReference(articulo.numero);
+                        return (
+                          <Card key={index} className="legal-card">
+                            <CardHeader>
+                              <div className="flex items-start justify-between">
+                                <div className="flex-1">
+                                  <div className="flex items-center gap-2 mb-2">
+                                    <Badge className="lft-badge">{articulo.numero}</Badge>
+                                    <Badge variant="outline" className="text-xs">LFT</Badge>
+                                  </div>
+                                  <CardTitle className="text-lg">{articulo.titulo}</CardTitle>
                                 </div>
-                                <CardTitle className="text-lg">{articulo.titulo}</CardTitle>
                               </div>
-                            </div>
-                          </CardHeader>
-                          
-                          <CardContent>
-                            <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
-                              {articulo.contenido}
-                            </p>
-                            
-                            <div className="flex flex-wrap gap-1 mb-4">
-                              {articulo.temas.map(tema => (
-                                <Badge key={tema} variant="outline" className="text-xs">
-                                  {tema}
-                                </Badge>
-                              ))}
-                            </div>
-                            
-                            <div className="flex gap-2">
-                              <Link to={`/biblioteca/art${articulo.numero.replace(/[^0-9]/g, '')}`}>
-                                <Button variant="outline" size="sm">
-                                  <BookOpen className="mr-2 h-3 w-3" />
-                                  Leer completo
-                                </Button>
-                              </Link>
-                              <Button variant="ghost" size="sm" asChild>
-                                <a href="https://www.dof.gob.mx/" target="_blank" rel="noopener noreferrer">
-                                  <ExternalLink className="mr-2 h-3 w-3" />
-                                  Ver en DOF
-                                </a>
-                              </Button>
-                            </div>
-                          </CardContent>
-                        </Card>
-                      ))}
+                            </CardHeader>
+
+                            <CardContent>
+                              <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
+                                {articulo.contenido}
+                              </p>
+
+                              <div className="flex flex-wrap gap-1 mb-4">
+                                {articulo.temas.map(tema => (
+                                  <Badge key={tema} variant="outline" className="text-xs">
+                                    {tema}
+                                  </Badge>
+                                ))}
+                              </div>
+
+                              <div className="flex gap-2">
+                                {articleDetail ? (
+                                  <Button variant="outline" size="sm" asChild>
+                                    <Link to={`/biblioteca/${articleDetail.id}`}>
+                                      <BookOpen className="mr-2 h-3 w-3" />
+                                      Leer resumen
+                                    </Link>
+                                  </Button>
+                                ) : (
+                                  <Button variant="outline" size="sm" asChild>
+                                    <a href={OFFICIAL_LFT_URL} target="_blank" rel="noopener noreferrer">
+                                      <ExternalLink className="mr-2 h-3 w-3" />
+                                      Consultar {articulo.numero.replace("Art.", "art.")} en LFT oficial
+                                    </a>
+                                  </Button>
+                                )}
+                                {articleDetail && (
+                                  <Button variant="ghost" size="sm" asChild>
+                                    <a href={OFFICIAL_LFT_URL} target="_blank" rel="noopener noreferrer">
+                                      <ExternalLink className="mr-2 h-3 w-3" />
+                                      Consultar LFT oficial
+                                    </a>
+                                  </Button>
+                                )}
+                              </div>
+                              {!articleDetail && (
+                                <p className="text-xs text-muted-foreground mt-3">
+                                  Sin resumen local. El enlace abre el PDF completo de la LFT para que busques el artículo indicado.
+                                </p>
+                              )}
+                            </CardContent>
+                          </Card>
+                        );
+                      })}
                     </div>
                   </div>
                 ))}
@@ -407,15 +427,15 @@ const Biblioteca = () => {
       {/* Información legal */}
       <section className="py-12 px-4 bg-muted/30">
         <div className="container mx-auto max-w-4xl text-center">
-          <h2 className="text-2xl font-bold mb-4">Fuentes oficiales verificadas</h2>
+          <h2 className="text-2xl font-bold mb-4">Consulta el texto oficial</h2>
           <p className="text-muted-foreground mb-6">
-            Todos los textos legales provienen de fuentes oficiales del Diario Oficial de la Federación (DOF) 
-            y son actualizados regularmente para garantizar su vigencia.
+            La biblioteca reúne resúmenes educativos de una selección de artículos. No reproduce toda la ley.
+            Antes de tomar decisiones sobre tu caso, consulta el texto oficial y busca orientación especializada.
           </p>
           <Button variant="outline" asChild>
-            <a href="https://www.dof.gob.mx/" target="_blank" rel="noopener noreferrer">
+            <a href={OFFICIAL_LFT_URL} target="_blank" rel="noopener noreferrer">
               <ExternalLink className="mr-2 h-4 w-4" />
-              Visitar DOF oficial
+              Consultar LFT oficial
             </a>
           </Button>
         </div>

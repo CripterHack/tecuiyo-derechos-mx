@@ -7,7 +7,7 @@ import { NewsFeed } from "@/components/NewsFeed";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background" role="main" id="main-content">
+    <div className="min-h-screen bg-background" role="main">
       <Navigation />
       {/* Header Hero */}
       <header className="relative animated-gradient py-20 px-4 overflow-hidden" role="banner">
@@ -42,17 +42,17 @@ const Index = () => {
               </Link>
             </Button>
             <span id="explorar-desc" className="sr-only">
-              Accede a la biblioteca completa de la Ley Federal del Trabajo
+              Consulta una selección de artículos y explicaciones de la Ley Federal del Trabajo
             </span>
             <Button size="lg" variant="outline" className="glass-effect border-white text-white hover:bg-white hover:text-obsidiana-dark text-lg px-10 py-4 font-semibold transition-all duration-300 shadow-lg
               inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 disabled:cursor-not-allowed [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 min-h-[44px] border hover:text-accent-foreground h-11 rounded-md bg-white/10 border-white/30 text-white hover:bg-white/20 text-lg px-8 py-3" asChild>
               <Link to="/calculadora" aria-describedby="calc-desc">
                 <Calculator className="mr-2 h-5 w-5" aria-hidden="true" />
-                Calculadora de liquidación
+                Estimar prestaciones
               </Link>
             </Button>
             <span id="calc-desc" className="sr-only">
-              Calcula tu liquidación conforme a la Ley Federal del Trabajo
+              Estima aguinaldo y vacaciones proporcionales con supuestos visibles
             </span>
           </nav>
         </div>
@@ -121,19 +121,19 @@ const Index = () => {
                 <div className="w-14 h-14 bg-gradient-to-br from-accent/20 to-accent/10 rounded-xl flex items-center justify-center mb-6 group-hover:from-accent/30 group-hover:to-accent/20 transition-all duration-300 shadow-sm">
                   <Calculator className="h-7 w-7 text-accent-foreground icon-rotate" />
                 </div>
-                <CardTitle className="text-xl group-hover:text-accent-foreground transition-colors duration-300">Calculadora de liquidación</CardTitle>
+                <CardTitle className="text-xl group-hover:text-accent-foreground transition-colors duration-300">Estimación de prestaciones</CardTitle>
                 <CardDescription className="text-base leading-relaxed">
-                  Calcula tu liquidación conforme a los artículos 48, 76, 80 y 87 de la LFT
+                  Estima aguinaldo, vacaciones proporcionales y prima vacacional
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
-                  Ingresa tu salario, antigüedad y motivo del despido para obtener el cálculo exacto
+                  Ingresa tu salario y fechas para obtener una estimación orientativa con sus límites
                 </p>
                 <Button variant="outline" className="w-full group-hover:border-accent/50 group-hover:text-accent-foreground transition-all duration-300 relative overflow-hidden" asChild>
                   <Link to="/calculadora">
                     <div className="absolute inset-0 bg-accent/5 translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
-                    <span className="relative">Calcular liquidación</span>
+                    <span className="relative">Estimar prestaciones</span>
                   </Link>
                 </Button>
               </CardContent>
@@ -195,12 +195,12 @@ const Index = () => {
                 </div>
                 <CardTitle className="text-xl group-hover:text-accent-foreground transition-colors duration-300">Biblioteca legal</CardTitle>
                 <CardDescription className="text-base leading-relaxed">
-                  Acceso completo a la LFT, reglamentos y normativas laborales vigentes
+                  Selección de artículos de la LFT y explicaciones educativas
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground mb-6 leading-relaxed">
-                  Textos oficiales con enlaces al DOF y explicaciones en lenguaje accesible
+                  Resúmenes en revisión y acceso al texto oficial para comprobar su alcance
                 </p>
                 <Button variant="outline" className="w-full group-hover:border-accent/50 group-hover:text-accent-foreground transition-all duration-300 relative overflow-hidden" asChild>
                   <Link to="/biblioteca">
@@ -247,7 +247,7 @@ const Index = () => {
         <div className="container mx-auto max-w-4xl relative z-10">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              Artículo destacado de la semana
+              Tema destacado
             </h2>
             <p className="text-muted-foreground">Mantente informado sobre tus derechos laborales más importantes</p>
           </div>
@@ -258,7 +258,7 @@ const Index = () => {
                 <span className="lft-badge">Art. 48 LFT</span>
                 <span className="text-sm text-muted-foreground flex items-center gap-1">
                   <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-                  Actualizado el 15 de enero de 2025
+                  Resumen educativo; consulta el texto oficial
                 </span>
               </div>
               <CardTitle className="text-2xl group-hover:text-primary transition-colors duration-300">
@@ -270,19 +270,19 @@ const Index = () => {
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <blockquote className="border-l-4 border-primary/30 pl-4 py-2 mb-6 italic text-muted-foreground bg-primary/5 rounded-r-lg">
-                "El trabajador podrá solicitar ante la Junta de Conciliación y Arbitraje, a su elección, 
-                que se le reinstale en el trabajo que desempeñaba, o que se le indemnice..."
-              </blockquote>
+              <p className="border-l-4 border-primary/30 pl-4 py-2 mb-6 text-muted-foreground bg-primary/5 rounded-r-lg">
+                La vía, los plazos y las prestaciones aplicables dependen del caso.
+                Busca orientación en las autoridades laborales antes de tomar una decisión.
+              </p>
               <div className="flex flex-wrap gap-3">
                 <Link to="/biblioteca/art48">
                   <Button variant="outline" size="sm" className="float-effect hover:border-primary/50">
-                    📖 Leer artículo completo
+                    📖 Leer explicación
                   </Button>
                 </Link>
                 <Button variant="ghost" size="sm" asChild className="float-effect">
-                  <a href="https://www.dof.gob.mx/" target="_blank" rel="noopener noreferrer" className="link-underline">
-                    🏛️ Ver en DOF oficial
+                  <a href="https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf" target="_blank" rel="noopener noreferrer" className="link-underline">
+                    🏛️ Consultar LFT oficial
                   </a>
                 </Button>
               </div>

@@ -13,9 +13,9 @@ Tecuiyo es una **Single Page Application (SPA)** construida con el stack moderno
 | **Core** | React 18 + Vite | Estándar de industria, alto rendimiento en desarrollo (HMR) y producción. |
 | **Lenguaje** | TypeScript | Seguridad de tipos y mejor experiencia de desarrollo (DX). |
 | **Estilos** | Tailwind CSS + Shadcn UI | Desarrollo rápido de UI consistente y accesible. |
-| **Routing** | React Router 6 | Gestión estándar de navegación co el cliente. |
+| **Routing** | React Router 7 | Navegación del cliente y recuperación de rutas profundas. |
 | **Estado** | TanStack Query + React Context | Gestión eficiente de datos asíncronos y estado global ligero. |
-| **Deploy** | Estático (Vercel/Netlify/etc.) | Costo bajo, alta disponibilidad, fácil escalado. |
+| **Deploy** | GitHub Pages mediante Actions | Hosting estático con dominio personalizado. |
 
 ---
 
@@ -66,10 +66,13 @@ La aplicación consume principalmente datos estáticos definidos en `src/data/`.
 El enrutamiento es declarativo en `App.tsx`.
 * Las rutas son planas para facilitar la lectura.
 * Se usa un layout implícito (Header + Content + Footer) en `App.tsx`.
+* Las páginas se cargan bajo demanda con `lazy` y `Suspense`. Un límite de errores por ruta ofrece recarga y enlaces oficiales si falla un módulo; el footer conserva la navegación.
+* La disponibilidad de resúmenes y sus enlaces relacionados se obtiene de `src/data/articleDetails.ts`. Una referencia sin resumen conduce a la LFT oficial sin generar contenido ficticio.
 
 ### Estilos y Tema
 * **Tailwind CSS** es la única fuente de verdad para estilos.
 * Evitamos archivos `.css` separados (excepto `index.css` para directivas globales).
+* Typography da formato a los bloques legales que ya usan `prose` y `dark:prose-invert`; las pruebas CSS compilan la configuración real.
 * **Modo Oscuro:** Soportado nativamente vía clases de Tailwind y `next-themes` (o gestión manual de clases).
 
 ---
@@ -88,4 +91,10 @@ El enrutamiento es declarativo en `App.tsx`.
 
 * **Sanitización:** Se usa `DOMPurify` (si aplica) para contenido inyectado.
 * **Linting:** ESLint configurado para reglas estrictas de React y Hooks.
-* **Testing:** (Pendiente de implementación robusta) Se recomienda Vitest para lógica de utilidades.
+* **Testing:** Vitest comprueba componentes, cálculo orientativo, documentos, rutas y esquema de noticias; Node Test comprueba dependencias y salida CSS.
+
+### Contacto y aportaciones
+
+El contacto usa enlaces `mailto:` y copia de dirección; la persona envía el mensaje desde su propio correo. Los errores públicos pueden reportarse en GitHub sin datos personales. No existe un endpoint de envío ni se informa que un mensaje fue entregado.
+
+La ruta `/apoyar` enlaza a los perfiles existentes de PayPal y GitHub Sponsors. Las plataformas procesan los pagos. Tecuiyo no recoge tarjetas, recibe webhooks ni interpreta parámetros de retorno como una confirmación de pago. Consulta [RED_TEAM_2026-10.md](RED_TEAM_2026-10.md) para el alcance revisado y el trabajo pendiente.

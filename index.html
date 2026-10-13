@@ -3,16 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Deployment Version: 1.0.1 - $(date) -->
     
     <!-- Security Headers -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' https://static.cloudflareinsights.com; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com data:; connect-src 'self' https://cloudflareinsights.com;">
     <meta name="referrer" content="strict-origin-when-cross-origin">
+
+    <!-- Recupera enlaces directos de GitHub Pages antes de iniciar el router. -->
+    <script src="/spa-route-recovery.js"></script>
     
     <title>Tecuiyo - Conoce tus derechos laborales</title>
-    <meta name="description" content="Plataforma que empodera a trabajadores mexicanos enseñando sus derechos conforme a la Ley Federal del Trabajo. Información accesible, calculadoras laborales y asesoría legal." />
+    <meta name="description" content="Información educativa sobre derechos laborales en México, guías, estimación parcial de prestaciones y recursos para consultar fuentes y autoridades. Acceso gratuito." />
     <meta name="author" content="IzignaMx" />
-    <meta name="keywords" content="derechos laborales, Ley Federal del Trabajo, LFT, trabajadores mexicanos, calculadora liquidación, asesoría legal" />
+    <meta name="keywords" content="derechos laborales, Ley Federal del Trabajo, LFT, trabajadores mexicanos, prestaciones proporcionales, información laboral" />
     
     <!-- Accessibility enhancements -->
     <meta name="theme-color" content="#0F7C6C" />
@@ -27,18 +29,16 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:title" content="Tecuiyo - Conoce tus derechos laborales" />
-    <meta property="og:description" content="Plataforma que empodera a trabajadores mexicanos enseñando sus derechos conforme a la Ley Federal del Trabajo. Calculadora de liquidación, guías prácticas y asesoría legal." />
+    <meta property="og:description" content="Recursos educativos gratuitos, guías y estimación parcial de prestaciones laborales en México. Consulta fuentes oficiales y autoridades para tu caso." />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_MX" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:locale" content="es_MX" />
-
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@izignamx" />
     <meta name="twitter:title" content="Tecuiyo - Conoce tus derechos laborales" />
-    <meta name="twitter:description" content="Calculadora de liquidación, guías laborales y recursos legales para trabajadores mexicanos" />
+    <meta name="twitter:description" content="Guías educativas, estimación parcial de prestaciones y recursos laborales gratuitos para trabajadores mexicanos" />
 
     
     <!-- Additional SEO -->

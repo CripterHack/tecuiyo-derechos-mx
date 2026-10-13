@@ -17,6 +17,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: false
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -30,6 +32,7 @@ jobs:
       - name: Run Research Script
         id: research
         run: |
+          rm -f updates-report.md
           node scripts/research-updates.js
           if [ -f updates-report.md ]; then
             echo "has_updates=true" >> $GITHUB_OUTPUT
@@ -46,6 +49,9 @@ jobs:
           commit-message: "feat(content): update news with weekly research findings"
           title: "📰 Novedades Laborales - Semana ${{ steps.research.outputs.week_info }}"
           body-path: updates-report.md
+          add-paths: |
+            public/data/news.json
+            public/data/news-archive.json
           branch: content-updates/weekly-report
           base: main
           labels: |

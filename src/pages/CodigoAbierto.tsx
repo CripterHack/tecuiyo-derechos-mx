@@ -9,8 +9,8 @@ const CodigoAbierto = () => {
     { nombre: "React", version: "18.3.1", descripcion: "Biblioteca de interfaz de usuario" },
     { nombre: "TypeScript", version: "5.0+", descripcion: "Lenguaje de programación tipado" },
     { nombre: "Tailwind CSS", version: "3.4+", descripcion: "Framework de estilos utilitarios" },
-    { nombre: "Vite", version: "5.0+", descripcion: "Herramienta de construcción rápida" },
-    { nombre: "React Router", version: "6.26+", descripcion: "Enrutamiento para React" },
+    { nombre: "Vite", version: "6.4+", descripcion: "Herramienta de construcción rápida" },
+    { nombre: "React Router", version: "7.18+", descripcion: "Enrutamiento para React" },
     { nombre: "Radix UI", version: "1.0+", descripcion: "Componentes accesibles" },
     { nombre: "Lucide React", version: "0.462+", descripcion: "Iconos SVG para React" },
     { nombre: "Tanstack Query", version: "5.56+", descripcion: "Gestión de estado del servidor" }
@@ -24,7 +24,7 @@ const CodigoAbierto = () => {
     },
     {
       titulo: "Accesibilidad",
-      descripcion: "Interfaz accesible con soporte completo para lectores de pantalla y navegación por teclado.",
+      descripcion: "Componentes con etiquetas y controles para teclado; las mejoras de accesibilidad siguen abiertas a revisión.",
       icono: Users
     },
     {
@@ -257,6 +257,9 @@ const CodigoAbierto = () => {
               en ayudar, tu contribución es valiosa para mejorar Tecuiyo.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
+              <Button variant="outline" size="lg" asChild>
+                <Link to="/apoyar">Apoyar el mantenimiento</Link>
+              </Button>
               <Button size="lg" asChild>
                 <a href="https://github.com/CripterHack/tecuiyo-derechos-mx" target="_blank" rel="noopener noreferrer">
                   <Github className="h-4 w-4 mr-2" />

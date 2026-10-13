@@ -31,7 +31,7 @@ const navigationItems: NavigationItem[] = [
       {
         label: "Calculadora",
         href: "/calculadora", 
-        description: "Calcula tu liquidación laboral"
+        description: "Estima prestaciones proporcionales"
       },
       {
         label: "Formularios",
@@ -53,7 +53,7 @@ const navigationItems: NavigationItem[] = [
       {
         label: "Biblioteca Legal",
         href: "/biblioteca",
-        description: "Ley Federal del Trabajo completa"
+        description: "Selección de artículos y explicaciones"
       },
       {
         label: "Guías",
@@ -63,7 +63,7 @@ const navigationItems: NavigationItem[] = [
       {
         label: "Casos de Estudio",
         href: "/casos-estudio",
-        description: "Ejemplos reales de casos laborales"
+        description: "Escenarios educativos de casos laborales"
       },
       {
         label: "Glosario",
@@ -71,6 +71,11 @@ const navigationItems: NavigationItem[] = [
         description: "Términos legales explicados"
       }
     ]
+  },
+  {
+    label: "Apoyar",
+    href: "/apoyar",
+    description: "Apoyo voluntario al mantenimiento de Tecuiyo"
   },
   {
     label: "Contacto",

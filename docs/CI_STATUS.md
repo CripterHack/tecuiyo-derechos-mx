@@ -1,5 +1,11 @@
 # Estado de CI/CD y diagnóstico del 12 de octubre de 2026
 
+## Estado confirmado al 13 de octubre de 2026
+
+El [PR #61](https://github.com/CripterHack/tecuiyo-derechos-mx/pull/61) fue fusionado en `main`, commit `4d89a095133fc641ed2637731bf62d0507581317`. La [ejecución 38420756657](https://github.com/CripterHack/tecuiyo-derechos-mx/actions/runs/38420756657) completó verificación y despliegue; GitHub Pages informó éxito el 13-10-2026 a las 15:19:31 UTC. Los issues #58, #59 y #60 quedaron cerrados. El issue #62 conserva las alertas de dependencias pendientes.
+
+Las secciones siguientes conservan el diagnóstico y las comprobaciones anteriores al merge como registro histórico. Sus referencias al PR abierto o al despliegue anterior no describen el estado actual. La comprobación HTTP del dominio recibió un challenge de Cloudflare y no permitió validar visualmente la publicación; el éxito de despliegue está confirmado por los logs de Actions.
+
 ## Incidente
 
 El merge del PR #57 dejó `main` en `a350334aa9237d450357a0b62d7fc3c89271e269` con Vitest 5.0.4 y Vite 5.4.10. La instalación con `npm ci` falló por incompatibilidad de peer dependencies. La [ejecución 38339891363](https://github.com/CripterHack/tecuiyo-derechos-mx/actions/runs/38339891363) omitió pruebas, lint, tipos, build y despliegue. La [ejecución anterior 38339849146](https://github.com/CripterHack/tecuiyo-derechos-mx/actions/runs/38339849146), sobre `ce57c6b150ab8c5180fa3142373b59957e0622d4`, sí desplegó.
