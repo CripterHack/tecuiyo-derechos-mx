@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Tailwind conserva variantes, selectores arbitrarios y @apply",
+    "plugin": "tailwind",
+    "content": "<div class=\"group-hover:text-red-500 peer-focus:text-red-500 hover:bg-blue-500 dark:text-white [&>a]:underline data-[state=open]:block\"></div>",
+    "css": "@tailwind utilities; .action { @apply text-red-500 hover:bg-blue-500; }",
+    "rules": [
+      { "selector": ".action", "declarations": { "color": "rgb(239 68 68 / var(--tw-text-opacity, 1))" } },
+      { "selector": ".action:hover", "declarations": { "background-color": "rgb(59 130 246 / var(--tw-bg-opacity, 1))" } },
+      { "selector": ".group:hover .group-hover\\:text-red-500", "declarations": { "color": "rgb(239 68 68 / var(--tw-text-opacity, 1))" } },
+      { "selector": ".peer:focus ~ .peer-focus\\:text-red-500", "declarations": { "color": "rgb(239 68 68 / var(--tw-text-opacity, 1))" } },
+      { "selector": ".data-\\[state\\=open\\]\\:block[data-state=\"open\"]", "declarations": { "display": "block" } },
+      { "selector": ".dark\\:text-white:is(.dark *)", "declarations": { "color": "rgb(255 255 255 / var(--tw-text-opacity, 1))" } },
+      { "selector": ".\\[\\&\\>a\\]\\:underline>a", "declarations": { "text-decoration-line": "underline" } }
+    ]
+  },
+  {
+    "name": "PostCSS Nested conserva combinadores y pseudo-clases al expandir &",
+    "plugin": "nested",
+    "css": ".card { & > a:hover { color: red; } .item { &:focus-visible { outline: none; } } }",
+    "rules": [
+      { "selector": ".card > a:hover", "declarations": { "color": "red" } },
+      { "selector": ".card .item:focus-visible", "declarations": { "outline": "none" } }
+    ]
+  },
+  {
+    "name": "Typography conserva prose y los modificadores de encabezados y enlaces",
+    "plugin": "tailwind",
+    "typography": true,
+    "content": "<article class=\"prose prose-headings:font-bold prose-a:text-red-500\"><h2>Heading</h2><p>Text <a>Link</a></p></article>",
+    "css": "@tailwind components; @tailwind utilities;",
+    "rules": [
+      { "selector": ".prose :where(p):not(:where([class~=\"not-prose\"],[class~=\"not-prose\"] *))", "declarations": { "margin-top": "1.25em" } },
+      { "selector": ".prose-headings\\:font-bold :is(:where(h1, h2, h3, h4, h5, h6, th):not(:where([class~=\"not-prose\"],[class~=\"not-prose\"] *)))", "declarations": { "font-weight": "700" } },
+      { "selector": ".prose-a\\:text-red-500 :is(:where(a):not(:where([class~=\"not-prose\"],[class~=\"not-prose\"] *)))", "declarations": { "color": "rgb(239 68 68 / var(--tw-text-opacity, 1))" } },
+      { "selector": ".prose :where(ol > li):not(:where([class~=\"not-prose\"],[class~=\"not-prose\"] *))::marker", "declarations": { "color": "var(--tw-prose-counters)" } },
+      { "selector": ".prose :where(code):not(:where([class~=\"not-prose\"],[class~=\"not-prose\"] *))::before", "declarations": { "content": "\"`\"" } }
+    ]
+  }
+]

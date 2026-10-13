@@ -15,16 +15,18 @@ Esta guía explica cómo desplegar Tecuiyo en diferentes plataformas.
 
 ## ✅ Prerrequisitos
 
-- Node.js 18 o superior
-- npm o yarn
+- Node.js 24, definido en `.nvmrc` y usado por ambos workflows
+- npm
 - Git
+
+Usa `nvm install` y `nvm use` si administras Node.js con nvm. El rango compatible con Vitest 5 está declarado en `package.json`: `^22.12.0 || ^24.0.0 || >=26.0.0`.
 
 ## 🏗️ Build de Producción
 
 ### Crear Build Local
 ```bash
 # Instalar dependencias
-npm install
+npm ci
 
 # Crear build de producción
 npm run build
@@ -45,6 +47,9 @@ npm run lint
 
 # Ejecutar tests
 npm test
+
+# Verificar dependencias CSS y compatibilidad de sus consumidores
+npm run test:css-dependencies
 ```
 
 ## ▲ Vercel
@@ -132,23 +137,27 @@ El proyecto cuenta con un workflow automátizado en `.github/workflows/ci-cd.yml
 
 1. **Verificación Contínua (CI)**:
     - Se ejecuta en cada `push` y `pull_request` a `main`.
-    - Instala dependencias (`npm ci`).
+    - Usa la versión de Node.js definida en `.nvmrc`.
+    - Instala las dependencias bloqueadas (`npm ci`), sin omitir la validación de peer dependencies.
+    - Ejecuta las pruebas (`npm run test`, en modo CI).
+    - Comprueba las versiones corregidas del parser CSS y la salida de Tailwind, PostCSS Nested y Typography (`npm run test:css-dependencies`).
     - Ejecuta el linter (`npm run lint`) para asegurar calidad de código.
-    - Verifica tipos de TypeScript (`npm run type-check`).
+    - Verifica los proyectos de aplicación y Node (`npm run type-check`), incluidas ambas configuraciones Vite/Vitest.
     - Construye la aplicación (`npm run build`).
 
 2. **Despliegue Contínuo (CD)**:
     - Solo se ejecuta si el paso de CI es exitoso y estamos en la rama `main`.
-    - Utiliza `peaceiris/actions-gh-pages` para desplegar la carpeta `dist/` a la rama `gh-pages`.
+    - Publica `dist/` como artefacto con `actions/upload-pages-artifact@v3`.
+    - El job `deploy` usa `actions/deploy-pages@v4` y el entorno `github-pages`.
+    - Los PR verifican y construyen el proyecto, pero no despliegan a producción.
 
 ### Configuración de Dominio Personalizado
 
 Para conectar tu subdominio (ej. `app.tecuiyo.com`):
 
 1. Ve a tu repositorio en GitHub -> **Settings** -> **Pages**.
-2. En "Build and deployment", asegúrate que Source sea "Deploy from a branch" y selecciona `gh-pages`.
-3. En "Custom domain", ingresa tu dominio (ej. `app.tecuiyo.com`) y guarda.
-    - *Nota:* Esto creará un archivo `CNAME` en la raíz de la rama `gh-pages`.
+2. En "Build and deployment", selecciona **GitHub Actions** como Source.
+3. En "Custom domain", conserva el dominio de producción `tecuiyo.izignamx.com`. El archivo `public/CNAME` también se copia al build.
 4. En tu proveedor de DNS, crea un registro `CNAME` apuntando a `CripterHack.github.io`.
 5. Espera a que GitHub verifique el DNS y activa "Enforce HTTPS".
 
@@ -158,11 +167,11 @@ En `vite.config.ts`:
 
 ```typescript
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import react from '@vitejs/plugin-react-swc'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/tecuiyo/', // Reemplaza con el nombre de tu repo
+  base: '/', // El dominio personalizado sirve la aplicación desde la raíz
   build: {
     outDir: 'dist',
   },
@@ -175,7 +184,7 @@ export default defineConfig({
 
 ```dockerfile
 # Build stage
-FROM node:18-alpine as build
+FROM node:24-alpine as build
 
 WORKDIR /app
 COPY package*.json ./
@@ -343,13 +352,15 @@ export const initErrorReporting = () => {
 #### Build Falla
 
 ```bash
-# Limpiar cache
-rm -rf node_modules package-lock.json
-npm install
+# Verificar y seleccionar la versión del proyecto
+node --version  # CI usa Node.js 24
+nvm use
 
-# Verificar versión de Node
-node --version  # Debe ser 18+
+# Reproducir la instalación exacta sin modificar el lockfile
+npm ci
 ```
+
+Si `npm ci` reporta `ERESOLVE`, revisa la compatibilidad entre Vite, Vitest y `@vitejs/plugin-react-swc`. Regenera y verifica `package-lock.json` junto con `package.json` al actualizar dependencias. No uses `--force` ni `--legacy-peer-deps` para ocultar el conflicto.
 
 #### Rutas No Funcionan
 
