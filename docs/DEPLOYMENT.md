@@ -47,6 +47,9 @@ npm run lint
 
 # Ejecutar tests
 npm test
+
+# Verificar dependencias CSS y compatibilidad de sus consumidores
+npm run test:css-dependencies
 ```
 
 ## ▲ Vercel
@@ -137,6 +140,7 @@ El proyecto cuenta con un workflow automátizado en `.github/workflows/ci-cd.yml
     - Usa la versión de Node.js definida en `.nvmrc`.
     - Instala las dependencias bloqueadas (`npm ci`), sin omitir la validación de peer dependencies.
     - Ejecuta las pruebas (`npm run test`, en modo CI).
+    - Comprueba las versiones corregidas del parser CSS y la salida de Tailwind, PostCSS Nested y Typography (`npm run test:css-dependencies`).
     - Ejecuta el linter (`npm run lint`) para asegurar calidad de código.
     - Verifica los proyectos de aplicación y Node (`npm run type-check`), incluidas ambas configuraciones Vite/Vitest.
     - Construye la aplicación (`npm run build`).
