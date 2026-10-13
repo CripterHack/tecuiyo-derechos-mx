@@ -19,7 +19,7 @@ Esta guía explica cómo desplegar Tecuiyo en diferentes plataformas.
 - npm
 - Git
 
-Usa `nvm install` y `nvm use` si administras Node.js con nvm. El rango compatible con Vitest 5 está declarado en `package.json`: `^22.12.0 || ^24.0.0 || >=26.0.0`.
+Usa `nvm install` y `nvm use` si administras Node.js con nvm. El rango del proyecto completo está declarado en `package.json`: `^22.13.0 || ^24.0.0 || >=26.0.0`. Vitest 5 admite 22.12, pero las herramientas de lint actuales elevan ese piso a 22.13. Ambos workflows continúan usando Node 24.
 
 ## 🏗️ Build de Producción
 

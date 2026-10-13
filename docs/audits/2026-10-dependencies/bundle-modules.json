@@ -1,0 +1,450 @@
+{
+  "checkedPackages": [
+    "braces",
+    "chokidar",
+    "micromatch",
+    "fast-glob",
+    "tailwindcss"
+  ],
+  "chunks": 46,
+  "modules": 206,
+  "matched": [],
+  "chunkModules": [
+    {
+      "file": "assets/index-BnyMnGqr.js",
+      "modules": [
+        "\u0000vite/modulepreload-polyfill.js",
+        "\u0000commonjsHelpers.js",
+        "\u0000./node_modules/react/jsx-runtime.js?commonjs-module",
+        "\u0000./node_modules/react/cjs/react-jsx-runtime.production.min.js?commonjs-exports",
+        "\u0000./node_modules/react/index.js?commonjs-module",
+        "\u0000./node_modules/react/cjs/react.production.min.js?commonjs-exports",
+        "./node_modules/react/cjs/react.production.min.js",
+        "./node_modules/react/index.js",
+        "./node_modules/react/cjs/react-jsx-runtime.production.min.js",
+        "./node_modules/react/jsx-runtime.js",
+        "\u0000./node_modules/react/jsx-runtime.js?commonjs-es-import",
+        "\u0000./node_modules/react-dom/client.js?commonjs-exports",
+        "\u0000./node_modules/react-dom/index.js?commonjs-module",
+        "\u0000./node_modules/react-dom/cjs/react-dom.production.min.js?commonjs-exports",
+        "\u0000./node_modules/scheduler/index.js?commonjs-module",
+        "\u0000./node_modules/scheduler/cjs/scheduler.production.min.js?commonjs-exports",
+        "./node_modules/scheduler/cjs/scheduler.production.min.js",
+        "./node_modules/scheduler/index.js",
+        "./node_modules/react-dom/cjs/react-dom.production.min.js",
+        "./node_modules/react-dom/index.js",
+        "./node_modules/react-dom/client.js",
+        "\u0000./node_modules/react-dom/client.js?commonjs-es-import",
+        "\u0000vite/preload-helper.js",
+        "\u0000./node_modules/react/index.js?commonjs-es-import",
+        "./src/hooks/use-toast.ts",
+        "\u0000./node_modules/react-dom/index.js?commonjs-es-import",
+        "./node_modules/@radix-ui/primitive/dist/index.mjs",
+        "./node_modules/@radix-ui/react-compose-refs/dist/index.mjs",
+        "./node_modules/@radix-ui/react-collection/node_modules/@radix-ui/react-context/dist/index.mjs",
+        "./node_modules/@radix-ui/react-slot/dist/index.mjs",
+        "./node_modules/@radix-ui/react-collection/dist/index.mjs",
+        "./node_modules/@radix-ui/react-context/dist/index.mjs",
+        "./node_modules/@radix-ui/react-primitive/dist/index.mjs",
+        "./node_modules/@radix-ui/react-use-callback-ref/dist/index.mjs",
+        "./node_modules/@radix-ui/react-use-escape-keydown/dist/index.mjs",
+        "./node_modules/@radix-ui/react-dismissable-layer/dist/index.mjs",
+        "./node_modules/@radix-ui/react-use-layout-effect/dist/index.mjs",
+        "./node_modules/@radix-ui/react-portal/dist/index.mjs",
+        "./node_modules/@radix-ui/react-presence/dist/index.mjs",
+        "./node_modules/@radix-ui/react-use-controllable-state/dist/index.mjs",
+        "./node_modules/@radix-ui/react-visually-hidden/dist/index.mjs",
+        "./node_modules/@radix-ui/react-toast/dist/index.mjs",
+        "./node_modules/clsx/dist/clsx.mjs",
+        "./node_modules/class-variance-authority/dist/index.mjs",
+        "./node_modules/lucide-react/dist/esm/shared/src/utils.js",
+        "./node_modules/lucide-react/dist/esm/defaultAttributes.js",
+        "./node_modules/lucide-react/dist/esm/Icon.js",
+        "./node_modules/lucide-react/dist/esm/createLucideIcon.js",
+        "./node_modules/lucide-react/dist/esm/icons/x.js",
+        "./node_modules/tailwind-merge/dist/bundle-mjs.mjs",
+        "./src/lib/utils.ts",
+        "./src/components/ui/toast.tsx",
+        "./src/components/ui/toaster.tsx",
+        "./node_modules/next-themes/dist/index.mjs",
+        "./node_modules/sonner/dist/index.mjs",
+        "./src/components/ui/sonner.tsx",
+        "./node_modules/@floating-ui/utils/dist/floating-ui.utils.mjs",
+        "./node_modules/@floating-ui/core/dist/floating-ui.core.mjs",
+        "./node_modules/@floating-ui/utils/dist/floating-ui.utils.dom.mjs",
+        "./node_modules/@floating-ui/dom/dist/floating-ui.dom.mjs",
+        "./node_modules/@floating-ui/react-dom/dist/floating-ui.react-dom.mjs",
+        "./node_modules/@radix-ui/react-arrow/dist/index.mjs",
+        "./node_modules/@radix-ui/react-popper/node_modules/@radix-ui/react-context/dist/index.mjs",
+        "./node_modules/@radix-ui/react-use-size/dist/index.mjs",
+        "./node_modules/@radix-ui/react-popper/dist/index.mjs",
+        "./node_modules/@radix-ui/react-tooltip/dist/index.mjs",
+        "./src/components/ui/tooltip.tsx",
+        "./src/components/ui/button.tsx",
+        "./node_modules/@tanstack/query-core/build/modern/subscribable.js",
+        "./node_modules/@tanstack/query-core/build/modern/utils.js",
+        "./node_modules/@tanstack/query-core/build/modern/focusManager.js",
+        "./node_modules/@tanstack/query-core/build/modern/onlineManager.js",
+        "./node_modules/@tanstack/query-core/build/modern/thenable.js",
+        "./node_modules/@tanstack/query-core/build/modern/retryer.js",
+        "./node_modules/@tanstack/query-core/build/modern/notifyManager.js",
+        "./node_modules/@tanstack/query-core/build/modern/removable.js",
+        "./node_modules/@tanstack/query-core/build/modern/query.js",
+        "./node_modules/@tanstack/query-core/build/modern/queryCache.js",
+        "./node_modules/@tanstack/query-core/build/modern/mutation.js",
+        "./node_modules/@tanstack/query-core/build/modern/mutationCache.js",
+        "./node_modules/@tanstack/query-core/build/modern/infiniteQueryBehavior.js",
+        "./node_modules/@tanstack/query-core/build/modern/queryClient.js",
+        "./node_modules/@tanstack/react-query/build/modern/QueryClientProvider.js",
+        "./node_modules/react-router/dist/development/chunk-62JRHF6Z.mjs",
+        "./src/components/Footer.tsx",
+        "./src/App.tsx",
+        "./src/index.css",
+        "./src/main.tsx",
+        "./index.html"
+      ]
+    },
+    {
+      "file": "assets/Index-CWP5ueCc.js",
+      "modules": [
+        "./node_modules/lucide-react/dist/esm/icons/chevron-left.js",
+        "./node_modules/lucide-react/dist/esm/icons/circle-alert.js",
+        "./node_modules/lucide-react/dist/esm/icons/loader-circle.js",
+        "./node_modules/lucide-react/dist/esm/icons/newspaper.js",
+        "./node_modules/zod/v3/helpers/util.js",
+        "./node_modules/zod/v3/ZodError.js",
+        "./node_modules/zod/v3/locales/en.js",
+        "./node_modules/zod/v3/errors.js",
+        "./node_modules/zod/v3/helpers/parseUtil.js",
+        "./node_modules/zod/v3/helpers/errorUtil.js",
+        "./node_modules/zod/v3/types.js",
+        "./src/data/news-schema.js",
+        "./src/hooks/useNewsData.ts",
+        "./src/components/NewsFeed.tsx",
+        "./src/pages/Index.tsx"
+      ]
+    },
+    {
+      "file": "assets/Calculadora-eFusWaEG.js",
+      "modules": [
+        "./node_modules/lucide-react/dist/esm/icons/check.js",
+        "./node_modules/lucide-react/dist/esm/icons/chevron-up.js",
+        "./node_modules/lucide-react/dist/esm/icons/info.js",
+        "./node_modules/@radix-ui/number/dist/index.mjs",
+        "./node_modules/@radix-ui/react-focus-guards/dist/index.mjs",
+        "./node_modules/@radix-ui/react-focus-scope/dist/index.mjs",
+        "./node_modules/@radix-ui/react-use-previous/dist/index.mjs",
+        "./node_modules/aria-hidden/dist/es2015/index.js",
+        "./node_modules/tslib/tslib.es6.mjs",
+        "./node_modules/react-remove-scroll-bar/dist/es2015/constants.js",
+        "./node_modules/use-callback-ref/dist/es2015/assignRef.js",
+        "./node_modules/use-callback-ref/dist/es2015/useRef.js",
+        "./node_modules/use-callback-ref/dist/es2015/useMergeRef.js",
+        "./node_modules/use-sidecar/dist/es2015/medium.js",
+        "./node_modules/use-sidecar/dist/es2015/exports.js",
+        "./node_modules/react-remove-scroll/dist/es2015/medium.js",
+        "./node_modules/react-remove-scroll/dist/es2015/UI.js",
+        "./node_modules/get-nonce/dist/es2015/index.js",
+        "./node_modules/react-style-singleton/dist/es2015/singleton.js",
+        "./node_modules/react-style-singleton/dist/es2015/hook.js",
+        "./node_modules/react-style-singleton/dist/es2015/component.js",
+        "./node_modules/react-remove-scroll-bar/dist/es2015/utils.js",
+        "./node_modules/react-remove-scroll-bar/dist/es2015/component.js",
+        "./node_modules/react-remove-scroll/dist/es2015/aggresiveCapture.js",
+        "./node_modules/react-remove-scroll/dist/es2015/handleScroll.js",
+        "./node_modules/react-remove-scroll/dist/es2015/SideEffect.js",
+        "./node_modules/react-remove-scroll/dist/es2015/sidecar.js",
+        "./node_modules/react-remove-scroll/dist/es2015/Combination.js",
+        "./node_modules/@radix-ui/react-select/dist/index.mjs",
+        "./src/components/ui/select.tsx",
+        "./src/utils/laborEstimate.ts",
+        "./src/pages/Calculadora.tsx"
+      ]
+    },
+    {
+      "file": "assets/Buscador-BBd3lYwq.js",
+      "modules": [
+        "./node_modules/lucide-react/dist/esm/icons/filter.js",
+        "./src/pages/Buscador.tsx"
+      ]
+    },
+    {
+      "file": "assets/calculator-DG-4WVUT.js",
+      "modules": [
+        "./node_modules/lucide-react/dist/esm/icons/calculator.js"
+      ]
+    },
+    {
+      "file": "assets/Directorio-BcoQcH5Z.js",
+      "modules": [
+        "./node_modules/lucide-react/dist/esm/icons/building.js",
+        "./node_modules/lucide-react/dist/esm/icons/map-pin.js",
+        "./node_modules/lucide-react/dist/esm/icons/navigation.js",
+        "./node_modules/lucide-react/dist/esm/icons/phone.js",
+        "./src/pages/Directorio.tsx"
+      ]
+    },
+    {
+      "file": "assets/Biblioteca-BY3sOnb-.js",
+      "modules": [
+        "./node_modules/@radix-ui/react-roving-focus/node_modules/@radix-ui/react-context/dist/index.mjs",
+        "./node_modules/@radix-ui/react-roving-focus/dist/index.mjs",
+        "./node_modules/@radix-ui/react-tabs/dist/index.mjs",
+        "./src/components/ui/tabs.tsx",
+        "./src/pages/Biblioteca.tsx"
+      ]
+    },
+    {
+      "file": "assets/index-DnTW81Ce.js",
+      "modules": [
+        "./node_modules/@radix-ui/react-id/dist/index.mjs",
+        "./node_modules/@radix-ui/react-direction/dist/index.mjs"
+      ]
+    },
+    {
+      "file": "assets/Guias-BqT8wSYp.js",
+      "modules": [
+        "./node_modules/lucide-react/dist/esm/icons/circle-check-big.js",
+        "./src/pages/Guias.tsx"
+      ]
+    },
+    {
+      "file": "assets/Breadcrumbs-BB46IB0c.js",
+      "modules": [
+        "./node_modules/lucide-react/dist/esm/icons/house.js",
+        "./src/components/Breadcrumbs.tsx"
+      ]
+    },
+    {
+      "file": "assets/Navigation-D1aOZsPW.js",
+      "modules": [
+        "./node_modules/lucide-react/dist/esm/icons/chevron-right.js",
+        "./node_modules/lucide-react/dist/esm/icons/menu.js",
+        "./node_modules/lucide-react/dist/esm/icons/moon.js",
+        "./node_modules/lucide-react/dist/esm/icons/sun.js",
+        "./src/components/ThemeToggle.tsx",
+        "./src/components/Navigation.tsx"
+      ]
+    },
+    {
+      "file": "assets/chevron-down-CwXd3G7V.js",
+      "modules": [
+        "./node_modules/lucide-react/dist/esm/icons/chevron-down.js"
+      ]
+    },
+    {
+      "file": "assets/Formularios-CdVZMUln.js",
+      "modules": [
+        "./src/pages/Formularios.tsx"
+      ]
+    },
+    {
+      "file": "assets/label-DRUplnOV.js",
+      "modules": [
+        "./node_modules/@radix-ui/react-label/dist/index.mjs",
+        "./src/components/ui/label.tsx"
+      ]
+    },
+    {
+      "file": "assets/SituacionDetalle-BbUpsWeC.js",
+      "modules": [
+        "./src/pages/SituacionDetalle.tsx"
+      ]
+    },
+    {
+      "file": "assets/GuiaDetalle-Cjzu6SoG.js",
+      "modules": [
+        "./src/pages/GuiaDetalle.tsx"
+      ]
+    },
+    {
+      "file": "assets/guias-BUwUI5qJ.js",
+      "modules": [
+        "./src/data/guias.ts"
+      ]
+    },
+    {
+      "file": "assets/ArticuloDetalle-4C_YLYN_.js",
+      "modules": [
+        "./src/pages/ArticuloDetalle.tsx"
+      ]
+    },
+    {
+      "file": "assets/articleDetails-D-TXBUXr.js",
+      "modules": [
+        "./src/data/articleDetails.ts"
+      ]
+    },
+    {
+      "file": "assets/sanitizer-DAXgaD-s.js",
+      "modules": [
+        "./node_modules/dompurify/dist/purify.es.mjs",
+        "./src/utils/sanitizer.ts"
+      ]
+    },
+    {
+      "file": "assets/FormularioDetalle-DvD4zdSR.js",
+      "modules": [
+        "./node_modules/lucide-react/dist/esm/icons/download.js",
+        "./src/pages/FormularioDetalle.tsx"
+      ]
+    },
+    {
+      "file": "assets/printer-1FDGJd7k.js",
+      "modules": [
+        "./node_modules/lucide-react/dist/esm/icons/printer.js"
+      ]
+    },
+    {
+      "file": "assets/formularios-BlQZKxzO.js",
+      "modules": [
+        "./src/data/formularios.ts"
+      ]
+    },
+    {
+      "file": "assets/alert-BMF-xeUU.js",
+      "modules": [
+        "./src/components/ui/alert.tsx"
+      ]
+    },
+    {
+      "file": "assets/NotFound-u9S3Af0H.js",
+      "modules": [
+        "./src/pages/NotFound.tsx"
+      ]
+    },
+    {
+      "file": "assets/CasosEstudio-BDrbOJ69.js",
+      "modules": [
+        "./node_modules/lucide-react/dist/esm/icons/user.js",
+        "./src/pages/CasosEstudio.tsx"
+      ]
+    },
+    {
+      "file": "assets/GlosarioLegal-BdtgJXAr.js",
+      "modules": [
+        "./src/pages/GlosarioLegal.tsx"
+      ]
+    },
+    {
+      "file": "assets/search-DKzRjpMh.js",
+      "modules": [
+        "./node_modules/lucide-react/dist/esm/icons/search.js"
+      ]
+    },
+    {
+      "file": "assets/input-Gm9z-aa2.js",
+      "modules": [
+        "./src/components/ui/input.tsx"
+      ]
+    },
+    {
+      "file": "assets/book-open-BhvEyR0C.js",
+      "modules": [
+        "./node_modules/lucide-react/dist/esm/icons/book-open.js"
+      ]
+    },
+    {
+      "file": "assets/scale-ArGvsOsh.js",
+      "modules": [
+        "./node_modules/lucide-react/dist/esm/icons/scale.js"
+      ]
+    },
+    {
+      "file": "assets/AvisoPrivacidad-BSyLNtFA.js",
+      "modules": [
+        "./node_modules/lucide-react/dist/esm/icons/shield.js",
+        "./src/pages/AvisoPrivacidad.tsx"
+      ]
+    },
+    {
+      "file": "assets/TerminosUso-Bap5b_eN.js",
+      "modules": [
+        "./node_modules/lucide-react/dist/esm/icons/triangle-alert.js",
+        "./src/pages/TerminosUso.tsx"
+      ]
+    },
+    {
+      "file": "assets/file-text-BK3jrAbA.js",
+      "modules": [
+        "./node_modules/lucide-react/dist/esm/icons/file-text.js"
+      ]
+    },
+    {
+      "file": "assets/clock-CPVM1e6h.js",
+      "modules": [
+        "./node_modules/lucide-react/dist/esm/icons/clock.js"
+      ]
+    },
+    {
+      "file": "assets/CodigoAbierto-DVrqfVYM.js",
+      "modules": [
+        "./node_modules/lucide-react/dist/esm/icons/code.js",
+        "./node_modules/lucide-react/dist/esm/icons/github.js",
+        "./node_modules/lucide-react/dist/esm/icons/star.js",
+        "./src/pages/CodigoAbierto.tsx"
+      ]
+    },
+    {
+      "file": "assets/users-CamqJSWD.js",
+      "modules": [
+        "./node_modules/lucide-react/dist/esm/icons/users.js"
+      ]
+    },
+    {
+      "file": "assets/badge-BmzrI0M4.js",
+      "modules": [
+        "./src/components/ui/badge.tsx"
+      ]
+    },
+    {
+      "file": "assets/Contacto-s0Xx5NES.js",
+      "modules": [
+        "./node_modules/lucide-react/dist/esm/icons/message-circle.js",
+        "./src/pages/Contacto.tsx"
+      ]
+    },
+    {
+      "file": "assets/copy-s7h-8vLK.js",
+      "modules": [
+        "./node_modules/lucide-react/dist/esm/icons/copy.js"
+      ]
+    },
+    {
+      "file": "assets/mail-DYlAbBG9.js",
+      "modules": [
+        "./node_modules/lucide-react/dist/esm/icons/mail.js"
+      ]
+    },
+    {
+      "file": "assets/Apoyar-mjWtTSfT.js",
+      "modules": [
+        "./src/pages/Apoyar.tsx"
+      ]
+    },
+    {
+      "file": "assets/heart-DtpYt-ev.js",
+      "modules": [
+        "./node_modules/lucide-react/dist/esm/icons/heart.js"
+      ]
+    },
+    {
+      "file": "assets/external-link-CVAv0wfm.js",
+      "modules": [
+        "./node_modules/lucide-react/dist/esm/icons/external-link.js"
+      ]
+    },
+    {
+      "file": "assets/arrow-left-BbEbledK.js",
+      "modules": [
+        "./node_modules/lucide-react/dist/esm/icons/arrow-left.js"
+      ]
+    },
+    {
+      "file": "assets/card-S-xZLKdk.js",
+      "modules": [
+        "./src/components/ui/card.tsx"
+      ]
+    }
+  ]
+}

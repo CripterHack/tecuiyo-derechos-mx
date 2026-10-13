@@ -47,7 +47,7 @@ Visita [Tecuiyo](https://tecuiyo.izignamx.com/) para ver la aplicación en funci
 - Node.js 24 (versión usada por CI, definida en `.nvmrc`)
 - npm
 
-Vitest 5 requiere Node.js `^22.12.0 || ^24.0.0 || >=26.0.0`. Puedes usar `nvm install` y `nvm use` para seleccionar la versión del proyecto.
+El proyecto requiere Node.js `^22.13.0 || ^24.0.0 || >=26.0.0`; CI usa Node 24. Aunque Vitest 5 admite 22.12, las herramientas de lint actuales requieren al menos 22.13 en esa rama. Puedes usar `nvm install` y `nvm use` para seleccionar la versión del proyecto.
 
 ### Pasos
 
