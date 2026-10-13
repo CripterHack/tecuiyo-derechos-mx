@@ -22,6 +22,7 @@ import AvisoPrivacidad from "./pages/AvisoPrivacidad";
 import TerminosUso from "./pages/TerminosUso";
 import CodigoAbierto from "./pages/CodigoAbierto";
 import Contacto from "./pages/Contacto";
+import Apoyar from "./pages/Apoyar";
 
 const queryClient = new QueryClient();
 
@@ -51,6 +52,7 @@ const App = () => (
               <Route path="/terminos-uso" element={<TerminosUso />} />
               <Route path="/codigo-abierto" element={<CodigoAbierto />} />
               <Route path="/contacto" element={<Contacto />} />
+              <Route path="/apoyar" element={<Apoyar />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>

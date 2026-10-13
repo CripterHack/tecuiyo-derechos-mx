@@ -4,7 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import crypto from 'crypto';
-import { z } from 'zod';
+import { NewsItemSchema } from '../src/data/news-schema.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -17,16 +17,6 @@ const REPORT_FILE = 'updates-report.md';
 // Configuration
 const RSS_FEED_URL = 'https://news.google.com/rss/search?q=Reforma+Laboral+Mexico+OR+Ley+Federal+del+Trabajo+when:7d&hl=es-419&gl=MX&ceid=MX:es-419';
 const KEYWORDS = ['reforma', 'ley', 'trabajo', 'vacaciones', 'aguinaldo', 'jornada', 'senado', 'diputados', 'stps'];
-
-// Validation Schema
-const NewsItemSchema = z.object({
-  id: z.string(),
-  title: z.string(),
-  date: z.string(),
-  summary: z.string(),
-  link: z.string().url(),
-  source: z.string()
-});
 
 const MAX_ACTIVE_NEWS = 50;
 
@@ -58,7 +48,12 @@ async function searchUpdates() {
       const title = item.title?.trim() || '';
       const link = item.link?.trim() || '';
       const content = item.contentSnippet?.trim() || '';
-      const date = item.pubDate ? new Date(item.pubDate).toISOString().split('T')[0] : new Date().toISOString().split('T')[0];
+      const publishedAt = new Date(item.pubDate ?? '');
+      if (!Number.isFinite(publishedAt.getTime())) {
+        console.warn(`⚠️ Noticia ignorada por fecha inválida: ${title}`);
+        continue;
+      }
+      const date = publishedAt.toISOString().split('T')[0];
 
       // Keyword Filter
       const hasKeyword = KEYWORDS.some(k => 

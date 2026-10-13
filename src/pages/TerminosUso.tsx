@@ -6,255 +6,140 @@ import { Link } from "react-router-dom";
 const TerminosUso = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background to-secondary/20">
-      {/* Header */}
-      <header className="bg-white/80 backdrop-blur-sm border-b border-border/50 sticky top-0 z-50">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <Link to="/">
-            <Button variant="ghost" size="sm" className="gap-2">
-              <ArrowLeft className="h-4 w-4" />
+      <header className="bg-background/80 backdrop-blur-sm border-b border-border/50 sticky top-0 z-50">
+        <div className="container mx-auto px-4 py-4">
+          <Button variant="ghost" size="sm" className="gap-2" asChild>
+            <Link to="/">
+              <ArrowLeft className="h-4 w-4" aria-hidden="true" />
               Volver al inicio
-            </Button>
-          </Link>
+            </Link>
+          </Button>
         </div>
       </header>
 
-      <div className="container mx-auto px-4 py-8 max-w-4xl">
-        {/* Page Header */}
-        <div className="text-center mb-12">
+      <main className="container mx-auto px-4 py-8 max-w-4xl">
+        <div className="text-center mb-10">
           <div className="flex items-center justify-center gap-2 mb-4">
-            <FileText className="h-8 w-8 text-primary" />
-            <h1 className="text-4xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Términos de Uso
-            </h1>
+            <FileText className="h-8 w-8 text-primary" aria-hidden="true" />
+            <h1 className="text-4xl font-bold">Términos de uso</h1>
           </div>
-          <div className="flex items-center justify-center gap-4 text-sm text-muted-foreground">
-            <div className="flex items-center gap-1">
-              <Clock className="h-4 w-4" />
-              Vigente desde: 21 de julio de 2025
-            </div>
-          </div>
+          <p className="flex items-center justify-center gap-1 text-sm text-muted-foreground">
+            <Clock className="h-4 w-4" aria-hidden="true" />
+            Revisión del alcance del sitio: 13 de octubre de 2026
+          </p>
         </div>
 
-        <div className="space-y-8">
-          {/* Disclaimer Importante */}
+        <div className="space-y-6">
           <Card className="border-amber-200 bg-amber-50 dark:bg-amber-950/20 dark:border-amber-800">
-            <CardContent className="p-6">
-              <div className="flex items-start gap-3">
-                <AlertTriangle className="h-5 w-5 text-amber-600 mt-0.5" />
-                <div>
-                  <h3 className="font-semibold text-amber-800 dark:text-amber-300 mb-2">
-                    Importante: Solo Información Educativa
-                  </h3>
-                  <p className="text-amber-700 dark:text-amber-400 text-sm">
-                    Tecuiyo proporciona información legal de carácter educativo y orientativo. 
-                    NO constituye asesoría jurídica personalizada. Para situaciones específicas, 
-                    consulte siempre con un abogado laboralista certificado.
-                  </p>
-                </div>
+            <CardContent className="p-6 flex items-start gap-3">
+              <AlertTriangle className="h-5 w-5 shrink-0 text-amber-600 mt-0.5" aria-hidden="true" />
+              <div>
+                <h2 className="font-semibold text-amber-800 dark:text-amber-300 mb-2">Información educativa</h2>
+                <p className="text-amber-700 dark:text-amber-400 text-sm">
+                  Tecuiyo orienta sobre derechos laborales en México. Sus contenidos,
+                  cálculos y plantillas no sustituyen la revisión de tu caso por una
+                  autoridad laboral o una persona profesional del derecho.
+                </p>
               </div>
             </CardContent>
           </Card>
 
-          {/* Aceptación */}
           <Card>
-            <CardHeader>
-              <CardTitle>1. Aceptación de los Términos</CardTitle>
-            </CardHeader>
-            <CardContent className="prose prose-sm max-w-none dark:prose-invert">
+            <CardHeader><CardTitle>Qué ofrece el sitio</CardTitle></CardHeader>
+            <CardContent className="space-y-3 text-sm text-muted-foreground">
               <p>
-                Al acceder y utilizar Tecuiyo, usted acepta estar sujeto a estos Términos de Uso 
-                y todas las leyes y regulaciones aplicables. Si no está de acuerdo con alguno 
-                de estos términos, no utilice este servicio.
+                Puedes consultar artículos, guías y un directorio de autoridades,
+                utilizar calculadoras de estimación y obtener documentos de referencia.
+                El acceso a estas herramientas es gratuito.
+              </p>
+              <p>
+                Las plantillas requieren adaptación y revisión antes de presentarse.
+                Descargar o copiar un documento no inicia un trámite ni lo envía a
+                una autoridad.
               </p>
             </CardContent>
           </Card>
 
-          {/* Descripción del Servicio */}
           <Card>
-            <CardHeader>
-              <CardTitle>2. Descripción del Servicio</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="space-y-4">
-                <p className="text-sm text-muted-foreground">
-                  Tecuiyo es una plataforma digital que proporciona:
-                </p>
-                <ul className="list-disc list-inside text-sm space-y-1 text-muted-foreground">
-                  <li>Información educativa sobre derecho laboral mexicano</li>
-                  <li>Calculadoras para estimar liquidaciones y prestaciones</li>
-                  <li>Biblioteca de artículos de la Ley Federal del Trabajo</li>
-                  <li>Guías orientativas sobre situaciones laborales</li>
-                  <li>Formularios y documentos de referencia</li>
-                  <li>Directorio de autoridades laborales</li>
-                </ul>
-              </div>
-            </CardContent>
-          </Card>
-
-          {/* Limitaciones del Servicio */}
-          <Card>
-            <CardHeader>
-              <CardTitle>3. Limitaciones y Exenciones de Responsabilidad</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="space-y-4">
-                <div>
-                  <h4 className="font-semibold mb-2">No Asesoría Legal:</h4>
-                  <p className="text-sm text-muted-foreground">
-                    La información proporcionada NO constituye asesoría jurídica personalizada. 
-                    Cada caso laboral es único y requiere análisis profesional específico.
-                  </p>
-                </div>
-                <div>
-                  <h4 className="font-semibold mb-2">Exactitud de la Información:</h4>
-                  <p className="text-sm text-muted-foreground">
-                    Aunque nos esforzamos por mantener información actualizada y precisa, 
-                    no garantizamos la exactitud, completeness o actualidad de todo el contenido.
-                  </p>
-                </div>
-                <div>
-                  <h4 className="font-semibold mb-2">Cálculos Estimativos:</h4>
-                  <p className="text-sm text-muted-foreground">
-                    Las calculadoras proporcionan estimaciones basadas en parámetros generales. 
-                    Los montos reales pueden diferir según circunstancias específicas.
-                  </p>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-
-          {/* Uso Apropiado */}
-          <Card>
-            <CardHeader>
-              <CardTitle>4. Uso Apropiado del Servicio</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="space-y-4">
-                <h4 className="font-semibold">Usos Permitidos:</h4>
-                <ul className="list-disc list-inside text-sm space-y-1 text-muted-foreground">
-                  <li>Consulta de información educativa sobre derecho laboral</li>
-                  <li>Uso de calculadoras para estimaciones personales</li>
-                  <li>Descarga de formularios de referencia</li>
-                  <li>Consulta del directorio de autoridades</li>
-                </ul>
-                
-                <h4 className="font-semibold mt-4">Usos Prohibidos:</h4>
-                <ul className="list-disc list-inside text-sm space-y-1 text-muted-foreground">
-                  <li>Presentar la información como asesoría legal personalizada</li>
-                  <li>Reproducir contenido sin autorización para fines comerciales</li>
-                  <li>Interferir con el funcionamiento del servicio</li>
-                  <li>Intentar acceder a sistemas o datos no autorizados</li>
-                </ul>
-              </div>
-            </CardContent>
-          </Card>
-
-          {/* Propiedad Intelectual */}
-          <Card>
-            <CardHeader>
-              <CardTitle>5. Propiedad Intelectual</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="space-y-4">
-                <p className="text-sm text-muted-foreground">
-                  El contenido de Tecuiyo, incluyendo textos, gráficos, logos, y software, 
-                  está protegido por derechos de autor y otras leyes de propiedad intelectual.
-                </p>
-                <div>
-                  <h4 className="font-semibold mb-2">Licencia de Uso:</h4>
-                  <p className="text-sm text-muted-foreground">
-                    Se otorga una licencia limitada, no exclusiva y revocable para usar 
-                    el servicio únicamente para fines personales y educativos.
-                  </p>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-
-          {/* Privacidad */}
-          <Card>
-            <CardHeader>
-              <CardTitle>6. Privacidad y Datos Personales</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="space-y-4">
-                <p className="text-sm text-muted-foreground">
-                  El tratamiento de sus datos personales se rige por nuestro 
-                  <Link to="/aviso-privacidad" className="text-primary hover:underline mx-1">
-                    Aviso de Privacidad
-                  </Link>
-                  el cual forma parte integral de estos términos.
-                </p>
-                <p className="text-sm text-muted-foreground">
-                  Los datos ingresados en calculadoras son procesados localmente 
-                  y no se almacenan en nuestros servidores.
-                </p>
-              </div>
-            </CardContent>
-          </Card>
-
-          {/* Modificaciones */}
-          <Card>
-            <CardHeader>
-              <CardTitle>7. Modificaciones</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="space-y-4">
-                <p className="text-sm text-muted-foreground">
-                  Nos reservamos el derecho de modificar estos términos en cualquier momento. 
-                  Las modificaciones entrarán en vigor inmediatamente después de su publicación.
-                </p>
-                <p className="text-sm text-muted-foreground">
-                  El uso continuado del servicio después de las modificaciones 
-                  constituye la aceptación de los nuevos términos.
-                </p>
-              </div>
-            </CardContent>
-          </Card>
-
-          {/* Legislación Aplicable */}
-          <Card>
-            <CardHeader>
-              <CardTitle>8. Legislación Aplicable</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-sm text-muted-foreground">
-                Estos términos se rigen por las leyes de los Estados Unidos Mexicanos. 
-                Cualquier disputa será resuelta en los tribunales competentes de México.
+            <CardHeader><CardTitle>Cómo interpretar la información</CardTitle></CardHeader>
+            <CardContent className="space-y-3 text-sm text-muted-foreground">
+              <p>
+                Las calculadoras ofrecen estimaciones según los datos que ingresas y
+                los supuestos que muestra cada herramienta. Un resultado no determina
+                una obligación de pago ni garantiza lo que recibirás en tu caso.
+              </p>
+              <p>
+                Revisa los datos, las fechas y la legislación vigente en fuentes
+                oficiales antes de tomar decisiones. El contenido puede contener
+                errores o quedar desactualizado; puedes reportarlos desde
+                {" "}<Link to="/contacto" className="text-primary hover:underline">contacto</Link>.
+                Para orientación sobre una situación concreta, consulta el
+                {" "}<Link to="/directorio" className="text-primary hover:underline">directorio de autoridades</Link>.
               </p>
             </CardContent>
           </Card>
 
-          {/* Contacto */}
           <Card>
-            <CardHeader>
-              <CardTitle>9. Contacto</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-sm text-muted-foreground">
-                Para preguntas sobre estos términos, contacte: 
-                <a href="mailto:dev@izignamx.com" className="text-primary hover:underline ml-1">
-                  dev@izignamx.com
-                </a>
+            <CardHeader><CardTitle>Licencia y reutilización</CardTitle></CardHeader>
+            <CardContent className="space-y-3 text-sm text-muted-foreground">
+              <p>
+                El software y la documentación asociados del repositorio se publican
+                bajo la
+                {" "}<a href="https://github.com/CripterHack/tecuiyo-derechos-mx/blob/main/LICENSE" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">licencia MIT</a>.
+                Esta licencia permite su uso, modificación y distribución, incluso
+                comercial, con las condiciones indicadas en el archivo de licencia,
+                incluida la conservación de sus avisos.
+              </p>
+              <p>
+                Los materiales y servicios de terceros mantienen sus propias
+                condiciones. La licencia del proyecto no implica que Tecuiyo o una
+                autoridad respalden un producto o una asesoría que reutilice su código.
               </p>
             </CardContent>
           </Card>
 
-          {/* Call to Action */}
+          <Card>
+            <CardHeader><CardTitle>Aportaciones voluntarias</CardTitle></CardHeader>
+            <CardContent className="space-y-3 text-sm text-muted-foreground">
+              <p>
+                Apoyar económicamente el mantenimiento del proyecto es opcional.
+                Una aportación no compra asesoría jurídica, garantiza resultados
+                laborales ni condiciona el acceso a la información.
+              </p>
+              <p>
+                Los pagos se realizan en el proveedor externo que elijas. Antes de
+                confirmar, revisa el destinatario, el importe, la moneda y si el apoyo
+                es único o recurrente. Tecuiyo no verifica transacciones ni muestra una
+                confirmación de pago propia.
+              </p>
+            </CardContent>
+          </Card>
+
+          <Card>
+            <CardHeader><CardTitle>Privacidad y contacto</CardTitle></CardHeader>
+            <CardContent className="space-y-3 text-sm text-muted-foreground">
+              <p>
+                Consulta el
+                {" "}<Link to="/aviso-privacidad" className="text-primary hover:underline">aviso de privacidad</Link>
+                {" "}para conocer el tratamiento de los datos que usas en el sitio y
+                de la información que decidas enviar por correo.
+              </p>
+              <p>
+                Para consultas sobre el proyecto, escribe a
+                {" "}<a href="mailto:dev@izignamx.com" className="text-primary hover:underline">dev@izignamx.com</a>.
+                Estos términos describen el alcance actual del servicio y están
+                pendientes de validación jurídica.
+              </p>
+            </CardContent>
+          </Card>
+
           <div className="text-center">
-            <Card className="p-8 bg-gradient-to-r from-primary/10 to-accent/10 border-primary/20">
-              <h3 className="text-2xl font-bold mb-4">¿Consulta Legal Específica?</h3>
-              <p className="text-muted-foreground mb-6">
-                Para situaciones laborales específicas, recomendamos consultar 
-                con un abogado laboralista certificado.
-              </p>
-              <Link to="/directorio">
-                <Button size="lg">Ver Directorio de Autoridades</Button>
-              </Link>
-            </Card>
+            <Button size="lg" asChild>
+              <Link to="/directorio">Ver directorio de autoridades</Link>
+            </Button>
           </div>
         </div>
-      </div>
+      </main>
     </div>
   );
 };

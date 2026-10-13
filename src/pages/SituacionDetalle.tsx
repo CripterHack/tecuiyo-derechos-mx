@@ -22,21 +22,21 @@ const SituacionDetalle = () => {
         <p>El trabajador despedido injustificadamente tiene derecho a elegir entre:</p>
         <ul>
           <li><strong>Reinstalación:</strong> Volver a su puesto con pago de salarios vencidos</li>
-          <li><strong>Indemnización:</strong> 3 meses de salario + 20 días por año trabajado + salarios vencidos</li>
+          <li><strong>Indemnización:</strong> 3 meses de salario; otras indemnizaciones y salarios vencidos dependen del supuesto legal y la resolución</li>
         </ul>
         
         <h3>Prestaciones adicionales</h3>
         <ul>
           <li>Vacaciones proporcionales y prima vacacional (25%)</li>
           <li>Aguinaldo proporcional</li>
-          <li>Prima de antigüedad (12 días por año trabajado)</li>
+          <li>Prima de antigüedad para trabajadores de planta: 12 días por año con la base salarial aplicable, sin exigir 15 años en caso de despido</li>
         </ul>
         
         <h3>Procedimiento recomendado</h3>
         <ol>
           <li>Conservar todos los documentos laborales (contrato, recibos de pago, credencial)</li>
           <li>Solicitar por escrito la causa del despido</li>
-          <li>Presentar demanda ante el Centro de Conciliación Laboral</li>
+          <li>Solicitar asesoría sobre la autoridad competente y la conciliación prejudicial, cuando corresponda</li>
           <li>Acudir con abogado laboralista especializado</li>
         </ol>
       `,
@@ -118,7 +118,7 @@ const SituacionDetalle = () => {
         <h3>¿Qué hacer si no lo pagan?</h3>
         <ol>
           <li>Solicitar por escrito el pago pendiente</li>
-          <li>Calcular el monto exacto adeudado</li>
+          <li>Reunir las bases del cálculo y solicitar revisión del monto adeudado</li>
           <li>Presentar reclamación ante autoridades laborales</li>
           <li>El patrón debe pagar multa adicional del 50% al 100%</li>
         </ol>
@@ -138,26 +138,28 @@ const SituacionDetalle = () => {
         
         <h3>Tabla de vacaciones (Art. 76)</h3>
         <ul>
-          <li><strong>1er año:</strong> 6 días hábiles</li>
-          <li><strong>2do año:</strong> 8 días hábiles</li>
-          <li><strong>3er año:</strong> 10 días hábiles</li>
-          <li><strong>4to año:</strong> 12 días hábiles</li>
-          <li><strong>5to año en adelante:</strong> 2 días adicionales por cada 5 años</li>
+          <li><strong>1er año:</strong> 12 días laborables</li>
+          <li><strong>2do año:</strong> 14 días laborables</li>
+          <li><strong>3er año:</strong> 16 días laborables</li>
+          <li><strong>4to año:</strong> 18 días laborables</li>
+          <li><strong>5to año:</strong> 20 días laborables</li>
+          <li><strong>6to a 10mo año:</strong> 22 días laborables</li>
+          <li><strong>11mo a 15to año:</strong> 24 días laborables; después aumentan 2 días por cada 5 años de servicio</li>
         </ul>
         
         <h3>Prima vacacional (Art. 80)</h3>
         <ul>
           <li>25% adicional sobre el salario de los días de vacaciones</li>
           <li>Se paga junto con las vacaciones</li>
-          <li>No puede ser menor al 25% constitucional</li>
+          <li>El mínimo del 25% está previsto en el artículo 80 de la LFT</li>
         </ul>
         
         <h3>Características importantes</h3>
         <ul>
           <li>Las vacaciones son <strong>irrenunciables</strong></li>
           <li>No pueden compensarse con dinero (excepto al terminar la relación)</li>
-          <li>Deben disfrutarse en días continuos</li>
-          <li>El trabajador puede elegir la época (si no hay convenio)</li>
+          <li>El artículo 78 contempla al menos 12 días continuos; la persona trabajadora puede optar por distribuir el período</li>
+          <li>Se conceden dentro de los 6 meses posteriores al aniversario laboral, con constancia anual de antigüedad, período y fecha de disfrute (artículo 81)</li>
         </ul>
         
         <h3>Vacaciones proporcionales</h3>
@@ -254,12 +256,12 @@ const SituacionDetalle = () => {
         </ul>
         
         <h3>Prima de antigüedad (Art. 162)</h3>
-        <p>Tienen derecho trabajadores que:</p>
+        <p>Para trabajadores de planta, equivale a 12 días por año de servicios y depende de la forma de terminación:</p>
         <ul>
-          <li>Cumplieron 15 años de servicio</li>
-          <li>Fueron despedidos injustificadamente</li>
-          <li>Se retiran por incapacidad</li>
-          <li>Trabajadoras que se retiran por matrimonio o embarazo</li>
+          <li>En renuncia voluntaria se requieren al menos 15 años de servicio</li>
+          <li>En separación por causa justificada o despido, justificado o injustificado, no se exige ese mínimo de antigüedad</li>
+          <li>La base salarial tiene piso de un salario mínimo y tope de dos salarios mínimos de la región, conforme a los artículos 485 y 486</li>
+          <li>Solicita orientación para determinar la base y los supuestos aplicables a tu caso</li>
         </ul>
         
         <h3>Cálculo de prestaciones proporcionales</h3>
@@ -281,7 +283,7 @@ const SituacionDetalle = () => {
         <h3>¿Qué hacer si no pagan finiquito?</h3>
         <ol>
           <li>Solicitar por escrito las prestaciones pendientes</li>
-          <li>Calcular montos exactos adeudados</li>
+          <li>Revisar las bases de cálculo y solicitar orientación sobre los montos adeudados</li>
           <li>Conservar copia de la renuncia y documentos</li>
           <li>Demandar ante autoridades laborales</li>
         </ol>
@@ -496,11 +498,10 @@ const SituacionDetalle = () => {
         
         <h3>Consecuencias para el patrón</h3>
         <ul>
-          <li><strong>Indemnización agravada:</strong> 6 meses de salario</li>
-          <li><strong>Salarios vencidos:</strong> Desde el despido hasta el laudo</li>
+          <li><strong>Indemnizaciones y salarios vencidos:</strong> Cuando procedan, con los límites y requisitos del supuesto legal aplicable</li>
           <li><strong>Prestaciones:</strong> Vacaciones, aguinaldo, prima de antigüedad</li>
           <li><strong>Reinstalación:</strong> Si se solicita</li>
-          <li><strong>Daño moral:</strong> Hasta 5 años de salario</li>
+          <li><strong>Otras reparaciones:</strong> Su procedencia depende de las pruebas y la resolución; solicita asesoría especializada</li>
         </ul>
         
         <h3>Prueba del embarazo</h3>
@@ -607,18 +608,18 @@ const SituacionDetalle = () => {
         
         <h3>¿Qué está prohibido?</h3>
         <ul>
-          <li>Subcontratación del objeto principal del negocio</li>
+          <li>Subcontratación de personal: poner trabajadores propios a disposición de otra empresa</li>
           <li>Triangulación laboral para evadir responsabilidades</li>
-          <li>Intermediación laboral</li>
           <li>Evasión de prestaciones y derechos</li>
         </ul>
         
-        <h3>¿Qué sí está permitido? (Art. 15-A a 15-D)</h3>
+        <h3>Servicios u obras especializados (Art. 13)</h3>
         <ul>
-          <li><strong>Servicios especializados:</strong> No parte del objeto principal</li>
-          <li><strong>Requisitos:</strong> Registro ante STPS, no constituir objeto principal</li>
-          <li><strong>Ejemplos válidos:</strong> Limpieza, vigilancia, sistemas, contabilidad</li>
+          <li><strong>Alcance:</strong> No deben formar parte del objeto social ni de la actividad económica preponderante de la beneficiaria</li>
+          <li><strong>Registro:</strong> El contratista debe contar con el registro previsto por la ley</li>
+          <li><strong>Revisión del caso:</strong> El nombre del servicio por sí solo no demuestra que cumpla los requisitos</li>
         </ul>
+        <p>Los artículos 15-A a 15-D fueron derogados en 2021; no son el fundamento vigente de estos requisitos.</p>
         
         <h3>Derechos del trabajador subcontratado</h3>
         <ul>
@@ -654,13 +655,13 @@ const SituacionDetalle = () => {
         
         <h3>Consecuencias del outsourcing ilegal</h3>
         <ul>
-          <li>Multas a las empresas (hasta 5,000 UMA)</li>
+          <li>Sanciones conforme a las disposiciones aplicables</li>
           <li>Responsabilidad solidaria</li>
-          <li>Conversión automática a relación directa</li>
+          <li>Revisión de la relación laboral y de las responsabilidades de cada empresa por la autoridad competente</li>
           <li>Pago de diferencias en prestaciones</li>
         </ul>
       `,
-      articulosLFT: ["Art. 13", "Art. 15-A", "Art. 15-B", "Art. 15-C", "Art. 15-D"],
+      articulosLFT: ["Art. 12", "Art. 13", "Art. 14", "Art. 15"],
       tiempoResolucion: "4-8 meses",
       complejidad: "Alta",
       tags: ["outsourcing", "subcontratación", "solidaria", "registro"]
@@ -779,7 +780,7 @@ const SituacionDetalle = () => {
                 <Link to="/calculadora">
                   <Button className="w-full" size="lg">
                     <Scale className="h-4 w-4 mr-2" />
-                    Calcular Liquidación
+                    Estimar proporcionales
                   </Button>
                 </Link>
                 <Link to="/biblioteca">

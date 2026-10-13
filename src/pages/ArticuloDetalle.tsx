@@ -3,14 +3,11 @@ import { ArrowLeft, ExternalLink, FileText, Scale } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { useToast } from "@/hooks/use-toast";
 import { SafeHtml } from "@/utils/sanitizer";
 
 const ArticuloDetalle = () => {
   const { id } = useParams();
-  const { toast } = useToast();
-
-  // Base de datos completa de artículos de la LFT
+  // Selección educativa de artículos de la LFT; consultar siempre el texto oficial.
   const articulos = [
     // Relación de Trabajo
     {
@@ -318,9 +315,9 @@ const ArticuloDetalle = () => {
       categoria: "Vacaciones",
       contenido: `
         <h3>Artículo 76</h3>
-        <p>Los trabajadores que tengan más de un año de servicios disfrutarán de un período anual de vacaciones pagadas, que en ningún caso podrá ser inferior a seis días laborables, y que aumentará en dos días laborables, hasta llegar a doce, por cada año subsecuente de servicios.</p>
+        <p>Resumen educativo: al completar el primer año de servicios corresponden al menos 12 días laborables de vacaciones pagadas. El mínimo aumenta 2 días por cada año siguiente hasta llegar a 20 en el quinto año.</p>
         
-        <p>Después del cuarto año, el período de vacaciones aumentará en dos días por cada cinco de servicios.</p>
+        <p>A partir del sexto año, el mínimo aumenta 2 días por cada cinco años de servicio.</p>
       `,
       explicacion: `
         <h3>Explicación práctica</h3>
@@ -328,47 +325,48 @@ const ArticuloDetalle = () => {
         
         <h3>Tabla de vacaciones</h3>
         <ul>
-          <li><strong>1er año:</strong> 6 días</li>
-          <li><strong>2do año:</strong> 8 días</li>
-          <li><strong>3er año:</strong> 10 días</li>
-          <li><strong>4to año:</strong> 12 días</li>
-          <li><strong>5to-9no año:</strong> 14 días</li>
-          <li><strong>10mo-14to año:</strong> 16 días</li>
+          <li><strong>1er año:</strong> 12 días</li>
+          <li><strong>2do año:</strong> 14 días</li>
+          <li><strong>3er año:</strong> 16 días</li>
+          <li><strong>4to año:</strong> 18 días</li>
+          <li><strong>5to año:</strong> 20 días</li>
+          <li><strong>6to-10mo año:</strong> 22 días</li>
+          <li><strong>11mo-15to año:</strong> 24 días</li>
         </ul>
         
         <h3>Requisitos</h3>
-        <p>Debe tener más de un año trabajando. Si no cumple el año, tiene derecho a vacaciones proporcionales.</p>
+        <p>Si la relación termina antes de completar el año, el artículo 79 contempla una remuneración proporcional al tiempo de servicios.</p>
       `,
       relacionados: ["Art. 79", "Art. 80", "Art. 81"],
       vigencia: "Vigente",
-      fechaReforma: "2012-11-30"
+      fechaRevision: "2026-10-13"
     },
     {
       id: "art79",
       numero: "79",
-      titulo: "Disfrute de vacaciones",
+      titulo: "Prohibición de sustituir vacaciones por dinero",
       categoria: "Vacaciones",
       contenido: `
         <h3>Artículo 79</h3>
-        <p>Las vacaciones deberán concederse a los trabajadores dentro de los seis meses siguientes al cumplimiento del año de servicios. Los patrones entregarán anualmente a sus trabajadores una constancia que contenga su antigüedad y de acuerdo con ella el período de vacaciones que les corresponda y la fecha en que deberán disfrutarlo.</p>
+        <p>Resumen educativo: durante la relación laboral las vacaciones no se sustituyen por una remuneración. Si la relación termina antes de completar el año de servicios, corresponde un pago proporcional al tiempo trabajado.</p>
       `,
       explicacion: `
         <h3>Explicación práctica</h3>
-        <p>Regula cuándo y cómo deben otorgarse las vacaciones.</p>
+        <p>Protege el descanso y regula la remuneración proporcional cuando la relación termina antes del año.</p>
         
-        <h3>Plazo para otorgar vacaciones</h3>
+        <h3>Descanso y terminación</h3>
         <ul>
-          <li><strong>Límite:</strong> Dentro de 6 meses después del aniversario</li>
-          <li><strong>Constancia anual:</strong> El patrón debe entregarla</li>
-          <li><strong>Información requerida:</strong> Antigüedad, días que corresponden y fechas</li>
+          <li><strong>Durante el empleo:</strong> El pago no sustituye los días de descanso</li>
+          <li><strong>Terminación antes del año:</strong> Corresponde una remuneración proporcional</li>
+          <li><strong>Programación y constancia:</strong> Se regulan en el artículo 81</li>
         </ul>
         
         <h3>Derechos del trabajador</h3>
-        <p>Puede exigir que se respeten los plazos y recibir su constancia anual de vacaciones.</p>
+        <p>Puede exigir el descanso y revisar las prestaciones pendientes al terminar la relación laboral.</p>
       `,
       relacionados: ["Art. 76", "Art. 80", "Art. 78"],
       vigencia: "Vigente",
-      fechaReforma: "1970-05-01"
+      fechaRevision: "2026-10-13"
     },
     {
       id: "art80",
@@ -377,7 +375,7 @@ const ArticuloDetalle = () => {
       categoria: "Vacaciones",
       contenido: `
         <h3>Artículo 80</h3>
-        <p>Los trabajadores tendrán derecho a una prima no menor de veinticinco por ciento sobre los salarios que les correspondan durante el período de vacaciones.</p>
+        <p>Resumen educativo: además del salario correspondiente al período de vacaciones, la prima debe ser al menos el 25% de ese salario.</p>
       `,
       explicacion: `
         <h3>Explicación práctica</h3>
@@ -387,7 +385,7 @@ const ArticuloDetalle = () => {
         <ul>
           <li><strong>Porcentaje mínimo:</strong> 25% del salario de vacaciones</li>
           <li><strong>Base de cálculo:</strong> Salario que se paga durante las vacaciones</li>
-          <li><strong>Ejemplo:</strong> Si ganas $500/día y tienes 6 días de vacaciones: ($500 × 6) + (25% de $3,000) = $3,750</li>
+          <li><strong>Ejemplo:</strong> Con $500 diarios y 12 días de vacaciones, el salario del período es $6,000 y la prima mínima es $1,500</li>
         </ul>
         
         <h3>Pago obligatorio</h3>
@@ -395,7 +393,7 @@ const ArticuloDetalle = () => {
       `,
       relacionados: ["Art. 76", "Art. 79", "Art. 81"],
       vigencia: "Vigente",
-      fechaReforma: "1970-05-01"
+      fechaRevision: "2026-10-13"
     },
     // Aguinaldo
     {
@@ -456,7 +454,7 @@ const ArticuloDetalle = () => {
         <h3>Elementos importantes</h3>
         <ul>
           <li><strong>Deben estar comprobadas:</strong> No basta la simple afirmación</li>
-          <li><strong>Notificación oportuna:</strong> Se debe comunicar dentro de 30 días</li>
+          <li><strong>Aviso de rescisión:</strong> Sus requisitos y efectos deben revisarse conforme al artículo 47 y las pruebas del caso</li>
           <li><strong>Especificidad:</strong> Debe indicarse la causa exacta</li>
         </ul>
         
@@ -474,11 +472,9 @@ const ArticuloDetalle = () => {
       categoria: "Despido",
       contenido: `
         <h3>Artículo 48</h3>
-        <p>El trabajador podrá solicitar ante la Junta de Conciliación y Arbitraje, a su elección, que se le reinstale en el trabajo que desempeñaba, o que se le indemnice con el importe de tres meses de salario.</p>
+        <p>Resumen educativo: ante un despido injustificado, la persona trabajadora puede solicitar reinstalación o una indemnización de tres meses de salario, conforme a los requisitos aplicables.</p>
         
-        <p>Si en el juicio correspondiente no comprueba el patrón la causa de la rescisión, el trabajador tendrá derecho, además, cualquiera que hubiese sido la acción intentada, a que se le paguen los salarios vencidos desde la fecha del despido hasta la fecha en que se cumplimente el laudo.</p>
-        
-        <p>Cuando el salario sea variable, se tomará como base el promedio de las percepciones obtenidas en los treinta días efectivamente trabajados antes del despido.</p>
+        <p>Los salarios vencidos y otras cantidades se determinan según el supuesto legal, sus límites y la resolución. Consulta el artículo oficial y solicita asesoría para tu caso.</p>
       `,
       explicacion: `
         <h3>Explicación práctica</h3>
@@ -492,59 +488,38 @@ const ArticuloDetalle = () => {
         
         <h3>Derechos adicionales</h3>
         <ul>
-          <li><strong>Salarios vencidos:</strong> Desde el despido hasta el laudo</li>
+          <li><strong>Salarios vencidos:</strong> Cuando procedan, con los límites establecidos por la ley</li>
           <li><strong>Carga de la prueba:</strong> El patrón debe demostrar la causa</li>
-          <li><strong>Cálculo variable:</strong> Promedio de 30 días si el salario varía</li>
+          <li><strong>Cálculo:</strong> Solicita orientación para identificar la base salarial y las prestaciones aplicables</li>
         </ul>
         
         <h3>Proceso recomendado</h3>
-        <p>1. Presentar demanda ante la Junta de Conciliación y Arbitraje</p>
+        <p>1. Solicitar asesoría sobre la autoridad competente y la conciliación prejudicial, cuando corresponda</p>
         <p>2. Elegir entre reinstalación o indemnización</p>
         <p>3. Solicitar salarios vencidos</p>
         <p>4. Aportar pruebas de la relación laboral</p>
       `,
       relacionados: ["Art. 47", "Art. 50", "Art. 870"],
       vigencia: "Vigente",
-      fechaReforma: "2019-05-01"
+      fechaRevision: "2026-10-13"
     },
     {
       id: "art50",
       numero: "50",
-      titulo: "Indemnización por despido injustificado",
+      titulo: "Indemnizaciones en los supuestos del artículo 49",
       categoria: "Despido",
       contenido: `
         <h3>Artículo 50</h3>
-        <p>Las indemnizaciones a que se refiere el artículo anterior consistirán:</p>
-        <ol>
-          <li>Si la relación de trabajo fuere por tiempo determinado menor de un año, en una cantidad igual al importe de los salarios de la mitad del tiempo de servicios prestados;</li>
-          <li>Si la relación de trabajo fuere por tiempo determinado mayor de un año, en una cantidad igual al importe de los salarios de seis meses por el primer año y de veinte días por cada uno de los años siguientes en que hubiese prestado sus servicios;</li>
-          <li>Si la relación de trabajo fuere por tiempo indeterminado, la indemnización consistirá en veinte días de salario por cada uno de los años de servicios prestados;</li>
-          <li>Además de las indemnizaciones a que se refieren las fracciones anteriores, en el importe de tres meses de salario y en el de los salarios vencidos desde la fecha del despido hasta que se paguen las indemnizaciones.</li>
-        </ol>
+        <p>Resumen educativo: este artículo regula las indemnizaciones a las que remite el artículo 49. El cálculo depende de la duración y del tipo de relación laboral, además de los requisitos del supuesto aplicable.</p>
+        <p>Los 20 días por año no se suman automáticamente en cualquier despido. Las indemnizaciones y salarios vencidos que procedan deben determinarse conforme a la ley y la resolución.</p>
       `,
       explicacion: `
         <h3>Explicación práctica</h3>
-        <p>Detalla cómo calcular la indemnización cuando el trabajador elige no reinstalarse tras un despido injustificado.</p>
-        
-        <h3>Tipos de indemnización</h3>
-        <ul>
-          <li><strong>Tiempo indeterminado:</strong> 20 días por año trabajado</li>
-          <li><strong>Tiempo determinado <1 año:</strong> Mitad del tiempo trabajado</li>
-          <li><strong>Tiempo determinado >1 año:</strong> 6 meses + 20 días por año adicional</li>
-        </ul>
-        
-        <h3>Adicionales obligatorios</h3>
-        <ul>
-          <li><strong>3 meses de salario:</strong> Indemnización constitucional</li>
-          <li><strong>Salarios vencidos:</strong> Desde el despido hasta el pago</li>
-        </ul>
-        
-        <h3>Ejemplo práctico</h3>
-        <p>Trabajador con 3 años, salario $500/día: (20 días × 3 años × $500) + (3 meses × $500 × 30) + salarios vencidos</p>
+        <p>Primero se identifica el supuesto jurídico y después la fórmula que corresponda. Solicita asesoría para revisar el contrato, la forma de terminación, la antigüedad y la base salarial antes de calcular un monto.</p>
       `,
       relacionados: ["Art. 48", "Art. 47", "Art. 162"],
       vigencia: "Vigente",
-      fechaReforma: "2012-11-30"
+      fechaRevision: "2026-10-13"
     },
     // Artículos adicionales importantes
     {
@@ -608,7 +583,7 @@ const ArticuloDetalle = () => {
       categoria: "Vacaciones",
       contenido: `
         <h3>Artículo 81</h3>
-        <p>Las vacaciones deberán concederse a los trabajadores dentro de los seis meses siguientes al cumplimiento del año de servicios. Los patrones entregarán anualmente a sus trabajadores una constancia que contenga su antigüedad y de acuerdo con ella el período de vacaciones que les corresponda y la fecha en que deberán disfrutarlo.</p>
+        <p>Resumen educativo: el empleador debe conceder las vacaciones dentro de los seis meses posteriores al aniversario laboral. La constancia anual debe indicar la antigüedad, el período correspondiente y la fecha de disfrute.</p>
       `,
       explicacion: `
         <h3>Explicación práctica</h3>
@@ -626,7 +601,7 @@ const ArticuloDetalle = () => {
       `,
       relacionados: ["Art. 76", "Art. 79", "Art. 80"],
       vigencia: "Vigente",
-      fechaReforma: "1970-05-01"
+      fechaRevision: "2026-10-13"
     }
   ];
 
@@ -651,18 +626,6 @@ const ArticuloDetalle = () => {
     );
   }
 
-  const handleVerEnDOF = () => {
-    toast({
-      title: "Abriendo DOF",
-      description: "Redirigiendo al Diario Oficial de la Federación...",
-    });
-    // Simular apertura del DOF
-    const url = "https://www.dof.gob.mx/";
-    const newWindow = window.open(url, "_blank", "noopener,noreferrer");
-    if (newWindow) newWindow.opener = null;
-  };
-
-
   return (
     <div className="min-h-screen bg-background">
       <div className="max-w-6xl mx-auto p-4">
@@ -685,7 +648,7 @@ const ArticuloDetalle = () => {
                       Artículo {articulo.numero} - {articulo.titulo}
                     </CardTitle>
                     <CardDescription className="text-base">
-                      Ley Federal del Trabajo
+                      Resumen educativo de una selección de la Ley Federal del Trabajo
                     </CardDescription>
                   </div>
                   <Badge variant="secondary">
@@ -722,13 +685,15 @@ const ArticuloDetalle = () => {
               </CardHeader>
               <CardContent className="space-y-3">
                 <Button 
-                  onClick={handleVerEnDOF}
+                  asChild
                   variant="outline" 
                   className="w-full"
                   size="lg"
                 >
-                  <ExternalLink className="h-4 w-4 mr-2" />
-                  Ver en DOF
+                  <a href="https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf" target="_blank" rel="noopener noreferrer">
+                    <ExternalLink className="h-4 w-4 mr-2" />
+                    Consultar LFT oficial
+                  </a>
                 </Button>
               </CardContent>
             </Card>
@@ -742,14 +707,14 @@ const ArticuloDetalle = () => {
                   <Scale className="h-4 w-4 text-muted-foreground" />
                   <div>
                     <p className="text-sm font-medium">Estado</p>
-                    <p className="text-xs text-muted-foreground">{articulo.vigencia}</p>
+                    <p className="text-xs text-muted-foreground">{articulo.fechaRevision ? "Resumen revisado en la fecha indicada" : "Resumen pendiente de revisión editorial"}</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-3">
                   <FileText className="h-4 w-4 text-muted-foreground" />
                   <div>
-                    <p className="text-sm font-medium">Última reforma</p>
-                    <p className="text-xs text-muted-foreground">{articulo.fechaReforma}</p>
+                    <p className="text-sm font-medium">{articulo.fechaRevision ? "Revisión del resumen" : "Fecha de referencia"}</p>
+                    <p className="text-xs text-muted-foreground">{articulo.fechaRevision ?? articulo.fechaReforma}</p>
                   </div>
                 </div>
               </CardContent>

@@ -46,7 +46,7 @@ const Buscador = () => {
       descripcion: "Derechos de vacaciones y prima vacacional según Art. 76-81 LFT",
       articulosLFT: ["Art. 76", "Art. 78", "Art. 79", "Art. 80", "Art. 81"],
       tags: ["vacaciones", "prima vacacional", "descanso"],
-      contenido: "Tienes derecho a 6 días de vacaciones en el primer año, incrementándose gradualmente..."
+      contenido: "Al completar el primer año corresponden al menos 12 días laborables de vacaciones; el mínimo aumenta con la antigüedad..."
     },
     {
       id: 5,
@@ -64,7 +64,7 @@ const Buscador = () => {
       descripcion: "Qué debe incluir tu finiquito al terminar la relación laboral",
       articulosLFT: ["Art. 76", "Art. 80", "Art. 87", "Art. 162"],
       tags: ["finiquito", "renuncia", "liquidación"],
-      contenido: "Al renunciar tienes derecho a recibir proporcionales de vacaciones, aguinaldo y prima de antigüedad..."
+      contenido: "Al renunciar revisa vacaciones y aguinaldo proporcionales; la prima de antigüedad para trabajadores de planta requiere al menos 15 años en renuncia voluntaria..."
     },
     {
       id: 7,
@@ -116,7 +116,7 @@ const Buscador = () => {
       titulo: "Trabajador subcontratado (outsourcing)",
       categoria: "contrato",
       descripcion: "Derechos en subcontratación y nueva regulación del outsourcing",
-      articulosLFT: ["Art. 13", "Art. 15-A", "Art. 15-B", "Art. 15-C", "Art. 15-D"],
+      articulosLFT: ["Art. 12", "Art. 13", "Art. 14", "Art. 15"],
       tags: ["outsourcing", "subcontratación", "solidaria", "registro"],
       contenido: "La nueva regulación prohíbe la subcontratación abusiva y protege derechos laborales..."
     }
@@ -271,7 +271,7 @@ const Buscador = () => {
                     <Link to="/calculadora">
                       <Button variant="ghost" size="sm">
                         <Calculator className="mr-2 h-3 w-3" />
-                        Calcular
+                        Proporcionales
                       </Button>
                     </Link>
                   </div>
@@ -306,13 +306,13 @@ const Buscador = () => {
             <Button asChild variant="outline">
               <Link to="/calculadora">
                 <Calculator className="mr-2 h-4 w-4" />
-                Calculadora de liquidación
+                Estimar prestaciones proporcionales
               </Link>
             </Button>
             <Button asChild variant="outline">
               <Link to="/biblioteca">
                 <FileText className="mr-2 h-4 w-4" />
-                Biblioteca legal completa
+                Biblioteca de resúmenes legales
               </Link>
             </Button>
           </div>

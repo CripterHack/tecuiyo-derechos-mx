@@ -1,582 +1,233 @@
-import { Calculator, ArrowLeft, Info, DollarSign, Calendar, Clock, CalendarIcon } from "lucide-react";
+import { ArrowLeft, Calculator, Info, Printer } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
-import { Calendar as CalendarComponent } from "@/components/ui/calendar";
-import { useState } from "react";
+import { useState, type FormEvent } from "react";
 import { Link } from "react-router-dom";
-import { format, differenceInDays, differenceInMonths, differenceInYears } from "date-fns";
-import { es } from "date-fns/locale";
-import { cn } from "@/lib/utils";
+import { estimateLaborBenefits, type LaborEstimate, type LaborEstimateInput, type SeparationType } from "@/utils/laborEstimate";
 
-interface Concepto {
-  concepto: string;
-  monto: number;
-  articulo: string;
-  descripcion: string;
-}
-
-interface ResultadoLiquidacion {
-  conceptos: Concepto[];
-  total: number;
-  salarioDiario: number;
-  antiguedad: number;
-  tipo: string;
-  fechaIngreso?: Date;
-  fechaSalida?: Date;
-  usarFechas: boolean;
-  diasVacaciones: number;
-  diasTrabajadosEnAnio: number;
-}
+const currency = new Intl.NumberFormat("es-MX", { style: "currency", currency: "MXN" });
+const calendarDate = new Intl.DateTimeFormat("es-MX", { dateStyle: "long", timeZone: "UTC" });
+const formatDate = (value: string) => calendarDate.format(new Date(`${value}T00:00:00Z`));
 
 const Calculadora = () => {
-  const [salarioDiario, setSalarioDiario] = useState("");
-  const [tipoSeparacion, setTipoSeparacion] = useState("");
-  const [resultado, setResultado] = useState<ResultadoLiquidacion | null>(null);
-  
-  // Nuevo sistema de fechas o antigüedad manual
-  const [usarFechas, setUsarFechas] = useState(true);
-  const [fechaIngreso, setFechaIngreso] = useState<Date>();
-  const [fechaSalida, setFechaSalida] = useState<Date>();
-  
-  // Sistema manual de antigüedad
-  const [anos, setAnos] = useState("");
-  const [meses, setMeses] = useState("");
-  const [dias, setDias] = useState("");
+  const [input, setInput] = useState<LaborEstimateInput>({
+    dailySalary: "", startDate: "", endDate: "", separation: "other",
+  });
+  const [result, setResult] = useState<LaborEstimate | null>(null);
+  const [error, setError] = useState<string | null>(null);
 
-  const calcularAntiguedadEnAnos = () => {
-    if (usarFechas && fechaIngreso && fechaSalida) {
-      const totalDias = differenceInDays(fechaSalida, fechaIngreso);
-      return totalDias / 365.25; // Considera años bisiestos
-    } else if (!usarFechas) {
-      const totalAnos = parseFloat(anos || "0");
-      const totalMeses = parseFloat(meses || "0") / 12;
-      const totalDias = parseFloat(dias || "0") / 365.25;
-      return totalAnos + totalMeses + totalDias;
-    }
-    return 0;
+  const updateInput = (changes: Partial<LaborEstimateInput>) => {
+    setInput((previous) => ({ ...previous, ...changes }));
+    setResult(null);
+    setError(null);
   };
 
-  const calcularLiquidacion = () => {
-    const antiguedadCalculada = calcularAntiguedadEnAnos();
-    
-    if (!salarioDiario || antiguedadCalculada <= 0 || !tipoSeparacion) return;
-
-    const salario = parseFloat(salarioDiario);
-    const antiguedadAnos = antiguedadCalculada;
-    
-    // Obtener fecha de referencia para cálculos proporcionales
-    const fechaReferencia = usarFechas && fechaSalida ? fechaSalida : new Date();
-    const diasTrabajadosEnAnio = usarFechas && fechaIngreso && fechaSalida ? 
-      differenceInDays(fechaReferencia, new Date(fechaReferencia.getFullYear(), 0, 1)) + 1 : 
-      fechaReferencia.getDate() + (fechaReferencia.getMonth() * 30);
-    
-    // Cálculos exactos según LFT
-    
-    // 1. Indemnización (Art. 50 LFT) - Solo para despido injustificado
-    const indemnizacion = salario * 90; // 3 meses exactos
-    
-    // 2. Prima de antigüedad (Art. 162 LFT) - 12 días por año, mínimo 15 años para renuncia
-    const primaAntiguedad = tipoSeparacion === "renuncia" && antiguedadAnos < 15 ? 0 : salario * 12 * antiguedadAnos;
-    
-    // 3. Vacaciones proporcionales (Art. 76 LFT)
-    // Primer año: 6 días, segundo año: 8 días, tercer año: 10 días, cuarto año: 12 días
-    // A partir del quinto año: 14 días + 2 días por cada 5 años adicionales
-    let diasVacaciones = 6; // Mínimo para el primer año
-    if (antiguedadAnos >= 2) diasVacaciones = 8;
-    if (antiguedadAnos >= 3) diasVacaciones = 10;
-    if (antiguedadAnos >= 4) diasVacaciones = 12;
-    if (antiguedadAnos >= 5) {
-      diasVacaciones = 14 + (Math.floor((antiguedadAnos - 5) / 5) * 2);
+  const calculate = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    setResult(null);
+    const calculation = estimateLaborBenefits(input);
+    if (calculation.ok === false) {
+      setError(calculation.message);
+      return;
     }
-    
-    const vacacionesProporcionales = (salario * diasVacaciones * diasTrabajadosEnAnio) / 365;
-    
-    // 4. Prima vacacional (Art. 80 LFT) - 25% mínimo sobre vacaciones
-    const primaVacacional = vacacionesProporcionales * 0.25;
-    
-    // 5. Aguinaldo proporcional (Art. 87 LFT) - 15 días mínimo
-    const aguinaldoProporcional = (salario * 15 * diasTrabajadosEnAnio) / 365;
-    
-    // 6. Salarios vencidos (solo para despido injustificado si aplica reinstalación)
-    // Este concepto requiere más datos específicos del caso, por ahora se omite
-
-    let total = 0;
-    let conceptos: Concepto[] = [];
-
-    if (tipoSeparacion === "despido_injustificado") {
-      // Despido injustificado - Art. 48, 49, 50 LFT
-      conceptos = [
-        { 
-          concepto: "Indemnización constitucional (3 meses)", 
-          monto: indemnizacion, 
-          articulo: "Art. 50 LFT",
-          descripcion: "3 meses de salario por despido injustificado"
-        },
-        { 
-          concepto: "Prima de antigüedad", 
-          monto: primaAntiguedad, 
-          articulo: "Art. 162 LFT",
-          descripcion: `12 días de salario por cada año trabajado (${antiguedadAnos.toFixed(2)} años)`
-        },
-        { 
-          concepto: `Vacaciones proporcionales (${diasVacaciones} días anuales)`, 
-          monto: vacacionesProporcionales, 
-          articulo: "Art. 76 LFT",
-          descripcion: `Días de vacaciones correspondientes al tiempo trabajado en el año`
-        },
-        { 
-          concepto: "Prima vacacional (25%)", 
-          monto: primaVacacional, 
-          articulo: "Art. 80 LFT",
-          descripcion: "25% sobre el monto de vacaciones proporcionales"
-        },
-        { 
-          concepto: "Aguinaldo proporcional", 
-          monto: aguinaldoProporcional, 
-          articulo: "Art. 87 LFT",
-          descripcion: "15 días de salario proporcional al tiempo trabajado en el año"
-        }
-      ];
-    } else if (tipoSeparacion === "renuncia") {
-      // Renuncia voluntaria
-      const conceptosRenuncia = [];
-      
-      // Prima de antigüedad solo si tiene 15 años o más
-      if (antiguedadAnos >= 15) {
-        conceptosRenuncia.push({
-          concepto: "Prima de antigüedad", 
-          monto: primaAntiguedad, 
-          articulo: "Art. 162 LFT",
-          descripcion: `12 días de salario por cada año trabajado (${antiguedadAnos.toFixed(2)} años)`
-        });
-      }
-      
-      conceptosRenuncia.push(
-        { 
-          concepto: `Vacaciones proporcionales (${diasVacaciones} días anuales)`, 
-          monto: vacacionesProporcionales, 
-          articulo: "Art. 76 LFT",
-          descripcion: `Días de vacaciones correspondientes al tiempo trabajado en el año`
-        },
-        { 
-          concepto: "Prima vacacional (25%)", 
-          monto: primaVacacional, 
-          articulo: "Art. 80 LFT",
-          descripcion: "25% sobre el monto de vacaciones proporcionales"
-        },
-        { 
-          concepto: "Aguinaldo proporcional", 
-          monto: aguinaldoProporcional, 
-          articulo: "Art. 87 LFT",
-          descripcion: "15 días de salario proporcional al tiempo trabajado en el año"
-        }
-      );
-      
-      conceptos = conceptosRenuncia;
-    }
-
-    total = conceptos.reduce((sum, item) => sum + item.monto, 0);
-
-    setResultado({
-      conceptos,
-      total,
-      salarioDiario: salario,
-      antiguedad: antiguedadAnos,
-      tipo: tipoSeparacion,
-      fechaIngreso,
-      fechaSalida,
-      usarFechas,
-      diasVacaciones,
-      diasTrabajadosEnAnio
-    });
+    setError(null);
+    setResult(calculation.estimate);
   };
+
+  const concepts = result ? [
+    {
+      name: "Aguinaldo proporcional", amount: result.aguinaldo, article: "Art. 87 LFT",
+      explanation: `15 días de salario × ${result.aguinaldoDays} días de relación laboral en el año de salida ÷ ${result.calendarYearDays} días del año.`,
+    },
+    {
+      name: "Vacaciones proporcionales del ciclo en curso", amount: result.vacationPay, article: "Arts. 76 y 79 LFT",
+      explanation: `${result.annualVacationDays} días anuales × ${result.vacationDaysElapsed} días transcurridos del ciclo ÷ ${result.vacationCycleDays} días del ciclo, por el salario diario.`,
+    },
+    {
+      name: "Prima vacacional mínima", amount: result.vacationPremium, article: "Art. 80 LFT",
+      explanation: "25% del importe proporcional de vacaciones, calculado antes de redondear a centavos.",
+    },
+  ] : [];
 
   return (
     <div className="min-h-screen bg-background">
-      {/* Header */}
       <header className="bg-primary text-primary-foreground py-8 px-4">
         <div className="container mx-auto max-w-4xl">
           <Link to="/" className="inline-flex items-center mb-4 hover:text-accent transition-colors">
-            <ArrowLeft className="mr-2 h-4 w-4" />
-            Volver al inicio
+            <ArrowLeft className="mr-2 h-4 w-4" aria-hidden="true" /> Volver al inicio
           </Link>
           <div className="flex items-center gap-4">
-            <Calculator className="h-8 w-8" />
+            <Calculator className="h-8 w-8" aria-hidden="true" />
             <div>
-              <h1 className="text-3xl font-bold">Calculadora de Liquidación</h1>
-              <p className="text-primary-foreground/80">Calcula tu liquidación conforme a la Ley Federal del Trabajo</p>
+              <h1 className="text-3xl font-bold">Calculadora de prestaciones proporcionales</h1>
+              <p className="text-primary-foreground/80">Estimación parcial de aguinaldo, vacaciones y prima vacacional</p>
             </div>
           </div>
         </div>
       </header>
 
-      {/* Disclaimer */}
       <section className="py-4 bg-destructive/10 border-b border-destructive/20">
-        <div className="container mx-auto max-w-4xl px-4">
-          <div className="flex items-start gap-2">
-            <Info className="h-4 w-4 text-destructive mt-0.5 flex-shrink-0" />
-            <p className="text-sm text-destructive">
-              <strong>Aviso:</strong> Este cálculo es orientativo y no constituye asesoría legal. 
-              Los montos pueden variar según circunstancias específicas. Consulte con un abogado laboral para casos particulares.
-            </p>
-          </div>
+        <div className="container mx-auto max-w-4xl px-4 flex items-start gap-2">
+          <Info className="h-4 w-4 text-destructive mt-0.5 flex-shrink-0" aria-hidden="true" />
+          <p className="text-sm text-destructive">
+            <strong>Alcance:</strong> El subtotal es orientativo. No representa un finiquito o una liquidación completos,
+            ni determina cuánto te deben. Revisa pagos previos y tu caso con orientación laboral.
+          </p>
         </div>
       </section>
 
-      {/* Calculadora */}
       <section className="py-12 px-4">
-        <div className="container mx-auto max-w-4xl">
-          <div className="grid grid-cols-1 gap-8">
-            {/* Formulario */}
-            <Card className="legal-card">
-              <CardHeader>
-                <CardTitle>Datos para el cálculo</CardTitle>
-                <CardDescription>
-                  Ingresa la información requerida para calcular tu liquidación
-                </CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-6">
-                <div className="space-y-3">
-                  <Label htmlFor="salario" className="text-sm font-medium">Salario diario (pesos mexicanos)</Label>
-                  <div className="relative">
-                    <DollarSign className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-                    <Input
-                      id="salario"
-                      type="number"
-                      step="0.01"
-                      min="0"
-                      placeholder="250.00"
-                      value={salarioDiario}
-                      onChange={(e) => setSalarioDiario(e.target.value)}
-                      className="pl-10 text-lg font-semibold h-12"
-                    />
-                  </div>
-                  <p className="text-xs text-muted-foreground">
-                    Ingresa tu salario diario según tu contrato o comprobantes de pago
-                  </p>
-                </div>
-
-                {/* Selector de método de cálculo de antigüedad */}
-                <div className="space-y-3">
-                  <Label className="text-sm font-medium">Método para calcular antigüedad</Label>
-                  <div className="grid grid-cols-2 gap-3">
-                    <Button
-                      type="button"
-                      variant={usarFechas ? "default" : "outline"}
-                      onClick={() => setUsarFechas(true)}
-                      className="h-12 flex-col gap-1"
-                    >
-                      <CalendarIcon className="h-4 w-4" />
-                      <span className="text-xs">Fechas exactas</span>
-                    </Button>
-                    <Button
-                      type="button"
-                      variant={!usarFechas ? "default" : "outline"}
-                      onClick={() => setUsarFechas(false)}
-                      className="h-12 flex-col gap-1"
-                    >
-                      <Clock className="h-4 w-4" />
-                      <span className="text-xs">Tiempo manual</span>
-                    </Button>
-                  </div>
-                </div>
-
-                {usarFechas ? (
-                  /* Selección por fechas */
-                  <div className="space-y-6">
-                    <div className="grid md:grid-cols-2 gap-4">
-                      <div>
-                        <Label className="text-sm font-medium mb-2 block">Fecha de ingreso</Label>
-                        <Popover>
-                          <PopoverTrigger asChild>
-                            <Button
-                              variant="outline"
-                              className={cn(
-                                "w-full justify-start text-left font-normal h-auto py-3 px-4",
-                                !fechaIngreso && "text-muted-foreground"
-                              )}
-                            >
-                              <CalendarIcon className="mr-2 h-4 w-4 flex-shrink-0" />
-                              <span className="truncate">
-                                {fechaIngreso ? format(fechaIngreso, "PPP", { locale: es }) : "Selecciona fecha de ingreso"}
-                              </span>
-                            </Button>
-                          </PopoverTrigger>
-                          <PopoverContent className="w-auto p-0 z-50" align="start" side="bottom">
-                            <CalendarComponent
-                              mode="single"
-                              selected={fechaIngreso}
-                              onSelect={setFechaIngreso}
-                              disabled={(date) => date > new Date() || date < new Date("1900-01-01")}
-                              initialFocus
-                            />
-                          </PopoverContent>
-                        </Popover>
-                      </div>
-
-                      <div>
-                        <Label className="text-sm font-medium mb-2 block">Fecha de salida</Label>
-                        <Popover>
-                          <PopoverTrigger asChild>
-                            <Button
-                              variant="outline"
-                              className={cn(
-                                "w-full justify-start text-left font-normal h-auto py-3 px-4",
-                                !fechaSalida && "text-muted-foreground"
-                              )}
-                            >
-                              <CalendarIcon className="mr-2 h-4 w-4 flex-shrink-0" />
-                              <span className="truncate">
-                                {fechaSalida ? format(fechaSalida, "PPP", { locale: es }) : "Selecciona fecha de salida"}
-                              </span>
-                            </Button>
-                          </PopoverTrigger>
-                          <PopoverContent className="w-auto p-0 z-50" align="start" side="bottom">
-                            <CalendarComponent
-                              mode="single"
-                              selected={fechaSalida}
-                              onSelect={setFechaSalida}
-                              disabled={(date) => 
-                                date > new Date() || 
-                                date < new Date("1900-01-01") || 
-                                (fechaIngreso && date < fechaIngreso)
-                              }
-                              initialFocus
-                            />
-                          </PopoverContent>
-                        </Popover>
-                      </div>
-                    </div>
-
-                    {fechaIngreso && fechaSalida && (
-                      <div className="p-4 bg-primary/5 border border-primary/10 rounded-lg">
-                        <div className="flex items-center gap-2 mb-2">
-                          <Clock className="h-4 w-4 text-primary" />
-                          <p className="text-sm font-semibold text-primary">Tiempo trabajado</p>
-                        </div>
-                        <p className="text-lg font-bold">
-                          {differenceInYears(fechaSalida, fechaIngreso)} años, {' '}
-                          {differenceInMonths(fechaSalida, fechaIngreso) % 12} meses, {' '}
-                          {differenceInDays(fechaSalida, new Date(fechaIngreso.getFullYear(), fechaIngreso.getMonth() + differenceInMonths(fechaSalida, fechaIngreso), fechaIngreso.getDate()))} días
-                        </p>
-                        <p className="text-xs text-muted-foreground mt-1">
-                          Total: {calcularAntiguedadEnAnos().toFixed(2)} años
-                        </p>
-                      </div>
-                    )}
-                  </div>
-                ) : (
-                  /* Ingreso manual */
-                  <div className="space-y-6">
-                    <div>
-                      <Label className="text-sm font-medium mb-3 block">Tiempo trabajado</Label>
-                      <div className="grid grid-cols-3 gap-4">
-                        <div className="space-y-2">
-                          <Label htmlFor="anos" className="text-xs text-muted-foreground">Años</Label>
-                          <Input
-                            id="anos"
-                            type="number"
-                            min="0"
-                            max="50"
-                            placeholder="2"
-                            value={anos}
-                            onChange={(e) => setAnos(e.target.value)}
-                            className="text-center text-lg font-semibold"
-                          />
-                        </div>
-                        <div className="space-y-2">
-                          <Label htmlFor="meses" className="text-xs text-muted-foreground">Meses</Label>
-                          <Input
-                            id="meses"
-                            type="number"
-                            min="0"
-                            max="11"
-                            placeholder="6"
-                            value={meses}
-                            onChange={(e) => setMeses(e.target.value)}
-                            className="text-center text-lg font-semibold"
-                          />
-                        </div>
-                        <div className="space-y-2">
-                          <Label htmlFor="dias" className="text-xs text-muted-foreground">Días</Label>
-                          <Input
-                            id="dias"
-                            type="number"
-                            min="0"
-                            max="30"
-                            placeholder="15"
-                            value={dias}
-                            onChange={(e) => setDias(e.target.value)}
-                            className="text-center text-lg font-semibold"
-                          />
-                        </div>
-                      </div>
-                      <p className="text-xs text-muted-foreground text-center mt-2">
-                        Ingresa el tiempo trabajado en años, meses y días
-                      </p>
-                    </div>
-                    
-                    {(anos || meses || dias) && (
-                      <div className="p-4 bg-primary/5 border border-primary/10 rounded-lg">
-                        <div className="flex items-center gap-2 mb-2">
-                          <Clock className="h-4 w-4 text-primary" />
-                          <p className="text-sm font-semibold text-primary">Antigüedad calculada</p>
-                        </div>
-                        <p className="text-lg font-bold">
-                          {calcularAntiguedadEnAnos().toFixed(2)} años
-                        </p>
-                      </div>
-                    )}
-                  </div>
-                )}
-
-                <div className="space-y-3">
-                  <Label htmlFor="tipo" className="text-sm font-medium">Tipo de separación laboral</Label>
-                  <Select value={tipoSeparacion} onValueChange={setTipoSeparacion}>
-                    <SelectTrigger className="h-12">
-                      <SelectValue placeholder="Selecciona el tipo de separación" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value="despido_injustificado" className="py-3">
-                        <div>
-                          <div className="font-medium">Despido injustificado</div>
-                          <div className="text-xs text-muted-foreground">Me despidieron sin causa justificada</div>
-                        </div>
-                      </SelectItem>
-                      <SelectItem value="renuncia" className="py-3">
-                        <div>
-                          <div className="font-medium">Renuncia voluntaria</div>
-                          <div className="text-xs text-muted-foreground">Renuncié por mi propia decisión</div>
-                        </div>
-                      </SelectItem>
-                    </SelectContent>
-                  </Select>
-                </div>
-
-                <Button 
-                  onClick={calcularLiquidacion}
-                  className="w-full h-14 text-lg font-semibold mt-6"
-                  disabled={
-                    !salarioDiario || 
-                    calcularAntiguedadEnAnos() <= 0 || 
-                    !tipoSeparacion
-                  }
-                >
-                  <Calculator className="mr-3 h-5 w-5" />
-                  Calcular mi liquidación
-                </Button>
-              </CardContent>
-            </Card>
-
-            {/* Resultados */}
-            <Card className="legal-card">
-              <CardHeader>
-                <CardTitle>Resultado del cálculo</CardTitle>
-                <CardDescription>
-                  Desglose de tu liquidación por conceptos legales
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                {resultado ? (
-                  <div className="space-y-6">
-                    <div className="p-6 bg-gradient-to-br from-primary/5 to-primary/10 border-2 border-primary/20 rounded-xl">
-                      <div className="text-center">
-                        <h3 className="font-bold text-xl mb-2 text-primary">Total a recibir</h3>
-                        <p className="text-4xl font-bold text-primary mb-2">
-                          ${resultado.total.toLocaleString('es-MX', { minimumFractionDigits: 2 })}
-                        </p>
-                        <p className="text-sm text-muted-foreground">pesos mexicanos</p>
-                      </div>
-                    </div>
-
-                    <div className="space-y-4">
-                      <h4 className="font-semibold text-lg">Desglose por conceptos:</h4>
-                      {resultado.conceptos.map((item: Concepto, index: number) => (
-                        <div key={index} className="p-5 bg-card border border-border rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                          <div className="flex justify-between items-start gap-4">
-                            <div className="flex-1 space-y-2">
-                              <p className="font-semibold text-base">{item.concepto}</p>
-                              {item.descripcion && (
-                                <p className="text-sm text-muted-foreground leading-relaxed">
-                                  {item.descripcion}
-                                </p>
-                              )}
-                              <span className="inline-block px-3 py-1 text-xs bg-primary/10 text-primary rounded-full font-medium">
-                                {item.articulo}
-                              </span>
-                            </div>
-                            <div className="text-right flex-shrink-0">
-                              <p className="text-xl font-bold text-primary">
-                                ${item.monto.toLocaleString('es-MX', { minimumFractionDigits: 2 })}
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-
-                    <div className="pt-4 border-t border-border">
-                      <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
-                        <Clock className="h-4 w-4" />
-                        <span>Cálculo realizado el {new Date().toLocaleDateString('es-MX', { 
-                          year: 'numeric', 
-                          month: 'long', 
-                          day: 'numeric' 
-                        })}</span>
-                      </div>
-                    </div>
-                  </div>
-                ) : (
-                  <div className="text-center py-8 text-muted-foreground">
-                    <Calculator className="h-12 w-12 mx-auto mb-4 opacity-50" />
-                    <p>Completa los datos para ver el cálculo de tu liquidación</p>
-                  </div>
-                )}
-              </CardContent>
-            </Card>
-          </div>
-
-          {/* Información adicional */}
-          <Card className="legal-card mt-8">
+        <div className="container mx-auto max-w-4xl space-y-8">
+          <Card className="legal-card">
             <CardHeader>
-              <CardTitle>Artículos de la LFT aplicables</CardTitle>
+              <CardTitle>Datos para la estimación</CardTitle>
               <CardDescription>
-                Fundamentos legales utilizados en el cálculo
+                Las fechas permiten distinguir el año del aguinaldo y el ciclo laboral de vacaciones.
+                Tus datos se calculan en este navegador; no se guardan ni se envían.
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <div className="grid md:grid-cols-2 gap-4">
+              <form className="space-y-6" onSubmit={calculate} noValidate>
                 <div className="space-y-2">
-                  <h4 className="font-semibold">Despido injustificado (Art. 48-50)</h4>
-                  <p className="text-sm text-muted-foreground">
-                    Indemnización de 3 meses de salario, prima de antigüedad, 
-                    y prestaciones proporcionales pendientes.
+                  <Label htmlFor="daily-salary">Salario diario (pesos mexicanos)</Label>
+                  <Input
+                    id="daily-salary" type="text" inputMode="decimal" placeholder="250.00"
+                    value={input.dailySalary} onChange={(event) => updateInput({ dailySalary: event.target.value })}
+                    aria-describedby="salary-hint" className="h-12 text-lg"
+                  />
+                  <p id="salary-hint" className="text-xs text-muted-foreground">
+                    Salario diario fijo de contrato o recibo, sin separadores de miles. Acepta punto o coma decimal.
+                    Esta estimación no incorpora salario variable ni beneficios superiores al mínimo legal.
                   </p>
                 </div>
-                <div className="space-y-2">
-                  <h4 className="font-semibold">Prima de antigüedad (Art. 162)</h4>
-                  <p className="text-sm text-muted-foreground">
-                    12 días de salario por cada año trabajado, 
-                    aplicable en todos los casos de terminación laboral.
-                  </p>
+
+                <div className="grid md:grid-cols-2 gap-4">
+                  <div className="space-y-2">
+                    <Label htmlFor="employment-start">Fecha de ingreso</Label>
+                    <Input
+                      id="employment-start" type="date" min="1900-01-01" value={input.startDate}
+                      onChange={(event) => updateInput({ startDate: event.target.value })} className="h-12"
+                    />
+                  </div>
+                  <div className="space-y-2">
+                    <Label htmlFor="employment-end">Fecha de salida</Label>
+                    <Input
+                      id="employment-end" type="date" min="1900-01-01" value={input.endDate}
+                      onChange={(event) => updateInput({ endDate: event.target.value })} className="h-12"
+                    />
+                  </div>
                 </div>
+
                 <div className="space-y-2">
-                  <h4 className="font-semibold">Vacaciones (Art. 76-80)</h4>
-                  <p className="text-sm text-muted-foreground">
-                    Días de vacaciones no disfrutados más prima vacacional del 25%.
-                  </p>
+                  <Label htmlFor="separation">Forma de separación laboral</Label>
+                  <Select value={input.separation} onValueChange={(value) => updateInput({ separation: value as SeparationType })}>
+                    <SelectTrigger id="separation" className="h-12"><SelectValue /></SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="other">Otra forma de separación o aún no sé</SelectItem>
+                      <SelectItem value="resignation">Renuncia voluntaria</SelectItem>
+                      <SelectItem value="dismissal">Despido</SelectItem>
+                    </SelectContent>
+                  </Select>
+                  <p className="text-xs text-muted-foreground">Esta selección ajusta los avisos sobre conceptos adicionales; no califica jurídicamente un despido.</p>
                 </div>
-                <div className="space-y-2">
-                  <h4 className="font-semibold">Aguinaldo (Art. 87)</h4>
-                  <p className="text-sm text-muted-foreground">
-                    Proporción del aguinaldo anual (15 días) 
-                    correspondiente al tiempo trabajado.
-                  </p>
+
+                {error && <p role="alert" className="text-sm text-destructive">{error}</p>}
+                <Button type="submit" className="w-full h-12 text-lg">
+                  <Calculator className="mr-2 h-5 w-5" aria-hidden="true" /> Calcular estimación parcial
+                </Button>
+              </form>
+            </CardContent>
+          </Card>
+
+          <Card className="legal-card">
+            <CardHeader>
+              <CardTitle>Resultado y bases del cálculo</CardTitle>
+              <CardDescription>Al cambiar cualquier dato, la estimación se retira hasta volver a calcular.</CardDescription>
+            </CardHeader>
+            <CardContent aria-live="polite">
+              {result ? (
+                <div className="space-y-6">
+                  <div className="p-6 bg-primary/5 border border-primary/20 rounded-lg text-center">
+                    <h3 className="font-bold text-xl mb-2 text-primary">Subtotal orientativo de tres conceptos</h3>
+                    <p className="text-4xl font-bold text-primary">{currency.format(result.subtotal)}</p>
+                    <p className="text-sm text-muted-foreground mt-2">Antes de impuestos y sin restar pagos o vacaciones ya otorgados.</p>
+                  </div>
+
+                  <div className="space-y-2 text-sm">
+                    <p><strong>Salario diario utilizado:</strong> {currency.format(result.dailySalary)}</p>
+                    <p><strong>Relación laboral:</strong> {formatDate(result.startDate)} al {formatDate(result.endDate)}.</p>
+                    <p><strong>Antigüedad por aniversarios:</strong> {result.completedYears} años cumplidos.</p>
+                    <p><strong>Aguinaldo:</strong> del {formatDate(result.aguinaldoStart)} al {formatDate(result.endDate)}, contando ambas fechas.</p>
+                    <p><strong>Ciclo vacacional en curso:</strong> {formatDate(result.vacationCycleStart)} al aniversario del {formatDate(result.vacationCycleEnd)}.</p>
+                  </div>
+
+                  <div className="space-y-4">
+                    {concepts.map((concept) => (
+                      <div key={concept.name} className="p-4 bg-card border border-border rounded-lg">
+                        <div className="flex flex-wrap justify-between gap-2">
+                          <h4 className="font-semibold">{concept.name}</h4>
+                          <p className="font-bold text-primary">{currency.format(concept.amount)}</p>
+                        </div>
+                        <p className="text-sm text-muted-foreground mt-2">{concept.explanation}</p>
+                        <p className="text-xs text-primary mt-2">{concept.article}</p>
+                      </div>
+                    ))}
+                  </div>
+
+                  <div className="space-y-2 text-sm text-muted-foreground">
+                    <p>Vacaciones: se acumulan los días calendario transcurridos desde el último aniversario (o ingreso en el primer año).
+                      En el aniversario exacto, el nuevo ciclo tiene cero días; las vacaciones del ciclo recién cumplido quedan fuera de esta suma.</p>
+                    <p>La tabla corresponde al año de servicio que está en curso: 12, 14, 16, 18 y 20 días en los años 1 a 5;
+                      22 en los años 6 a 10, y dos días adicionales por cada cinco años posteriores.</p>
+                    <p>Convención de calendario: un ingreso el 29 de febrero tiene aniversario el 28 de febrero en años no bisiestos.
+                      La proporción usa la duración real del ciclo y del año de salida (365 o 366 días).</p>
+                    <p>Se supone una relación laboral continua, sin suspensiones que alteren las proporciones.
+                      Los importes se redondean a centavos y el subtotal suma esos importes.</p>
+                  </div>
+
+                  <Button type="button" variant="outline" onClick={() => window.print()}>
+                    <Printer className="mr-2 h-4 w-4" aria-hidden="true" /> Imprimir o guardar como PDF
+                  </Button>
+                  <p className="text-xs text-muted-foreground">El navegador abre el diálogo de impresión; puedes elegir guardar como PDF.</p>
+
+                  <div className="border-t border-border pt-4 space-y-2">
+                    <p className="text-sm">Si esta herramienta te fue útil, puedes ayudar a mantenerla gratuita.</p>
+                    <Button asChild variant="outline"><Link to="/apoyar">Apoyar Tecuiyo</Link></Button>
+                    <p className="text-xs text-muted-foreground">El apoyo es voluntario y no cambia el cálculo ni el acceso a la información.</p>
+                  </div>
                 </div>
+              ) : <p className="text-muted-foreground">Completa los datos y calcula para ver una estimación parcial.</p>}
+            </CardContent>
+          </Card>
+
+          <Card className="legal-card">
+            <CardHeader>
+              <CardTitle>Conceptos que debes revisar por separado</CardTitle>
+              <CardDescription>Estos conceptos pueden modificar el monto de tu caso y no se suman en esta herramienta.</CardDescription>
+            </CardHeader>
+            <CardContent className="space-y-4 text-sm">
+              <p><strong>Prestaciones pendientes:</strong> vacaciones de ciclos cumplidos, prima correspondiente,
+                aguinaldo de años anteriores, salarios no pagados y prestaciones superiores a la ley. Revisa también los pagos ya realizados.</p>
+              <p><strong>Prima de antigüedad (art. 162):</strong> prevista para trabajadores de planta;
+                en renuncia voluntaria requiere al menos 15 años cumplidos. En despido, el requisito de 15 años no es el mismo.
+                Su base tiene límites específicos (arts. 485 y 486), por lo que aquí no se calcula.</p>
+              {result?.separation === "resignation" && (
+                <p className="text-primary">
+                  Con tus fechas {result.resignationSeniorityThresholdMet ? "alcanzas" : "no alcanzas"} el umbral de 15 años cumplidos para renuncia.
+                  Esto no sustituye la revisión de tu condición de trabajador de planta ni de la base de salario aplicable.
+                </p>
+              )}
+              <p><strong>Indemnización y salarios vencidos (arts. 48 a 50):</strong> requieren valorar la causa de separación,
+                el tipo de relación laboral y el salario aplicable. Elegir “Despido” no agrega automáticamente tres meses u otros pagos.</p>
+              <p><strong>Casos históricos:</strong> esta versión no calcula separaciones anteriores a 2023.</p>
+              <div className="flex flex-wrap gap-4">
+                <Link to="/directorio" className="text-primary underline underline-offset-4">Consultar orientación laboral gratuita</Link>
+                <a href="https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf" target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-4">
+                  Consultar la Ley Federal del Trabajo
+                </a>
               </div>
             </CardContent>
           </Card>
