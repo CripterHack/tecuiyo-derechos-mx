@@ -31,8 +31,9 @@ Visita [Tecuiyo](https://tecuiyo.izignamx.com/) para ver la aplicación en funci
 | **React** | 18.3.1 | Biblioteca de interfaz de usuario |
 | **TypeScript** | 5.0+ | Lenguaje de programación tipado |
 | **Tailwind CSS** | 3.4+ | Framework de estilos utilitarios |
-| **Vite** | 5.0+ | Herramienta de construcción rápida |
-| **React Router** | 6.26+ | Enrutamiento para React |
+| **Vite** | 6.4.4+ | Herramienta de construcción rápida |
+| **Vitest** | 5.0.4+ | Pruebas de componentes |
+| **React Router** | 7.18.2+ | Enrutamiento para React |
 | **Radix UI** | 1.0+ | Componentes accesibles |
 | **Lucide React** | 0.462+ | Iconos SVG para React |
 | **Tanstack Query** | 5.56+ | Gestión de estado del servidor |
@@ -41,8 +42,10 @@ Visita [Tecuiyo](https://tecuiyo.izignamx.com/) para ver la aplicación en funci
 
 ### Prerrequisitos
 
-- Node.js (v18 o superior)
-- npm o yarn
+- Node.js 24 (versión usada por CI, definida en `.nvmrc`)
+- npm
+
+Vitest 5 requiere Node.js `^22.12.0 || ^24.0.0 || >=26.0.0`. Puedes usar `nvm install` y `nvm use` para seleccionar la versión del proyecto.
 
 ### Pasos
 
@@ -54,7 +57,7 @@ cd tecuiyo-derechos-mx
 
 2. **Instala las dependencias**
 ```bash
-npm install
+npm ci
 ```
 
 3. **Inicia el servidor de desarrollo**
