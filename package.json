@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "node scripts/generate-route-pages.js --source && vite build && node scripts/generate-route-pages.js --pages",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "type-check": "tsc --noEmit -p tsconfig.app.json && tsc --noEmit -p tsconfig.node.json",

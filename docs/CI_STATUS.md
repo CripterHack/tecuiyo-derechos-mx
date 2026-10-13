@@ -1,6 +1,18 @@
 # Estado de CI/CD y diagnóstico del 12 de octubre de 2026
 
-## Estado confirmado al 13 de octubre de 2026
+## Publicación confirmada del PR #67
+
+El [PR #67](https://github.com/CripterHack/tecuiyo-derechos-mx/pull/67) fue fusionado en `main`, commit `138bd267f6948840c119a61291905af44967aeee`. La [ejecución 38434178516](https://github.com/CripterHack/tecuiyo-derechos-mx/actions/runs/38434178516) completó verificación y despliegue. El log de Pages identifica ese commit y reporta éxito el 13-10-2026 a las 16:54:22 UTC, 10:54:22 de CDMX.
+
+La actualización compatible de lint reduce `npm audit` de 14 a cinco entradas. El aviso de `braces` sigue sin parche publicado y el issue #62 permanece abierto. [DEPENDENCY_AUDIT_2026-10.md](DEPENDENCY_AUDIT_2026-10.md) contiene la evidencia, el alcance de exposición observado y la migración de soporte pendiente.
+
+## Publicación confirmada del PR #66
+
+El [PR #66](https://github.com/CripterHack/tecuiyo-derechos-mx/pull/66) fue fusionado en `main`, commit `6fe21375c6d58fbff2f44732c6c1c60086fcc1a6`. La [ejecución 38430849060](https://github.com/CripterHack/tecuiyo-derechos-mx/actions/runs/38430849060) completó verificación y despliegue. El log de Pages identifica ese commit y reporta éxito el 13-10-2026 a las 16:29:56 UTC, 10:29:56 de CDMX. El issue #63 quedó cerrado por el merge.
+
+La publicación incluye apoyo voluntario externo, contacto estático, estimación parcial con bases visibles, documentos educativos reales, recuperación de rutas y carga por página. La consulta HTTP del dominio devuelve 403 desde el servicio utilizado, por lo que no se presenta como verificación visual del sitio. Las secciones posteriores conservan el diagnóstico histórico del PR #61.
+
+## Publicación anterior del PR #61
 
 El [PR #61](https://github.com/CripterHack/tecuiyo-derechos-mx/pull/61) fue fusionado en `main`, commit `4d89a095133fc641ed2637731bf62d0507581317`. La [ejecución 38420756657](https://github.com/CripterHack/tecuiyo-derechos-mx/actions/runs/38420756657) completó verificación y despliegue; GitHub Pages informó éxito el 13-10-2026 a las 15:19:31 UTC. Los issues #58, #59 y #60 quedaron cerrados. El issue #62 conserva las alertas de dependencias pendientes.
 

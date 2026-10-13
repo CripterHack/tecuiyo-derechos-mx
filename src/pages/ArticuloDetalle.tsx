@@ -126,6 +126,15 @@ const ArticuloDetalle = () => {
                     <p className="text-xs text-muted-foreground">{articulo.fechaRevision ?? articulo.fechaReforma}</p>
                   </div>
                 </div>
+                {articulo.textKind === "educational-summary" && articulo.sourceUrl && (
+                  <div className="space-y-1">
+                    <p className="text-sm font-medium">Tipo de texto</p>
+                    <p className="text-xs text-muted-foreground">Paráfrasis educativa; no es una transcripción de la ley</p>
+                    <a href={articulo.sourceUrl} target="_blank" rel="noopener noreferrer" className="text-sm text-primary underline">
+                      Fuente oficial consultada para este resumen
+                    </a>
+                  </div>
+                )}
               </CardContent>
             </Card>
 
