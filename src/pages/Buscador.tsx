@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { hasProportionalEstimate } from "@/data/situationActions";
 
 const Buscador = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -25,10 +26,10 @@ const Buscador = () => {
       id: 2,
       titulo: "No me pagan horas extra",
       categoria: "salario",
-      descripcion: "Derechos sobre pago de horas extra y tiempo extraordinario según Art. 66-68 LFT",
-      articulosLFT: ["Art. 61", "Art. 66", "Art. 67", "Art. 68"],
+      descripcion: "Derechos sobre pago de horas extra y tiempo extraordinario según los Arts. 66 y 68 de la LFT",
+      articulosLFT: ["Art. 66", "Art. 68"],
       tags: ["horas extra", "tiempo extraordinario", "salario"],
-      contenido: "Las horas extra deben pagarse al doble del salario ordinario..."
+      contenido: "Consulta cómo se paga el tiempo extraordinario y cómo cambia el tope semanal según el año."
     },
     {
       id: 3,
@@ -262,18 +263,20 @@ const Buscador = () => {
                   </div>
                   
                   <div className="flex gap-2">
-                    <Link to={`/buscador/${situacion.id}`} className="flex-1">
-                      <Button variant="outline" size="sm" className="w-full">
+                    <Button asChild variant="outline" size="sm" className="flex-1">
+                      <Link to={`/buscador/${situacion.id}`}>
                         <FileText className="mr-2 h-3 w-3" />
                         Leer más
+                      </Link>
+                    </Button>
+                    {hasProportionalEstimate(situacion.id) && (
+                      <Button asChild variant="ghost" size="sm">
+                        <Link to="/calculadora">
+                          <Calculator className="mr-2 h-3 w-3" />
+                          Proporcionales
+                        </Link>
                       </Button>
-                    </Link>
-                    <Link to="/calculadora">
-                      <Button variant="ghost" size="sm">
-                        <Calculator className="mr-2 h-3 w-3" />
-                        Proporcionales
-                      </Button>
-                    </Link>
+                    )}
                   </div>
                 </CardContent>
               </Card>
