@@ -5,6 +5,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 import { SafeHtml } from "@/utils/sanitizer";
+import { findArticleDetail } from "@/data/articleDetails";
+import { hasProportionalEstimate } from "@/data/situationActions";
 
 const SituacionDetalle = () => {
   const { id } = useParams();
@@ -46,42 +48,14 @@ const SituacionDetalle = () => {
       tags: ["despido", "indemnización", "salarios", "demanda"]
     },
     {
-      id: "2", 
+      id: "2",
       titulo: "No me pagan horas extra",
       descripcion: "Tiempo de trabajo que excede la jornada ordinaria sin compensación económica.",
       contenidoCompleto: `
-        <h3>¿Qué son las horas extras según la LFT?</h3>
-        <p>Según el artículo 66, las horas extras son el tiempo que excede la jornada ordinaria de 8 horas diarias o 48 semanales. Su pago es obligatorio y no puede renunciarse.</p>
-        
-        <h3>Límites legales (Art. 66)</h3>
-        <ul>
-          <li>Máximo 3 horas extras por día</li>
-          <li>Máximo 3 veces por semana</li>
-          <li>Total máximo: 9 horas extras semanales</li>
-          <li>Exceder estos límites constituye trabajo forzoso</li>
-        </ul>
-        
-        <h3>Pago de horas extras (Art. 67-68)</h3>
-        <ul>
-          <li><strong>Primeras 9 horas semanales:</strong> 200% del salario ordinario</li>
-          <li><strong>Excedentes de 9 horas:</strong> 300% del salario ordinario</li>
-          <li><strong>Días de descanso:</strong> 200% adicional sobre el salario</li>
-        </ul>
-        
-        <h3>¿Cómo reclamarlas?</h3>
-        <ol>
-          <li>Documentar las horas trabajadas (bitácora, correos, testigos)</li>
-          <li>Solicitar por escrito el pago pendiente</li>
-          <li>Conservar evidencia del requerimiento</li>
-          <li>Demandar ante autoridades laborales si hay negativa</li>
-        </ol>
-        
-        <h3>Prescripción</h3>
-        <p>El derecho a reclamar horas extras prescribe en un año contado desde que debieron pagarse.</p>
+        <h3>¿Qué información conviene guardar?</h3>
+        <p>Conserva los horarios que trabajaste y, si los tienes, registros de asistencia, correos y recibos de nómina. El directorio ofrece opciones de orientación para revisar tu caso.</p>
       `,
-      articulosLFT: ["Art. 61", "Art. 66", "Art. 67", "Art. 68"],
-      tiempoResolucion: "3-6 meses",
-      complejidad: "Baja",
+      articulosLFT: ["Art. 66", "Art. 68"],
       tags: ["horas extras", "jornada", "salario", "pago"]
     },
     {
@@ -669,6 +643,7 @@ const SituacionDetalle = () => {
   ];
 
   const situacion = situacionesLaborales.find(s => s.id === id);
+  const overtimeArticle = id === "2" ? findArticleDetail("art66") : undefined;
 
   if (!situacion) {
     return (
@@ -721,16 +696,30 @@ const SituacionDetalle = () => {
                       {situacion.descripcion}
                     </CardDescription>
                   </div>
-                  <Badge className={getComplejidadColor(situacion.complejidad)}>
-                    {situacion.complejidad}
-                  </Badge>
+                  {situacion.complejidad && (
+                    <Badge className={getComplejidadColor(situacion.complejidad)}>
+                      {situacion.complejidad}
+                    </Badge>
+                  )}
                 </div>
               </CardHeader>
               <CardContent>
-                <SafeHtml 
-                  html={situacion.contenidoCompleto}
+                <SafeHtml
+                  html={overtimeArticle
+                    ? overtimeArticle.contenido + overtimeArticle.explicacion + situacion.contenidoCompleto
+                    : situacion.contenidoCompleto}
                   className="prose prose-sm max-w-none dark:prose-invert"
                 />
+                {overtimeArticle?.sourceUrl && (
+                  <a
+                    href={overtimeArticle.sourceUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-4 inline-block text-sm text-primary underline"
+                  >
+                    Consultar decreto oficial (DOF)
+                  </a>
+                )}
               </CardContent>
             </Card>
           </div>
@@ -755,20 +744,24 @@ const SituacionDetalle = () => {
                     </div>
                   </div>
                 </div>
-                <div className="flex items-center gap-3">
-                  <Clock className="h-4 w-4 text-muted-foreground" />
-                  <div>
-                    <p className="text-sm font-medium">Tiempo de resolución</p>
-                    <p className="text-xs text-muted-foreground">{situacion.tiempoResolucion}</p>
+                {situacion.tiempoResolucion && (
+                  <div className="flex items-center gap-3">
+                    <Clock className="h-4 w-4 text-muted-foreground" />
+                    <div>
+                      <p className="text-sm font-medium">Tiempo de resolución</p>
+                      <p className="text-xs text-muted-foreground">{situacion.tiempoResolucion}</p>
+                    </div>
                   </div>
-                </div>
-                <div className="flex items-center gap-3">
-                  <FileText className="h-4 w-4 text-muted-foreground" />
-                  <div>
-                    <p className="text-sm font-medium">Complejidad</p>
-                    <p className="text-xs text-muted-foreground">{situacion.complejidad}</p>
+                )}
+                {situacion.complejidad && (
+                  <div className="flex items-center gap-3">
+                    <FileText className="h-4 w-4 text-muted-foreground" />
+                    <div>
+                      <p className="text-sm font-medium">Complejidad</p>
+                      <p className="text-xs text-muted-foreground">{situacion.complejidad}</p>
+                    </div>
                   </div>
-                </div>
+                )}
               </CardContent>
             </Card>
 
@@ -777,24 +770,26 @@ const SituacionDetalle = () => {
                 <CardTitle className="text-lg">Acciones Recomendadas</CardTitle>
               </CardHeader>
               <CardContent className="space-y-3">
-                <Link to="/calculadora">
-                  <Button className="w-full" size="lg">
-                    <Scale className="h-4 w-4 mr-2" />
-                    Estimar proporcionales
+                {hasProportionalEstimate(situacion.id) && (
+                  <Button asChild className="w-full" size="lg">
+                    <Link to="/calculadora">
+                      <Scale className="h-4 w-4 mr-2" />
+                      Estimar prestaciones proporcionales
+                    </Link>
                   </Button>
-                </Link>
-                <Link to="/biblioteca">
-                  <Button variant="outline" className="w-full" size="lg">
+                )}
+                <Button asChild variant="outline" className="w-full" size="lg">
+                  <Link to={overtimeArticle ? "/biblioteca/art66" : "/biblioteca"}>
                     <FileText className="h-4 w-4 mr-2" />
-                    Consultar Legislación
-                  </Button>
-                </Link>
-                <Link to="/directorio">
-                  <Button variant="outline" className="w-full" size="lg">
+                    {overtimeArticle ? "Consultar artículo 66" : "Consultar Legislación"}
+                  </Link>
+                </Button>
+                <Button asChild variant="outline" className="w-full" size="lg">
+                  <Link to="/directorio">
                     <Users className="h-4 w-4 mr-2" />
                     Buscar Abogado
-                  </Button>
-                </Link>
+                  </Link>
+                </Button>
               </CardContent>
             </Card>
 
