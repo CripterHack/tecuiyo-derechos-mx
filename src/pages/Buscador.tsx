@@ -80,19 +80,19 @@ const Buscador = () => {
       id: 8,
       titulo: "Me redujo el salario unilateralmente",
       categoria: "salario",
-      descripcion: "Protección contra reducción de salario según Art. 56 y 123 Constitucional",
-      articulosLFT: ["Art. 51", "Art. 56", "Art. 84"],
+      descripcion: "Reducción de salario y posible rescisión según los arts. 51 y 52 de la LFT",
+      articulosLFT: ["Art. 50", "Art. 51", "Art. 52"],
       tags: ["reducción salario", "modificación", "rescisión"],
-      contenido: "El patrón no puede reducir tu salario unilateralmente, esto constituye una causa de rescisión..."
+      contenido: "Si te redujeron el salario, busca orientación antes de separarte del trabajo o firmar documentos."
     },
     {
       id: 9,
       titulo: "No me dan prima dominical",
       categoria: "prestaciones",
-      descripcion: "Derecho al 25% adicional por trabajar en domingo según Art. 71 LFT",
+      descripcion: "Prima de al menos 25% sobre el salario ordinario por trabajar en domingo (Art. 71 LFT)",
       articulosLFT: ["Art. 69", "Art. 71", "Art. 73"],
       tags: ["prima dominical", "domingo", "descanso", "25%"],
-      contenido: "Los trabajadores que laboren en domingo tienen derecho a una prima del 25% adicional..."
+      contenido: "La prima dominical no es lo mismo que el pago por trabajar en el descanso semanal."
     },
     {
       id: 10,

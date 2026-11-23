@@ -279,12 +279,12 @@ export const ROUTE_METADATA = [
   {
     "path": "/buscador/8",
     "title": "Me redujo el salario unilateralmente | Tecuiyo",
-    "description": "Disminución del salario sin consentimiento del trabajador. Recurso educativo; consulta fuentes oficiales y orientación para tu caso."
+    "description": "Reducción del salario y posible rescisión de la relación laboral según los artículos 51 y 52 de la LFT. Recurso educativo; consulta fuentes oficiales y orientación para tu caso."
   },
   {
     "path": "/buscador/9",
     "title": "No me dan prima dominical | Tecuiyo",
-    "description": "Falta de pago del 25% adicional por trabajar en domingo. Recurso educativo; consulta fuentes oficiales y orientación para tu caso."
+    "description": "Prima por trabajar en domingo: al menos 25% adicional sobre el salario ordinario. Recurso educativo; consulta fuentes oficiales y orientación para tu caso."
   },
   {
     "path": "/buscador/10",

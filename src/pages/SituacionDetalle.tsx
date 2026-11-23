@@ -301,122 +301,49 @@ const SituacionDetalle = () => {
     {
       id: "8",
       titulo: "Me redujo el salario unilateralmente",
-      descripcion: "Disminución del salario sin consentimiento del trabajador.",
+      descripcion: "Reducción del salario y posible rescisión de la relación laboral según los artículos 51 y 52 de la LFT.",
       contenidoCompleto: `
-        <h3>Prohibición de reducir salario (Art. 56)</h3>
-        <p>El salario no puede ser disminuido unilateralmente por el patrón. Cualquier reducción requiere consentimiento expreso del trabajador.</p>
-        
-        <h3>¿Cuándo es causa de rescisión? (Art. 51)</h3>
-        <p>El trabajador puede rescindir la relación laboral con responsabilidad patronal cuando:</p>
+        <h3>¿Qué dice la Ley Federal del Trabajo?</h3>
+        <p>El artículo 51, fracción IV, contempla la reducción de tu salario por parte del empleador como una causa por la que puedes rescindir la relación laboral sin responsabilidad para ti.</p>
+        <p>Para esa vía, el artículo 52 prevé separarte del trabajo dentro de los 30 días siguientes a la fecha en que ocurrió la causa. Ese plazo no es una estimación de cuánto tardará en resolverse el caso.</p>
+        <p>Si procede esa rescisión, el artículo 52 remite al artículo 50 para la indemnización. Esta guía no determina si procede ni promete un pago automático.</p>
+
+        <h3>¿Qué puedes revisar?</h3>
+        <p>Guarda tus recibos anteriores y recientes, el contrato si lo tienes y las comunicaciones sobre el cambio. Busca orientación laboral cuanto antes, antes de separarte del trabajo o firmar una renuncia o un convenio. Pueden ayudarte a revisar qué ocurrió, si esa vía aplica y qué plazo corresponde a tu caso.</p>
+
+        <h3>Fuentes y orientación</h3>
         <ul>
-          <li>Se reduzca el salario</li>
-          <li>Se modifiquen las condiciones de trabajo en perjuicio del trabajador</li>
-          <li>No se cumplan las obligaciones del contrato</li>
-        </ul>
-        
-        <h3>Formas encubiertas de reducción</h3>
-        <ul>
-          <li><strong>Eliminación de comisiones:</strong> Sin justificación</li>
-          <li><strong>Reducción de horas:</strong> Cambio de tiempo completo a parcial</li>
-          <li><strong>Suspensión de bonos:</strong> Que formaban parte del salario</li>
-          <li><strong>Cambio de puesto:</strong> A uno con menor salario</li>
-        </ul>
-        
-        <h3>Salario integrado (Art. 84)</h3>
-        <p>Incluye:</p>
-        <ul>
-          <li>Cuota fija</li>
-          <li>Comisiones regulares</li>
-          <li>Prestaciones en dinero</li>
-          <li>Cualquier cantidad que se entregue regularmente</li>
-        </ul>
-        
-        <h3>Derechos del trabajador</h3>
-        <ul>
-          <li><strong>Rescisión con responsabilidad patronal:</strong> Indemnización completa</li>
-          <li><strong>Reinstalación:</strong> Con salario original</li>
-          <li><strong>Salarios vencidos:</strong> Desde la reducción hasta la resolución</li>
-        </ul>
-        
-        <h3>¿Qué hacer inmediatamente?</h3>
-        <ol>
-          <li>Documentar la reducción salarial (recibos anteriores vs actuales)</li>
-          <li>Manifestar por escrito la inconformidad</li>
-          <li>Solicitar la restitución del salario original</li>
-          <li>Conservar evidencias de comunicaciones</li>
-          <li>Evaluar si continuar laborando o rescindir</li>
-        </ol>
-        
-        <h3>Estrategias legales</h3>
-        <ul>
-          <li>Demandar reinstalación de salario</li>
-          <li>Rescisión laboral con responsabilidad patronal</li>
-          <li>Pago de diferencias salariales</li>
-          <li>Daño moral si aplica</li>
+          <li><a href="https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf#page=20">Ley Federal del Trabajo (artículos 51 y 52)</a></li>
+          <li><a href="https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf#page=19">Ley Federal del Trabajo (artículo 50)</a></li>
+          <li><a href="https://profedet.gob.mx/profedet/micrositio/index.php/rescision">Orientación sobre rescisión (PROFEDET)</a></li>
         </ul>
       `,
-      articulosLFT: ["Art. 51", "Art. 56", "Art. 84"],
-      tiempoResolucion: "4-8 meses",
+      articulosLFT: ["Art. 50", "Art. 51", "Art. 52"],
       complejidad: "Media",
       tags: ["reducción", "salario", "rescisión", "modificación"]
     },
     {
       id: "9",
       titulo: "No me dan prima dominical",
-      descripcion: "Falta de pago del 25% adicional por trabajar en domingo.",
+      descripcion: "Prima por trabajar en domingo: al menos 25% adicional sobre el salario ordinario.",
       contenidoCompleto: `
-        <h3>Prima dominical obligatoria (Art. 71)</h3>
-        <p>Los trabajadores que presten servicios en domingo tienen derecho a una prima adicional del 25% sobre el salario de los días ordinarios de trabajo.</p>
-        
-        <h3>¿Cuándo aplica?</h3>
+        <h3>¿Qué es la prima dominical? (Art. 71)</h3>
+        <p>La Ley Federal del Trabajo fija una prima de al menos 25% sobre el salario de los días ordinarios de trabajo para quienes trabajan en domingo.</p>
+        <p>Por ejemplo, si el domingo es parte de tu jornada ordinaria, tu descanso semanal cae en otro día y tu salario ordinario diario es de $300, la prima mínima de ese domingo es de $75 adicionales.</p>
+
+        <h3>¿Qué pasa si trabajas en tu descanso semanal? (Arts. 69 y 73)</h3>
+        <p>El artículo 69 prevé un descanso semanal pagado. El artículo 73 establece un pago doble por el trabajo realizado en ese descanso, además del salario que ya corresponde por el descanso.</p>
+        <p>La prima dominical y el pago por trabajar en el descanso semanal son conceptos distintos. Si tu descanso semanal cae en domingo y trabajaste ese día, busca orientación para que revisen cómo aplican a tu caso.</p>
+
+        <h3>Fuentes y orientación</h3>
+        <p>Guarda tus turnos, recibos de nómina y registros de asistencia para revisar qué días trabajaste y qué pagos aparecen.</p>
         <ul>
-          <li>Trabajo en día domingo</li>
-          <li>Sin importar si es día de descanso semanal o no</li>
-          <li>Aplica para jornadas completas o parciales</li>
-          <li>Es adicional al día de descanso semanal</li>
+          <li><a href="https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf#page=23">Ley Federal del Trabajo (artículos 69, 71 y 73)</a></li>
+          <li><a href="https://dof.gob.mx/nota_detalle_popup.php?codigo=5786537">Reforma del artículo 71, 1 de mayo de 2026 (DOF)</a></li>
+          <li><a href="https://www.profedet.gob.mx/micrositio/index.php/prima-dominical">Orientación sobre prima dominical (PROFEDET)</a></li>
         </ul>
-        
-        <h3>Cálculo de la prima</h3>
-        <ul>
-          <li><strong>Salario domingo:</strong> Salario ordinario + 25%</li>
-          <li><strong>Ejemplo:</strong> Salario diario $300 = $300 + $75 (25%) = $375</li>
-          <li><strong>Base de cálculo:</strong> Salario diario integrado</li>
-        </ul>
-        
-        <h3>Descanso semanal (Art. 69)</h3>
-        <p>Todo trabajador tiene derecho a:</p>
-        <ul>
-          <li>Un día de descanso con goce de salario por cada 6 días de trabajo</li>
-          <li>Preferentemente en domingo</li>
-          <li>Si trabaja su día de descanso: pago al doble</li>
-        </ul>
-        
-        <h3>Diferencia entre prima dominical y día de descanso</h3>
-        <ul>
-          <li><strong>Prima dominical:</strong> 25% adicional por trabajar domingo</li>
-          <li><strong>Día de descanso:</strong> 200% si el domingo es su día de descanso</li>
-          <li><strong>Pueden coincidir:</strong> Si domingo es día de descanso = 200% + 25%</li>
-        </ul>
-        
-        <h3>Trabajadores con derecho</h3>
-        <ul>
-          <li>Todos los trabajadores que laboren domingos</li>
-          <li>Trabajadores de comercio, servicios, industria</li>
-          <li>Personal de seguridad, salud, turismo</li>
-          <li>No importa el tipo de contrato</li>
-        </ul>
-        
-        <h3>¿Cómo reclamar?</h3>
-        <ol>
-          <li>Identificar todos los domingos trabajados</li>
-          <li>Calcular prima adeudada (25% por cada domingo)</li>
-          <li>Solicitar pago por escrito</li>
-          <li>Documentar horarios y días laborados</li>
-          <li>Demandar si hay negativa patronal</li>
-        </ol>
       `,
       articulosLFT: ["Art. 69", "Art. 71", "Art. 73"],
-      tiempoResolucion: "2-4 meses",
       complejidad: "Baja",
       tags: ["prima dominical", "domingo", "descanso", "25%"]
     },
