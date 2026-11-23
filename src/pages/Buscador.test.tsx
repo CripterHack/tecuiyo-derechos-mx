@@ -58,3 +58,35 @@ it("mantiene un enlace a proporcionales en el detalle de finiquito", () => {
   expect(screen.getByRole("link", { name: "Estimar prestaciones proporcionales" })).toHaveAttribute("href", "/calculadora");
   expect(container.querySelector("a button")).not.toBeInTheDocument();
 });
+
+it("aclara el mínimo del aguinaldo y conserva las fuentes y la orientación", () => {
+  renderPage();
+  const card = screen.getByText("No me dieron aguinaldo completo").closest(".legal-card") as HTMLElement;
+  expect(within(card).getByText(/al menos 15 días/i)).toBeInTheDocument();
+  fireEvent.click(within(card).getByRole("link", { name: "Leer más" }));
+  expect(screen.getByText(/al menos 15 días.*antes del 20 de diciembre/i)).toBeInTheDocument();
+  expect(screen.getByText(/aunque ya no sigas trabajando/i)).toBeInTheDocument();
+  expect(screen.getByText(/salario es fijo.*cuota diaria ordinaria.*sin sumar otros ingresos.*variable/i)).toBeInTheDocument();
+  expect(screen.queryByText(/multa adicional|2-4 meses/i)).not.toBeInTheDocument();
+  expect(screen.getByRole("link", { name: /Ley Federal del Trabajo/i })).toHaveAttribute("href", "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf");
+  expect(screen.getByRole("link", { name: /Preguntas frecuentes sobre aguinaldo 2026/i })).toHaveAttribute("href", "https://www.gob.mx/profedet/documentos/preguntas-frecuentes-aguinaldo-2026");
+  expect(screen.getByRole("link", { name: /Base de cálculo/i })).toHaveAttribute("href", "https://profedet.gob.mx/profedet/archivos/Preguntas_frecuentes_AGUINALDO_2020.pdf");
+  expect(screen.getByRole("link", { name: "Estimar prestaciones proporcionales" })).toHaveAttribute("href", "/calculadora");
+  expect(screen.getByRole("link", { name: "Buscar Abogado" })).toHaveAttribute("href", "/directorio");
+});
+
+it("separa el certificado y el subsidio de enfermedad general sin prometer salario o reinstalación", () => {
+  renderPage();
+  const card = screen.getByText("No me dieron incapacidad por enfermedad").closest(".legal-card") as HTMLElement;
+  expect(within(card).getByText(/subsidio.*IMSS/i)).toBeInTheDocument();
+  fireEvent.click(within(card).getByRole("link", { name: "Leer más" }));
+  expect(screen.getByText(/60%.*último salario diario de cotización.*cuarto día/i)).toBeInTheDocument();
+  expect(screen.getByText(/certificado no garantiza el pago/i)).toBeInTheDocument();
+  expect(screen.getByText(/riesgo de trabajo.*100%.*primer día/i)).toBeInTheDocument();
+  expect(screen.getByText(/4 semanas.*6 semanas/i)).toBeInTheDocument();
+  expect(screen.getByText("Art. 42")).toBeInTheDocument();
+  expect(screen.queryByText(/patrón paga 100%|despido nulo|Art\. 478|3-6 meses/i)).not.toBeInTheDocument();
+  expect(screen.getByRole("link", { name: /Ley del Seguro Social/i })).toHaveAttribute("href", "https://www.diputados.gob.mx/LeyesBiblio/pdf/LSS.pdf");
+  expect(screen.getByRole("link", { name: /Pago de incapacidades/i })).toHaveAttribute("href", "https://www.imss.gob.mx/derechoH/pago-incapacidades");
+  expect(screen.getByRole("link", { name: "Buscar Abogado" })).toHaveAttribute("href", "/directorio");
+});

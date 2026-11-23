@@ -254,7 +254,7 @@ export const ROUTE_METADATA = [
   {
     "path": "/buscador/3",
     "title": "No me dieron aguinaldo completo | Tecuiyo",
-    "description": "Falta de pago o pago incompleto del aguinaldo anual obligatorio. Recurso educativo; consulta fuentes oficiales y orientación para tu caso."
+    "description": "Falta de pago o pago incompleto del aguinaldo anual. Recurso educativo; consulta fuentes oficiales y orientación para tu caso."
   },
   {
     "path": "/buscador/4",
@@ -294,7 +294,7 @@ export const ROUTE_METADATA = [
   {
     "path": "/buscador/11",
     "title": "No me dieron incapacidad por enfermedad | Tecuiyo",
-    "description": "Negativa del patrón a otorgar o reconocer incapacidad por enfermedad laboral. Recurso educativo; consulta fuentes oficiales y orientación para tu caso."
+    "description": "Información sobre el certificado y el subsidio por incapacidad por enfermedad general. Recurso educativo; consulta fuentes oficiales y orientación para tu caso."
   },
   {
     "path": "/buscador/12",
