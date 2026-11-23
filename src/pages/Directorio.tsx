@@ -5,97 +5,25 @@ import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { laborAuthorities } from "@/data/laborDirectory";
 
 const Directorio = () => {
   const [searchLocation, setSearchLocation] = useState("");
 
-  // Base de datos de autoridades laborales por estado
-  const autoridades = [
-    {
-      id: 1,
-      nombre: "Junta Local de Conciliación y Arbitraje de la CDMX",
-      tipo: "Junta Local",
-      estado: "Ciudad de México",
-      direccion: "Dr. Río de la Loza 14, Doctores, Cuauhtémoc, 06720 Ciudad de México",
-      telefono: "55 5134 0770",
-      horarios: "Lunes a Viernes 9:00 - 15:00",
-      servicios: ["Conciliación", "Demandas laborales", "Ejecución de laudos"],
-      website: "https://www.jlcacdmx.gob.mx/",
-      coordenadas: { lat: 19.4205, lng: -99.1428 }
-    },
-    {
-      id: 2,
-      nombre: "Secretaría del Trabajo y Previsión Social (STPS)",
-      tipo: "Federal",
-      estado: "Nacional",
-      direccion: "Paseo de la Reforma 51, Tabacalera, Cuauhtémoc, 06030 Ciudad de México",
-      telefono: "55 2000 5300",
-      horarios: "Lunes a Viernes 9:00 - 18:00",
-      servicios: ["Inspección laboral", "Capacitación", "Seguridad e higiene", "Mediación"],
-      website: "https://www.gob.mx/stps",
-      coordenadas: { lat: 19.4326, lng: -99.1332 }
-    },
-    {
-      id: 3,
-      nombre: "Centro Federal de Conciliación y Registro Laboral",
-      tipo: "Federal",
-      estado: "Nacional",
-      direccion: "Insurgentes Sur 1971, Florida, Álvaro Obregón, 01030 Ciudad de México",
-      telefono: "55 2000 3000",
-      horarios: "Lunes a Viernes 8:30 - 16:30",
-      servicios: ["Conciliación prelaboral", "Registro sindical", "Contratos colectivos"],
-      website: "https://centrolaboral.gob.mx/",
-      coordenadas: { lat: 19.3541, lng: -99.1687 }
-    },
-    {
-      id: 4,
-      nombre: "Procuraduría Federal de la Defensa del Trabajo (PROFEDET)",
-      tipo: "Federal",
-      estado: "Nacional",
-      direccion: "Providencia 1015, Col. Del Valle, Benito Juárez, 03100 Ciudad de México",
-      telefono: "55 3003 1000",
-      horarios: "Lunes a Viernes 9:00 - 15:00",
-      servicios: ["Asesoría gratuita", "Representación legal", "Orientación jurídica"],
-      website: "https://www.gob.mx/profedet",
-      coordenadas: { lat: 19.3873, lng: -99.1710 }
-    },
-    {
-      id: 5,
-      nombre: "Junta Local de Conciliación y Arbitraje de Jalisco",
-      tipo: "Junta Local",
-      estado: "Jalisco",
-      direccion: "Av. Alcalde 1351, Miraflores, 44270 Guadalajara, Jal.",
-      telefono: "33 3668 1600",
-      horarios: "Lunes a Viernes 8:30 - 15:30",
-      servicios: ["Conciliación", "Arbitraje", "Ejecución de laudos"],
-      website: "https://jcajalisco.gob.mx/",
-      coordenadas: { lat: 20.6597, lng: -103.3496 }
-    },
-    {
-      id: 6,
-      nombre: "Junta Local de Conciliación y Arbitraje de Nuevo León",
-      tipo: "Junta Local",
-      estado: "Nuevo León",
-      direccion: "Washington 2000 Ote., Centro, 64000 Monterrey, N.L.",
-      telefono: "81 2020 5050",
-      horarios: "Lunes a Viernes 8:00 - 15:00",
-      servicios: ["Conciliación", "Demandas laborales", "Registro sindical"],
-      website: "https://www.nl.gob.mx/junta-conciliacion-arbitraje",
-      coordenadas: { lat: 25.6866, lng: -100.3161 }
-    }
-  ];
-
   const tiposAutoridad = [
     { value: "all", label: "Todas las autoridades", color: "bg-primary/10 text-primary" },
+    { value: "Conciliación local", label: "Conciliación local" },
+    { value: "Orientación", label: "Orientación" },
     { value: "Federal", label: "Autoridades Federales", color: "bg-accent/10 text-accent-foreground" },
     { value: "Junta Local", label: "Juntas Locales", color: "bg-secondary/10 text-secondary" }
   ];
 
   const [filtroTipo, setFiltroTipo] = useState("all");
 
-  const autoridadesFiltradas = autoridades.filter(autoridad => {
-    const matchesLocation = autoridad.estado.toLowerCase().includes(searchLocation.toLowerCase()) ||
-                           autoridad.direccion.toLowerCase().includes(searchLocation.toLowerCase());
+  const autoridadesFiltradas = laborAuthorities.filter(autoridad => {
+    const query = searchLocation.trim().toLowerCase();
+    const locations = [autoridad.estado, autoridad.direccion ?? "", ...(autoridad.sedes ?? [])];
+    const matchesLocation = locations.some(location => location.toLowerCase().includes(query));
     const matchesType = filtroTipo === "all" || autoridad.tipo === filtroTipo;
     return matchesLocation && matchesType;
   });
@@ -129,6 +57,7 @@ const Directorio = () => {
                 <Input
                   type="search"
                   placeholder="Buscar por estado o ciudad..."
+                  aria-label="Buscar por estado o ciudad"
                   value={searchLocation}
                   onChange={(e) => setSearchLocation(e.target.value)}
                   className="pl-10"
@@ -142,6 +71,7 @@ const Directorio = () => {
                   variant={filtroTipo === tipo.value ? "default" : "outline"}
                   size="sm"
                   onClick={() => setFiltroTipo(tipo.value)}
+                  aria-pressed={filtroTipo === tipo.value}
                   className="whitespace-nowrap"
                 >
                   {tipo.label}
@@ -160,7 +90,7 @@ const Directorio = () => {
               {autoridadesFiltradas.length} autoridades encontradas
             </h2>
             <p className="text-muted-foreground">
-              Información actualizada y verificada de contactos oficiales
+              Consulta los sitios oficiales para confirmar sedes, horarios y el tipo de atención.
             </p>
           </div>
 
@@ -187,43 +117,48 @@ const Directorio = () => {
                       <CardTitle className="group-hover:text-primary transition-colors text-lg">
                         {autoridad.nombre}
                       </CardTitle>
+                      {autoridad.descripcion && <CardDescription>{autoridad.descripcion}</CardDescription>}
                     </div>
                     <Building className="h-5 w-5 text-primary flex-shrink-0 ml-2" />
                   </div>
                 </CardHeader>
                 
                 <CardContent className="space-y-4">
-                  {/* Dirección */}
-                  <div className="flex items-start gap-3">
-                    <MapPin className="h-4 w-4 text-muted-foreground mt-0.5 flex-shrink-0" />
-                    <div>
-                      <p className="text-sm font-medium">Dirección</p>
-                      <p className="text-sm text-muted-foreground">{autoridad.direccion}</p>
+                  {autoridad.direccion && (
+                    <div className="flex items-start gap-3">
+                      <MapPin className="h-4 w-4 text-muted-foreground mt-0.5 flex-shrink-0" />
+                      <div>
+                        <p className="text-sm font-medium">Dirección</p>
+                        <p className="text-sm text-muted-foreground">{autoridad.direccion}</p>
+                      </div>
                     </div>
-                  </div>
+                  )}
 
-                  {/* Teléfono */}
-                  <div className="flex items-center gap-3">
-                    <Phone className="h-4 w-4 text-muted-foreground flex-shrink-0" />
-                    <div>
-                      <p className="text-sm font-medium">Teléfono</p>
-                      <a 
-                        href={`tel:${autoridad.telefono}`}
-                        className="text-sm text-primary hover:underline"
-                      >
-                        {autoridad.telefono}
-                      </a>
+                  {autoridad.telefonos && (
+                    <div className="flex items-center gap-3">
+                      <Phone className="h-4 w-4 text-muted-foreground flex-shrink-0" />
+                      <div>
+                        <p className="text-sm font-medium">Teléfonos</p>
+                        <div className="flex flex-wrap gap-2">
+                          {autoridad.telefonos.map(telefono => (
+                            <a key={telefono} href={`tel:${telefono.replace(/\D/g, "")}`} className="text-sm text-primary hover:underline">
+                              {telefono}
+                            </a>
+                          ))}
+                        </div>
+                      </div>
                     </div>
-                  </div>
+                  )}
 
-                  {/* Horarios */}
-                  <div className="flex items-center gap-3">
-                    <Clock className="h-4 w-4 text-muted-foreground flex-shrink-0" />
-                    <div>
-                      <p className="text-sm font-medium">Horarios</p>
-                      <p className="text-sm text-muted-foreground">{autoridad.horarios}</p>
+                  {autoridad.horarios && (
+                    <div className="flex items-center gap-3">
+                      <Clock className="h-4 w-4 text-muted-foreground flex-shrink-0" />
+                      <div>
+                        <p className="text-sm font-medium">Horarios</p>
+                        <p className="text-sm text-muted-foreground">{autoridad.horarios}</p>
+                      </div>
                     </div>
-                  </div>
+                  )}
 
                   {/* Servicios */}
                   <div>
@@ -239,7 +174,7 @@ const Directorio = () => {
 
                   {/* Acciones */}
                   <div className="flex gap-2 pt-2">
-                    <Button variant="outline" size="sm" className="flex-1" asChild>
+                    {autoridad.direccion && <Button variant="outline" size="sm" className="flex-1" asChild>
                       <a 
                         href={`https://maps.google.com/?q=${encodeURIComponent(autoridad.direccion)}`}
                         target="_blank"
@@ -248,16 +183,17 @@ const Directorio = () => {
                         <Navigation className="mr-2 h-3 w-3" />
                         Ver en mapa
                       </a>
-                    </Button>
+                    </Button>}
                     
                     <Button variant="outline" size="sm" asChild>
                       <a 
                         href={autoridad.website}
+                        aria-label={autoridad.websiteLabel ?? `Consultar ${autoridad.nombre}`}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
                         <ExternalLink className="mr-2 h-3 w-3" />
-                        Sitio web
+                        {autoridad.websiteLabel ?? "Consultar"}
                       </a>
                     </Button>
                   </div>
@@ -299,6 +235,7 @@ const Directorio = () => {
                   <li>• Accidentes de trabajo</li>
                   <li>• Violaciones a la seguridad e higiene</li>
                 </ul>
+                <p className="mt-3 text-sm">No todas las instituciones atienden los mismos asuntos. Si tienes dudas sobre competencia local o federal, consulta los canales oficiales de orientación.</p>
               </CardContent>
             </Card>
 
