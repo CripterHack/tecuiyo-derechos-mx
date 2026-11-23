@@ -61,45 +61,21 @@ const SituacionDetalle = () => {
     {
       id: "3",
       titulo: "No me dieron aguinaldo completo",
-      descripcion: "Falta de pago o pago incompleto del aguinaldo anual obligatorio.",
+      descripcion: "Falta de pago o pago incompleto del aguinaldo anual.",
       contenidoCompleto: `
-        <h3>¿Qué es el aguinaldo? (Art. 87 LFT)</h3>
-        <p>El aguinaldo es una prestación obligatoria equivalente a 15 días de salario que debe pagarse antes del 20 de diciembre de cada año.</p>
-        
-        <h3>¿Quién tiene derecho?</h3>
+        <h3>¿Cuánto corresponde y cuándo se paga?</h3>
+        <p>Según el artículo 87 de la Ley Federal del Trabajo, el aguinaldo anual es de al menos 15 días de salario por un año completo y se paga antes del 20 de diciembre. Tu contrato puede establecer una cantidad mayor.</p>
+        <p>Si trabajaste menos de un año, te corresponde la parte proporcional al tiempo trabajado, aunque ya no sigas trabajando en la fecha del pago.</p>
+        <p>Si tu salario es fijo, la base del cálculo es la cuota diaria ordinaria, sin sumar otros ingresos. Si es variable, la base depende de la forma de pago.</p>
+
+        <h3>Fuentes y orientación</h3>
         <ul>
-          <li>Todos los trabajadores que hayan laborado por lo menos un día en el año</li>
-          <li>Trabajadores de confianza y de base</li>
-          <li>Trabajadores eventuales y temporales</li>
-          <li>Trabajadores que renunciaron o fueron despedidos</li>
+          <li><a href="https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf">Ley Federal del Trabajo (artículo 87)</a></li>
+          <li><a href="https://www.gob.mx/profedet/documentos/preguntas-frecuentes-aguinaldo-2026">Preguntas frecuentes sobre aguinaldo 2026 (PROFEDET)</a></li>
+          <li><a href="https://profedet.gob.mx/profedet/archivos/Preguntas_frecuentes_AGUINALDO_2020.pdf">Base de cálculo (PROFEDET, pregunta 4, PDF)</a></li>
         </ul>
-        
-        <h3>Cálculo del aguinaldo</h3>
-        <ul>
-          <li><strong>Año completo:</strong> 15 días de salario</li>
-          <li><strong>Tiempo parcial:</strong> Proporcional a los días trabajados</li>
-          <li><strong>Fórmula:</strong> (Días trabajados × 15) ÷ 365 × salario diario</li>
-        </ul>
-        
-        <h3>Salario base para cálculo</h3>
-        <p>Se considera el salario ordinario más:</p>
-        <ul>
-          <li>Comisiones regulares</li>
-          <li>Prestaciones en dinero</li>
-          <li>Habitación y alimentación (si aplica)</li>
-        </ul>
-        
-        <h3>¿Qué hacer si no lo pagan?</h3>
-        <ol>
-          <li>Solicitar por escrito el pago pendiente</li>
-          <li>Reunir las bases del cálculo y solicitar revisión del monto adeudado</li>
-          <li>Presentar reclamación ante autoridades laborales</li>
-          <li>El patrón debe pagar multa adicional del 50% al 100%</li>
-        </ol>
       `,
       articulosLFT: ["Art. 87"],
-      tiempoResolucion: "2-4 meses",
-      complejidad: "Baja",
       tags: ["aguinaldo", "prestaciones", "pago", "diciembre"]
     },
     {
@@ -512,64 +488,27 @@ const SituacionDetalle = () => {
     {
       id: "11",
       titulo: "No me dieron incapacidad por enfermedad",
-      descripcion: "Negativa del patrón a otorgar o reconocer incapacidad por enfermedad laboral.",
+      descripcion: "Información sobre el certificado y el subsidio por incapacidad por enfermedad general.",
       contenidoCompleto: `
-        <h3>Derecho a incapacidades (Art. 478-480)</h3>
-        <p>Todo trabajador tiene derecho a incapacidades médicas por enfermedades o accidentes, ya sean de trabajo o generales.</p>
-        
-        <h3>Tipos de incapacidades</h3>
+        <h3>Certificado y subsidio: no son lo mismo</h3>
+        <p>Esta ficha explica la incapacidad por enfermedad general, es decir, no derivada del trabajo. El certificado médico del IMSS documenta el periodo de incapacidad. Tener un certificado no garantiza el pago del subsidio.</p>
+        <p>La Ley Federal del Trabajo prevé la suspensión temporal de las obligaciones de trabajar y pagar salario durante la incapacidad por causas ajenas al trabajo (artículos 42, fracción II, y 43, fracción I). No establece como regla general que el patrón pague los primeros tres días.</p>
+
+        <h3>¿Cuándo paga el subsidio el IMSS?</h3>
+        <p>Si cumples los requisitos, el IMSS paga el 60% del último salario diario de cotización, a partir del cuarto día.</p>
+        <p>Se requieren 4 semanas de cotización inmediatamente anteriores al inicio de la enfermedad o, para personas trabajadoras eventuales, 6 semanas en los 4 meses previos.</p>
+
+        <h3>Los riesgos de trabajo se rigen por otras reglas</h3>
+        <p>Si el IMSS reconoce un riesgo de trabajo que te incapacita, el subsidio es del 100% del salario de cotización al momento del riesgo, desde el primer día de incapacidad (artículo 58, fracción I, de la Ley del Seguro Social).</p>
+
+        <h3>Fuentes y orientación</h3>
         <ul>
-          <li><strong>Enfermedad general:</strong> No relacionada con el trabajo</li>
-          <li><strong>Accidente de trabajo:</strong> Durante o por causa del trabajo</li>
-          <li><strong>Enfermedad profesional:</strong> Causada por la actividad laboral</li>
-          <li><strong>Maternidad:</strong> Pre y post natal</li>
-        </ul>
-        
-        <h3>Obligaciones del patrón (Art. 132)</h3>
-        <ul>
-          <li>Proporcionar medicamentos y atención médica</li>
-          <li>Pagar salario durante la incapacidad</li>
-          <li>Conservar el puesto hasta por un año</li>
-          <li>No despedir por causa de enfermedad</li>
-          <li>Readaptar al trabajador si es necesario</li>
-        </ul>
-        
-        <h3>Duración de incapacidades</h3>
-        <ul>
-          <li><strong>Enfermedades generales:</strong> Hasta 52 semanas (IMSS)</li>
-          <li><strong>Accidentes de trabajo:</strong> Tiempo necesario para curación</li>
-          <li><strong>Enfermedades profesionales:</strong> Tiempo que requiera tratamiento</li>
-          <li><strong>Conservación del empleo:</strong> Hasta un año</li>
-        </ul>
-        
-        <h3>Pago durante incapacidad</h3>
-        <ul>
-          <li><strong>Primeros 3 días:</strong> Patrón paga 100% (enfermedad general)</li>
-          <li><strong>Del 4to día en adelante:</strong> IMSS paga 60%</li>
-          <li><strong>Accidente de trabajo:</strong> 100% desde el primer día</li>
-          <li><strong>Convenios adicionales:</strong> Puede mejorarse la prestación</li>
-        </ul>
-        
-        <h3>¿Qué hacer si niegan incapacidad?</h3>
-        <ol>
-          <li>Acudir al médico del IMSS o institución correspondiente</li>
-          <li>Solicitar certificado médico detallado</li>
-          <li>Entregar formalmente al patrón</li>
-          <li>Documentar la negativa por escrito</li>
-          <li>Presentar queja ante la Procuraduría del Trabajo</li>
-        </ol>
-        
-        <h3>Protección contra despido</h3>
-        <ul>
-          <li>Prohibido despedir por enfermedad</li>
-          <li>Si ocurre: despido nulo</li>
-          <li>Derecho a reinstalación</li>
-          <li>Pago de salarios vencidos</li>
+          <li><a href="https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf">Ley Federal del Trabajo (artículos 42 y 43)</a></li>
+          <li><a href="https://www.diputados.gob.mx/LeyesBiblio/pdf/LSS.pdf">Ley del Seguro Social (artículos 58 y 96 a 98)</a></li>
+          <li><a href="https://www.imss.gob.mx/derechoH/pago-incapacidades">Pago de incapacidades (IMSS)</a></li>
         </ul>
       `,
-      articulosLFT: ["Art. 132", "Art. 478", "Art. 479", "Art. 480"],
-      tiempoResolucion: "3-6 meses",
-      complejidad: "Media",
+      articulosLFT: ["Art. 42", "Art. 43"],
       tags: ["incapacidad", "enfermedad", "IMSS", "médico"]
     },
     {

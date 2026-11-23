@@ -38,7 +38,7 @@ const Buscador = () => {
       descripcion: "Cálculo y pago del aguinaldo según el Art. 87 de la LFT",
       articulosLFT: ["Art. 87"],
       tags: ["aguinaldo", "prestaciones", "pago"],
-      contenido: "El aguinaldo equivale a 15 días de salario y debe pagarse antes del 20 de diciembre..."
+      contenido: "Por un año completo, el aguinaldo es de al menos 15 días de salario. Si trabajaste menos, te corresponde la parte proporcional."
     },
     {
       id: 4,
@@ -107,10 +107,10 @@ const Buscador = () => {
       id: 11,
       titulo: "No me dieron incapacidad por enfermedad",
       categoria: "condiciones",
-      descripcion: "Derechos a incapacidades médicas y protección del empleo por enfermedad",
-      articulosLFT: ["Art. 132", "Art. 478", "Art. 479", "Art. 480"],
+      descripcion: "Certificado de incapacidad y subsidio por enfermedad general",
+      articulosLFT: ["Art. 42", "Art. 43"],
       tags: ["incapacidad", "enfermedad", "IMSS", "médico"],
-      contenido: "Todo trabajador tiene derecho a incapacidades médicas con protección del empleo..."
+      contenido: "El certificado de incapacidad y el subsidio del IMSS son distintos. El subsidio tiene requisitos de cotización."
     },
     {
       id: 12,
