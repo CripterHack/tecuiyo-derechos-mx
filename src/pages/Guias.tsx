@@ -1,4 +1,5 @@
-import { BookOpen, ArrowLeft, Clock, CheckCircle, FileText, Users } from "lucide-react";
+import { useState } from "react";
+import { BookOpen, Clock, CheckCircle, FileText, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -8,6 +9,12 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { guiasPrincipales, categoriasGuias } from "@/data/guias";
 
 const Guias = () => {
+  const [categoriaActiva, setCategoriaActiva] = useState("all");
+  const guiasVisibles = categoriaActiva === "all"
+    ? guiasPrincipales
+    : guiasPrincipales.filter(guia => guia.categoria === categoriaActiva);
+  const minutosTotales = guiasPrincipales.reduce((total, guia) => total + Number.parseInt(guia.duracion, 10), 0);
+  const pasosTotales = guiasPrincipales.reduce((total, guia) => total + guia.pasoDetallado.length, 0);
 
   const getDificultadColor = (dificultad: string) => {
     switch (dificultad) {
@@ -55,12 +62,12 @@ const Guias = () => {
               <div className="text-sm text-muted-foreground">Guías disponibles</div>
             </div>
             <div className="text-center" role="listitem">
-              <div className="text-2xl font-bold text-accent">0</div>
-              <div className="text-sm text-muted-foreground">Completadas</div>
+              <div className="text-2xl font-bold text-accent">{pasosTotales}</div>
+              <div className="text-sm text-muted-foreground">Pasos disponibles</div>
             </div>
             <div className="text-center" role="listitem">
-              <div className="text-2xl font-bold text-secondary">85</div>
-              <div className="text-sm text-muted-foreground">Min. de contenido</div>
+              <div className="text-2xl font-bold text-secondary">{minutosTotales}</div>
+              <div className="text-sm text-muted-foreground">Min. estimados de lectura</div>
             </div>
             <div className="text-center" role="listitem">
               <div className="text-2xl font-bold text-primary">100%</div>
@@ -73,11 +80,14 @@ const Guias = () => {
       {/* Filtros por categoría */}
       <section className="py-6 px-4">
         <div className="container mx-auto max-w-6xl">
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap gap-2" role="group" aria-label="Filtrar guías por categoría">
             {categoriasGuias.map(categoria => (
               <Button
                 key={categoria.value}
-                variant="outline"
+                variant={categoriaActiva === categoria.value ? "default" : "outline"}
+                aria-pressed={categoriaActiva === categoria.value}
+                onClick={() => setCategoriaActiva(categoria.value)}
+                type="button"
                 size="sm"
                 className="h-auto py-2"
               >
@@ -94,10 +104,13 @@ const Guias = () => {
       {/* Guías principales */}
       <section className="py-12 px-4">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-2xl font-bold mb-8">Guías destacadas</h2>
+          <h2 className="text-2xl font-bold mb-2">Guías destacadas</h2>
+          <p className="mb-6 text-sm text-muted-foreground" role="status">
+            {guiasVisibles.length === 1 ? "1 guía disponible" : `${guiasVisibles.length} guías disponibles`}
+          </p>
           
           <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-6">
-            {guiasPrincipales.map(guia => (
+            {guiasVisibles.map(guia => (
               <Card key={guia.id} className="legal-card group hover:border-primary/50">
                 <CardHeader>
                   <div className="flex items-start justify-between">
@@ -172,12 +185,12 @@ const Guias = () => {
 
                   {/* Acciones */}
                   <div className="pt-2">
-                    <Link to={`/guias/${guia.id}`} className="w-full">
-                      <Button className="w-full btn-hero">
+                    <Button className="w-full btn-hero" asChild>
+                      <Link to={`/guias/${guia.id}`}>
                         <BookOpen className="mr-2 h-4 w-4" />
                         Ver guía completa
-                      </Button>
-                    </Link>
+                      </Link>
+                    </Button>
                   </div>
                 </CardContent>
               </Card>
