@@ -64,14 +64,60 @@ describe("Regresiones editoriales contrastadas con fuentes oficiales el 13 de oc
     expect(text).not.toMatch(/hora 10 en adelante|horas 10\+ extra/i);
   });
 
-  it("identifica las fuentes y la fecha de esta revisión sólo en las entradas contrastadas", () => {
+  it("preserva las fuentes y la fecha de revisión del 13 de octubre en estas siete entradas", () => {
     for (const id of ["art24", "art25", "art85", "art61", "art66", "art67", "art68"]) {
       const article = findArticleDetail(id)!;
       expect(article.textKind, id).toBe("educational-summary");
       expect(article.fechaRevision, id).toBe("2026-10-13");
       expect(article.sourceUrl, id).toBe(["art66", "art68"].includes(id) ? WORKING_HOURS_DECREE_URL : OFFICIAL_LFT_URL);
     }
-    expect(findArticleDetail("art21")?.textKind).toBeUndefined();
-    expect(findArticleDetail("art21")?.fechaRevision).toBeUndefined();
+  });
+});
+
+describe("Revisión editorial del 27 de noviembre de 2026", () => {
+  it.each(["art20", "art21", "art82", "art90", "art58", "art87", "art47"])("%s identifica paráfrasis, fuente y fecha", id => {
+    const article = findArticleDetail(id)!;
+    expect(article.textKind).toBe("educational-summary");
+    expect(article.sourceUrl).toBe(OFFICIAL_LFT_URL);
+    expect(article.fechaRevision).toBe("2026-11-27");
+  });
+
+  it("distingue la presunción de relación laboral de una garantía de resultado", () => {
+    const text = articleDocument("art21").body.textContent ?? "";
+    expect(text).toMatch(/prueba en contrario/i);
+    expect(text).not.toMatch(/protección automática|no necesitas demostrar|derechos garantizados/i);
+  });
+
+  it("no excluye el descanso cuando no se permite salir del lugar de trabajo", () => {
+    const text = articleDocument("art58").body.textContent ?? "";
+    expect(text).toMatch(/común acuerdo/i);
+    expect(text).toMatch(/64/);
+    expect(text).toMatch(/no puede salir/i);
+    expect(text).not.toMatch(/no incluye/i);
+  });
+
+  it("distingue la integración salarial del concepto de salario", () => {
+    expect(articleDocument("art82").body.textContent).toMatch(/artículo 84/i);
+  });
+
+  it("explica la protección contra la inflación y los mínimos generales y profesionales", () => {
+    const text = articleDocument("art90").body.textContent ?? "";
+    expect(text).toMatch(/inflación/i);
+    expect(text).toMatch(/profesional/i);
+  });
+
+  it("indica el mínimo del aguinaldo, antes del 20 y proporcional aunque haya terminado la relación", () => {
+    const text = articleDocument("art87").body.textContent ?? "";
+    expect(text).toMatch(/15 días/i);
+    expect(text).toMatch(/antes del 20 de diciembre/i);
+    expect(text).toMatch(/aunque.*terminado/i);
+    expect(text).not.toMatch(/fecha límite:\s*20 de diciembre/i);
+  });
+
+  it("evita presentar causales incompletas y avisa del efecto no absoluto de la falta de notificación", () => {
+    const text = articleDocument("art47").body.textContent ?? "";
+    expect(text).toMatch(/cinco días hábiles/i);
+    expect(text).toMatch(/prueba en contrario/i);
+    expect(text).toMatch(/no es una lista exhaustiva|lista completa/i);
   });
 });

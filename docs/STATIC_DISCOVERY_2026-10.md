@@ -45,3 +45,11 @@ Para actualizar el contenido, ejecuta `npm run build` y revisa los cambios de `g
 La mejora facilita descubrir recursos y la página de apoyo. No demuestra ingresos. El [issue #65](https://github.com/CripterHack/tecuiyo-derechos-mx/issues/65) conserva el seguimiento de aportaciones efectivamente confirmadas por las plataformas y de mejoras basadas en resultados, sin equiparar clics con pagos.
 
 Referencias técnicas: [Google: fundamentos SEO para JavaScript](https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics?hl=es-419) y [GitHub: creación de un sitio Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
+
+## Revisión editorial de biblioteca: 27 de noviembre de 2026
+
+Se contrastaron únicamente siete resúmenes no revisados anteriormente (20, 21, 47, 58, 82, 87 y 90) con la [LFT consolidada de la Cámara de Diputados](https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf), cuya portada indica la reforma del 14 de mayo de 2026. Referencias internas: artículos 20, 21 y 26; 47 (causales y aviso de rescisión); 58, 63 y 64 (incluido el cambio del 1 de mayo de 2026); 82–84 y 89 (distinción de salario e integración); 87 (aguinaldo); 90–94 (mínimos). Los siete registros nuevos señalan fuente, fecha y naturaleza de paráfrasis educativa; no se actualizan las fechas de los otros trece.
+
+El catálogo visible de 17 tarjetas conserva las seis agrupaciones, rutas y palabras clave. Se deriva de `articleDetails.ts` para compartir títulos y números con los 20 detalles locales, cuyas rutas no cambian. Los enlaces sin resumen siguen abriendo la fuente oficial. El antiguo `articulos-lft.ts` no tiene consumidores en `src`; se conserva sin modificar hasta evaluar su eventual archivo o sustitución. No debe utilizarse como fuente vigente.
+
+No equivale a certificación jurídica ni a revisión por profesional competente. Se mantienen pendientes la evaluación de contenido procesal, la consolidación del archivo antiguo y las restantes verificaciones de #64.
