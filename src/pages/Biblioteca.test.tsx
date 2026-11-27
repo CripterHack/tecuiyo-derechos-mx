@@ -3,6 +3,7 @@ import { MemoryRouter, Route, Routes } from "react-router-dom";
 import { afterEach, describe, expect, it } from "vitest";
 import ArticuloDetalle from "./ArticuloDetalle";
 import Biblioteca from "./Biblioteca";
+import { findArticleDetail } from "@/data/articleDetails";
 
 const OFFICIAL_LFT_URL = "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf";
 
@@ -66,4 +67,30 @@ describe("Enlaces de la biblioteca legal", () => {
     expect(screen.getByRole("link", { name: "Consultar LFT oficial" })).toHaveAttribute("href", OFFICIAL_LFT_URL);
     expect(screen.queryByText("El artículo solicitado no existe.")).not.toBeInTheDocument();
   });
+});
+
+it("mantiene el título de cada tarjeta coherente con el detalle y conserva las 17 rutas del catálogo", () => {
+  renderPage();
+  const links = screen.getAllByRole("link", { name: "Leer resumen" });
+  expect(links).toHaveLength(17);
+  expect(new Set(links.map(link => link.getAttribute("href"))).size).toBe(17);
+  for (const link of links) {
+    const id = link.getAttribute("href")!.split("/").at(-1);
+    const article = findArticleDetail(id)!;
+    const card = link.closest(".legal-card")!;
+    expect(card.textContent).toContain(article.titulo);
+    expect(card.textContent).toContain(`Art. ${article.numero}`);
+  }
+});
+
+it("conserva el filtro por palabras clave y abre la fuente de un resumen revisado", () => {
+  renderPage();
+  fireEvent.change(screen.getByRole("searchbox"), { target: { value: "subordinación" } });
+  const links = screen.getAllByRole("link", { name: "Leer resumen" });
+  expect(links).toHaveLength(1);
+  expect(links[0]).toHaveAttribute("href", "/biblioteca/art20");
+  fireEvent.click(links[0]);
+  expect(screen.getByText("2026-11-27")).toBeInTheDocument();
+  expect(screen.getByText(/Paráfrasis educativa/)).toBeInTheDocument();
+  expect(screen.getByRole("link", { name: "Fuente oficial consultada para este resumen" })).toHaveAttribute("href", OFFICIAL_LFT_URL);
 });

@@ -1,3 +1,12 @@
+const ARTICLE_GROUP_TITLES = {
+  "relacion-laboral": "Relación de Trabajo",
+  "salarios": "Salarios",
+  "jornada": "Jornada de Trabajo",
+  "vacaciones": "Vacaciones",
+  "aguinaldo": "Aguinaldo",
+  "terminacion": "Terminación de la Relación Laboral",
+} as const;
+
 export interface ArticleDetail {
   id: string;
   numero: string;
@@ -11,6 +20,13 @@ export interface ArticleDetail {
   fechaRevision?: string;
   sourceUrl?: string;
   textKind?: "educational-summary";
+  listing?: ArticleListing;
+}
+
+interface ArticleListing {
+  groupId: keyof typeof ARTICLE_GROUP_TITLES;
+  preview: string;
+  keywords: string[];
 }
 
 export const OFFICIAL_LFT_URL = "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf";
@@ -24,64 +40,43 @@ const ARTICLE_DETAILS: ArticleDetail[] = [
     numero: "20",
     titulo: "Concepto de relación de trabajo",
     categoria: "Relaciones Individuales",
+    listing: { groupId: "relacion-laboral", preview: "Trabajo personal subordinado a cambio de salario, independientemente del nombre del acuerdo.", keywords: ["definición", "relación laboral", "subordinación"] },
     contenido: `
-      <h3>Artículo 20</h3>
-      <p>Se entiende por relación de trabajo, cualquiera que sea el acto que le dé origen, la prestación de un trabajo personal subordinado a una persona, mediante el pago de un salario.</p>
-
-      <p>Contrato individual de trabajo, cualquiera que sea su forma o denominación, es aquel por virtud del cual una persona se obliga a prestar a otra un trabajo personal subordinado, mediante el pago de un salario.</p>
-
-      <p>La prestación de un trabajo a que se refiere el párrafo primero y el contrato celebrado producen los mismos efectos.</p>
+      <p>Una relación laboral se configura cuando una persona realiza trabajo personal bajo subordinación a otra a cambio de un salario. El nombre o la forma del acuerdo no determina por sí sola su naturaleza.</p>
     `,
     explicacion: `
-      <h3>Explicación práctica</h3>
-      <p>Este artículo es fundamental porque define qué constituye una relación de trabajo. Establece tres elementos esenciales:</p>
-
-      <h3>Elementos de la relación laboral</h3>
-      <ul>
-        <li><strong>Prestación personal:</strong> El trabajo debe ser realizado directamente por el trabajador</li>
-        <li><strong>Subordinación:</strong> El trabajador debe seguir las instrucciones del patrón</li>
-        <li><strong>Salario:</strong> Debe existir una retribución económica</li>
-      </ul>
-
-      <h3>Implicaciones importantes</h3>
-      <p>Sin importar si existe un contrato escrito, si se dan estos tres elementos, existe una relación laboral con todos los derechos que esto implica.</p>
+      <p>La prestación de servicios con esas características produce los mismos efectos que celebrar un contrato individual. La falta de un escrito no elimina los derechos que correspondan (artículo 26); si existen desacuerdos sobre la naturaleza del vínculo, es necesario examinar los hechos.</p>
     `,
     relacionados: ["Art. 21", "Art. 24", "Art. 25"],
     vigencia: "Vigente",
-    fechaReforma: "2012-11-30"
+    fechaRevision: "2026-11-27",
+    sourceUrl: OFFICIAL_LFT_URL,
+    textKind: "educational-summary"
   },
   {
     id: "art21",
     numero: "21",
     titulo: "Presunción de relación de trabajo",
     categoria: "Relaciones Individuales",
+    listing: { groupId: "relacion-laboral", preview: "La prestación personal del trabajo genera una presunción legal, que admite prueba en contrario.", keywords: ["presunción", "contrato", "relación laboral"] },
     contenido: `
-      <h3>Artículo 21</h3>
-      <p>Se presume la existencia del contrato y de la relación de trabajo entre el que presta un trabajo personal y el que lo recibe.</p>
+      <p>Cuando alguien realiza personalmente un trabajo para otra persona, la LFT establece una presunción de existencia del contrato y de la relación laboral.</p>
     `,
     explicacion: `
-      <h3>Explicación práctica</h3>
-      <p>Este artículo establece una presunción legal muy importante: si alguien está prestando un trabajo personal para otra persona, se presume que existe una relación laboral.</p>
-
-      <h3>Beneficio para el trabajador</h3>
-      <ul>
-        <li><strong>Protección automática:</strong> No necesitas demostrar que eres empleado</li>
-        <li><strong>Carga de la prueba:</strong> El patrón debe demostrar que NO hay relación laboral</li>
-        <li><strong>Derechos garantizados:</strong> Aplican todos los derechos laborales desde el inicio</li>
-      </ul>
-
-      <h3>Casos comunes</h3>
-      <p>Aplica especialmente en trabajadores domésticos, vendedores, repartidores y otros que prestan servicios sin contrato escrito.</p>
+      <p>Esta presunción admite prueba en contrario. No garantiza por sí sola el resultado de un conflicto ni exime de aportar la información disponible: importan las circunstancias y las pruebas del caso. El artículo 20 explica los elementos de la relación laboral.</p>
     `,
     relacionados: ["Art. 20", "Art. 24"],
     vigencia: "Vigente",
-    fechaReforma: "1970-05-01"
+    fechaRevision: "2026-11-27",
+    sourceUrl: OFFICIAL_LFT_URL,
+    textKind: "educational-summary"
   },
   {
     id: "art24",
     numero: "24",
     titulo: "Condiciones de trabajo por escrito",
     categoria: "Relaciones Individuales",
+    listing: { groupId: "relacion-laboral", preview: "Las condiciones de trabajo deben hacerse constar por escrito cuando no existan contratos colectivos aplicables...", keywords: ["contrato", "por escrito", "condiciones"] },
     contenido: `
       <p>Resumen educativo: sin contrato colectivo aplicable, condiciones escritas en al menos dos ejemplares, uno por parte.</p>
     `,
@@ -99,6 +94,7 @@ const ARTICLE_DETAILS: ArticleDetail[] = [
     numero: "25",
     titulo: "Contenido del contrato de trabajo",
     categoria: "Relaciones Individuales",
+    listing: { groupId: "relacion-laboral", preview: "Condiciones escritas y beneficiarios.", keywords: ["contrato", "contenido", "elementos", "datos personales"] },
     contenido: `
       <p>Resumen educativo: condiciones escritas. Fracción X: beneficiarios para montos pendientes o generados por fallecimiento o desaparición delictiva.</p>
     `,
@@ -117,33 +113,25 @@ const ARTICLE_DETAILS: ArticleDetail[] = [
     numero: "82",
     titulo: "Concepto de salario",
     categoria: "Salarios",
+    listing: { groupId: "salarios", preview: "Contraprestación por el trabajo; su integración se regula en el artículo 84.", keywords: ["definición", "salario", "retribución"] },
     contenido: `
-      <h3>Artículo 82</h3>
-      <p>Salario es la retribución que debe pagar el patrón al trabajador por su trabajo.</p>
+      <p>El salario es la contraprestación que la persona empleadora debe cubrir a quien realiza el trabajo.</p>
     `,
     explicacion: `
-      <h3>Explicación práctica</h3>
-      <p>Define de manera simple pero fundamental qué es el salario: toda retribución que el patrón debe pagar por el trabajo realizado.</p>
-
-      <h3>Elementos importantes</h3>
-      <ul>
-        <li><strong>Obligación patronal:</strong> Es un deber del patrón, no una concesión</li>
-        <li><strong>Contraprestación:</strong> Se paga a cambio del trabajo realizado</li>
-        <li><strong>Base de otros derechos:</strong> Muchas prestaciones se calculan sobre el salario</li>
-      </ul>
-
-      <h3>Incluye</h3>
-      <p>Sueldo base, comisiones, bonos, prestaciones en especie y cualquier otra retribución por el trabajo.</p>
+      <p>El artículo 83 regula distintas modalidades de fijación, como tiempo, obra y comisión. El artículo 84 distingue la integración del salario, que comprende la cuota diaria y otros pagos o prestaciones entregados por el trabajo. Para una indemnización deben aplicarse las reglas específicas de su base salarial, como las del artículo 89 cuando correspondan.</p>
     `,
     relacionados: ["Art. 83", "Art. 84", "Art. 85"],
     vigencia: "Vigente",
-    fechaReforma: "1970-05-01"
+    fechaRevision: "2026-11-27",
+    sourceUrl: OFFICIAL_LFT_URL,
+    textKind: "educational-summary"
   },
   {
     id: "art85",
     numero: "85",
     titulo: "Salario remunerador y mínimo",
     categoria: "Salarios",
+    listing: { groupId: "salarios", preview: "Salario remunerador y nunca inferior al mínimo.", keywords: ["salario remunerador", "salario mínimo", "unidad de obra"] },
     contenido: `
       <p>Resumen educativo: salario remunerador, nunca inferior al mínimo, según cantidad y calidad del trabajo.</p>
     `,
@@ -161,30 +149,18 @@ const ARTICLE_DETAILS: ArticleDetail[] = [
     numero: "90",
     titulo: "Salario mínimo",
     categoria: "Salarios",
+    listing: { groupId: "salarios", preview: "Piso salarial en efectivo, con protección frente a la inflación y mínimos según zona y actividad.", keywords: ["salario mínimo", "jornada", "cantidad mínima"] },
     contenido: `
-      <h3>Artículo 90</h3>
-      <p>Salario mínimo es la cantidad menor que debe recibir en efectivo el trabajador por los servicios prestados en una jornada de trabajo.</p>
-
-      <p>El salario mínimo deberá ser suficiente para satisfacer las necesidades normales de un jefe de familia, en el orden material, social y cultural, y para proveer a la educación obligatoria de los hijos.</p>
+      <p>El salario mínimo es el piso de pago en efectivo por una jornada. La ley busca que permita cubrir las necesidades materiales, sociales, culturales y educativas de la familia.</p>
     `,
     explicacion: `
-      <h3>Explicación práctica</h3>
-      <p>Define el salario mínimo como el piso salarial que debe garantizar una vida digna.</p>
-
-      <h3>Características del salario mínimo</h3>
-      <ul>
-        <li><strong>Piso salarial:</strong> Nadie puede ganar menos</li>
-        <li><strong>En efectivo:</strong> Debe pagarse en dinero</li>
-        <li><strong>Por jornada:</strong> Corresponde a una jornada de trabajo</li>
-        <li><strong>Vida digna:</strong> Debe cubrir necesidades básicas</li>
-      </ul>
-
-      <h3>Actualización</h3>
-      <p>Se revisa anualmente por la Comisión Nacional de Salarios Mínimos (CONASAMI).</p>
+      <p>La fijación anual o revisión no puede situarse por debajo de la inflación observada en el período anterior de vigencia. Los artículos 91 a 94 distinguen mínimos generales y profesionales según zona y actividad, y la fijación por CONASAMI. Consulta la resolución aplicable al año, zona y ocupación; no todos los mínimos son iguales.</p>
     `,
     relacionados: ["Art. 91", "Art. 92", "Art. 97"],
     vigencia: "Vigente",
-    fechaReforma: "2019-01-01"
+    fechaRevision: "2026-11-27",
+    sourceUrl: OFFICIAL_LFT_URL,
+    textKind: "educational-summary"
   },
   // Jornada de Trabajo
   {
@@ -192,33 +168,25 @@ const ARTICLE_DETAILS: ArticleDetail[] = [
     numero: "58",
     titulo: "Jornada de trabajo",
     categoria: "Jornada de Trabajo",
+    listing: { groupId: "jornada", preview: "Tiempo disponible para prestar servicios; su distribución puede acordarse y los descansos tienen reglas específicas.", keywords: ["jornada", "tiempo", "disposición"] },
     contenido: `
-      <h3>Artículo 58</h3>
-      <p>Jornada de trabajo es el tiempo durante el cual el trabajador está a disposición del patrón para prestar su trabajo.</p>
+      <p>La jornada comprende el tiempo en que la persona trabajadora debe permanecer disponible para prestar sus servicios. Desde el 1 de mayo de 2026 se permite distribuirla de común acuerdo entre empleador y trabajador, respetando los límites legales.</p>
     `,
     explicacion: `
-      <h3>Explicación práctica</h3>
-      <p>Define la jornada como todo el tiempo que el trabajador debe estar disponible para el patrón.</p>
-
-      <h3>Concepto clave: "A disposición"</h3>
-      <ul>
-        <li><strong>Tiempo efectivo:</strong> Cuando realmente trabajas</li>
-        <li><strong>Tiempo de espera:</strong> Cuando esperas órdenes o clientes</li>
-        <li><strong>Tiempo de desplazamiento:</strong> Si es parte de las funciones</li>
-      </ul>
-
-      <h3>No incluye</h3>
-      <p>Tiempo de traslado de casa al trabajo, comidas (salvo que sea parte del trabajo) y descansos personales autorizados.</p>
+      <p>El artículo 63 establece un descanso mínimo de media hora en jornada continua. Según el artículo 64, si la persona no puede salir del lugar de trabajo durante el descanso o la comida, ese período cuenta como tiempo efectivo de jornada. No basta con llamar a un período descanso para excluirlo. Los límites diarios y semanales se consultan en los artículos 59 a 61 y los transitorios de la reforma de 2026.</p>
     `,
     relacionados: ["Art. 59", "Art. 61", "Art. 66"],
     vigencia: "Vigente",
-    fechaReforma: "1970-05-01"
+    fechaRevision: "2026-11-27",
+    sourceUrl: OFFICIAL_LFT_URL,
+    textKind: "educational-summary"
   },
   {
     id: "art61",
     numero: "61",
     titulo: "Tipos de jornada",
     categoria: "Jornada de Trabajo",
+    listing: { groupId: "jornada", preview: "Duración y clasificación de jornadas.", keywords: ["duración máxima", "jornada diurna", "jornada nocturna", "jornada mixta"] },
     contenido: `
       <p>Resumen educativo: 8 horas diurnas, 7 nocturnas, 7.5 mixtas por día.</p>
     `,
@@ -236,6 +204,7 @@ const ARTICLE_DETAILS: ArticleDetail[] = [
     numero: "66",
     titulo: "Tiempo extraordinario",
     categoria: "Jornada de Trabajo",
+    listing: { groupId: "jornada", preview: "Pago doble por circunstancias extraordinarias; consulta los límites y la transición anual de la reforma de 2026.", keywords: ["horas extra", "tiempo extraordinario", "límites"] },
     contenido: `
       <h3>Artículo 66</h3>
       <p>Resumen educativo: por circunstancias extraordinarias, el pago es doble. La distribución permite hasta 4 horas diarias en un máximo de 4 días semanales. El tope semanal aumenta gradualmente:</p>
@@ -266,6 +235,7 @@ const ARTICLE_DETAILS: ArticleDetail[] = [
     numero: "76",
     titulo: "Derecho a vacaciones",
     categoria: "Vacaciones",
+    listing: { groupId: "vacaciones", preview: "El mínimo anual de vacaciones pagadas es de 12 días laborables al completar el primer año y aumenta con la antigüedad.", keywords: ["vacaciones", "derecho", "período anual"] },
     contenido: `
       <h3>Artículo 76</h3>
       <p>Resumen educativo: al completar el primer año de servicios corresponden al menos 12 días laborables de vacaciones pagadas. El mínimo aumenta 2 días por cada año siguiente hasta llegar a 20 en el quinto año.</p>
@@ -299,6 +269,7 @@ const ARTICLE_DETAILS: ArticleDetail[] = [
     numero: "79",
     titulo: "Prohibición de sustituir vacaciones por dinero",
     categoria: "Vacaciones",
+    listing: { groupId: "vacaciones", preview: "Durante la relación laboral el pago no sustituye las vacaciones; al terminar antes del año de servicios corresponde la remuneración proporcional.", keywords: ["descanso", "terminación", "proporcional"] },
     contenido: `
       <h3>Artículo 79</h3>
       <p>Resumen educativo: durante la relación laboral las vacaciones no se sustituyen por una remuneración. Si la relación termina antes de completar el año de servicios, corresponde un pago proporcional al tiempo trabajado.</p>
@@ -326,6 +297,7 @@ const ARTICLE_DETAILS: ArticleDetail[] = [
     numero: "80",
     titulo: "Prima vacacional",
     categoria: "Vacaciones",
+    listing: { groupId: "vacaciones", preview: "Los trabajadores tendrán derecho a una prima no menor de veinticinco por ciento sobre los salarios que les correspondan durante el período de vacaciones.", keywords: ["prima vacacional", "25%", "salario vacaciones"] },
     contenido: `
       <h3>Artículo 80</h3>
       <p>Resumen educativo: además del salario correspondiente al período de vacaciones, la prima debe ser al menos el 25% de ese salario.</p>
@@ -354,34 +326,18 @@ const ARTICLE_DETAILS: ArticleDetail[] = [
     numero: "87",
     titulo: "Derecho al aguinaldo",
     categoria: "Aguinaldo",
+    listing: { groupId: "aguinaldo", preview: "Mínimo anual de 15 días de salario antes del 20 de diciembre; pago proporcional cuando corresponda.", keywords: ["aguinaldo", "15 días", "diciembre", "anual"] },
     contenido: `
-      <h3>Artículo 87</h3>
-      <p>Los trabajadores tendrán derecho a un aguinaldo anual que deberá pagarse antes del día veinte de diciembre, equivalente a quince días de salario, por lo menos.</p>
-
-      <p>Los que no hayan cumplido el año de servicios, independientemente de que se encuentren laborando o no en la fecha de liquidación del aguinaldo, tendrán derecho a que se les pague la parte proporcional del mismo, conforme al tiempo que hubieren trabajado, cualquiera que fuere éste.</p>
+      <p>El aguinaldo anual bajo la LFT tiene un mínimo de 15 días de salario y debe pagarse antes del 20 de diciembre. Corresponde una parte proporcional si no se completó el año, aunque haya terminado la relación laboral antes del pago.</p>
     `,
     explicacion: `
-      <h3>Explicación práctica</h3>
-      <p>Establece el derecho al aguinaldo, una prestación fundamental para todos los trabajadores.</p>
-
-      <h3>Características del aguinaldo</h3>
-      <ul>
-        <li><strong>Mínimo legal:</strong> 15 días de salario</li>
-        <li><strong>Fecha límite:</strong> 20 de diciembre</li>
-        <li><strong>Base de cálculo:</strong> Salario ordinario del trabajador</li>
-        <li><strong>Proporcional:</strong> Si no cumples el año, recibes proporcionalmente</li>
-      </ul>
-
-      <h3>Ejemplos</h3>
-      <ul>
-        <li><strong>Año completo:</strong> 15 días de salario</li>
-        <li><strong>6 meses trabajados:</strong> 7.5 días de salario</li>
-        <li><strong>3 meses trabajados:</strong> 3.75 días de salario</li>
-      </ul>
+      <p>Es un mínimo: las condiciones de trabajo pueden reconocer una prestación mayor. El importe proporcional depende del tiempo efectivamente trabajado y del salario que corresponda. Este resumen trata el régimen de la LFT, no las reglas particulares del servicio público ni un cálculo individual.</p>
     `,
     relacionados: ["Art. 84", "Art. 88", "Art. 76"],
     vigencia: "Vigente",
-    fechaReforma: "2012-11-30"
+    fechaRevision: "2026-11-27",
+    sourceUrl: OFFICIAL_LFT_URL,
+    textKind: "educational-summary"
   },
   // Terminación de la Relación Laboral
   {
@@ -389,40 +345,25 @@ const ARTICLE_DETAILS: ArticleDetail[] = [
     numero: "47",
     titulo: "Causas de rescisión sin responsabilidad para el patrón",
     categoria: "Rescisión",
+    listing: { groupId: "terminacion", preview: "Causas y requisitos de rescisión; aviso escrito y efectos de su ausencia.", keywords: ["rescisión", "causas justificadas", "patrón"] },
     contenido: `
-      <h3>Artículo 47</h3>
-      <p>Son causas de rescisión de la relación de trabajo, sin responsabilidad para el patrón:</p>
-      <ol>
-        <li>Engañarlo el trabajador o en su caso, el sindicato que lo hubiese propuesto o recomendado con certificados falsos o referencias en los que se atribuyan al trabajador capacidad, aptitudes o facultades de que carezca...</li>
-        <li>Incurrir el trabajador, durante sus labores, en faltas de probidad u honradez, en actos de violencia, amagos, injurias o malos tratamientos en contra del patrón, sus familiares o del personal directivo o administrativo de la empresa o establecimiento...</li>
-        <li>Cometer el trabajador contra alguno de sus compañeros, cualquiera de los actos enumerados en la fracción anterior...</li>
-        <li>Cometer el trabajador, fuera del servicio, contra el patrón, sus familiares o personal directivo administrativo, alguno de los actos a que se refiere la fracción II...</li>
-        <li>Ocasionar el trabajador, intencionalmente, perjuicios materiales durante el desempeño de las labores o con motivo de ellas...</li>
-      </ol>
+      <p>El artículo 47 contempla causales de rescisión sin responsabilidad para la persona empleadora, con requisitos y excepciones propios de cada supuesto. Entre ellas figuran conductas graves de violencia, daños materiales intencionales y más de tres ausencias sin permiso ni justificación en un período de treinta días. Consulta la lista completa y sus condiciones en la fuente oficial.</p>
     `,
     explicacion: `
-      <h3>Explicación práctica</h3>
-      <p>Este artículo enumera las causas que justifican el despido de un trabajador sin que el patrón tenga obligación de pagar indemnización.</p>
-
-      <h3>Elementos importantes</h3>
-      <ul>
-        <li><strong>Deben estar comprobadas:</strong> No basta la simple afirmación</li>
-        <li><strong>Aviso de rescisión:</strong> Sus requisitos y efectos deben revisarse conforme al artículo 47 y las pruebas del caso</li>
-        <li><strong>Especificidad:</strong> Debe indicarse la causa exacta</li>
-      </ul>
-
-      <h3>Procedimiento requerido</h3>
-      <p>El patrón debe comunicar por escrito al trabajador la causa de rescisión, especificando claramente los hechos que la motivan.</p>
+      <p>La persona empleadora debe indicar por escrito las conductas y fechas que motivan la rescisión. La ley prevé entrega personal al momento del despido o comunicación al Tribunal competente dentro de los cinco días hábiles posteriores, para su notificación. La falta de aviso genera una presunción de despido injustificado, salvo prueba en contrario. Esto no determina por sí solo el resultado de un caso; consulta asesoría laboral sobre plazos y prestaciones pendientes.</p>
     `,
     relacionados: ["Art. 46", "Art. 48", "Art. 50"],
     vigencia: "Vigente",
-    fechaReforma: "2012-11-30"
+    fechaRevision: "2026-11-27",
+    sourceUrl: OFFICIAL_LFT_URL,
+    textKind: "educational-summary"
   },
   {
     id: "art48",
     numero: "48",
     titulo: "Derechos del trabajador despedido injustificadamente",
     categoria: "Despido",
+    listing: { groupId: "terminacion", preview: "Ante un despido injustificado puede solicitarse reinstalación o indemnización, conforme a los requisitos y procedimientos aplicables.", keywords: ["despido", "reinstalación", "indemnización", "elección"] },
     contenido: `
       <h3>Artículo 48</h3>
       <p>Resumen educativo: ante un despido injustificado, la persona trabajadora puede solicitar reinstalación o una indemnización de tres meses de salario, conforme a los requisitos aplicables.</p>
@@ -461,6 +402,7 @@ const ARTICLE_DETAILS: ArticleDetail[] = [
     numero: "50",
     titulo: "Indemnizaciones en los supuestos del artículo 49",
     categoria: "Despido",
+    listing: { groupId: "terminacion", preview: "Los conceptos y montos dependen del supuesto jurídico, del tipo de relación laboral y de su duración; no se suman automáticamente en todo despido.", keywords: ["indemnización", "despido injustificado", "3 meses"] },
     contenido: `
       <h3>Artículo 50</h3>
       <p>Resumen educativo: este artículo regula las indemnizaciones a las que remite el artículo 49. El cálculo depende de la duración y del tipo de relación laboral, además de los requisitos del supuesto aplicable.</p>
@@ -548,3 +490,29 @@ export function findArticleDetail(id: string | undefined): ArticleDetail | undef
 export function findArticleByReference(reference: string): ArticleDetail | undefined {
   return ARTICLE_DETAILS.find(article => `Art. ${article.numero}` === reference);
 }
+
+export interface ArticleCard {
+  numero: string;
+  titulo: string;
+  contenido: string;
+  temas: string[];
+}
+
+export interface ArticleCatalogGroup {
+  titulo: string;
+  articulos: ArticleCard[];
+}
+
+/** El catálogo usa los títulos y números de los mismos artículos que los detalles. */
+export const ARTICLE_CATALOG = ARTICLE_DETAILS.reduce<Record<string, ArticleCatalogGroup>>((groups, article) => {
+  const listing = article.listing;
+  if (!listing) return groups;
+  const group = groups[listing.groupId] ??= { titulo: ARTICLE_GROUP_TITLES[listing.groupId], articulos: [] };
+  group.articulos.push({
+    numero: `Art. ${article.numero}`,
+    titulo: article.titulo,
+    contenido: listing.preview,
+    temas: listing.keywords,
+  });
+  return groups;
+}, {});
