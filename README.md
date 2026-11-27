@@ -87,7 +87,7 @@ tecuiyo-derechos-mx/
 │   │   ├── Calculadora.tsx # Calculadoras legales
 │   │   └── ...
 │   ├── data/               # Datos estáticos y contenido
-│   │   ├── articulos-lft.ts # Artículos de la LFT
+│   │   ├── articleDetails.ts # Resúmenes educativos de la LFT
 │   │   └── guias.ts        # Guías y tutoriales
 │   ├── hooks/              # React hooks personalizados
 │   ├── lib/                # Utilidades y helpers
